@@ -15,8 +15,9 @@ If you want to get it to compile, these are (hopefully all) the additional compo
 * `RemObjects Pascal Script <http://www.remobjects.com/ps.aspx>`_
 * `VirtualTreeView <http://www.delphi-gems.com/VirtualTreeview/>`_
 
-The installer file was made for NSIS http://nsis.sourceforge.net/, and as it is old it will most probably not work at all with the latest NSIS version.
+The installer file was made for `NSIS <http://nsis.sourceforge.net/>`_, and as it is old it will most probably not work at all with the latest NSIS version.
 
+I have included two *.bat* scripts that I used to invoke the commands to compile the project; paths are hardcoded so you will need to change that.
 
 Disclaimer
 ==========
@@ -25,7 +26,7 @@ Disclaimer
 * I never used a Version Control System when I wrote this; in fact I didn't even know they existed.
 * A paid programmer producing code like this for a living should probably be fired.
 * Expect lack of comments, bad programming style, bad code organization, misuse of the Object-Oriented programming paradigm.
-* Expect really complicated ways of doing really simple stuff (like subtitle parsing). I didn't know about regular expressions at the time. I was just really persistent and had the time to experiment with many approaches to handle any problem I came up with.
+* Expect really complicated ways of doing really simple stuff (like subtitle parsing). I didn't even know about regular expressions at the time I started this. I was just a really persistent kid and had enough free time to experiment with many approaches to handle any problem I came up with.
 * Fortunately, I have improved with the years... ;-)
 
 With all that said, I hope this is useful for someone :-)
