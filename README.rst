@@ -24,9 +24,10 @@ Disclaimer
 
 * I started writing this tool when I was 14 years old and did not have any formal training.
 * I never used a Version Control System when I wrote this; in fact I didn't even know they existed.
-* A paid programmer producing code like this for a living should probably be fired.
-* Expect lack of comments, bad programming style, bad code organization, misuse of the Object-Oriented programming paradigm.
+* Expect lack of comments, bad programming style, bad code organization, misuse of the Object-Oriented paradigm.
+* Expect no MVC pattern: that is for *pussies* (?). User interface and code are only one, and they love each other so much they are completely glued together.
 * Expect really complicated ways of doing really simple stuff (like subtitle parsing). I didn't even know about regular expressions at the time I started this. I was just a really persistent kid and had enough free time to experiment with many approaches to handle any problem I came up with.
+* A paid programmer producing code like this for a living should probably be fired.
 * Fortunately, I have improved with the years... ;-)
 
 With all that said, I hope this is useful for someone :-)
