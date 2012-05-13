@@ -1,0 +1,47 @@
+package SWComponents;
+
+{$R *.res}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$IMPLICITBUILD OFF}
+
+requires
+  rtl,
+  vcl;
+
+contains
+  SWButton in '..\SWButton.pas',
+  MiMenu in '..\MiMenu.pas',
+  MiSubtitulo in '..\MiSubtitulo.pas',
+  NFormSizing in '..\NFormSizing.pas',
+  SWSeekBar in '..\SWSeekBar.pas',
+  SWTimeCounter in '..\SWTimeCounter.pas',
+  USSpeller in '..\USSpeller.pas',
+  MiHint,
+  USGraphics in 'Sources\USGraphics.pas',
+  TimeMaskEdit in 'Sources\TimeMaskEdit.pas',
+  USStringsUtils in '..\..\..\..\New_SubtitleAPI\URUSoft-Generic\USStringsUtils.pas',
+  USTimeUtils in '..\..\..\..\New_SubtitleAPI\URUSoft-Generic\USTimeUtils.pas',
+  FastStrings in '..\..\..\..\New_SubtitleAPI\3rd-party\FastStrings.pas',
+  HTTPGet in 'Sources\HTTPGet.pas';
+
+end.
