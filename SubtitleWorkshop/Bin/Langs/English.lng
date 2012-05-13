@@ -1,0 +1,870 @@
+;   Subtitle Workshop 2.51
+;   English language file
+;
+;   Translator : DeK
+;   E-mail     : deksoft@adinet.com.uy
+;   Web        : http://www.urusoft.net
+
+[General]
+Translator=DeK
+Font Charset=0
+AllFiles=All supported files
+Help=Manual.html
+FPS=FPS
+PlainText=Plain text
+STP=Subtitle Translation Project
+SRF=Subtitle Report File
+
+[Standard buttons]
+01=&Ok
+02=&Cancel
+03=&Browse
+04=&Apply
+05=&Exit
+06=&Yes
+07=&No
+
+[Main Form]
+01=Mode:
+02=Time
+03=Frames
+04=Input FPS:
+05=FPS:
+06=Work with:
+07=Duration|Final time|Both
+08=Num
+09=Show
+10=Hide
+11=Text
+12=Translation
+13=%d untranslated lines
+14=Duration:
+15=%s (%s characters):
+16=- Untranslated subtitle -
+
+[Main menu header]
+01=File
+02=Edit
+03=Search
+04=Tools
+05=Movie
+06=Settings
+07=Help
+
+[Main menu/File]
+01=New subtitle...
+02=Load subtitle...
+03=Recent files
+04=Clear list
+05=Load
+06=Project...
+07=Original
+08=Translated
+09=Save
+10=Original as...
+11=Translated as...
+12=Save as...
+13=Close
+14=Exit
+
+[Main menu/Edit]
+01=Undo
+02=Redo
+03=Insert subtitle
+04=Insert before
+05=Remove selected
+06=Cut
+07=Copy
+08=Paste
+09=Select all
+
+[Main menu/Edit/Timings]
+01=Timings
+02=Set duration limits...
+03=Set delay...
+04=Adjust
+05=Adjust subtitles...
+06=Adjust to synchronized subtitles
+07=Time expander/reducer
+08=Extend length
+09=Automatic durations
+10=Read timings from file
+11=Shift %s milliseconds
+
+[Main menu/Edit/Texts]
+01=Texts
+02=Smart line adjust
+03=Convert case...
+04=Unbreak subtitles
+05=Divide lines...
+06=Fast divide lines
+07=Set maximum line length...
+08=Read texts from file
+
+[Main menu/Edit/Subtitles]
+01=Subtitles
+02=Combine subtitles
+03=Effects
+04=Type effect
+05=Flash
+06=Fast flash
+07=Medium flash
+08=Slow flash
+09=Right-to-Left
+10=Reverse text
+11=Fix punctuation
+12=Sort
+13=Delete unnecessary links
+14=Mark selected subtitles
+15=Unmark selected subtitles
+
+[Main menu/Edit/Translation]
+01=Translation
+02=Translator mode
+03=Swap
+
+[Main menu/Search]
+01=Search...
+02=Find next
+03=Search && Replace...
+04=Go to line number...
+
+[Main menu/Tools]
+01=Spell check
+02=Batch convert...
+03=Split subtitle...
+04=Join subtitles...
+05=Information and errors
+06=Information and errors...
+07=Various information...
+08=OCR Scripts
+09=Show in main form
+10=Settings...
+11=Recheck errors
+12=Fix all errors
+13=Fix errors (selected subtitles)
+14=Jump to next error
+15=Add FPS from AVI
+16=External preview
+17=SAMI language extractor
+18=Pascal scripts
+
+[Main menu/Movie]
+01=Open...
+02=Close
+03=Information...
+04=Video preview mode
+05=Show subtitles
+06=Save media startup file
+
+[Main menu/Movie/Playback]
+01=Playback
+02=Play/Pause
+03=Stop
+04=Rewind
+05=Forward
+06=Back 5 seconds
+07=Forward 5 seconds
+08=Playback rate
+
+[Main menu/Movie/Subtitles]
+01=Subtitles
+02=Move subtitle
+03=Set start time
+04=Set final time
+05=Start subtitle
+06=End subtitle
+
+[Main menu/Movie/Synchronization]
+01=Synchronization
+02=First sync point
+03=Last sync point
+04=Add synchronization point
+
+[Main menu/Movie/Display]
+01=Display
+02=Original
+03=Translation
+
+[Main menu/Settings]
+01=Output settings...
+02=Language
+03=Show left panel
+04=Show time controls
+05=Use in-place edition
+
+[Main menu/Help]
+01=About %s...
+02=Check for new version
+
+[Popup Menu]
+01=Italic
+02=Bold
+03=Underline
+04=Set color
+05=Remove color tags
+
+[Video preview hints]
+01=Play/Pause (%s)
+02=Stop (%s)
+03=Toggle scroll list
+04=Jump to previous subtitle
+05=Jump to next subtitle
+06=Rewind (%s)
+07=Forward (%s)
+08=Alter playback rate
+09=Move subtitle (%s)
+10=Set start time (%s)
+11=Set final time (%s)
+12=Start subtitle (%s)
+13=End subtitle (%s)
+14=Mark as first sync point (%s)
+15=Mark as last sync point (%s)
+16=Add subtitle/video synchronization point (%s)
+
+[Save as]
+01=Save as
+02=Double-click on the output format:
+03=Custom format
+04=All formats
+
+[Custom formats]
+01=Custom formats
+02=Information
+03=Name:
+04=Extension:
+05=New line char:
+06=Time
+07=Frames
+08=Structure:
+09=FPS:
+10=Load project
+11=Save project
+12=Remember last custom format
+13=Save!
+14=Custom format project
+
+[Settings Form]
+01=Settings
+02=Modify the program configuration
+; Sections
+03=General
+04=Advanced
+05=Charsets
+06=Formats
+07=File types
+08=Save
+09=Video preview
+10=Subtitles
+11=External preview
+12=Look
+13=Program
+14=List
+15=Menu
+;-----------------;
+; General section ;
+;-----------------;
+16=Always on top
+17=Allow more than one instance running
+18=Confirm when deleting subtitles
+19=Interpret invalid files as plain text
+20=Autosearch for movie
+21=Force working in time mode
+22=Keep order of lines when reverse text
+23=Select text on jump to next line
+24=Select text on jump to previous line
+25=No interaction with tags
+26=Work with style tags
+27=Recent files limit:
+;----------;
+; Advanced ;
+;----------;
+28=Smart line adjust
+29=Two lines if longer than:
+30=characters
+31=Toggle breakpoint
+32=Divide lines
+33=Break line after:
+34=Smart line adjust automatically
+35=Maximum line length:
+36=Shift time:
+37=milliseconds
+;----------;
+; Charsets ;
+;----------;
+38=Show in main form
+39=Original charset:
+40=Translation charset:
+;-----------------;
+; Formats section ;
+;-----------------;
+41=Default format:
+42=Formats to show when "Save as":
+43=Show custom formats
+44=Select &all
+45=Select &zero
+;--------------------;
+; File types section ;
+;--------------------;
+46=Register extensions on start
+47=Associate with most supported subtitle extensions
+;--------------;
+; Save section ;
+;--------------;
+48=Ask to save on exit program/close subtitle
+49=Save work automatically every
+50=minutes.
+51=Save as backup
+52=Output settings...
+;---------------;
+; Video preview ;
+;---------------;
+53=Double click in a subtitle:
+54=Seconds to jump:
+55=Shift-double click in a subtitle:
+56=Focus text box
+57=Go subtitle's time in video
+58=Go N second(s) before subtitle in video
+59=Rewind and foward time:
+60=seconds.
+61=Default altered playback rate:
+;-------------------------;
+; Video preview Subtitles ;
+;-------------------------;
+62=Draw border
+63=Draw shadow
+64=Try transparent background
+65=Force using regions (may be slow)
+66=Font...
+67=Color...
+68=Background...
+69=Border width:
+70=Shadow width:
+71=SAMPLE
+;--------------------------;
+; External Preview General ;
+;--------------------------;
+72=Exe of the video player:
+73=Detect associated program
+74=Ask for a different video each time
+75=Always test with video:
+;---------------------------;
+; External Preview Advanced ;
+;---------------------------;
+76=Save temporary subtitle in format:
+77=Original format
+78=Custom format:
+79=Parameter to send to the video player:
+80=VIDEO_FILE represents the video file in which you are going to test the subtitles. SUBT_FILE is the parameter in which the temporary subtitle file will be sent to the video player. You may add other parameters, for example full screen, etc.
+;----------------;
+; Look / Program ;
+;----------------;
+81=Font to use in the program:
+82=Font size:
+83="Text" and "Translation" fields align:
+84=Left|Right|Center
+;-------------;
+; Look / List ;
+;-------------;
+85=Show grid lines
+86=Apply style to subtitles
+87=Mark untranslated subtitles with color:
+88=Show horizontal scrollbar
+;-------------;
+; Look / Menu ;
+;-------------;
+89=Use Office XP style Menu
+90=Use gradient menu
+
+[Output settings]
+01=Output settings
+02=Disk ID:
+03=DVD Title:
+04=Language:
+05=Author:
+06=Web:
+07=Info:
+08=License:
+09=Subtitle:
+10=Background:
+11=SAMPLE
+12=&Set font
+13=Align:
+14=Left
+15=Center
+16=Right
+17=Framerate:
+18=Drop frame
+19=Color 0 (background):
+20=Color 1 (Font):
+21=Color 2 (outline):
+22=Color 3 (antialiasing):
+23=Palette color n°:
+24=Contrast
+25=Title:
+26=Script:
+27=Cosmetics
+28=Others
+29=Border style:
+30=Outline + drop shadow
+31=Opaque box
+32=Color
+33=Primary:
+34=Secondary:
+35=Tertiary:
+36=Shadow:
+37=Left margin:
+38=Right margin:
+39=Vertical margin:
+40=Outline:
+41=Alignment:
+42=Encoding:
+43=Source:
+44=Program:
+45=Path:
+46=Delay:
+47=CD Track:
+48=Comment:
+49=TMPlayer Format
+50=TMPlayer+ Format
+51=TMPlayer Multiline Format
+
+[Duration limits]
+01=Duration limits
+02=Set maximum duration
+03=Milliseconds
+04=Set minimum duration
+05=* Increasing the time will not cause overlapping
+
+[Set delay]
+01=Set delay
+02=For all the subtitles
+03=For selected subtitles
+
+[Adjust subtitles]
+01=Adjust subtitles
+02=Simple
+03=Advanced
+04=First spoken line:
+05=Last spoken line:
+06=Load from file
+07=Save to file
+08=Line #
+09=Old time
+10=New time
+11=&Add
+12=Add from &media
+13=&Remove
+14=If time is outside points scope:
+15=Extrapolate
+16=Return original time (no changes)
+17=Return displacement of neighbour point
+18=&Adjust!
+19=Enter new sync point
+20=Old time:
+21=New time:
+
+[Time expander/reducer]
+01=Time expander/reducer
+02=Expand duration
+03=Reduce duration
+04=Expand/reduce duration:
+05=Seconds
+06=Frames
+07=Only if subtitle is longer than:
+09=characters
+10=Only if duration is longer than:
+11=Only if duration is shorter than:
+12=Prevent overlapping
+13=For all the subtitles
+14=For selected subtitles
+
+[Automatic durations]
+01=Automatic durations
+02=Milliseconds
+03=per character
+04=per word
+05=per line
+06=Apply new duration in all cases
+07=Only if new duration is greater than original
+08=Only if new duration is smaller than original
+09=All subtitles
+10=Selected subtitles only
+
+[Convert case]
+01=Convert case
+02=Sentence type.
+03=Only first letter of first word
+04="..." detection
+05=lowercase
+06=UPPERCASE
+07=Title Type
+08=iNVERSE tYPE
+09=All subtitles
+10=Selected subtitles only
+
+[Divide lines]
+01=Divide lines
+02=Divide after line number:
+03=Use automatic duration
+04=Show:
+05=Hide:
+06=Duration:
+07=Continue directly
+08=%s characters
+09=&Divide!
+
+[Search & Replace]
+01=Search and Replace
+02=Search
+03=Text to find:
+04=&Search!
+05=Replace by:
+06=Find &next
+07=&Replace
+08=Replace &all
+09=&More >
+10=&Less <
+11=Case sensitive
+12=Match whole words
+13=Preserve case on replace
+14=Search for text in:
+15=All the subtitle
+16=From the selected item
+17=Charset:
+
+[Go to line]
+01=Go to line number
+02=Enter line number:
+
+[Batch convert]
+01=Batch convert
+02=Convert multiple files to a single format in a few steps.
+; Buttons
+03=< &Back
+04=&Next >
+05=C&onvert
+06=&Exit
+07=&Close
+08=&All
+09=&None
+; Page 1
+10=Extensions:
+11=Search path:
+12=Include subfolders
+13=Exhaustive format check
+14=Output directory:
+15=Output format:
+16=Default FPS:
+; List columns
+17=File name
+18=Format
+19=FPS
+20=Size
+; Page 2
+21=&Add
+22=&Remove
+23=C&lear
+; Page 3
+24=Done!. See log for details:
+25=Save...
+; Searching
+26=Checking file %s
+
+[Batch convert log]
+01=%s %s - Batch Conversion Log
+02=Generated on %s
+03=Output format: %s
+04=Total files to convert: %d
+05=Trying to load "%s"...
+06=File succesfully loaded!
+07=File "%s" already existed, replacing...
+08=File succesfully saved to "%s"'
+09=File "%s" already existed and you didn't enable the program to replace it
+10=Error while loading file, can't save!
+11=Total conversions done: %u
+12=Total time: %s
+13=All the files were converted succesfully
+14=There were errors while converting some files, see below for details
+
+[Split]
+01=Split subtitle...
+02=Simple
+03=Advanced
+04=Selected item
+05=Item number:
+06=Given time:
+07=Given frame:
+08=End of video:
+09=Naming
+10=Part %d:
+11=FileName
+12=Length
+13=Lines
+14=Parts equal in time
+15=Parts equal in lines
+16=At the ends of videos
+17=Number of parts:
+18=Auto-name the parts:
+19=Output directory:
+20=Output format:
+21=Recalculate time values
+22=Double click to select movie
+23=&Split!
+
+[Join]
+01=Join subtitles...
+02=Add the subtitle files you wish to join (in order):
+03=File name
+04=Format
+05=FPS
+06=Size
+07=Movie fragment (Optional)
+08=&Add
+09=&Remove
+10=C&lear
+11=&Set movie fragment
+12=C&lear movie fragment
+13=Output format:
+14=Output FPS:
+15=Load file after joining and saving
+16=Recalculate time values
+17=&Join!
+
+[Information and errors]
+01=Information and errors
+02=Check!
+03=Fix errors!
+04=&Settings
+05=Confirm each deletion
+06=Subtitle
+07=Type
+08=Description
+;-------;
+; Types ;
+;-------;
+09=Error
+10=Warning
+11=Info
+13=Fixed
+;----------------------;
+; Information messages ;
+;----------------------;
+14=Total errors: %d
+15=Fixed errors: %d
+;---------------;
+; Error reports ;
+;---------------;
+16=Contains lines without letters
+17=Empty subtitle
+18=Overlapping with previous subtitle
+19=Bad values
+20=Too long duration
+21=Too short duration
+22=Too long line(s)
+23=Over two lines
+24=Hearing impaired
+25=Has text before colon (":")
+26=Unnecessary dots
+27=Contains a prohibited character
+28=Repeated character
+29=Repeated subtitle
+30=OCR error
+31=One line subtitle starts with "-"
+32=No space after custom character
+33=No space before custom character
+34=Unnecessary spaces
+35=Marked subtitle
+;-------------;
+; Fix reports ;
+;-------------;
+36=Deleted lines without letters
+37=Empty subtitle was deleted
+38=Fixed overlapping
+39=Fixed bad values
+40=Subtitle over two lines was adjusted
+41=Removed hearing impaired subtitle
+42=Hearing impaired part has been deleted
+43=Removed text before colon (":")
+44=Removed unnecessary dots
+45=Had a prohibited character and was deleted
+46=Fixed repeated character
+47=Fixed repeated subtitle
+48=Fixed OCR Errors
+49=Deleted "-" in subtitle with one line
+50=Added space after custom character
+51=Added space before custom character
+52=Removed unnecessary spaces
+;-----
+53=Double-click to jump to line on main form
+
+[Information and errors Settings]
+01=Settings
+02=General
+03=Advanced
+04=Check for
+05=Fix
+06=Unnecessary spaces
+07=Show confirmations in main form on fix
+08=Mark errors in main form's list
+09=Set color...
+10=Bold
+11=Italic
+12=Underline
+13=Mark errors on load subtitle
+14=Fix errors on load subtitle
+15=Fix one unit overlap at load
+16=OCR Script:
+17=&Edit
+18=Repeatable characters:
+19=Prohibited characters:
+20=Tolerance for repeated subtitles:
+21=milliseconds.
+22=Space after characters:
+23=Space before characters:
+24=Too long duration:
+25=Too short duration:
+26=Too long line:
+27=characters.
+;------
+28=Lines without letters
+29=Empty subtitles
+30=Overlapping subtitles
+31=Bad values
+32=Too long durations
+33=Too short durations
+34=Too long lines
+35=Subtitles over two lines
+36=Hearing impaired subtitles
+37=Text before colon (":")
+38=Only if text is in capital letters
+39=Unnecessary dots
+40=Prohibited characters
+41=Repeated characters
+42=Repeated subtitles
+43=OCR Errors
+44="- " in subtitles with one line
+45=Spaces after custom characters
+46=Spaces before custom characters
+47=Unnecessary spaces
+;------
+48=Check for:
+49=Fix:
+50=Enters and spaces at the beginning and end
+51=Spaces between enters (left and right)
+52=Double spaces and enters
+53=Spaces in front of punctuation marks
+54=Spaces after "¿" and "¡"
+55=Spaces before "?" and "!"
+56=Spaces between numbers
+
+[Various information]
+01=Various information
+02=Information
+03=Extras
+04=Original file
+05=Translated file
+06=Current format:
+07=File:
+08=Size:
+09=Total number of subtitles:
+10=Total number of lines:
+11=Total number of words:
+12=Total number of letters:
+13=Subtitles with one line:
+14=Subtitles with two lines:
+15=Subtitles with more than two lines:
+16=Longest line:
+17=In subtitle %d with %d characters
+18=Best font size for playback
+19=Resolution width:
+20=From AVI
+21=Font name:
+22=Bold
+23=Italic
+24=Calculate
+
+[SAMI Language Extractor]
+01=SAMI Language Extractor
+02=SAMI file:
+03=Output directory:
+04=The selected languages will be extracted:
+05=Class
+06=Language
+07=Auto detect all
+08=Add manually
+09=Extract!
+10=Add language
+11=Enter the class name of the desired language:
+12=Please wait...
+
+[About form]
+01=About %s
+02=Information
+03=Credits
+04=Version: %s
+05=%s version: %s
+06=%d different supported formats
+07=If you like this software, we would really appreciate you could make a donation. Click here to do it.
+08=Programmed by
+09=Additional programming
+10=%s by
+; Following line is "DirectShow programming"
+11=%s programming
+12=Translators
+13=Beta testers
+14=Default icon by
+15=For updates visit:
+
+[Error messages]
+01=Could not initialize subtitle API. Please download the DLL "%s" from %s and copy it to the "%s" directory.
+02=The following error (%s) was derived from object %s (%s):||"%s"||Please write to %s informing what you were doing when this error occurred.||Press Ok to continue, and Cancel to exit the program.
+03=The file "%s" is a bad subtitle or an unsupported format.
+04=The file "%s" is not in %s format or is not a valid subtitle file.
+05="%s" is not a valid video file.
+06=Not a valid line number.
+07=Select at least one extension to search for.
+08=The search path does not exist.
+09=Item number is not a valid item.
+10=Please add two subtitles or more.
+11=Failed to connect to server!.
+12=Couldn't remove the read-only attribute from "%s".||Possibly on a write protected drive.
+13=Error trying to connect to Microsoft Word!.
+14=Select the video(s) for previous part(s) first!.
+15=Select a valid output directory.
+16=Select at least one language to extract.
+17="%s" is not a valid SAMI file.
+18=Select a subtitle part in the list.
+19=If you select a movie fragment for one part of the subtitle you need to select a movie fragment for all parts of the subtitle (except the last part of course).
+20=You need two or more points.
+
+[Question messages]
+01=File "%s" has changed.||Do you want to save the changes?.
+02=File "%s" already exists.||Do you want to replace it?.
+03=Original file ("%s") has changed.||Do you want to save the changes?.
+04=Translated file  ("%s") has changed.||Do you want to save the changes?.
+05=The selected subtitles are about to be deleted.||Do you want to proceed?.
+06=Point 1 Subtitle: %s|Point 1 Movie: %s||Point 2 Subtitle: %s|Point 2 Movie: %s||Synchronize subtitle?
+07=The video player's exe hasn't been specified or doesn't exist.||Do you want to configure external player?.
+08=A new version was found!.||Do you want to see the change list?.
+09=The file you are trying to save is read-only.||Try to save anyway?.
+
+[Information messages]
+01=Couldn't find more instances of "%s".
+02=No new version available.
+03=Spell check finished.||%d change(s) made.
+04=Too many parts. Resetting...
+05=Only one language was found.||If the file contains more languages, add the ones you wish manually opening the file in a text editor and searching for the correct class name.
+06=Couldn't locate "STYLE" start and/or close tag!.||Probably because of that reason, this file doesn't contain more than one language.|If it does, try to add manually searching for the class name of the desired language(s).
+07=Fittest font size for playback is: %d
+08=Total replacements: %d
+09=File name: %s|Size: %s|FPS: %s|Duration: %s|Total frames: %d|Resolution: %dx%d|FourCC: %s
+10=Some of the streams of the movie could not be rendered correctly. Probably the audio or video codec is missing.
+11=It is not necessary to set the movie fragment corresponding to the last subtitle.
+
+[Information and errors messages]
+01=Subtitle number %d is an empty subtitle and is about to be deleted.||Do you want to proceed?.
+02=Subtitle number %d:||"%s" has a prohibited character and is about to be deleted.||Do you want to proceed?.
+03=Subtitle number %d:||"%s" is about to be deleted.||Do you want to proceed?.
+04=Part of subtitle number %d:||"%s" is about to be deleted, so the subtitle will be:||"%s"||Do you want to proceed?.
+05=Subtitle number %d:||"%s" is a one-line subtitle and starts with "-".||Do you want to delete the "-" at the beginning?.

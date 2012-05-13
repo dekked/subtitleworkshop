@@ -1,0 +1,870 @@
+;   Subtitle Workshop 2.51
+;   Slovenski prevod
+;
+;   Translator : Protonèek
+;   E-mail     : protoncek@bonbon.net
+;   Web        : http://www.urusoft.net
+
+[General]
+Translator=Protoncek
+Font Charset=238
+AllFiles=Vse podprte datoteke
+Help=Manual.html
+FPS=FPS
+PlainText=Èisti tekst
+STP=Projekt prevoda podnapisov
+SRF=Dnevnik datoteke podnapisov
+
+[Standard buttons]
+01=&V redu
+02=&Preklièi
+03=P&rebrskaj
+04=&Uporabi
+05=&Izhod
+06=&Da
+07=&Ne
+
+[Main Form]
+01=Naèin:
+02=Èas
+03=Okvirjev
+04=Vhodni FPS:
+05=FPS:
+06=Delaj z:
+07=Trajanje|Konèni èas|Oboje
+08=Štev
+09=Zaèetek
+10=Konec
+11=Tekst
+12=Prevod
+13=%d neprevedenih vrstic
+14=Trajanje:
+15=%s (%s znakov):
+16=- Neprevedeni podnapis -
+
+[Main menu header]
+01=Datoteka
+02=Urejanje
+03=Iskanje
+04=Orodja
+05=Film
+06=Nastavitve
+07=Pomoè
+
+[Main menu/File]
+01=Nov podnapis...
+02=Odpri podnapis...
+03=Zadnje datoteke
+04=Izbriši seznam
+05=Odpri
+06=Projekt...
+07=Original
+08=Prevod
+09=Shrani
+10=Original kot...
+11=Prevod kot...
+12=Shrani kot...
+13=Zapri
+14=Izhod
+
+[Main menu/Edit]
+01=Razveljavi
+02=Ponovi
+03=Vstavi podnapis
+04=Vstavi pred
+05=Odstrani izbrano
+06=Izreži
+07=Kopiraj
+08=Prilepi
+09=Izberi vse
+
+[Main menu/Edit/Timings]
+01=Èasi
+02=Nastavi meje trajanja...
+03=Nastavi zakasnitev...
+04=Nastavi
+05=Nastavi podnapise...
+06=Nastavi na sinhronizirane podnapise
+07=Podaljšanje/krajšanje èasov
+08=Poveèaj dolžino
+09=Samodejno trajanje
+10=Preberi èase iz datoteke
+11=Premakni %s milisekund
+
+[Main menu/Edit/Texts]
+01=Teksti
+02=Samodejni prelom vrstic
+03=Pretvori velike in male èrke...
+04=Odstrani prelom vrstice
+05=Prelom vrstice...
+06=Hitro deljenje vrstic
+07=Nastavi najveèjo dolžino vrstice...
+08=Preberi tekst iz datoteke
+
+[Main menu/Edit/Subtitles]
+01=Podnapisi
+02=Kombiniraj podnapise
+03=Efekti
+04=Efekt tipkanja
+05=Utripanje
+06=Hitro
+07=Srednje
+08=Poèasno
+09=Od desne proti levi
+10=Obrni tekst
+11=Popravi punckijo
+12=Sortiraj
+13=Izbriši nepotrebne povezave
+14=Oznaèi izbrane podnapise
+15=Ukini oznaèitev izbranih podnapisov
+
+[Main menu/Edit/Translation]
+01=Prevod
+02=Prevajalni naèin
+03=Zamenjaj
+
+[Main menu/Search]
+01=Išèi...
+02=Najdi naslednjega
+03=Išèi && Zamenjaj...
+04=Pojdi na vrstico št...
+
+[Main menu/Tools]
+01=Preverjanje èrkovanja
+02=Skupinska pretvorba...
+03=Razbij podnapise...
+04=Združi podnapise...
+05=Informacije in napake
+06=Informacije in napake...
+07=Razne informacije...
+08=OCR Skripti
+09=Pokaži v glavnem oknu
+10=Nastavitve...
+11=Ponovno preglej napake
+12=Popravi vse napake
+13=Popravi napake (izbrani podnapisi)
+14=Skoèi na naslednjo napako
+15=Dodaj FPS iz AVI
+16=Zunanji predogled
+17=SAMI ekstraktor jezikov
+18=Pascal skripti
+
+[Main menu/Movie]
+01=Odpri...
+02=Zapri
+03=Informacije...
+04=Predogled filma
+05=Pokaži podnapise
+06=Shrani zagonske podatke o filmu
+
+[Main menu/Movie/Playback]
+01=Predvajanje
+02=Predvajaj/Poèakaj
+03=Stoj
+04=Nazaj
+05=Naprej
+06=Nazaj 5 sekund
+07=Naprej 5 sekund
+08=Hitrost predvajanja
+
+[Main menu/Movie/Subtitles]
+01=Podnapisi
+02=Premakni podnapise
+03=Nastavi èas zaèetka
+04=Nastavi èas konca
+05=Zaèetek podnapisa
+06=Konec podnapisa (in vstavitev vrstice)
+
+[Main menu/Movie/Synchronization]
+01=Sinhronizacija
+02=Prva synhro toèka
+03=Zadnja synhro toèka
+04=Dodaj sinhronizacijsko toèko
+
+[Main menu/Movie/Display]
+01=Pokaži
+02=Original
+03=Prevod
+
+[Main menu/Settings]
+01=Izhodne nastavitve...
+02=Jezik (Language)
+03=Pokaži levi meni
+04=Pokaži èasonve kontrole
+05=Uporabi urejanje v vrstici
+
+[Main menu/Help]
+01=O programu %s...
+02=Preveri, èe obstaja nova verzija
+
+[Popup Menu]
+01=Ležeèe
+02=Krepko
+03=Podèrtano
+04=Nastavi barve
+05=Odstrani podatke o barvah
+
+[Video preview hints]
+01=Predvajaj/Poèakaj (%s)
+02=Stoj (%s)
+03=Preklopi drsni seznam
+04=Skoèi na prejšnji podnapis
+05=Skoèi na naslednji podnapis
+06=Nazaj (%s)
+07=Naprej (%s)
+08=Spremeni hitrost predvajanja
+09=Premakni podnapis (%s)
+10=Nastavi èas zaèetka (%s)
+11=Nastavi èas konca (%s)
+12=Zaèetek poodnapisa (%s)
+13=Konec podnapisa (in vstavitev vrstice) (%s)
+14=Prva synhro toèka (%s)
+15=Zadnja synhro toèka (%s)
+16=Dodaj sinhro toèko podnapisa/video (%s)
+
+[Save as]
+01=Shrani kot
+02=Dvokliknite na izhodni format:
+03=Format po meri
+04=Vsi formati
+
+[Custom formats]
+01=Formati po meri
+02=Informacije
+03=Ime:
+04=Podaljšek:
+05=Znak za novo vrstico:
+06=Èas
+07=Okvirjev
+08=Struktura:
+09=FPS:
+10=Naloži projekt
+11=Shrani projekt
+12=Zapomni si zadnji format po meri
+13=Shrani!
+14=Projekt formata po meri
+
+[Settings Form]
+01=Nastavitve
+02=Prilagajanje konfiguracije programa
+; Sections
+03=Splošno
+04=Dodatno
+05=Tabele znakov
+06=Formati
+07=Tipi datotek
+08=Shranjevanje
+09=Predogled filma
+10=Podnapisi
+11=Zunanji predogled
+12=Izgled
+13=Program
+14=List
+15=Meni
+;-----------------;
+; General section ;
+;-----------------;
+16=Vedno na vrhu
+17=Dovoli,da lahko teèe veè oken programa hkrati
+18=Potrdi izbris podnapisov
+19=Smatraj neznane datoteke kot besedilne
+20=Samodejno išèi film
+21=Prisili èasovni naèin dela
+22=Obdrži red linij ob obrnitvi teksta
+23=Izberi tekst ob skoku na naslednjo vrstico
+24=Izberi tekst ob skoku na prejšnjo vrstico
+25=Brez medsebojnega vpliva s TAG-i
+26=Uporabljaj podatke o barvah in stilu
+27=Najveè zadnjih datotek:
+;----------;
+; Advanced ;
+;----------;
+28=Nastavitev samodejnega preloma
+29=Dve vrstici èe je ena daljša od:
+30=znakov
+31=Preklopi toèko prekinitve
+32=Deljenje vrstic
+33=Razdeli vrstico po:
+34=Samodejno razdeli vrstice
+35=Najveèja dolžina vrstice:
+36=Premakni èas:
+37=milisekund
+;----------;
+; Charsets ;
+;----------;
+38=Pokaži v glavenm oknu
+39=Originalni nabor znakov:
+40=Nabor znakov prevoda:
+;-----------------;
+; Formats section ;
+;-----------------;
+41=Privzeti format:
+42=Prikazani formati v oknu "Shrani kot":
+43=Pokaži formate po meri
+44=Izberi &vse
+45=Poèisti &izbor
+;--------------------;
+; File types section ;
+;--------------------;
+46=Registriraj konènice ob zagonu
+47=Privzemi program za veèino znanih formatov
+;--------------;
+; Save section ;
+;--------------;
+48=Vprašaj èe shranim ob izhodu programa/podnapisa
+49=Samodejno shrani vsakih
+50=minut.
+51=Shrani kot rezervno kopijo
+52=Izhodne nastavitve...
+;---------------;
+; Video preview ;
+;---------------;
+53=Dvoklik na vrstico podnapisa pomeni:
+54=skok sekund:
+55=Shift-dvoklik na vrstico podnapisa pomeni:
+56=skok na ustrezno okno urejevalnika
+57=Skok na èas zaèetka te vrstice
+58=skok N sekund pred tem podnapisom
+59=Èas skoka nazaj in naprej:
+60=sekund.
+61=Default altered playback rate:
+;-------------------------;
+; Video preview Subtitles ;
+;-------------------------;
+62=Nariši rob
+63=Nariši senco
+64=Poskusi prozorno ozadje
+65=Prisili uporabo regij (lahko je poèasno)
+66=Pisava...
+67=Barva...
+68=Ozadje...
+69=Širina roba:
+70=Širina sence:
+71=Primer
+;--------------------------;
+; External Preview General ;
+;--------------------------;
+72=Program predvajalnika:
+73=Zaznaj ustrezen program
+74=Vsakiè vprašaj za drug film
+75=Vedno testiraj z videom:
+;---------------------------;
+; External Preview Advanced ;
+;---------------------------;
+76=Shrani zaèasne podnapise v:
+77=Originalnem formatu
+78=Formatu po meri:
+79=Parameteri, ki naj bodo poslani video predvajalniku:
+80=VIDEO_FILE predstavlja film, na katerem boste testirali podnapise. SUBT_FILE pomeni zaèasne podnapise, ki bodo poslani video predvajalniku. Lahko pa dodate tudi druge parametre, npr full screen, itd.
+;----------------;
+; Look / Program ;
+;----------------;
+81=Uporabljena pisava v programu:
+82=Velikost:
+83=Poravnava podnapisov:
+84=Levo|Desno|Sredina
+;-------------;
+; Look / List ;
+;-------------;
+85=Pokaži mrežne èrte
+86=Upoštevaj stil podnapisov
+87=Obarvaj neprevedene podnapise:
+88=Pokaži vodoravni drsni trak
+;-------------;
+; Look / Menu ;
+;-------------;
+89=Uporabi stil menijev kot v Office XP
+90=Osenèene èrte v menijih
+
+[Output settings]
+01=Izhodne nastavitve
+02=ID diska:
+03=DVD naslov:
+04=Jezik:
+05=Avtor:
+06=Splet:
+07=Info:
+08=Licenca:
+09=Podnapis:
+10=Ozadje:
+11=Primer
+12=&Pisava
+13=Poravnaj:
+14=Levo
+15=Sredina
+16=Desno
+17=Slik na sekundo:
+18=Izpusti slike
+19=Barva 0 (ozadje):
+20=Barva 1 (pisava):
+21=Barva 2 (obris):
+22=Barva 3 (antialiasing):
+23=Št. barvne palete:
+24=Kontrast
+25=Naslov:
+26=Skript:
+27=Izgled
+28=Ostalo
+29=Tip robu:
+30=obris + senca
+31=Neprosojno
+32=Barva
+33=Primarna:
+34=Sekundarna:
+35=Tretja:
+36=Senca:
+37=Levi rob:
+38=Desni rob:
+39=Navpièni rob:
+40=Obrise:
+41=Poravnava:
+42=Kodiranje:
+43=Izvor:
+44=Program:
+45=Pot:
+46=Zaostajanje:
+47=CD Trak:
+48=Komentar:
+49=TMPlayer Format
+50=TMPlayer+ Format
+51=TMPlayer Multiline Format
+
+[Duration limits]
+01=Meje trajanja
+02=Nastavi najveèje trajanje
+03=Milisekund
+04=Nastavi najmanjše trajanje
+05=* Poveèanje èasa ne bo povzroèilo prekrivanja
+
+[Set delay]
+01=Zakasnitev
+02=Za vse podnapise
+03=Za izbrane podnapise
+
+[Adjust subtitles]
+01=Nastavitve podnapisov
+02=Navadno
+03=Napredno
+04=Prva izgovorjena vrstica:
+05=Zadnja izgovorjena vrstica:
+06=Naloži iz datoteke
+07=Shrani v datoteko
+08=Vrstica #
+09=Stari èas
+10=Novi èas
+11=&Dodaj
+12=Dodaj iz &medija
+13=Od&strani
+14=Èe je èas izven podroèja toèk:
+15=Ekstrapoliraj
+16=Vrni na originalen èas(ni sprememb)
+17=Vrni premik sosednje toèke
+18=&Nastavi!
+19=Vnesi novo synhro tocko
+20=Stari cas:
+21=Novi cas:
+
+[Time expander/reducer]
+01=Podaljšanje/krajšanje èasov
+02=Podaljšaj trajanje
+03=Skrajšaj trajanje
+04=Poveèaj/krajšaj trajanje:
+05=Sekund
+06=Okvirjev
+07=Samo èe je podnapis daljši kot:
+09=znakov
+10=Samo èe je trajanje daljše kot:
+11=Samo èe je trajanje krajše kot:
+12=Prepreèi prekrivanje
+13=Za vse podnapise
+14=Za izbrane podnapise
+
+[Automatic durations]
+01=Samodejno trajanje
+02=Milisekund
+03=na znak
+04=na besedo
+05=na vrstico
+06=Uporabi novo trajanje v vseh primerih
+07=Samo èe je novo trajanje daljše od obstojeèega
+08=Samo èe je novo trajanje krajše od obstojeèega
+09=vse podnapise
+10=samo izbrane podnapise
+
+[Convert case]
+01=Pretvori velike in male èrke
+02=Tip stavka.
+03=Samo prvo èrko prve besede
+04="..." zaznavanje
+05=male èrke
+06=VELIKE ÈRKE
+07=Naslovni Sistem
+08=oBRATNI sISTEM
+09=Vse podnapise
+10=Samo izbrane podnapise
+
+[Divide lines]
+01=Prelom vrstice
+02=Prelomi po vrstici št.:
+03=Uporabi samodejno trajanje
+04=Pokaži:
+05=Skrij:
+06=Trajanje:
+07=Takoj nadaljuj
+08=%s znakov
+09=&Prelomi!
+
+[Search & Replace]
+01=Najdi in zamenjaj
+02=Išèi
+03=Najdi tekst:
+04=&Išèi!
+05=Zamenjaj z:
+06=Najdi &naslednjo
+07=&Zamenjaj
+08=Zamenjaj &vse
+09=&Veè >
+10=&Manj <
+11=Obèutljivo na velike in male èrke
+12=Ujema naj se cela beseda
+13=Ohrani zaèetnico ob zamenjavi
+14=Išèi tekst v:
+15=Vseh podnapisih
+16=Samo v izbranih vrsticah
+17=Nabor znakov:
+
+[Go to line]
+01=Pojdi na vrstico št.
+02=Vpišite številko vrstice:
+
+[Batch convert]
+01=Skupinska pretvorba
+02=Pretvori veè datotek v en sam format v nekaj korakih.
+; Buttons
+03=< &Nazaj
+04=N&aprej >
+05=&Pretvori
+06=&Izhod
+07=&Zapri
+08=&Vse
+09=&Niè
+; Page 1
+10=Konènice:
+11=Pot iskanja:
+12=Vkljuèi podmape
+13=Podrobni pregled formata
+14=Izhodna mapa:
+15=Izhodni format:
+16=Privzeti FPS:
+; List columns
+17=Ime datoteke
+18=Format
+19=FPS
+20=Velikost
+; Page 2
+21=&Dodaj
+22=&Odstrani
+23=&Izbriši
+; Page 3
+24=Narejeno!. Preberi dnevnik:
+25=Shrani...
+; Searching
+26=Pregled datoteke %s
+
+[Batch convert log]
+01=%s %s - Dnevnik skupinske pretvorbe
+02=Ustvarjen %s
+03=Izhodni format: %s
+04=Skupaj datotek za pretvorbo: %d
+05=Poskušam naložiti "%s"...
+06=Uspešno naložen!
+07=Datoteka "%s" že obstaja; menjam...
+08=Uspešno shranjeno v "%s"'
+09=Datoteka "%s" že obstaja, pa niste vkljuèili možnosti za zamenjavo
+10=Napaka pri nalaganju, ne morem shraniti!
+11=Skupaj pretvorb: %u
+12=Skupni èas: %s
+13=Vse datoteke so bile uspešno pretvorjene
+14=Bilo ne nekaj napak pri pretvorbi; podrobnosti glej spodaj.
+
+[Split]
+01=Razbijanje podnapisa...
+02=Enostavno
+03=Napredno
+04=Izbrano mesto
+05=Vrstica št.:
+06=Doloèen èas:
+07=Doloèen okvir:
+08=Konec filma:
+09=Imena
+10=Del %d:
+11=FileName
+12=Dolžina
+13=Vrstic
+14=Deli naj bodo enaki po èasu
+15=Deli naj bodo enaki po št. vrstic
+16=Na koncu filma
+17=Število delov:
+18=Samodejno imenuj dele:
+19=Izhodna mapa:
+20=Izhodni format:
+21=Ponovno izraèunaj èase
+22=Dvoklikni za izbor filma
+23=&Razbij!
+
+[Join]
+01=Združi podnapise...
+02=Dodaj podnapise, ki jih želiš združiti (po vrsti):
+03=Ime datoteke
+04=Format
+05=FPS
+06=Velikost
+07=Fragment filma (Po želji)
+08=&Dodaj
+09=&Odstrani
+10=&Izbriši
+11=&Nastavi fragment filma
+12=Iz&briši fragment filma
+13=Izhodni format:
+14=Izhodni FPS:
+15=Naloži datoteko po združevanju in shranjevanju
+16=Ponovno izraèunaj èase
+17=&Združi!
+
+[Information and errors]
+01=Informacije in napake
+02=Preveri!
+03=Popravi napake!
+04=&Nastavitve
+05=Vprašaj pred vsakim izbrisom
+06=Podnapis
+07=Tip
+08=Opis
+;-------;
+; Types ;
+;-------;
+09=Napaka
+10=Opozorilo
+11=Informacija
+13=Popravljeno
+;----------------------;
+; Information messages ;
+;----------------------;
+14=Skupaj napak: %d
+15=Popravljenih napak: %d
+;---------------;
+; Error reports ;
+;---------------;
+16=Vsebuje vrstice brez èrk
+17=Prazen podnapis
+18=Prekriva se s prejšnjim podnapisom
+19=Napaène vrednosti
+20=Predolgo trajanje
+21=Prekratko trajanje
+22=Predolga vrstica
+23=Veè kot dve vrstice
+24=Za slušno prizadete
+25=ima tekst pred piko (":")
+26=Nepotrebne pike
+27=Vsebuje prepovedan znak
+28=Znak se ponavlja
+29=Podnapis se ponavlja
+30=OCR napaka
+31=Enovrstièni podnapis se zaène z "-"
+32=Ni presledka po lastnem znaku
+33=Ni presledka pred lastnim znakom
+34=Nepotrebni presledki
+35=Oznaèen podnapis
+;-------------;
+; Fix reports ;
+;-------------;
+36=Izbrisane vrstice brez èrk
+37=Prazen podnapis izbrisan
+38=Prekrivanje popravljeno
+39=Napaène vrednopsti popravljene
+40=Podnapis z veè kot 2 vrstama popravljen
+41=Odstranjen podnapis za slušno prizadete
+42=Odstranjen del napisa za slušno prizadete
+43=Odstranjen tekst pred piko (":")
+44=Odstranjene nepotrebne pike
+45=Vsebovan prepovedan znak je bil izbrisan
+46=Popravljen ponavljajoè znak
+47=Popravljen ponavljajoè podnbapis
+48=Popravljene OCR napake
+49=Izbrisan znak "-" v podnapisu z eno vrsto
+50=Dodan presledek po lastnem znaku
+51=Dodan presledek pred lastnim znakom
+52=Odstranjeni nepotrebni presledki
+;-----
+53=Dvokliknite za skok na vrstico v glavnem programu
+
+[Information and errors Settings]
+01=Nastavitve
+02=Splošno
+03=Napredno
+04=Preveri
+05=Popravi
+06=Nepotrebni presledki
+07=Ob popravilu pokaži potrditev v glavnem oknu
+08=Oznaèi napake v glavnem oknu
+09=Barva...
+10=Krepko
+11=Ležeèe
+12=Podèrtano
+13=Oznaèi napake ob odpiranju podnapisa
+14=Popravi napake ob odpiranju podnapisa
+15=Popravi enojno prekrivanje ob zagonu
+16=OCR Skript:
+17=&Uredi
+18=Ponavljajoèi znaki:
+19=Prepovedani znaki:
+20=Toleranca za ponavljajoèe znake:
+21=milisekund.
+22=Presledek po znakih:
+23=Presledek pred znaki:
+24=Predolgo trajanje:
+25=Prekratko trajanje:
+26=Predolg èas:
+27=znakov.
+;------
+28=Vrstice brez èrk
+29=Prazne podnapise
+30=Prekrivajoèe znake
+31=Napaène vrednosti
+32=Predolga trajanja
+33=Prekratka trajanja
+34=Predolge vrstice
+35=Podnapise z veè kot 2 vrsticama
+36=Podnapise za slušno prizadete
+37=Tekst pred piko (":")
+38=samo èe je pisan z velikimi èrkami
+39=Nepotrebne pike
+40=Prepovedane znake
+41=Ponavljajoèe znake
+42=Ponavljajoèe podnapise
+43=OCR napake
+44="- " v podnapisih z eno vrstico
+45=presledkov po lastnih znakih
+46=presledkov pred lastnimi znaki
+47=Nepotrebne presledke
+;------
+48=Preveri:
+49=Popravi:
+50='Enter' in presledke na zaèetku in na koncu
+51=Presledke med 'Enter' (levo in desno)
+52=Dvojne presledke in 'Enter'
+53=Presledke pred loèili
+54=Presledke po "¿" in "¡"
+55=Presledke pred "?" in "!"
+56=Presledke med številkami
+
+[Various information]
+01=Razne informacije
+02=Informacije
+03=Dodatno
+04=Originalna datoteka
+05=Prevedena datoteka
+06=Trenutni format:
+07=Datoteka:
+08=Velikost:
+09=Skupno število podnapisov:
+10=Skupno število vrstic:
+11=Skupno število besed:
+12=Skupno število èrk:
+13=Podnapisi z eno vrstico:
+14=Podnapisi z dvema vrsticama:
+15=Podnapisi z veè kot dvema vrsticama:
+16=Najdaljša vrstica:
+17=V podnapisu %d z %d znaki
+18=Najboljša velikost pisave za predvajanje
+19=Širina loèljivosti:
+20=Iz AVI
+21=Ime pisave:
+22=Krepko
+23=Poševno
+24=Izraèunaj
+
+[SAMI Language Extractor]
+01=SAMI Ekstraktor jezikov
+02=SAMI datoteka:
+03=Izhodna mapa:
+04=Izbrani jeziki bodo izvleèeni:
+05=Class
+06=Jezik
+07=Samodejno zaznaj vse
+08=Dodaj roèno
+09=Izvleci!
+10=Dodaj jezik
+11=Vnesi class ime željenega jezika:
+12=Prosim poèakaj...
+
+[About form]
+01=O programu %s
+02=Informacije
+03=Zasluge
+04=Verzija: %s
+05=%s verzija: %s
+06=%d razliènih podprtih formatov
+07=Èe vam je program všeè, prosim razmislite o donaciji. Èe želite to storiti, kliknite tukaj.
+08=Programiral
+09=Dodatno programiral še
+10=%s
+; Following line is "DirectShow programming"
+11=%s programiral
+12=Prevajalci
+13=Beta testerji
+14=Avtor privzete ikone
+15=Za posodobitve obišèite:
+
+[Error messages]
+01=Ne morem zagnati  API podnapisa. Prenesite DLL datoteko "%s" iz %s in jo prekopirajte v mapo "%s" .
+02=Sledeèa napaka: (%s) je bila javljena iz objekta %s (%s):||"%s"||Prosim, pišite na %s z informacijo, kaj ste delali, ko ste dobili to napako.||Ok za nadaljevanje, Preklièi za izhod iz programa.
+03=Datoteka "%s" je pokvarjena ali pa format ni podprt.
+04=Datoteka "%s" ni v %s formatu ali pa ni veljaven podnapis.
+05="%s" ni veljavna video datoteka.
+06=Ni veljavna številka vrstice.
+07=Izberite vsaj eno konènico za iskanje.
+08=Pot iskanja ne obstaja.
+09=Številka ni veljavna.
+10=Prosim, dodajte dva ali veè podnapisov.
+11=Napaka pri prenosu kontaktiranju serverja!.
+12=Ne morem odstraniti atributa 'samo za branje' iz "%s".||Mogoèe je pogon zašèiten proti pisanju.
+13=Ne morem se povezati z Microsoft Word!.
+14=Najprej izberite film(e) za prejšnje dele!.
+15=Izberite veljavno izhodno mapo.
+16=Izberite vsaj en jezik za izvlaèenje.
+17="%s" ni veljavna SAMI datoteka.
+18=Izberite delec podnapisa v seznamu.
+19=Èe izberete fragment filma za en del podnapisa, potem morate izbrati fragment za vse dele podnapisov (razen seveda za zadnji del).
+20=Potrebujete dve ali veè toèk.
+
+[Question messages]
+01=Datoteka "%s" se je spremenila.||Ali želite shraniti spremembe?.
+02=Datoteka "%s" že obstaja.||Ali jo želite zamenjati?.
+03=Originalna datoteka ("%s") se je spremenila.||Ali želite shraniti spremembe?.
+04=Prevedena datoteka  ("%s") se je spremenila.||Ali želite shraniti spremembe?.
+05=Izbran(i) podnapis(i) bo(do) izbrisan(i).||Ali želite nadaljevati?.
+06=Toèka 1 Podnapis: %s|Toèka1 Film: %s||Toèka 2 Podnapis: %s|Toèka2 Film: %s||Sinhroniziram podnapis?
+07=Izvršna datoteka video predvajalnika ni podana ali ne obstaja.||Ali želite konfigurirati zunanji predvajalnik?.
+08=Obstaja nova verzija!.||Ali želite videti seznam sprememb?.
+09=Datoteka, ki jo hoèete shraniti, je samo za branje.||Ali jo vseeno poskusim shraniti?.
+
+[Information messages]
+01=Ne najdem veè izvodov "%s".
+02=Imate najnovejšo verzijo.
+03=Konèano preverjanje èrkovanja.||%d sprememb izvedeno.
+04=Preveè delov. Resetiranje...
+05=Najden je bil samo en jezik.||ÈE datoteka vsebuje veè jezikov, dodajte tiste,
+06=Ne najdem "STYLE" start in/ali tag!.||Verjetno zaradi tega, ker datoteka vsebuje veè kot en jezik.|Èe je to res, poskusite z roènim iskanjem 'class' imena željenih jezikov.
+07='Fittest' velikost pisave za predvajanje je: %d
+08=Skupaj zamenjav: %d
+09=Ime datoteke: %s|Velikost: %s|FPS: %s|Trajanje: %s|Skupaj okvirjev: %d|Loèljivost: %dx%d|FourCC: %s
+10=Nekateri tokovi niso prikazani pravilno. Gotovo manjka ustrezen avdio ali video kodek.
+11=Za zadnji del podnapisa ni potrebno nastaviti fragmenta filma.
+
+[Information and errors messages]
+01=Podnapis št. %d je prazen in bo izbrisan.||Ali želiš nadaljevati?
+02=Podnapis št. %d:||"%s" vsebuje prepovedan znak in bo izbrisan.||Ali želiš nadaljevati?
+03=Podnapis št. %d:||"%s" bo izbrisan.||Ali želiš nadaljevati?
+04=Del podnapisa št. %d:||"%s" bo izbrisan, tako da bo podnapis izgledal:||"%s"||Ali želite nadaljevati?.
+05=POdnapis št. %d:||"%s" ima samo eno vrstico in se zaène z "-".||Ali želite izbrisati "-" na zaèetku?.

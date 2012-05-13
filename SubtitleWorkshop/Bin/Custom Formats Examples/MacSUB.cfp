@@ -1,0 +1,15 @@
+[Information]
+Name=MacSUB
+Extension=*.scr
+Time structure=hh:mm:ss,zzz
+Time=False
+FPS=25
+New line char=[Enter]
+
+[Format text]
+{RepeatSub}
+/{swStart}
+{swText}
+/{swEnd}
+{EndRepeat}
+

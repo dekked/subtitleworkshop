@@ -1,0 +1,871 @@
+;   Subtitle Workshop 2.51
+;   Czech language file
+;
+;   Author: Milan Hrubý
+;   E-mail: hruby@email.cz
+;   ICQ: 81984765
+;   Web: http://home.tiscali.cz/~cz382002
+
+[General]
+Translator=Milan Hrubý
+Font Charset=238
+AllFiles=Všechny podporované soubory
+Help=Manual.html
+FPS=SZS
+PlainText=Prostý text
+STP=Projekt pøekladu titulkù
+SRF=Záznamový soubor titulku
+
+[Standard buttons]
+01=&Ok
+02=&Zrušit
+03=&Procházet
+04=Po&užít
+05=&Konec
+06=&Ano
+07=&Ne
+
+[Main Form]
+01=Mód:
+02=èas
+03=snímky
+04=Vstupní SZS:
+05=SZS:
+06=Pracovat s:
+07=Délkou|Celk. èasem|Obojím
+08=Èíslo
+09=Ukázat
+10=Skrýt
+11=Text
+12=Pøeklad
+13=%d nepøeložených øádkù
+14=Délka:
+15=%s (%s znakù):
+16=- Nepøeložený titulek -
+
+[Main menu header]
+01=Soubor
+02=Úpravy
+03=Hledání
+04=Nástroje
+05=Film
+06=Nastavení
+07=Nápovìda
+
+[Main menu/File]
+01=Nové titulky...
+02=Naèíst titulky...
+03=Poslední soubory
+04=Vymazat seznam
+05=Naèíst
+06=Projekt...
+07=Originál
+08=Pøeklad
+09=Uložit
+10=Originál jako...
+11=Pøeklad jako...
+12=Uložit jako...
+13=Zavøít
+14=Konec
+
+[Main menu/Edit]
+01=Zpìt
+02=Vpøed
+03=Vložit titulek
+04=Vložit pøed
+05=Odstranit vybrané
+06=Vyjmout
+07=Kopírovat
+08=Vložit
+09=Vybrat všechny
+
+[Main menu/Edit/Timings]
+01=Naèasování
+02=Nastavit limity trvání...
+03=Nastavit zpoždìní...
+04=Opravit
+05=Opravit titulky...
+06=Uzpùsobit synchronizovaným titulkùm
+07=Èasový rozšiøovaè
+08=Prodloužit délku
+09=Automatické délky
+10=Naèíst naèasování ze souboru
+11=Posunout o %s milisekund
+
+[Main menu/Edit/Texts]
+01=Texty
+02=Chytré nastavení øádku
+03=Pøemìnit velikost...
+04=Spojit titulky
+05=Rozdìlit øádky...
+06=Rychle rozdìlit øádky
+07=Nastavit maximální délku øádku...
+08=Naèíst texty ze souboru
+
+[Main menu/Edit/Subtitles]
+01=Titulky
+02=Slouèit titulky
+03=Efekty
+04=Psací stroj
+05=Záblesk
+06=Rychlý záblesk
+07=Støední záblesk
+08=Pomalý záblesk
+09=Zprava doleva
+10=Obrátit text
+11=Opravit interpunkci
+12=Seøadit
+13=Vymazat nadbyteèná spojení
+14=Oznaèit vybrané titulky
+15=Odznaèit vybrané titulky
+
+[Main menu/Edit/Translation]
+01=Pøeklad
+02=Pøekladatelský mód
+03=Prohodit
+
+[Main menu/Search]
+01=Hledat...
+02=Najít další
+03=Hledat a nahradit...
+04=Pøejít na øádek èíslo...
+
+[Main menu/Tools]
+01=Pravopis
+02=Hromadný pøevod...
+03=Rozdìlit titulky...
+04=Spojit titulky...
+05=Informace a chyby
+06=Informace a chyby...
+07=Rùzné informace...
+08=OCR skripty
+09=Ukázat v hlavním oknì
+10=Nastavení...
+11=Pøekontrolovat chyby
+12=Opravit všechny chyby
+13=Opravit chyby (vybrané titulky)
+14=Pøejít na další chybu
+15=Pøidat SZS z AVI
+16=Externí náhled
+17=SAMI jazykový extraktor
+18=Pascal skripty
+
+[Main menu/Movie]
+01=Otevøít...
+02=Zavøít
+03=Informace...
+04=Mód náhledu videa
+05=Ukázat titulky
+06=Uložit spouštìcí soubor média
+
+[Main menu/Movie/Playback]
+01=Pøehrávání
+02=Spustit/Pozastavit
+03=Zastavit
+04=Zpìt
+05=Vpøed
+06=Zpìt o 5 sekund
+07=Vpøed o 5 sekund
+08=Rychlost pøehrávání
+
+[Main menu/Movie/Subtitles]
+01=Titulky
+02=Posunout titulek
+03=Nastavit zaèátek
+04=Nastavit konec
+05=Zaèátek titulku
+06=Konec titulku
+
+[Main menu/Movie/Synchronization]
+01=Synchronizace
+02=První synchronizaèní bod
+03=Poslední synchronizaèní bod
+04=Pøidat synchronizaèní bod
+
+[Main menu/Movie/Display]
+01=Zobrazit
+02=Originál
+03=Pøeklad
+
+[Main menu/Settings]
+01=Výstupní nastavení...
+02=Jazyk
+03=Ukázat levý panel
+04=Ukázat èítaèe
+05=Použít pøímou editaci
+
+[Main menu/Help]
+01=O programu %s...
+02=Zkontrolovat novou verzi
+
+[Popup Menu]
+01=Kurzíva
+02=Tuèné
+03=Podtrhnout
+04=Nastavit barvu
+05=Odstranit tagy barvy
+
+[Video preview hints]
+01=Spustit/Pozastavit (%s)
+02=Zastavit (%s)
+03=Posunovat seznamem
+04=Pøeskoèit na pøedchozí titulek
+05=Pøeskoèit na další titulek
+06=Vzad (%s)
+07=Vpøed (%s)
+08=Zmìnit rychlost pøehrávání
+09=Posunout titulek (%s)
+10=Nastavit zaèátek (%s)
+11=Nastavit konec (%s)
+12=Zaèátek titulku (%s)
+13=Konec titulku (%s)
+14=Oznaèit jako první synchronizaèní bod (%s)
+15=Oznaèit jako poslední synchronizaèní bod (%s)
+16=Pøidat synchronizaèní bod titulku/videa (%s)
+
+[Save as]
+01=Uložit jako
+02=Dvojkliknìte na výstupní formát:
+03=Uživatelský formát
+04=Všechny formáty
+
+[Custom formats]
+01=Uživatelské formáty
+02=Informace
+03=Název:
+04=Pøípona:
+05=Znak pro nový øádek:
+06=Èas
+07=Snímky
+08=Struktura:
+09=SZS:
+10=Naèíst projekt
+11=Uložit projekt
+12=Zapamatovat si poslední uživatelský formát
+13=Uložit!
+14=Projekt uživatelského formátu
+
+[Settings Form]
+01=Nastavení
+02=Pøizpùsobí uspoøádání programu.
+; Sections
+03=Obecná
+04=Pokroèilá
+05=Znakové sady
+06=Formáty
+07=Typy souboru
+08=Uložit
+09=Náhled videa
+10=Titulky
+11=Externí náhled
+12=Vzhled
+13=Program
+14=Seznam
+15=Nabídka
+;-----------------;
+; General section ;
+;-----------------;
+16=Vždy na vrchu
+17=Povolit bìh více než jedné instance
+18=Potvrzovat vymazávání titulkù
+19=Zobrazit nesprávné soubory jako prostý text
+20=Automaticky vyhledat film
+21=Pracovat v èasovém módu
+22=Zachovat poøadí øádkù pøi obracení textu
+23=Vybrat text pøeskakující na další øádku
+24=Vybrat text pøeskakující na pøedchozí øádku
+25=Žádné interakce tagù
+26=Pracovat se stylovými znaèkami
+27=Omezení posledních souborù:
+;----------;
+; Advanced ;
+;----------;
+28=Chytré pøizpùsobení øádkù
+29=Dva øádky, pokud delší než:
+30=znakù
+31=Spojit místo pøerušení
+32=Dìlení øádkù
+33=Rozdìlit øádek po:
+34=Automatické chytré nastavení øádku
+35=Maximální délka øádku:
+36=Èas posunutí:
+37=milisekund
+;----------;
+; Charsets ;
+;----------;
+38=Ukazovat v hlavním oknì
+39=Znaková sada originálu:
+40=Znaková sada pøekladu:
+;-----------------;
+; Formats section ;
+;-----------------;
+41=Standardní formát:
+42=Ukázat formáty pøi "Uložit jako":
+43=Ukázat uživatelské formáty
+44=Vybr&at všechny
+45=O&dznaèit
+;--------------------;
+; File types section ;
+;--------------------;
+46=Zaregistrovat pøípony pøi startu
+47=Asociovat s nejvíce podporovanými pøíponami titulkù
+;--------------;
+; Save section ;
+;--------------;
+48=Zeptat se na uložení pøi ukonèení programu/zavøení titulkù
+49=Ukládat práci automaticky každých
+50=minut.
+51=Uložit jako zálohu
+52=Nastavení výstupu...
+;---------------;
+; Video preview ;
+;---------------;
+53=Dvojklik na titulek:
+54=Pøeskoèit sekund:
+55=Shift-dvojklik na titulek:
+56=Zamìøí textový rámeèek
+57=Pøejde na èas titulku ve videu
+58=Pøejde o N sekund pøed titulek ve videu
+59=Èas vzad a vpøed:
+60=sekundy.
+61=Standard pro pomalu:
+;-------------------------;
+; Video preview Subtitles ;
+;-------------------------;
+62=Vykreslit okraj
+63=Vykreslit stín
+64=Zkoušet prùhledné pozadí
+65=Používat regiony (pomalejší)
+66=Písmo...
+67=Barva...
+68=Pozadí...
+69=Šíøka okraje:
+70=Šíøka stínu:
+71=UKÁZKA
+;--------------------------;
+; External Preview General ;
+;--------------------------;
+72=Spustitelný soubor videopøehrávaèe:
+73=Detekovat pøiøazený program
+74=Ptát se pokaždé na jiné video
+75=Vždy testovat s video souborem:
+;---------------------------;
+; External Preview Advanced ;
+;---------------------------;
+76=Uložit doèasné titulky ve formátu:
+77=Originální formát
+78=Uživatelský formát:
+79=Parametr pøedaný videopøehrávaèi:
+80=VIDEO_FILE pøedstavuje video soubor, ve kterém hodláte testovat titulky. SUBT_FILE je parametr, ve kterém bude doèasný soubor titulkù odeslán videopøehrávaèi. Mùžete pøidat další parametry, napøíklad pro zobrazení na celou obrazovku atd.
+;----------------;
+; Look / Program ;
+;----------------;
+81=Písmo použité v programu:
+82=Velikost písma:
+83=Zarovnat pole "Text" a "Pøeklad":
+84=Doleva|Doprava|Na støed
+;-------------;
+; Look / List ;
+;-------------;
+85=Ukázat rastrové èáry
+86=Používat styl titulkù
+87=Oznaèit nepøeložené titulky barvou:
+88=Ukazovat vodorovnou posuvnou lištu
+;-------------;
+; Look / Menu ;
+;-------------;
+89=Používat styl nabídek Office XP
+90=Používat postupné nabídky
+
+[Output settings]
+01=Výstupní nastavení
+02=Disk ID:
+03=DVD titul:
+04=Jazyk:
+05=Autor:
+06=Web:
+07=Informace:
+08=Licence:
+09=Titulky:
+10=Pozadí:
+11=UKÁZKA
+12=Na&stavit písmo
+13=Zarovnat:
+14=Vlevo
+15=Na støed
+16=Vpravo
+17=Snímková frekvence:
+18=Snížit snímek
+19=Barva 0 (pozadí):
+20=Barva 1 (písmo):
+21=Barva 2 (obrys):
+22=Barva 3 (antialiasing):
+23=Barva palety:
+24=Kontrast
+25=Název:
+26=Skript:
+27=Základní
+28=Ostatní
+29=Styl okraje:
+30=Obrys + stín
+31=Neprùhledný
+32=Barva
+33=Primární:
+34=Sekundární:
+35=Terciární:
+36=Stín:
+37=Levý okraj:
+38=Pravý okraj:
+39=Svislý okraj:
+40=Obrys:
+41=Zarovnání:
+42=Kódování:
+43=Zdroj:
+44=Program:
+45=Cesta:
+46=Zpozdit:
+47=CD stopa:
+48=Poznámka:
+49=TMPlayer formát
+50=TMPlayer+ formát
+51=TMPlayer multiline formát
+
+[Duration limits]
+01=Limity trvání
+02=Nastavit maximální délku
+03=milisekund
+04=Nastavit minimální délku
+05=* Zvýšení doby trvání nezpùsobí pøekrývání
+
+[Set delay]
+01=Nastavit zpoždìní
+02=Pro všechny titulky
+03=Pro vybrané titulky
+
+[Adjust subtitles]
+01=Oprava titulkù
+02=Prostá
+03=Pokroèilá
+04=První mluvený øádek:
+05=Poslední mluvený øádek:
+06=Naèíst ze souboru
+07=Uložit do souboru
+08=Øádek #
+09=Starý èas
+10=Nový èas
+11=Pøid&at
+12=Pøidat z &média
+13=Odst&ranit
+14=Pokud je èas mimo rozsah bodù:
+15=Prodloužit
+16=Vrátit pùvodní èas (žádné zmìny)
+17=Vrátit posunutí sousedního bodu
+18=&Opravit!
+19=Vložit nový synchronizaèní bod
+20=Starý èas:
+21=Nový èas:
+
+[Time expander/reducer]
+01=Èasový rozšiøovaè/omezovaè
+02=Prodloužit trvání
+03=Zkrátit trvání
+04=Prodloužit/zkrátit trvání:
+05=sekund
+06=snímkù
+07=Pouze pokud je titulek delší než:
+09=znakù
+10=Pouze pokud je trvání delší než:
+11=Pouze pokud je trvání kratší než:
+12=Pøedcházet pøekrývání
+13=Pro všechny titulky
+14=Pro vybrané titulky
+
+[Automatic durations]
+01=Automatické délky
+02=Milisekund
+03=na znak
+04=na slovo
+05=na øádek
+06=Použít nové délky ve všech pøípadech
+07=Jen pokud jsou nové délky vìtší než originální
+08=Jen pokud jsou nové délky menší než originální
+09=Všechny titulky
+10=Pouze vybrané titulky
+
+[Convert case]
+01=Pøemìnit velikost
+02=Typ vìty.
+03=Pouze první písmeno prvního slova
+04="..." detekce
+05=malá
+06=VELKÁ
+07=První Velká
+08=oPAÈNÌ
+09=Všechny titulky
+10=Pouze vybrané titulky
+
+[Divide lines]
+01=Rozdìlit øádky
+02=Rozdìlit po øádku èíslo:
+03=Používat automatické délky
+04=Ukázat:
+05=Skrýt:
+06=Délka:
+07=Pokraèovat pøímo
+08=%s znakù
+09=&Rozdìlit!
+
+[Search & Replace]
+01=Hledat a nahradit
+02=Hledat
+03=Najít text:
+04=&Hledat!
+05=Nahradit:
+06=Najít &další
+07=&Nahradit
+08=N&ahradit vše
+09=&Více >
+10=&Ménì <
+11=Rozlišování písmen
+12=Pouze celá slova
+13=Zachovat velikost pøi nahrazování
+14=Hledat text:
+15=v celých titulkách
+16=od vybrané položky
+17=Znaková sada:
+
+[Go to line]
+01=Pøejít na øádek èíslo
+02=Vložte èíslo øádku:
+
+[Batch convert]
+01=Hromadný pøevod
+02=Pøevede mnoho souborù do stejného formátu v nìkolika krocích.
+; Buttons
+03=< Zpì&t
+04=&Dále >
+05=&Pøevést
+06=&Konec
+07=&Zavøít
+08=&Vše
+09=&Nic
+; Page 1
+10=Pøípony:
+11=Cesta:
+12=Zahrnout podsložky
+13=Dùkladná kontrola formátu
+14=Výstupní adresáø:
+15=Výstupní formát:
+16=Standardní SZS:
+; List columns
+17=Název souboru
+18=Formát
+19=SZS
+20=Velikost
+; Page 2
+21=Pøi&dat
+22=&Odstranit
+23=&Vyèistit
+; Page 3
+24=Hotovo! Prohlédnìte si podrobnosti v záznamu:
+25=Uložit...
+; Searching
+26=Kontroluji soubor %s
+
+[Batch convert log]
+01=%s %s - Záznam hromadného pøevodu
+02=Vygenerováno %s
+03=Výstupní formát: %s
+04=Celkem pøevedeno souborù: %d
+05=Pokouším se naèíst "%s"...
+06=Soubor úspìšnì naèten!
+07=Soubor "%s" již existuje, nahrazuji...
+08=Soubor úspìšnì uložen do "%s"
+09=Soubor "%s" již existuje a vy jste neumožnil programu, aby jej nahradil
+10=Chyba pøi naèítání souboru, nemohu uložit!
+11=Poèet provedených pøevodù: %u
+12=Celkový èas: %s
+13=Všechny soubory byly úspìšnì pøevedeny
+14=Pøi pøevodu nìkterých souborù se vyskytly chyby, pro podrobnosti viz níže
+
+[Split]
+01=Rozdìlit titulky...
+02=Jednoduše
+03=Pokroèile
+04=Vybrané položce
+05=Položce èíslo:
+06=Daném èase:
+07=Daném snímku:
+08=Na konci videa:
+09=Pojmenování
+10=Èást %d:
+11=Název souboru
+12=Délka
+13=Øádkù
+14=Èásti se vyrovnají èasem
+15=Èásti se vyrovnají øádky
+16=Na koncích videí
+17=Poèet èástí:
+18=Automaticky pojmenovat èásti:
+19=Výstupní adresáø:
+20=Výstupní formát:
+21=Pøepoèítat èasové hodnoty
+22=Dvojklikem vyberete film
+23=&Rozdìlit!
+
+[Join]
+01=Spojit titulky...
+02=Pøidejte titulkové soubory, které si pøejete spojit (po poøádku):
+03=Název souboru
+04=Formát
+05=SZS
+06=Velikost
+07=Filmový zlomek (nepovinný)
+08=Pøid&at
+09=&Odebrat
+10=&Vyèistit
+11=&Nastavit filmový zlomek
+12=Vyèistit &filmový zlomek
+13=Výstupní formát:
+14=Výstupní SZS:
+15=Naèíst soubor po spojení a uložení
+16=Pøepoèítat èasové hodnoty
+17=&Spojit!
+
+[Information and errors]
+01=Informace a chyby
+02=Zkontrolovat!
+03=Opravit chyby!
+04=&Nastavení
+05=Potvrdit každé vymazání
+06=Titulek
+07=Typ
+08=Popis
+;-------;
+; Types ;
+;-------;
+09=Chyba
+10=Varování
+11=Informace
+13=Opraveno
+;----------------------;
+; Information messages ;
+;----------------------;
+14=Celkem chyb: %d
+15=Opraveno chyb: %d
+;---------------;
+; Error reports ;
+;---------------;
+16=Obsahuje øádky bez písmen
+17=Prázdný titulek
+18=Pøekrývání s pøedchozím titulkem
+19=Nesprávné hodnoty
+20=Pøíliš dlouhé trvání
+21=Pøíliš krátké trvání
+22=Pøíliš dlouhý øádek
+23=Pøes dva øádky
+24=Porucha sluchu
+25=Obsahuje text pøed dvojteèkou (":")
+26=Nadbyteèné teèky
+27=Obsahuje zakázaný znak
+28=Opakující se znak
+29=Opakující se titulek
+30=OCR chyba
+31=Jednoøádkový titulek zaèíná "-"
+32=Žádná mezera po uživatelském znaku
+33=Žádná mezera pøed uživatelským znakem
+34=Nadbyteèné mezery
+35=Oznaèený titulek
+;-------------;
+; Fix reports ;
+;-------------;
+36=Vymazány øádky bez písmen
+37=Prázdný titulek byl vymazán
+38=Pøekrývání opraveno
+39=Nesprávné hodnoty opraveny
+40=Titulek pøes dva øádky byl opraven
+41=Odstranìn titulek pro poruchu sluchu
+42=Byla vymazána èást pro poruchu sluchu
+43=Odstranìn text pøed dvojteèkou (":")
+44=Nadbyteèné teèky odstranìny
+45=Obsahoval zakázaný znak a byl vymazán
+46=Opraven opakující se znak
+47=Opraven opakující se titulek
+48=Opraveny OCR chyby
+49=Vymazána "-" v jednoøádkovém titulku
+50=Pøidána mezera po uživatelském znaku
+51=Pøidána mezera pøed uživatelský znak
+52=Nadbyteèné mezery odstranìny
+;-----
+53=Dvojklikem pøeskoèíte na øádku v hlavním oknì
+
+[Information and errors Settings]
+01=Nastavení
+02=Obecná
+03=Pokroèilá
+04=Kontrolovat
+05=Opravovat
+06=Nadbyteèné mezery
+07=Ukazovat potvrzení o opravì v hlavním oknì
+08=Oznaèit chyby v seznamu hlavního okna
+09=Nastavit barvu...
+10=Tuèné
+11=Kurzíva
+12=Podtrhnout
+13=Oznaèit chyby pøi naètení titulkù
+14=Opravit chyby pøi naètení titulkù
+15=Pøi naètení opravit jednu jednotku pøekryvu
+16=OCR skript:
+17=&Upravit
+18=Opakující se znaky:
+19=Zakázané znaky:
+20=Tolerance pro opakující se titulky:
+21=milisekund.
+22=Mezera po znacích:
+23=Mezera pøed znaky:
+24=Pøíliš dlouhé trvání:
+25=Pøíliš krátké trvání:
+26=Pøíliš dlouhý øádek:
+27=znakù.
+;------
+28=Øádky bez písmen
+29=Prázdné titulky
+30=Pøekrývání titulkù
+31=Nesprávné hodnoty
+32=Pøíliš dlouhá trvání
+33=Pøíliš krátká trvání
+34=Pøíliš dlouhé øádky
+35=Titulky pøes dva øádky
+36=Titulky poruchy sluchu
+37=Text pøed dvojteèkou (":")
+38=Pouze pokud je text velkými písmeny
+39=Nadbyteèné teèky
+40=Zakázané znaky
+41=Opakující se znaky
+42=Opakující se titulky
+43=OCR chyby
+44="-" v titulcích s jednou øádkou
+45=Mezery po uživatelských znacích
+46=Mezery pøed uživatelskými znaky
+47=Nadbyteèné mezery
+;------
+48=Kontrolovat:
+49=Opravovat:
+50=Entery a mezery na zaèátku a konci
+51=Mezery mezi entery (levý a pravý)
+52=Dvojité mezery a entery
+53=Mezery pøed interpunkèními znaky
+54=Mezery po "¿" a "¡"
+55=Mezery pøed "?" a "!"
+56=Mezery mezi èísly
+
+[Various information]
+01=Rùzné informace
+02=Informace
+03=Další
+04=Originál
+05=Pøeklad
+06=Aktuální formát:
+07=Soubor:
+08=Velikost:
+09=Celkový poèet titulkù:
+10=Celkový poèet øádkù:
+11=Celkový poèet slov:
+12=Celkový poèet písmen:
+13=Titulkù s jedním øádkem:
+14=Titulkù se dvìma øádky:
+15=Titulkù s více než dvìma øádky:
+16=Nejdelší øádek:
+17=V titulku %d s(e) %d znaky
+18=Nejlepší velikost písma pro pøehrávání
+19=Šíøka rozlišení:
+20=Z AVI
+21=Název písma:
+22=Tuèné
+23=Kurzíva
+24=Vypoèítat
+
+[SAMI Language Extractor]
+01=SAMI jazykový extraktor
+02=SAMI soubor:
+03=Výstupní adresáø:
+04=Vybrané jazyky budou vyjmuty:
+05=Tøída
+06=Jazyk
+07=Automat. detekovat všechny
+08=Pøidat manuálnì
+09=Vyjmout!
+10=Pøidat jazyk
+11=Vložte název tøídy požadovaného jazyka:
+12=Prosím èekejte...
+
+[About form]
+01=O programu %s
+02=Informace
+03=Titulky
+04=Verze: %s
+05=%s verze: %s
+06=podporuje %d rùzných formátù
+07=Pokud se Vám tento software líbí, opravdu oceníme jakýkoliv dar. Kliknìte zde.
+08=Naprogramováno
+09=Pomocné programování
+10=%s od
+; Following line is "DirectShow programming"
+11=%s programování
+12=Pøekladatelé
+13=Beta testovaèi
+14=Standardní ikona od
+15=Pro aktualizace navštivte:
+
+[Error messages]
+01=Nemohu spustit titulkovou API. Prosím stáhnìte DLL "%s" z %s a nakopírujte jí do adresáøe "%s".
+02=Následující chyba (%s) byla odvozena z objektu %s (%s):||"%s"||Prosím napište zprávu o tom, co jste dìlali, když tato chyba nastala, na adresu %s.||Stisknìte Ok pro pokraèování nebo Zrušit pro ukonèení programu.
+03=Soubor "%s" je nesprávný titulek nebo nepodporovaný formát.
+04=Soubor "%s" není v %s formátu nebo není platným titulkovým souborem.
+05="%s" není platný video soubor.
+06=Neplatné èíslo øádku.
+07=Vyberte alespoò jednu pøíponu pro vyhledávání.
+08=Cesta vyhledávání neexistuje.
+09=Položka pod tímto èíslem není platnou položkou.
+10=Prosím pøidejte dva nebo více titulkù.
+11=Nepodaøilo se pøipojit k serveru!
+12=Nemohu odstranit atribut "Jen pro ètení" z "%s".||Pravdìpodobnì je na disku chránìném proti zápisu.
+13=Chyba pøi pokusu o pøipojení se k Microsoft Wordu!
+14=Nejprve vyberte video(-a) pro pøedchozí èást(i)!
+15=Vyberte platný výstupní adresáø.
+16=Vyberte pøinejmenším jeden jazyk k vyjmutí.
+17="%s" není platný SAMI soubor.
+18=Vyberte èást titulku ze seznamu.
+19=Pokud vyberete filmový zlomek pro jednu èást titulku, musíte vybrat filmový zlomek pro všechny èásti titulku (samozøejmì s výjimkou poslední èásti).
+20=Potøebujete dva nebo více bodù.
+
+[Question messages]
+01=Soubor "%s" byl pozmìnìn.||Chcete zmìny uložit?
+02=Soubor "%s" již existuje.||Chcete ho nahradit?
+03=Originální soubor ("%s") byl pozmìnìn.||Chcete zmìny uložit?
+04=Pøeložený soubor ("%s") byl pozmìnìn.||Chcete zmìny uložit?
+05=Vybrané titulky mají být právì vymazány.||Chcete pokraèovat?
+06=Bod 1 Titulek: %s|Bod 1 Film: %s||Bod 2 Titulek: %s|Bod 2 Film: %s||Synchronizovat titulek?
+07=Spustitelný soubor videopøehrávaèe není specifikován nebo neexistuje.||Chcete nakonfigurovat externí pøehrávaè?
+08=Nalezena nová verze!||Chcete si prohlédnout seznam zmìn?
+09=Soubor, který se pokoušíte uložit, je pouze ke ètení.||Beztak zkusit uložit?
+
+[Information messages]
+01=Nemohu nalézt více instancí "%s".
+02=Žádná nová verze k dispozici.
+03=Kontrola pravopisu je dokonèena.||%d zmìn provedeno.
+04=Pøíliš mnoho èástí. Resetuji...
+05=Byl nalezen pouze jeden jazyk.||Pokud soubor obsahuje více jazykù, pøidejte ten, který si pøejete ruènì, otevøením souboru v textovém editoru a nalezením správného jména tøídy.
+06=Nemohu lokalizovat poèáteèní a/nebo koncový "STYLE" tag!||Pravdìpodobnì proto, že tento soubor neobsahuje více než jeden jazyk.|Pokud obsahuje, pokuste se pøidat jméno tøídy požadovaného jazyka manuálním vyhledáváním.
+07=Nejvhodnìjší velikost písma pro pøehrávání je: %d
+08=Poèet nahrazení: %d
+09=Název souboru: %s|Velikost: %s|SZS: %s|Délka: %s|Poèet snímkù: %d|Rozlišení: %dx%d|FourCC: %s
+10=Nìkterý z tokù filmu nemohl být správnì pøehrán. Pravdìpodobnì chybí audio nebo video kodek.
+11=Není nezbytné nastavovat filmový zlomek odpovídající poslednímu titulku.
+
+[Information and errors messages]
+01=Titulek èíslo %d je prázdný titulek a má být právì vymazán.||Chcete pokraèovat?
+02=Titulek èíslo %d:||"%s" obsahuje nepovolený znak a má být právì vymazán.||Chcete pokraèovat?
+03=Titulek èíslo %d:||"%s" má být právì vymazán.||Chcete pokraèovat?
+04=Èást titulku èíslo %d:||"%s" má být právì vymazána, takže titulek bude:||"%s"||Chcete pokraèovat?
+05=Titulek èíslo %d:||"%s" je jednoøádkovým titulkem a zaèíná "-".||Chcete vymazat "-" na zaèátku?

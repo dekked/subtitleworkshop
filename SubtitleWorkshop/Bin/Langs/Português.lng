@@ -1,0 +1,869 @@
+;   Subtitle Workshop 2.51
+;   Portuguese language file
+;
+;   Author: IVVENAL
+;   E-mail: smogvg@bigfoot.com
+
+[General]
+Translator=ivvenal
+Font Charset=0
+AllFiles=Todos os ficheiros suportados
+Help=Manual.html
+FPS=FPS
+PlainText=Apenas texto
+STP=Projecto de tradução de legendagem
+SRF=Ficheiro de relatório de legendagem
+
+[Standard buttons]
+01=&Aceitar
+02=&Cancelar
+03=&Procurar
+04=&Aplicar
+05=&Sair
+06=&Sim
+07=&Não
+
+[Main Form]
+01=Modo:
+02=Tempo
+03=Fotogramas
+04=Entrada FPS:
+05=FPS:
+06=Trabalhar em relação a:
+07=Duração|Tempo Final|Ambos
+08=N.º
+09=Início
+10=Fim
+11=Texto
+12=Tradução
+13=%d linhas não traduzidas
+14=Duração:
+15=%s (%s caracteres):
+16=- Legenda não traduzida -
+
+[Main menu header]
+01=Ficheiro
+02=Editar
+03=Procurar
+04=Ferramentas
+05=Filme
+06=Configurações
+07=Ajuda
+
+[Main menu/File]
+01=Nova legendagem...
+02=Abrir legendagem...
+03=Ficheiros Recentes
+04=Limpar listagem
+05=Carregar
+06=Projecto...
+07=Original
+08=Traduzido
+09=Guardar
+10=Original como...
+11=Traduzido como...
+12=Guardar como...
+13=Fechar
+14=Sair
+
+[Main menu/Edit]
+01=Desfazer
+02=Repetir
+03=Inserir legenda
+04=Inserir antes
+05=Remover selecção
+06=Cortar
+07=Copiar
+08=Colar
+09=Seleccionar tudo
+
+[Main menu/Edit/Timings]
+01=Temporizações
+02=Configurar limites de tempo...
+03=Configurar demora...
+04=Ajustar
+05=Ajustar legendas...
+06=Ajustar às legendas sincronizadas
+07=Expansor/Redutor de tempo
+08=Aumentar duração
+09=Demoras automáticas
+10=Ler temporizações do ficheiro
+11=Ajustar %s milissegundos
+
+[Main menu/Edit/Texts]
+01=Texto
+02=Ajustar linha inteligente
+03=Converter letra...
+04=Unir legendas
+05=Dividir linhas...
+06=Divisão rápida de linhas
+07=Definir extensão máxima da linha...
+08=Ler texto a partir do ficheiro
+
+[Main menu/Edit/Subtitles]
+01=Legendas
+02=Combinar legendas
+03=Efeitos
+04=Efeitos de tipo
+05=Intermitência
+06=Intermitência rápida
+07=Intermitência média
+08=Intermitência lenta
+09=Direita-para-a-Esquerda
+10=Inverter texto
+11=Corrigir pontuação
+12=Ordenar
+13=Apagar ligações desnecessárias
+14=Marcar legendas seleccionadas
+15=Desmarcar legendas seleccionadas
+
+[Main menu/Edit/Translation]
+01=Tradução
+02=Modo tradutor
+03=Verter
+
+[Main menu/Search]
+01=Localizar...
+02=Localizar seguinte
+03=Localizar && Substituir...
+04=Ir para a linha n.º...
+
+[Main menu/Tools]
+01=Verificação ortográfica
+02=Converter...
+03=Partir legendagem...
+04=Juntar legendagens...
+05=Informações e erros
+06=Informações e erros...
+07=Informações várias...
+08=Scripts de OCR
+09=Mostrar no formulário principal
+10=Opções...
+11=Reconfirmar erros
+12=Corrigir todos os erros
+13=Corrigir erros (legendas seleccionadas)
+14=Ir para o erro seguinte
+15=Adicionar FPS do AVI
+16=Pré-visualização externa
+17=Extractor de linguagem SAMI
+18=Scripts em Pascal
+
+[Main menu/Movie]
+01=Abrir...
+02=Fechar
+03=Informação...
+04=Modo de prévisualização de vídeo
+05=Mostrar legendas
+06=Gravar ficheiro de inicialização
+
+[Main menu/Movie/Playback]
+01=Reprodução
+02=Executar/Pausa
+03=Parar
+04=Retroceder
+05=Avançar
+06=Atrasar 5 segundos
+07=Adiantar 5 segundos
+08=Taxa de reprodução
+
+[Main menu/Movie/Subtitles]
+01=Legendas
+02=Mover legenda
+03=Definir tempo inicial
+04=Definir tempo final
+05=Legenda inicial
+06=Legenda final
+
+[Main menu/Movie/Synchronization]
+01=Sincronização
+02=Primeiro ponto de sincronia
+03=Último ponto de sincronia
+04=Adicionar ponto de sincronização
+
+[Main menu/Movie/Display]
+01=Mostragem
+02=Original
+03=Tradução
+
+[Main menu/Settings]
+01=Configurações de saída...
+02=Idioma
+03=Ver painel esquerdo
+04=Ver controlos de tempo
+05=Edição "in-place"
+
+[Main menu/Help]
+01=Acerca de %s...
+02=Procurar actualização
+
+[Popup Menu]
+01=Itálico
+02=Negrito
+03=Sublinhado
+04=Definir cor
+05=Remover traços de cor
+
+[Video preview hints]
+01=Executar/Pausa (%s)
+02=Parar (%s)
+03=Activar lista de apresentação
+04=Ir para a legenda anterior
+05=Ir para a próxima legenda
+06=Retroceder (%s)
+07=Avançar (%s)
+08=Alterar taxa de reprodução
+09=Mover legenda (%s)
+10=Definir tempo inicial (%s)
+11=Definir tempo final (%s)
+12=Legenda inicial (%s)
+13=Legenda final (%s)
+14=Marcar como primeiro ponto de sincronização (%s)
+15=Marcar como último ponto de sincronização (%s)
+16=Adicionar ponto de sincronização de legendagem/vídeo (%s)
+
+[Save as]
+01=Guardar como
+02=Escolher formato de saída:
+03=Formato personalizado
+04=Todos os formatos
+
+[Custom formats]
+01=Formatos personalizados
+02=Informação
+03=Nome:
+04=Extensão:
+05=Tipo de letra para nova linha:
+06=Tempo
+07=Fotogramas
+08=Estrutura:
+09=FPS:
+10=Carregar projecto
+11=Guardar projecto
+12=Memorizar o último formato personalizado
+13=Guardar!
+14=Projecto de formato personalizado
+
+[Settings Form]
+01=Opções
+02=Modificar opções do programa
+; Sections
+03=Geral
+04=Avançado
+05=Caracteres
+06=Formatos
+07=Tipos de ficheiro
+08=Guardar
+09=Pré-visualização Vídeo
+10=Legendas
+11=Pré-visualização externa
+12=Aspecto
+13=Programa
+14=Lista
+15=Menu
+;-----------------;
+; General section ;
+;-----------------;
+16=Sempre visível
+17=Permitir mais de uma instância activa
+18=Confirmar ao apagar legendas
+19=Reconhecer ficheiros inválidos como texto
+20=Procurar filme automaticamente
+21=Forçar trabalho em modo tempo
+22=Manter ordem das linhas ao inverter o texto
+23=Seleccionar texto ao saltar para a linha seguinte
+24=Seleccionar texto ao saltar para a linha anterior
+25=Entradas não interactivas
+26=Trabalhar com marcas de estilo
+27=Limite de ficheiros recentes
+;----------;
+; Advanced ;
+;----------;
+28=Ajustar linha inteligente
+29=Duas linhas se mais extenso que:
+30=caracteres
+31=Activar ponto de quebra
+32=Dividir linhas
+33=Partir linha depois de:
+34=Linha inteligente auto-ajustada
+35=Comprimento máximo da linha:
+36=Ajustar tempo:
+37=milisegundos
+;----------;
+; Charsets ;
+;----------;
+38=Mostrar no formulário principal
+39=Tipo de letra original:
+40=Tipo de letra da tradução:
+;-----------------;
+; Formats section ;
+;-----------------;
+41=Formato por omissão:
+42=Formatos a mostrar ao "Guardar como":
+43=Mostrar formatos personalizados
+44=&Todos
+45=&Nenhum
+;--------------------;
+; File types section ;
+;--------------------;
+46=Registar extensões ao iniciar
+47=Associar às extensões de legendas mais correntes
+;--------------;
+; Save section ;
+;--------------;
+48=Pedir para guardar ao sair/fechar legenda
+49=Guardar automaticamente a cada
+50=minutos.
+51=Guardar como segurança
+52=Opções de saída...
+;---------------;
+; Video preview ;
+;---------------;
+53=Duplo clique na legendagem:
+54=Segundos a saltar:
+55=Shift e duplo clique na legendagem:
+56=Focagem da caixa de texto
+57=Tempo restante de legendagem no vídeo
+58=Ir para N segundo(s) antes da legendagem no vídeo
+59=Tempo de retrocesso e avanço:
+60=segundos.
+61=Taxa alterada de reprodução por omissão:
+;-------------------------;
+; Video preview Subtitles ;
+;-------------------------;
+62=Desenhar rebordo
+63=Desenhar sombra
+64=Tentar fundo transparente
+65=Forçar a utilização de regiões (pode tornar-se lento)
+66=Fonte...
+67=Cor...
+68=Fundo...
+69=Largura do rebordo:
+70=Largura da sombra:
+71=EXEMPLO
+;--------------------------;
+; External Preview General ;
+;--------------------------;
+72=Programa de visualização:
+73=Detectar programa associado
+74=Pedir sempre um vídeo diferente
+75=Testar sempre com o vídeo:
+;---------------------------;
+; External Preview Advanced ;
+;---------------------------;
+76=Guardar legenda temporária com o formato:
+77=Formato original
+78=Formato personalizado:
+79=Parâmetros a enviar para o visualizador:
+80=VIDEO_FILE representa o ficheiro vídeo em que se vai testar a legendagem. SUBT_FILE é o parâmetro com que a legendagem temporária enviada para o visualizador. Podem ser adicionados outros parâmetros como janela cheia, etc.
+;----------------;
+; Look / Program ;
+;----------------;
+81=Fonte a utilizar no programa:
+82=Tamanho da fonte:
+83=Alinhar os campos "Texto" e "Tradução":
+84=Esquerda|Direita|Centro
+;-------------;
+; Look / List ;
+;-------------;
+85=Mostrar linhas de grelha
+86=Aplicar estilo às legendas
+87=Marcar legendas não traduzidas a:
+88=Mostrar barra de deslocamento horizontal
+;-------------;
+; Look / Menu ;
+;-------------;
+89=Utilisar menu estilo Office XP
+90=Exibir gradação no menu
+
+[Output settings]
+01=Configurações de saída
+02=ID do Disco:
+03=Título do DVD:
+04=Idioma:
+05=Autor:
+06=Rede:
+07=Informação:
+08=Licença:
+09=Legendagem:
+10=Segundo plano:
+11=EXEMPLO
+12=&Configurar Fonte
+13=Alinhar:
+14=Esquerda
+15=Centro
+16=Direita
+17=Taxa de amostragem:
+18=Fotograma arrastado
+19=Cor 0 (segundo plano):
+20=Cor 1 (Fonte):
+21=Cor 2 (rebordo):
+22=Cor 3 (antialiasing):
+23=Cor de Paleta n.°:
+24=Contraste
+25=Título:
+26=Script:
+27=Aspecto
+28=Outros
+29=Estilo do rebordo:
+30=Contorno + arrastamento da sombra
+31=Caixa opaca
+32=Cor
+33=Primária:
+34=Secundária:
+35=Terciária:
+36=Sombra:
+37=Margem esquerda:
+38=Margem direita:
+39=Margem vertical:
+40=Contorno:
+41=Alinhamento:
+42=Codificação:
+43=Origem:
+44=Programa:
+45=Caminho:
+46=Demora:
+47=Faixa do CD:
+48=Comentário:
+49=Formato TMPlayer
+50=Formato TMPlayer+
+51=Formato TMPlayer Multiline
+
+[Duration limits]
+01=Limites de visualização
+02=Definir máximo
+03=Milisegundos
+04=Definir mínimo
+05=* Aumentar o tempo não provocará sobreposição
+
+[Set delay]
+01=Definir demora
+02=Para todas as legendas
+03=Para as legendas seleccionadas
+
+[Adjust subtitles]
+01=Ajustar legendas
+02=Básico
+03=Avançado
+04=Primeira linha de fala:
+05=Última linha de fala:
+06=Carregar a partir de ficheiro
+07=Guardar em ficheiro
+08=Linha #
+09=Tempo anterior
+10=Novo tempo
+11=&Adicionar
+12=Adicionar a partir de &ficheiro
+13=&Remover
+14=Se o tempo não coíncidir pelo espaço entre pontos:
+15=Extrapolar
+16=Repor tempo inicial (sem alterações)
+17=Repor deslocação do ponto mais próximo
+18=&Ajustar!
+19=Criar novo ponto de sincronização
+20=Tempo anterior:
+21=Novo tempo:
+
+[Time expander/reducer]
+01=Expansor/Redutor de tempo
+02=Duração da expansão
+03=Reduzir duração
+04=Expandir/reduzir duração:
+05=Segundos
+06=Fotogramas
+07=Apenas se a legenda for mais longa do que:
+09=caracteres
+10=Apenas se a duração for superior a:
+11=Apenas se a duração for menor do que:
+12=Evitar sobreposição
+13=Para todas as legendas
+14=Para as legendas seleccionadas
+
+[Automatic durations]
+01=Durações automáticas
+02=Milissegundos
+03=por caractere
+04=por palavra
+05=por linha
+06=Aplicar a nova duração a todos os casos
+07=Apenas se a nova duração for superior à original
+08=Apenas se a nova duração for inferior à original
+09=Todas as legendas
+10=Apenas as legendas seleccionadas
+
+[Convert case]
+01=Converter letra
+02=Tipo de frase.
+03=Apenas a primeira letra da primeira palavra
+04=Detecção de "..."
+05=minúscula
+06=MAIÚSCULA
+07=Tipo de título
+08=iNVERSÃO dE tIPO
+09=Todas as legendas
+10=Apenas as legendas seleccionadas
+
+[Divide lines]
+01=Dividir linhas
+02=Dividir depois da linha número:
+03=Utilizar a duração automática
+04=Mostrar:
+05=Esconder:
+06=Duração:
+07=Continuar directamente
+08=%s caracteres
+09=&Dividir!
+
+[Search & Replace]
+01=Localizar e substituir
+02=Localizar
+03=Texto a procurar:
+04=Localizar!
+05=Substituir por:
+06=&Procurar seguinte
+07=&Substituir
+08=Substituir &tudo
+09=&Mais >
+10=Me&nos <
+11=Procura exacta
+12=Todas as palavras
+13=Preservar tipo de letra ao substituir
+14=Localizar texto em:
+15=Toda a legendagem
+16=A partir da selecção
+17=Tipo de letra:
+
+[Go to line]
+01=Ir para a linha número
+02=Escolher linha número:
+
+[Batch convert]
+01=Conversão automática
+02=Converter múltiplos ficheiros para um formato único rapidamente.
+; Buttons
+03=< &Anterior
+04=&Seguinte >
+05=C&onverter
+06=&Sair
+07=&Fechar
+08=&Todos
+09=&Nenhum
+; Page 1
+10=Extensões:
+11=Caminho de busca:
+12=Incluir subpastas
+13=Teste exaustivo do formato
+14=Pasta de destino:
+15=Formato de saída:
+16=FPS por omissão:
+; List columns
+17=Nome do ficheiro
+18=Formato
+19=FPS
+20=Tamanho
+; Page 2
+21=&Adicionar
+22=&Remover
+23=&Limpar
+; Page 3
+24=Completo! Consultar registo para detalhes:
+25=Guardar...
+; Searching
+26=A verificar ficheiro %s
+
+[Batch convert log]
+01=%s %s - Registo da conversão automática
+02=Criado em %s
+03=Formato de saída: %s
+04=Total de ficheiros a converter: %d
+05=A tentar carregar "%s"...
+06=Ficheiro carregado com sucesso!
+07=O ficheiro "%s" já existia; a substituir...
+08=Ficheiro guardado com sucesso em "%s"'
+09=O ficheiro "%s" já existia não tendo o programa sido habilitado para o substituir
+10=Erro ao carregar o ficheiro; impossível guardar!
+11=Total de conversões feitas: %u
+12=Tempo total: %s
+13=Todos os ficheiros foram convertidos com sucesso
+14=Erros ao converter alguns ficheiros, ver detalhes mais abaixo
+
+[Split]
+01=Dividir legendagem...
+02=Básico
+03=Avançado
+04=Item seleccionado
+05=Item número:
+06=Tempo:
+07=Fotograma:
+08=Final do vídeo:
+09=Designação
+10=Parte %d:
+11=Nome do ficheiro
+12=Comprimento
+13=Linhas
+14=Partes iguais em tempo
+15=Partes iguais em linhas
+16=Nos finais dos vídeos
+17=Número de partes:
+18=Nomear automaticamente as partes:
+19=Pasta de destino:
+20=Formato de saída:
+21=Recalcular valores do tempo
+22=Duplo clique para seleccionar filme
+23=&Partir!
+
+[Join]
+01=Juntar legendas...
+02=Adicione os ficheiros que pretende juntar (por ordem):
+03=Nome do ficheiro
+04=Formato
+05=FPS
+06=Tamanho
+07=Fragmento vídeo (Opcional)
+08=&Adicionar
+09=&Remover
+10=&Limpar
+11=&Configurar fragmento vídeo
+12=&Apagar fragmento vídeo
+13=Formato de saída:
+14=FPS de saída:
+15=Abrir ficheiro depois de juntar e guardar
+16=Recalcular valores do tempo
+17=&Juntar!
+
+[Information and errors]
+01=Informações e erros
+02=Verificar!
+03=Corrigir erros!
+04=&Configurações
+05=Confirmar sempre antes de apagar
+06=Legendas
+07=Tipo
+08=Descrição
+;-------;
+; Types ;
+;-------;
+09=Erro
+10=Aviso
+11=Informação
+13=Corrigido
+;----------------------;
+; Information messages ;
+;----------------------;
+14=Total de erros: %d
+15=Erros corrigidos: %d
+;---------------;
+; Error reports ;
+;---------------;
+16=Contém linhas sem letras
+17=Legenda vazia
+18=Sobreposição com a legenda anterior
+19=Valores incorrectos
+20=Duração demasiado longa
+21=Duração demasiado curta
+22=Linha(s) demasiado longa(s)
+23=Mais de duas linhas
+24=Deficientes auditivos
+25=Há texto antes dos dois pontos (":")
+26=Pontos desnecessários
+27=Contém um caractere não permitido
+28=Caractere repetido
+29=Legenda repetida
+30=Erro de OCR
+31=Uma das legendas começa por "-"
+32=Ausência de espaço após caractere personalizado
+33=Ausência de espaço antes do caractere personalizado
+34=Espaços desnecessários
+35=Legenda marcada
+;-------------;
+; Fix reports ;
+;-------------;
+36=Eliminadas as linhas sem letras
+37=Legenda vazia apagada
+38=Sobreposição corrigida
+39=Valores incorrectos corrigidos
+40=Legenda com mais de duas linhas ajustada
+41=Removida legenda para deficientes auditivos
+42=Removida anotação para deficientes auditivos
+43=Removido o texto antes dos dois pontos (":")
+44=Pontos desnecessários removidos
+45=Caractere não permitido foi apagado
+46=Caractere repetido corrigido
+47=Legenda repetida corrigida
+48=Erros de OCR corrigidos
+49=Eliminado o "-" na legenda com uma linha
+50=Adicionado espaço após caractere personalizado
+51=Adicionado espaço antes do caractere personalizado
+52=Espaços desnecessários removidos
+;-----
+53=Duplo-click para saltar para a linha no formulário principal
+
+[Information and errors Settings]
+01=Opções
+02=Geral
+03=Avançado
+04=Procurar por
+05=Corrigir
+06=Espaços desnecessários
+07=Afixar confirmações das correcções ao formulário principal
+08=Assinalar erros na lista do formulário principal
+09=Definir cor...
+10=Negrito
+11=Itálico
+12=Sublinhado
+13=Assinalar erros ao carregar a legendagem
+14=Corrigir erros ao carregar a legendagem
+15=Corrigir a unidade sobreposta ao abrir
+16=Script de OCR:
+17=&Editar
+18=Caracteres dobráveis:
+19=Caracteres não permitidos:
+20=Tolerância para repetição de legendas:
+21=milissegundos.
+22=Espaço depois dos caracteres:
+23=Espaço antes dos caracteres:
+24=Duração demasiado longa:
+25=Duração demasiado curta:
+26=Linha demasiado longa:
+27=caracteres.
+;------
+28=Linhas sem letras
+29=Legendas em branco
+30=Legendas sobrepostas
+31=Valores incorrectos
+32=Durações demasiado longas
+33=Durações demasiado curtas
+34=Linhas demasiado longas
+35=Legendas a ocupar duas linhas
+36=Legendas para deficientes auditivos
+37=Texto antes de dois pontos (":")
+38=Apenas se o texto estiver em letra maiúscula
+39=Pontos desnecessários
+40=Caracteres não permitidos
+41=Caracteres repetidos
+42=Legendas repetidas
+43=Erros de OCR
+44="- " em legendas com uma linha
+45=Espaços após caracteres personalizados
+46=Espaços antes dos caracteres personalizados
+47=Espaços desnecessários
+;------
+48=Procurar por:
+49=Corrigir:
+50=Entradas e espaços no princípio e no fim
+51=Espaços entre entradas (esquerda e direita)
+52=Espaços duplos e entradas
+53=Espaços à frente de sinais de pontuação
+54=Espaços depois de "¿" e "¡"
+55=Espaços antes de "?" e "!"
+56=Espaços entre números
+
+[Various information]
+01=Informações diversas
+02=Informação
+03=Extras
+04=Ficheiro original
+05=Ficheiro traduzido
+06=Formato actual:
+07=Ficheiro:
+08=Tamanho:
+09=Número total de legendas:
+10=Número total de linhas:
+11=Número total de palavras:
+12=Número total de caracteres:
+13=Legendas com uma linha:
+14=Legendas com duas linhas:
+15=Legendas com mais de duas linhas:
+16=Linha mais longa:
+17=Na legenda %d com %d caracteres
+18=Tamanho de fonte optimizado para reprodução
+19=Largura da resolução:
+20=A partir do AVI
+21=Nome da fonte:
+22=Negrito
+23=Itálico
+24=Calcular
+
+[SAMI Language Extractor]
+01=Extractor de linguagem SAMI
+02=Ficheiro SAMI:
+03=Pasta de destino:
+04=As linguagens seleccionadas vão ser extraídas:
+05=Sigla
+06=Idioma
+07=Detectar todos automaticamente
+08=Adicionar manualmente
+09=Extrair!
+10=Adicionar idioma
+11=Introduzir sigla do idioma pretendido:
+12=Aguarde, por favor...
+
+[About form]
+01=Acerca do %s
+02=Informação
+03=Créditos
+04=Versão: %s
+05=%s versão: %s
+06=%d formatos distintos suportados
+07=Se aprecia este programa, agradeceríamos imenso se nos desejasse fazer um donativo. Prima aqui para o fazer.
+08=Programado por
+09=Programação adicional
+10=%s por
+; Following line is "DirectShow programming"
+11=Programação %s
+12=Tradutores
+13=Testes a cargo de:
+14=Ícone de origem de
+15=Para actualizações visite:
+
+[Error messages]
+01=Não foi possível inicializar API de legendagem. Por favor faça o download da DLL "%s" a partir de %s e copie-a para a pasta "%s".
+02=O erro (%s) fica a dever-se ao objecto %s (%s):||"%s"||Por favor escreva para %s a informar do que estava a fazer quando este erro ocorreu.||Pressione Aceitar para continuar, e Cancelar para sair do programa.
+03=O ficheiro "%s" é uma legendagem danificada ou está num formato não suportado.
+04=O ficheiro "%s" não está no formato %s ou não é um ficheiro de legendagem válido.
+05="%s" não é um ficheiro vídeo válido.
+06=Número de linha inválido.
+07=Seleccione pelo menos uma extensão para efectuar a busca.
+08=O caminho de pesquisa não existe.
+09=O número de item não corresponde a um item válido.
+10=Por favor adicione duas ou mais legendas.
+11=Falha na ligação ao servidor!.
+12=Não foi possível remover atributo de restrição de escrita em "%s".||Possivelmente um dispositivo com protecção de escrita.
+13=Erro ao tentar ligação ao Microsoft Word!.
+14=Seleccionar vídeo(s) da(s) parte(s) prévia(s) primeiro!.
+15=Seleccionar uma pasta de destino válida.
+16=Seleccionar pelo menos um idioma para extracção.
+17="%s" não é um ficheiro SAMI válido.
+18=Seleccionar uma parte da legenda a partir da lista.
+19=Se seleccionar um fragmento vídeo para uma parte da legendagem terá de seleccionar um fragmento vídeo para todas as partes da legendagem (excepto, claro, para a última parte).
+20=São necessários dois ou mais pontos.
+
+[Question messages]
+01=Ficheiro "%s" foi alterado.||Deseja guardar as alterações?.
+02=Ficheiro "%s" já existe.||Deseja substituí-lo?.
+03=Ficheiro original ("%s") foi alterado.||Deseja guardar as alterações?.
+04=Ficheiro traduzido ("%s") foi alterado.||Deseja guardar as alterações?.
+05=As legendas seleccionadas vão ser apagadas.||Deseja prosseguir?.
+06=Ponto 1 Legenda: %s|Ponto 1 Filme: %s||Ponto 2 Legenda: %s|Ponto 2 Filme: %s||Sincronizar legendagem?
+07=O executável de visualização vídeo não foi especificado ou não existe.||Deseja configurar um visualizador externo?.
+08=Foi encontrada uma nova versão!.||Deseja ver a lista de alterações?.
+09=O ficheiro que está a tentar guardar é apenas de leitura.||Tentar guardar mesmo assim?.
+
+[Information messages]
+01=Não foi possível encontrar mais ocorrências de "%s".
+02=Não está disponível nenhuma versão nova.
+03=Verificação ortográfica completa.||%d alteração(ões) efectuada(s).
+04=Demasiadas partes. A reinicializar...
+05=Apenas um idioma foi encontrado.||Se o ficheiro contiver outros idiomas, adicione manualmente os que desejar abrindo o ficheiro num editor de texto e procurando a sigla que lhe corresponde.
+06=Não foi possível localizar a barra de abrir e/ou fechar "ESTILO"!.||Provavelmente por isso, este ficheiro não deve comportar mais do que um idioma.|Se o fizer, tente adicioná-lo manualmente procurando pela(s) sigla(s) do(s) idioma(s) pretendido(s).
+07=O tamanho optimizado para a reprodução é: %d
+08=Total de substituições: %d
+09=Nome do ficheiro: %s|Tamanho: %s|FPS: %s|Duração: %s|Total de fotogramas: %d|Resolução: %dx%d|FourCC: %s
+10=Alguns segmentos do filme não foram correctamente renderizados. Provavelmente não está presente o descodificador áudio ou vídeo.
+11=Não é necessário configurar o fragmento vídeo correspondente à última legenda.
+
+[Information and errors messages]
+01=A legenda n.º %d está em branco e vai ser apagada.||Deseja continuar?.
+02=A legenda n.º %d:||"%s" tem um caracter não suportado e vai ser removida.||Deseja continuar?.
+03=A legenda n.º %d:||"%s" vai ser removida.||Deseja continuar?.
+04=Parte da legenda n.º %d:||"%s" vai ser apagada; a legenda passará a ser:||"%s"||Deseja continuar?.
+05=A legenda n.º %d:||"%s" é constituída por uma única linha e começa por "-".||Deseja apagar o "-" no início?.

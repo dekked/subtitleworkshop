@@ -1,0 +1,17 @@
+[Information]
+Name=SubRip
+Extension=*.srt
+Time structure=hh:mm:ss,zzz
+Time=True
+FPS=25
+New line char=[Enter]
+
+[Format text]
+{RepeatSub}
+{SubCount}
+{swStart} --> {swEnd}
+{swText}
+** This is a blank line that SubRip format needs: !*
+
+{EndRepeat}
+

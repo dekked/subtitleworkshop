@@ -1,0 +1,871 @@
+;   Subtitle Workshop 2.51
+;   Valencian language file
+;
+;   Translator : ACF
+;   E-mail     : info@softwarevalencia.com
+;   Web        : www.softwarevalencia.com
+
+[General]
+Translator=ACF
+Font Charset=0
+AllFiles=Tots els archius soportats
+Help=ManualSPA.html
+FPS=FPS
+PlainText=Nomes text
+STP=Proyecte de traduccio de subtitul
+SRF=Archiu de report de subtituls
+
+[Standard buttons]
+01=&Acceptar
+02=&Cancelar
+03=&Vore
+04=&Aplicar
+05=&Tancar
+06=&Si
+07=&No
+
+[Main Form]
+01=Modo:
+02=Temps
+03=Quadros
+04=FPS d'entrada:
+05=FPS:
+06=Treballar en:
+07=Duracio|Temps final|Els dos
+08=Num
+09=Vore
+10=Amagar
+11=Text
+12=Traduccio
+13=%d llinies sense traduir
+14=Duracio:
+15=%s (%s caracters):
+16=- Subtitul no traduit -
+
+[Main menu header]
+01=Archiu
+02=Edicio
+03=Buscar
+04=Ferramentes
+05=Pelicula
+06=Configuracio
+07=Ajuda
+
+[Main menu/File]
+01=Nou subtitul...
+02=Carregar subtitul...
+03=Archius recents
+04=Eliminar llista
+05=Carregar
+06=Proyecte...
+07=Original
+08=Traduit
+09=Guardar
+10=Original com...
+11=Traduit com a...
+12=Guardar com a...
+13=Tancar
+14=Eixir
+
+[Main menu/Edit]
+01=Desfer
+02=Refer
+03=Insertar subtitul
+04=Insertar abans
+05=Remoure seleccionats
+06=Tallar
+07=Copiar
+08=Pegar
+09=Seleccionar-ho tot
+
+[Main menu/Edit/Timings]
+01=Temps
+02=Aplicar llimits de duracio...
+03=Aplicar retart...
+04=Ajustar
+05=Ajustar subtituls...
+06=Ajustar a subtituls sincronisats
+07=Extensor/Reductor de temps
+08=Estendre llongitut
+09=Duracions automatiques
+10=Llegir temps d'archiu
+11=Desplaçar %s milisegons
+
+[Main menu/Edit/Texts]
+01=Texts
+02=Ajust de llinies inteligents
+03=Convertir MAYUSCULES i minuscules...
+04=Llevar enters
+05=Dividir llinies...
+06=Dividir llinies rapit
+07=Aplicar llongitut maxima de llinies
+08=Llegir texts d'archiu
+
+[Main menu/Edit/Subtitles]
+01=Subtituls
+02=Combinar subtituls
+03=Efectes
+04=Efecte "maquina d'escriure"
+05=Llampada
+06=Llampada rapida
+07=Llampada mija
+08=Llampada lenta
+09=Dreta-a-esquerra
+10=Revertir text
+11=Corregir puntuacio
+12=Ordenar
+13=Llevar enllaços innecesaris
+14=Marcar subtituls seleccionats
+15=Desmarcar subtituls seleccionats
+
+[Main menu/Edit/Translation]
+01=Traduccio
+02=Modo traductor
+03=Alternar
+
+[Main menu/Search]
+01=Buscar...
+02=Buscar següent
+03=Buscar && Reemplaçar...
+04=Anar a llinia...
+
+[Main menu/Tools]
+01=Corregir ortografia
+02=Conversio massiva...
+03=Tallar subtitul...
+04=Juntar subtituls...
+05=Informacio i erros
+06=Informacio i erros...
+07=Informacio variada...
+08=Scripts OCR
+09=Mostrar en el formulari principal
+10=Configuracio...
+11=Examinar novament per erros
+12=Corregir tots els erros
+13=Corregir erros (subtituls seleccionats)
+14=Botar al següent erro
+15=Afegir FPS d'un AVI
+16=Vista previa externa
+17=Extractor de llenguage SAMI
+18=Scripts Pascal
+
+[Main menu/Movie]
+01=Obrir...
+02=Tancar
+03=Informacio...
+04=Modo vista previa en video
+05=Vore subtituls
+06=Archiu d'inici de reproduccio
+
+[Main menu/Movie/Playback]
+01=Reproduccio
+02=Reproduir/Pausa
+03=Detindre
+04=Rebobinar
+05=Avançar
+06=Arrere 5 segons
+07=Avant 5 segons
+08=Velocitat de reproduccio
+
+[Main menu/Movie/Subtitles]
+01=Subtituls
+02=Moure subtitul
+03=Fixar temps inicial
+04=Fixar temps final
+05=Començar subtitul
+06=Acabar subtitul
+
+[Main menu/Movie/Synchronization]
+01=Sincronisacio
+02=Primer punt de sincronisacio
+03=Ultim punt de sincronisacio
+04=Afegir punt de sincronisacio
+
+[Main menu/Movie/Display]
+01=Vore
+02=Original
+03=Traduccio
+
+[Main menu/Settings]
+01=Configuracio d'eixida...
+02=Llenguage
+03=Vore panell de l'esquerra
+04=Vore controls de temps
+05=Usar edicio "en el lloc"
+
+[Main menu/Help]
+01=Al voltant de %s...
+02=Comprovar nova versio
+
+[Popup Menu]
+01=Cursiva
+02=Negreta
+03=Subrallat
+04=Fixar color
+05=Remoure tags de color
+
+[Video preview hints]
+01=Reproduir/Pausa (%s)
+02=Detindre (%s)
+03=Alternar desplaçar llista
+04=Botar al subtitul previ
+05=Botar al següent subtitul
+06=Rebobinar (%s)
+07=Avançar (%s)
+08=Canviar velocitat de reproduccio
+09=Moure subtitul (%s)
+10=Fixar temps inicial (%s)
+11=Fixar temps final (%s)
+12=Començar subtitul (%s)
+13=Acabar subtitul (%s)
+14=Marcar com a primer punt de sincronisacio (%s)
+15=Marcar com a ultim punt de sincronisacio (%s)
+16=Afegir punt de sincronisacio subtitul/video (%s)
+
+[Save as]
+01=Guardar com a
+02=Feu doble clic en el format d'eixida:
+03=Format personalisat
+04=Tots els formats
+
+[Custom formats]
+01=Formats personalisats
+02=Informacio
+03=Nom:
+04=Extensio:
+05=Caracter de nova llinia:
+06=Temps
+07=Quadros
+08=Estructura:
+09=FPS:
+10=Carregar proyecte
+11=Guardar proyecte
+12=Recordar l'ultim format personalisat
+13=¡Guardar!
+14=Proyecte de format personalisat
+
+[Settings Form]
+01=Configuracio
+02=Canvia la configuracio del programa
+; Sections
+03=General
+04=Avançat
+05=Charsets
+06=Formats
+07=Tipos d'archiu
+08=Guardar
+09=Vista previa en video
+10=Subtituls
+11=Vista previa externa
+12=Aspecte
+13=Programa
+14=Llista
+15=Menu
+;-----------------;
+; General section ;
+;-----------------;
+16=Sempre damunt
+17=Permetre mes d'una instancia del programa eixecutant-se
+18=Confirmar a l'eliminar subtituls
+19=Interpretar archius invalits com a nomes de text 
+20=Buscar automaticament la pelicula
+21=Forçar treballar en modo temps
+22=Mantindre l'orde de les llinies al revertir el text
+23=Seleccionar el text al botar a la següent llinia
+24=Seleccionar el text al botar a la llinia previa
+25=No interactuar en els tags
+26=Treballar en tags d'estil
+27=Llimit d'archius recents:
+;----------;
+; Advanced ;
+;----------;
+28=Ajust de llinies inteligent
+29=Dos llinies si es mes llarc que:
+30=caracters
+31=Alternar punt de trencament
+32=Dividir llinies
+33=Trencar llinies despres de:
+34=Ajustar llinies automaticament
+35=Llongitut maxima de llinia:
+36=Temps de desplaçament:
+37=milisegons
+;----------;
+; Charsets ;
+;----------;
+38=Vore en el formulari principal
+39=Charset original:
+40=Charset traduit:
+;-----------------;
+; Formats section ;
+;-----------------;
+41=Format predeterminat:
+42=Formats a mostrar al "Guardar com a":
+43=Vore formats personalisats
+44=Seleccionar-ho &tot
+45=Seleccionar &cap
+;--------------------;
+; File types section ;
+;--------------------;
+46=Registrar extensions a l'escomençar
+47=Associar en la majoria de les extensions soportades
+;--------------;
+; Save section ;
+;--------------;
+48=Demanar guardar a l'eixir del programa/Tancar el subtitul
+49=Guardar el treball automaticament cada
+50=minuts.
+51=Guardar com a copia de seguritat
+52=Configuracio d'eixida...
+;---------------;
+; Video preview ;
+;---------------;
+53=Doble clic en un subtitul:
+54=Segons per a botar:
+55=Shift-doble clic en un subtitul:
+56=Donar-li la llum al quadro de text
+57=Anar al temps d'eixe subtitul en el video
+58=Anar N segon(s) abans del subtitul en el video
+59=Temps de rebobinar i avançar:
+60=segons.
+61=Velocitat de reproduccio alterada per defecte:
+;-------------------------;
+; Video preview Subtitles ;
+;-------------------------;
+62=Dibuixar vora
+63=Dibuixar ombra
+64=Intentar fondo transparent
+65=Forçar usant regions (potser lent)
+66=Font...
+67=Color...
+68=Fondo...
+69=Ample de la vora:
+70=Ample de l'ombra:
+71=EIXEMPLE
+;--------------------------;
+; External Preview General ;
+;--------------------------;
+72=Exe del reproductor de video:
+73=Detectar programa associat
+74=Preguntar un video diferent cada volta
+75=Sempre provar en este video:
+;---------------------------;
+; External Preview Advanced ;
+;---------------------------;
+76=Guardar el subtitul temporal en el format:
+77=Format original
+78=Format personalisat
+79=Parametro per a enviar-li al reproductor de video:
+80=VIDEO_FILE representa l'archiu de video en el que va a provar els subtituls. SUBT_FILE es el parametro en el qual l'archiu de subtituls temporal sera enviat al reproductor de video. Pots afegir uns atres parametros, per eixemple pantalla sancera, etc.
+;----------------;
+; Look / Program ;
+;----------------;
+81=Font per a usar en el programa:
+82=Tamany de font::
+83=Allineament dels camps "Text" i "Traduccio":
+84=Esquerra|Dreta|Centrada
+;-------------;
+; Look / List ;
+;-------------;
+85=Vore llinies divisories
+86=Aplicar estil als subtituls
+87=Marcar subtituls sense traduir en el color:
+88=Vore scrollbar horisontal
+;-------------;
+; Look / Menu ;
+;-------------;
+89=Usar menu a l'estil Office XP
+90=Usar menu en degradat
+
+[Output settings]
+01=Configuracio d'eixida
+02=ID del disc:
+03=Titul del DVD:
+04=Idioma:
+05=Autor:
+06=Web:
+07=Info:
+08=Llicencia:
+09=Subtitul:
+10=Fondo:
+11=EIXEMPLE
+12=&Aplicar font
+13=Allineament:
+14=Esquerra
+15=Centre
+16=Dreta
+17=FPS:
+18=Botar quadro
+19=Color 0 (fondo):
+20=Color 1 (font):
+21=Color 2 (vora):
+22=Color 3 (antialiasing, suavisat):
+23=Color de paleta n°:
+24=Contrast
+25=Titul:
+26=Guio:
+27=Cosmetics
+28=Uns Atres
+29=Estil de la vora:
+30=Vora + ombra baix
+31=Quadro opac
+32=Color
+33=Primari:
+34=Secundari:
+35=Terciari:
+36=Ombra:
+37=Marge esquerre:
+38=Marge dret:
+39=Marge vertical:
+40=Vora:
+41=Allineament:
+42=Codificacio:
+43=Font:
+44=Programa:
+45=Directori:
+46=Retart:
+47=Pista del CD:
+48=Comentari:
+49=Format TMPlayer:
+50=Format TMPlayer+
+51=Format TMPlayer multi llinia
+
+[Duration limits]
+01=Llimits de duracio
+02=Donar duracio maxima
+03=Milisegons
+04=Donar duracio minima
+05=* Botar el temps no causa superposicio
+
+[Set delay]
+01=Aplicar retart
+02=Per a tots els subtituls
+03=Per als subtituls seleccionats
+
+[Adjust subtitles]
+01=Ajustar subtituls
+02=Simple
+03=Avançat
+04=Primera llinia parlada:
+05=Ultima llinia parlada:
+06=Carregar d'archiu
+07=Guardar a archiu
+08=# de Llinia
+09=Temps antic
+10=Temps nou
+11=&Afegir
+12=Afegir de &mija
+13=&Remoure
+14=Si el temps està fora del ranc de punts:
+15=Extrapolar
+16=Tornar temps original (sense canvis)
+17=Tornar desplaçament del punt veï
+18=&¡Ajustar!
+19=Afegir nou punt
+20=Temps antic:
+21=Temps nou:
+
+[Time expander/reducer]
+01=Eixamplador/reductor de temps
+02=Eixamplar duracio
+03=Reduir duracio
+04=Eixamplar/reduir duracio:
+05=Segons
+06=Quadros
+07=Nomes si el subtitul es mes llarc que:
+09=caracters
+10=Nomes si la duracio es major que:
+11=Nomes si la duracio es menor que:
+12=Previndre superposicio
+13=Per a tots els subtituls
+14=Per als subtituls seleccionats
+
+[Automatic durations]
+01=Duracions automatiques
+02=Milisegons
+03=per caracter
+04=per paraula
+05=per llinia
+06=Aplicar nova duracio en tots els casos
+07=Nomes si la nova duracio es major que la original
+08=Nomes si la nova duracio es menor a la original
+09=Tots els subtituls
+10=Nomes els subtituls seleccionats
+
+[Convert case]
+01=Canviar MAYUSCULES i minuscules
+02=Tipo oracio.
+03=Nomes primera lletra de primera paraula
+04=Deteccio de "..."
+05=minuscules
+06=MAYUSCULES
+07=Tipo Titul
+08=tIPO iNVERS
+09=Tots els subtituls
+10=Nomes els subtituls seleccionats
+
+[Divide lines]
+01=Dividir llinies
+02=Dividir despres de la llinia numero:
+03=Usar duracions automatiques
+04=Vore:
+05=Amagar:
+06=Duracio:
+07=Seguir directament
+08=%s caracters
+09=&¡Dividir!
+
+[Search & Replace]
+01=Buscar i Reemplaçar
+02=Buscar
+03=Text a buscar:
+04=&¡Buscar!
+05=Reemplaçar per:
+06=Buscar &següent
+07=&Reemplaçar
+08=R. &totes
+09=&Mes >
+10=&Menys <
+11=Sensible a mayuscules i minuscules
+12=Nomes paraula completa
+13=Preservar MAYUSCULES i minuscules al reemplaçar
+14=Buscar el text en:
+15=Tot el subtitul
+16=Des de l'item seleccionat
+17=Charset:
+
+[Go to line]
+01=Anar a llinia numero
+02=Posa el numero de llinia:
+
+[Batch convert]
+01=Conversio massiva
+02=Convertix multiples archius a un unic format de subtituls en uns pocs minuts.
+; Buttons
+03=< &Arrere
+04=&Següent >
+05=C&onvertir
+06=&Eixir
+07=&Tancar
+08=&Tots
+09=&Cap
+; Page 1
+10=Extensions:
+11=Directori de busca:
+12=Incloure subcarpetes
+13=Analisis de format exhaustiu
+14=Directori d'eixida:
+15=Format d'eixida:
+16=FPS per defecte:
+; List columns
+17=Nom
+18=Format
+19=FPS
+20=Tamany
+; Page 2
+21=&Afegir
+22=&Remoure
+23=&Eliminar
+; Page 3
+24=¡Fet!. Mira el log per a mes detalls:
+25=Guardar...
+; Searching
+26=Analisant archiu %s
+
+[Batch convert log]
+01=%s %s - Log de Conversio Massiva
+02=Generat el %s
+03=Format d'eixida: %s
+04=Total d'archius a convertir: %d
+05=Intentant carregar "%s"...
+06=¡Archiu carregat en exit!
+07=L'archiu "%s" ya existix, reemplaçant...
+08=Archiu guardat en exit a "%s"'
+09=L'archiu "%s" ya existia i no deixares que el programa el reemplaçara
+10=Erro al carregar l'archiu, ¡no se pot guardar!
+11=Total de conversions fetes: %u
+12=Temps total: %s
+13=Tots els archius foren convertits en exit:
+14=Hague erros al convertir alguns archius, mira aci baix per a mes detalls:
+
+[Split]
+01=Trencar subtitul
+02=Simple
+03=Avançat
+04=Item seleccionat
+05=Item numero:
+06=Temps donat:
+07=Quadro donat:
+08=A la fi d'un video:
+09=Noms
+10=Part %d:
+11=Nom d'archiu
+12=Llongitut
+13=Llinies
+14=Parts iguals en temps
+15=Parts iguals en llinies
+16=Al final de videos
+17=Numero de parts:
+18=Auto-nomenar les parts:
+19=Directori d'eixida:
+20=Format d'eixida:
+21=Recalcular valors de temps
+22=Doble clic per a seleccionar el video
+23=&Trencar!
+
+[Join]
+01=Juntar subtituls...
+02=Afegix els subtituls que vullgues juntar (en orde):
+03=Nom de l'archiu
+04=Format
+05=FPS
+06=Tamany
+07=Fragment de pelicula (Opcional)
+08=&Afegir
+09=&Remoure
+10=&Eliminar
+11=&Setejar fragment de pelicula
+12=E&liminar fragment de pelicula
+13=Format d'eixida:
+14=FPS d'eixida:
+15=Carregar archiu despres de juntar i guardar
+16=Recalcular valors de temps
+17=&Juntar!
+
+[Information and errors]
+01=Informacio i erros
+02=¡Calculant!
+03=¡Corregir erros!
+04=&Configuracio
+05=Confirmar cada cosa que se borra
+06=Subtitul
+07=Tipo
+08=Descripcio
+;-------;
+; Types ;
+;-------;
+09=Erro
+10=Advertencia
+11=Info
+13=Corregit
+;----------------------;
+; Information messages ;
+;----------------------;
+14=Numero total d'erros: %d
+15=Erros corregits: %d
+;---------------;
+; Error reports ;
+;---------------;
+16=Conté llinies sense lletres
+17=Subtitul buit
+18=Superposicio en el subtitul anterior
+19=Valors incorrectes
+20=Duracio massa llarga
+21=Duracio massa curta
+22=Llinia(es) massa llarga(gues)
+23=Mes de dos llinies
+24=Subtitul per a sorts
+25=Conté text abans dels dos punts (":")
+26=Punts innecesaris
+27=Conté un caracter prohibit
+28=Caracter repetit
+29=Subtitul repetit
+30=Erro en OCR
+31=Subtitul d'una llinia comença en "-"
+32=No hi ha un espai despres de caracter personalisat
+33=No hi ha un espai abans de caracter personalisat
+34=Espais innecesaris
+35=Subtitul marcat
+;-------------;
+; Fix reports ;
+;-------------;
+36=Borrat subtitul sense lletres
+37=Subtitul buit fon llevat
+38=Corregida superposicio
+39=Corregits valors incorrectes
+40=Subtitul de mes de dos llinies fon ajustat
+41=Remogut subtitul per a sorts
+42=La part per a sorts ha segut remoguda
+43=Remogut el text abans dels dos punts (":")
+44=Remoguts punts innecesaris
+45=Tenia un caracter prohibit i fon borrat
+46=Corregits caracters repetits
+47=Corregit subtitul repetit
+48=Corregits erros d'OCR
+49=Llevat "-" en subtitul de nomes una llinia
+50=Afegit espai despres de caracter personalisat
+51=Afegit espai abans de caracter personalisat
+52=Remoguts espais innecesaris
+;-----
+53=Fes doble clic per a botar ad esta llinia en la finestra principal
+
+[Information and errors Settings]
+01=Configuracio
+02=General
+03=Avançat
+04=Comprovar
+05=Corregir
+06=Espais innecesaris
+07=Vore confirmacions en el formulari principal al corregir erros
+08=Marcar erros en la llista principal
+09=Donar color...
+10=Negreta
+11=Cursiva
+12=Subrallat
+13=Marcar erros al carregar subtitul
+14=Corregir erros al carregar subtitul
+15=Corregir superposicio d'una unitat al carregar subtitul
+16=Script OCR:
+17=&Editar
+18=Caracters que se poden repetir:
+19=Caracters prohibits:
+20=Tolerancia per a subtituls repetits:
+21=milisegons.
+22=Espai despres dels caracters:
+23=Espai abans dels caracters:
+24=Duracio massa llarga:
+25=Duracio massa breu:
+26=Llinia massa llarga:
+27=caracters.
+;------
+28=Llinies sense lletres
+29=Subtituls buits
+30=Superposicio de subtituls
+31=Valors incorrectes
+32=Duracions molt llargues
+33=Duracions molt curtes
+34=Llinies molt llargues
+35=Subtitul de mes de dos llinies
+36=Subtituls per a sorts
+37=Text abans dels dos punts (":")
+38=Nomes si el text està en mayuscules
+39=Punts innecesaris
+40=Caracters prohibits
+41=Caracters repetits
+42=Subtituls repetits
+43=Erros en OCR
+44="- " en subtituls en una sola llinia
+45=Espais despres de caracters personalisats
+46=Espais abans de caracters personalisats
+47=Espais innecesaris
+;------
+48=Comprovant:
+49=Corregir:
+50=Enters i espais al principi i al final
+51=Espais entre enters (dreta i esquerra)
+52=Dobles espais i enters
+53=Espais despres de signes de puntuacio
+54=Espais despres de "¿" i "¡"
+55=Espais abans de "?" i "!"
+56=Espais entre numeros
+
+[Various information]
+01=Informacio variada
+02=Informacio
+03=Extres
+04=Archiu original
+05=Archiu traduit
+06=Format actual:
+07=Archiu:
+08=Tamany:
+09=Numero total de subtituls:
+10=Numero total de llinies:
+11=Numero total de paraules:
+12=Numero total de lletres:
+13=Subtituls en nomes una llinia:
+14=Subtituls en dos llinies:
+15=Subtituls en mes de dos llinies:
+16=Llinia mes llarga:
+17=En el subtitul %d en %d caracters
+18=Millor tamany de font per a la reproduccio
+19=Ample de la resolucio:
+20=D'un AVI
+21=Nom de font:
+22=Negreta
+23=Cursiva
+24=Calcular
+
+[SAMI Language Extractor]
+01=Extractor de llenguage SAMI
+02=Archiu SAMI:
+03=Directori d'eixida:
+04=Els llenguages seleccionats seran extrets:
+05=Classe
+06=Llenguage
+07=Auto detectar tots
+08=Afegir manualment
+09=¡Extraure!
+10=Afegir llenguage
+11=Introduix el nom de classe del llenguage desijat:
+12=Espere per favor...
+
+[About form]
+01=Al voltant de %s
+02=Informacio
+03=Credits
+04=Versio: %s
+05=%s versio: %s
+06=%d formats diferents soportats
+07=Si t'agrada este programa, realment nos alegraria que feres una donacio. Fes clic aci per a fer-la.
+08=Programat per
+09=Programacio adicional
+10=%s per
+; Following line is "DirectShow programming"
+11=Programacio %s
+12=Traductors
+13=Testejadors beta
+14=Icon predeterminat per
+15=Per a actualisacions visita:
+
+[Error messages]
+01=No se pogue iniciar l'API de subtituls. Descarrega la DLL "%s" de %s i copia-la en la carpeta "%s".
+02=El següent erro (%s) ha derivat de l'objecte %s (%s):||"%s"||S'agrairia que escrigueres a %s informant de que estaves fent quan passà est erro.||Pressiona Acceptar per a continuar, o Cancelar per a eixir del programa.
+03=L'archiu "%s" es un subtitul defectuos o un format no soportat.
+04=L'archiu "%s" no està en el format %s o no es un archiu de subtituls valit.
+05="%s" no es un archiu de video valit.
+06=No es un numero de llinia valit.
+07=Selecciona a lo manco una extensio per a buscar.
+08=El directori de busca no existix.
+09=El numero de l'item no es un item valit.
+10=Deus d'afegir dos subtituls o mes.
+11=¡Ha fallat la conexio en el servidor!.
+12=No s'ha pogut remoure l'atribut nomes-llectura de "%s".||Possiblement l'archiu estiga en un dispositiu protegit contra escritura.
+13=¡Erro intentant-se conectar a Microsoft Word!.
+14=Deus de seleccionar primer els videos per a les parts previes!.
+15=Selecciona un directori d'eixida valit.
+16=Selecciona a lo manco un llenguage per a extraure.
+17="%s" no es un archiu SAMI valit.
+18=Selecciona una part del subtitul en la llista.
+19=Si selecciones un fragment de pelicula per a una part del subtitul deus de seleccionar un fragment de pelicula per a totes les parts del subtitul (excepte l'ultima per supost).
+20=Necessites dos o mes punts.
+
+[Question messages]
+01=L'archiu "%s" ha canviat.||¿Vols guardar els canvis?.
+02=L'archiu "%s" ya existix.||¿Vols reemplaçar-lo?.
+03=L'archiu original ("%s") ha canviat.||¿Vols guardar els canvis?.
+04=L'archiu traduit ("%s") ha canviat.||¿Vols guardar els canvis?.
+05=Els subtituls seleccionats estan a punt de ser eliminats.||¿Vols continuar?.
+06=Punt 1 Subtitul: %s|Punt 1 Pelicula: %s||Punt 2 Subtitul: %s|Punt 2 Pelicula: %s||Sincronisar subtitul?
+07=L'eixecutable del reproductor de video no ha segut especificat o no existix.||¿Vols configurar un reproductor extern?.
+08=¡S'ha trobat una nova versio!.||¿Vols vore la llista de canvis?.
+09=L'archiu que estas intentant guardar es nomes-llectura.||¿Vols guardar-lo de totes maneres?.
+
+[Information messages]
+01=No se troben mes coincidencies en "%s".
+02=No s'ha trobat una nova versio.
+03=La revisio ortografica ha acabat.||%d canvi(s) realisat(s).
+04=Massa parts. Resetejant...
+05=Nomes s'ha trobat un llenguage.||Si l'archiu conté mes, afegix els que vullgues manualment obrint l'archiu en un editor de text i buscant el nom de classe correcte.
+06=¡No s'ha pogut localisar el principi o final del tag "STYLE"!.||Provablement per esta rao l'archiu no conté mes d'un llenguage.|Si hi ha mes d'u, intenta afegir els llenguages desijats manualment buscant el nom de classe correcte d'ells.
+07=El millor tamany de font per a la reproduccio es: %d
+08=Substitucions totals: %d
+09=Nom de l'archiu: %s|Tamany: %s|FPS: %s|Duracio: %s|Quadros totals: %d|Resolucio: %dx%d|FourCC: %s
+10=Algunes de les pistes de la pelicula no pogueren ser renderisades correctament. Possiblement el codec d'audio o video no estiga instalat.
+11=No es necessari setejar el fragment de pelicula corresponent a l'ultim subtitul.
+
+[Information and errors messages]
+01=El subtitul numero %d es un subtitul buit i està a punt de ser eliminat.||¿Vols continuar?.
+02=El subtitul numero %d:||"%s" conté un caracter prohibit i està a punt de ser eliminat.||¿Vols continuar?.
+03=El subtitul numero %d:||"%s" està a punt de ser eliminat.||¿Vols continuar?.
+04=Part del subtitul numero %d:||"%s" està a punt de ser borrat, aixina el subtitul quedarà com:||"%s"||¿Vols procedir?.
+05=El subtitul numero %d:||"%s" es un subtitul d'una llinia i comença en "-".||¿Vols eliminar el "-" del principi?.
+

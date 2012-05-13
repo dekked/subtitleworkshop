@@ -1,0 +1,21 @@
+Constant		Value	Description
+
+ANSI_CHARSET		0	ANSI characters. 
+DEFAULT_CHARSET		1	Font is chosen based solely on Name and Size. If the described font is not available on the system, Windows will substitute another font.
+SYMBOL_CHARSET		2	Standard symbol set.
+MAC_CHARSET		77	Macintosh characters. Not available on NT 3.51.
+SHIFTJIS_CHARSET	128	Japanese shift-jis characters.
+HANGEUL_CHARSET		129	Korean characters (Wansung).
+JOHAB_CHARSET		130	Korean characters (Johab). Not available on NT 3.51
+GB2312_CHARSET		134	Simplified Chinese characters (mainland china).
+CHINESEBIG5_CHARSET	136	Traditional Chinese characters (taiwanese).
+GREEK_CHARSET		161	Greek characters. Not available on NT 3.51.
+TURKISH_CHARSET		162	Turkish characters. Not available on NT 3.51
+VIETNAMESE_CHARSET	163	Vietnamese characters. Not available on NT 3.51.
+HEBREW_CHARSET		177	Hebrew characters. Not available on NT 3.51
+ARABIC_CHARSET		178	Arabic characters. Not available on NT 3.51
+BALTIC_CHARSET		186	Baltic characters. Not available on NT 3.51.
+RUSSIAN_CHARSET		204	Cyrillic characters. Not available on NT 3.51.
+THAI_CHARSET		222	Thai characters. Not available on NT 3.51
+EASTEUROPE_CHARSET	238	Includes diacritical marks for eastern european countries. Not available on NT 3.51.
+OEM_CHARSET		255	Depends on the codepage of the operating system.

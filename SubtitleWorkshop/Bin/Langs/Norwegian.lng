@@ -1,0 +1,880 @@
+;   Subtitle Workshop 2.51
+;   Norwegian language file
+;
+;   Oversetter: Flemming Vesterskov
+;   E-mail: Flemmingv@c2i.net
+;   
+
+[General]
+Translator=Flemming Vesterskov
+Font Charset=0
+AllFiles=Alle støttede filer
+Help=Manual.html
+FPS=FPS
+PlainText=Blank text
+STP=Undertekst Oversetnings Project
+SRF=Undertekst Rapport Fil
+
+[Standard buttons]
+01=&Ok
+02=&Avbryt
+03=&Velg
+04=&Bruk
+05=&Avslutt
+06=&Ja
+07=&Nei
+
+[Main Form]
+01=Format:
+02=Tid
+03=Rammer
+04=Innkommende FPS:
+05=Ny FPS:
+06=Jobb med:
+07=Varighet|Sluttid|Begge
+08=Nummer
+09=Vis
+10=Skjul
+11=Tekst
+12=Oversetting
+13=%d Ikke oversatt linjer
+14=Lengde:
+15=%s (%s tegn):
+16=- Ikke oversatt tekst -
+
+[Main menu header]
+01=Fil
+02=Rediger
+03=Søk
+04=Verktøy
+05=Film
+06=Instillinger
+07=Hjelp(Engelsk)
+
+[Main menu/File]
+01=Ny undertekst...
+02=Åpne undertekst...
+03=Tidligere filer
+04=Tøm liste
+05=Åpne
+06=Prosjekt...
+07=Original
+08=Oversatt
+09=Lagre
+10=Original som...
+11=Oversatt som...
+12=Lagre som...
+13=Steng
+14=Avslutt
+
+[Main menu/Edit]
+01=Angre
+02=gjenskape
+03=Legg til undertekst
+04=Legg til før
+05=Fjern valgt tekst
+06=Klipp ut
+07=Kopier
+08=Lim inn
+09=Merk alt
+
+[Main menu/Edit/Timings]
+01=Tidsjusteringer
+02=Set visningsgrense...
+03=Set forsinkelse...
+04=Tilpass
+05=Tilpass undertekst...
+06=Tilpass til synkroniserede undertekster
+07=Tids forlenger/reduserer
+08=Øke lengden
+09=Automatisk visningstidsgrense
+10=Les tidsjustering  fra fil
+11=Shift %s milliseconds
+
+[Main menu/Edit/Texts]
+01=Tekster
+02=Smart linie justering
+03=Konvertere...
+04=Hold underteksten ubrutt
+05=Avskill replikker...
+06=Avskill raske replikker
+07=Set maksimum linjelengde...
+08=Les tekster fra fil
+
+[Main menu/Edit/Subtitles]
+01=Undertekster
+02=Samle undertekster
+03=Effekter
+04=Tegn effekt
+05=Flash
+06=Rask flash
+07=Medium flash
+08=Langsom flash
+09=Høyre-til-venstre
+10=Speilvendt tekst
+11=Reparer midtmerke
+12=Sorter
+13=Fjern unødige linker
+14=Marker valgte undertekster
+15=Fjern markering fra valgte undertekster
+
+[Main menu/Edit/Translation]
+01=Tekst oversetning
+02=Oversetnings modus
+03=Skifte kolonner
+
+[Main menu/Search]
+01=Søk...
+02=Søk neste
+03=Søk && Erstatt...
+04=Gå til linje nummer...
+
+[Main menu/Tools]
+01=Stave kontroll
+02=Gruppe Endring...
+03=Del undertekst...
+04=Sammenføy undertekster...
+05=Information og feil
+06=Information og feil...
+07=Varierende information...
+08=OCR manus
+09=Vis i opprinnelig format
+10=Innstillinger...
+11=Sjekk for feil igjen
+12=Reparer alle feil
+13=Reparer feil (valgte undertekster)
+14=Gå til neste feil
+15=Hent FPS fra AVI
+16=Ekstern Forhandsvisning
+17=SAMI språk extractor
+18=Pascal manus
+
+[Main menu/Movie]
+01=Åpne...
+02=Lukk
+03=Information...
+04=Video visnings modus
+05=Vis undertekster
+06=Lagre media startfil
+
+[Main menu/Movie/Playback]
+01=Spill av
+02=Spill av/Pause
+03=Stop
+04=Spol tilbake
+05=Spol fremover
+06=Tilbake 5 Sekunder
+07=Frem 5 Sekunder
+08=Avspillingshastighet
+
+[Main menu/Movie/Subtitles]
+01=Undertekster
+02=Flytte undertekster
+03=Sett start tid
+04=Sett slutt tid
+05=Start undertekst
+06=Avslutt undertekst
+
+[Main menu/Movie/Synchronization]
+01=Synkronisering
+02=Første synk punkt
+03=Siste synk punkt
+04=Legg til synk punkt
+
+[Main menu/Movie/Display]
+01=Display
+02=Original
+03=Oversettning
+
+[Main menu/Settings]
+01=Eksporter instillinger...
+02=Språk
+03=Vis venstre panel
+04=Vis tidskontrol
+05=Bruk in-place editering
+
+[Main menu/Help]
+01=Om %s...
+02=Søk etter nyere versjoner
+
+[Popup Menu]
+01=Kursiv
+02=Fet
+03=Understreking
+04=Velg farge
+05=Fjern fargevalg
+
+[Video preview hints]
+01=Spill av/Pause (%s)
+02=Stopp (%s)
+03=Naviger i rulle listen
+04=Gå til forrige undertekst
+05=Gå til neste undertekst
+06=Bakover (%s)
+07=Framover (%s)
+08=Slow motion
+09=Flytt undertekst (%s)
+10=Sett start tid (%s)
+11=Sett slutt tid (%s)
+12=Start undertekst (%s)
+13=Avslutt undertekst (%s)
+14=Marker som første synk punkt (%s)
+15=Marker som siste synk punkt (%s)
+16=Legg til undertekst/video synk punkt (%s)
+
+[Save as]
+01=Lagre som
+02=Dobbelklikk på utformat:
+03=Egendefinert format
+04=Alle formater
+
+[Custom formats]
+01=Rediger format
+02=Information
+03=Navn:
+04=Endelse:
+05=Nytt linjetegn:
+06=Tid
+07=Ramme
+08=Struktur:
+09=FPS:
+10=Hent prosjekt
+11=Lagre prosjekt
+12=Husk siste egendefinerte format
+13=Lagre!
+14=Egendefinert prosjektformat
+
+[Settings Form]
+01=Innstillinger
+02=Modifiser programkonfigurasjonen
+; Sections
+03=Generelt
+04=Avansert
+05=Tegn
+06=Format
+07=Filtyper
+08=Lagre
+09=Video visning
+10=Undertekst
+11=Ekstern forhåndsvisning
+12=utseende
+13=Program
+14=Liste
+15=Menu
+;-----------------;
+; General section ;
+;-----------------;
+16=Alltid øverst
+17=Tillat flere utførsler samtidig
+18=Spør før sletting av undertekst
+19=Behandle ukjente filer som blank tekst
+20=Automatisk søking etter film
+21=Arbeid altid i tids modus
+22=Hold orden på liniene ved oversettelse
+23=Velg tekst ved hopp til neste linie
+24=Velg tekst ved hopp til foregående linie
+25=Ingen interaktion mellom mærker
+26=Jobb med stiltager
+27=Siste åpnede filbegrensninger:
+;----------;
+; Advanced ;
+;----------;
+28=Smart linie justering
+29=To linier hvis lengere end:
+30=Tegn
+31=Stoppunkt ved avskillelse
+32=Del linjer
+33=Bryt linjer etter:
+34=Juster linjer automatisk
+35=Maximal linje lengde:
+36=Endre tid:
+37=Millisekunder
+;----------;
+; Charsets ;
+;----------;
+38=Vis i hovedvindue
+39=Original tegntolkning:
+40=Oversettnings tegntolkning:
+;-----------------;
+; Formats section ;
+;-----------------;
+41=Forvalgt format:
+42=Vis format ved "Lagre som":
+43=Vis egendefinerte format
+44=Velg &alle
+45=Velg &ingen
+;--------------------;
+; File types section ;
+;--------------------;
+46=Registrer filendelser ved start
+47=Sammenlign med de vanligste undertekstendelser
+;--------------;
+; Save section ;
+;--------------;
+48=Spør om lagre ved programavslutt/lukk undertekst
+49=Lagre arbeid automatisk hvert
+50=Minutter.
+51=Lagre som backup
+52=Instillinger for utformat...
+;---------------;
+; Video preview ;
+;---------------;
+53=Dobbelklikk på undertekst:
+54=Hopp Sekunder:
+55=Shift-dobbelklikk på undertekst:
+56=Fokus tekst boks
+57=Gå undertekstens tid i video
+58=Gå N Sekund(er) før undertekst i video
+59=Bakover og fremover tid:
+60=Sekunder.
+61=Forinnstilt slow motion:
+;-------------------------;
+; Video preview Subtitles ;
+;-------------------------;
+62=Vis kanter
+63=Vis skygger
+64=Prøv transparent Bakgrunn
+65=Tving bruk av område (kan være langsom)
+66=Font...
+67=Farge...
+68=Bakgrunn...
+69=Kant bredde:
+70=Skygge bredde:
+71=MODELL
+;--------------------------;
+; External Preview General ;
+;--------------------------;
+72=Velg videospillerens program:
+73=Finn assosiert program
+74=Spør etter annen video hver gang
+75=Test alltid med videofil:
+;---------------------------;
+; External Preview Advanced ;
+;---------------------------;
+76=Lagre midlertidig undertekst i format:
+77=Originalt format
+78=Egendefinert format:
+79=Parameter som sendes til videospiller:
+80=VIDEO_FILE representerer videofilen med hvilken du tester underteksten . SUBT_FILE er
+parameteren med hvilken den midlertidige undertekst sendes til videoavspilleren. Du kan
+legge til andre parameter som for eks.Fullskjerm, osv.
+
+;----------------;
+; Look / Program ;
+;----------------;
+81=Font som brukes i programmet:
+82=Font størrelse:
+83="Text" og "oversettelse" felt plassering:
+84=Venstre|Høyre|Midtstillt
+;-------------;
+; Look / List ;
+;-------------;
+85=Vis rutenett
+86=Sett stil for undertekst
+87=Marker ikke oversatte tekst med farge:
+88=Vis horisontal scrollbar
+;-------------;
+; Look / Menu ;
+;-------------;
+89=Bruk Office XP stil Meny
+90=Bruk valgfri hovedmeny
+
+[Output settings]
+01=Innstillinger for utformat
+02=Disk ID:
+03=DVD Tittel:
+04=Språk:
+05=Forfatter:
+06=Web:
+07=Info:
+08=Lisens:
+09=Undertekst:
+10=Bakgrunn:
+11=MODELL
+12=&Velg font
+13=Plassering:
+14=Venstre
+15=Midtstillt
+16=Høyre
+17=Bilde frekvens:
+18=Minske bilde
+19=Farge 0 (bakgrunn):
+20=Farge 1 (Font):
+21=Farge 2 (Overstrekning):
+22=Farge 3 (antialiasering):
+23=Palett farge n°:
+24=Kontrast
+25=Titel:
+26=Manus:
+27=Kosmetik
+28=Annet
+29=Grense stil:
+30=Kontur + skygger
+31=Ikke transparant
+32=Farge
+33=Primær:
+34=Sekundær:
+35=Tredje alt:
+36=Skygge:
+37=Venstre margin:
+38=Høyre margin:
+39=Vertikal margin:
+40=Kontur:
+41=Retning:
+42=Koding:
+43=Kilde:
+44=Programm:
+45=Sti:
+46=Forsinkelse:
+47=CD Spor:
+48=Kommentar:
+49=TMPlayer Format
+50=TMPlayer+ Format
+51=TMPlayer Multiline Format
+
+[Duration limits]
+01=Visningsgrenser
+02=Stil inn maximum varighet
+03=Millisekunder
+04=Stil inn minimum varighet
+05=* Økning av tiden forårsaker ikke overlapping
+
+[Set delay]
+01=Sett forsinkelse
+02=For alle undertekstene
+03=For valgte undertekster
+
+[Adjust subtitles]
+01=Juster undertekster
+02=Enkel
+03=Avansert
+04=Første talte replikk:
+05=Siste talte replikk:
+06=Hent fra fil
+07=Lagre til fil
+08=Replik
+09=Gammel tid
+10=Ny tid
+11=&Legg til
+12=Legg til fra &media
+13=&Fjern
+14=Hvis tiden er utenfor pungt grensen:
+15=Ekstrapolere
+16=Tilbake til opprinnelig tid (ingen endringer)
+17=Tilbake til forskyningen av nærliggende punkt
+18=&Juster!
+19=Lag ny sync punkt
+20=Gammel tid:
+21=Ny tid:
+
+[Time expander/reducer]
+01=Tids forøker/formindsker
+02=Ekspander visningstid
+03=Reduser visningstid
+04=Ekspander/Reduser visningstid:
+05=Sekunder
+06=Bilder
+07=Kun hvis underteksten er lengere en:
+09=Tegn
+10=Kun hvis visningstiden er lengere en:
+11=Kun hvis visningstiden er kortere en:
+12=Unngå overlapping
+13=For alle undertekster
+14=For valgte undertekster
+
+[Automatic durations]
+01=Automatisk visningstid
+02=Millisekunder
+03=per tegn
+04=per ord
+05=per linje
+06=Anvend ny visningstid på alle
+07=Kun hvis ny begrensning er større en originalen
+08=Kun hvis ny begrensning er mindre en originalen
+09=Alle undertekster
+10=Kun valgte undertekster
+
+[Convert case]
+01=Endringer
+02=Meningens type.
+03=Kun første bokstav i første ord
+04="..." Finn
+05=små bokstaver
+06=STORE BOKSTAVER
+07=Rubrikk
+08=iNVERTERT tEKST
+09=Alle undertekster
+10=Kun valgte tekster
+
+[Divide lines]
+01=Del linjer
+02=Del linier etter linienummer:
+03=Bruk automatisk visningstid
+04=Vis:
+05=Skjul:
+06=Visningstid:
+07=Fortsett direkte
+08=%s Tegn
+09=&Del!
+
+[Search & Replace]
+01=Søk og erstatt
+02=Søk
+03=Søk tekst:
+04=&Søk!
+05=Erstatt med:
+06=Søk &kun
+07=&Erstatt
+08=Erstatt &alle
+09=&Mere >
+10=&Mindre <
+11=Sjekk forskjel på store og små bogstaver
+12=Sjekk hele ord
+13=Bevare ved endring
+14=Søk etter tekst i:
+15=Hele underteksten
+16=Fra valgt post
+17=Tegntolkning:
+
+[Go to line]
+01=Gå til linie nummer
+02=Skriv linie nummer:
+
+[Batch convert]
+01=Gruppe forandring
+02=Endre ulike filer til samme fotmat
+; Buttons
+03=< &Tilbake
+04=&Neste >
+05=Konverter
+06=&Avslutt
+07=&Lukk
+08=&Alle
+09=&ingen
+; Page 1
+10=Økninger:
+11=Søkesti:
+12=Inkluder undermapper
+13=Komplett format sjekk
+14=Output Katalog:
+15=Output format:
+16=Forinnstilt FPS:
+; List columns
+17=Fil navn
+18=Format
+19=FPS
+20=Størrelse
+; Page 2
+21=&Legg til
+22=&Fjern
+23=Tøm
+; Page 3
+24=Ferdig!. Se loggen for detaljer:
+25=Lagre...
+; Searching
+26=Kontrollerer fil %s
+
+[Batch convert log]
+01=%s %s - Gruppeforandring Log
+02=Generering %s
+03=Output format: %s
+04=Antall filer til å konvertere: %d
+05=Forsøk å hente "%s"...
+06=Hentning av filen lykkes!
+07=Filen "%s" finnes allerede, erstatter...
+08=Filen er lagret til "%s"'
+09=Filen "%s" finnes allerede og du har ikke gitt programmet tillatelse til å erstatte den
+10=Feil ved henting av fil, kan ikke lagre!
+11=Endringer avsluttes: %u
+12=Total tid: %s
+13=Endring av alle filer lykkes
+14=Det oppsto en feil ved endring av visse filer, se detaljer nedenfor
+
+[Split]
+01=Del undertekst...
+02=Enkel
+03=Avansert
+04=Velg detaljer
+05=Detalj nummer:
+06=Angitt tid:
+07=Angitt ramme:
+08=Slutt på video:
+09=Navngivning
+10=Del %d:
+11=Filnavn
+12=Lengde
+13=Linjer
+14=Deler er like i tid
+15=Deler er like i linjer
+16=Ved enden av video
+17=Nummer på deler:
+18=Navngi deler Automatisk:
+19=Output katalog:
+20=Output format:
+21=Rekalkuler tidsverdien
+22=Dobbelklikk for å velge film
+23=&Dele!
+
+[Join]
+01=Sett sammen undertekster...
+02=Tilføy undertekstfilene du ønsker å sette sammen (i rekkefølge):
+03=Filnavn
+04=Format
+05=FPS
+06=Størrelse
+07=Film fragment (valgfri)
+08=&Legg til
+09=&Fjern
+10=&Tøm
+11=&Set film fragment
+12=F&jærn film fragment
+13=Output format:
+14=Output FPS:
+15=Last fil etter sammensetting og lagring
+16=Rekalkuler tidsverdien
+17=&Sett sammen!
+
+[Information and errors]
+01=Information og feil
+02=Sjekk!
+03=Reparer feil!
+04=&Innstilinger
+05=Bekreft vær sletting
+06=Undertekst
+07=Type
+08=Beskrivelse
+;-------;
+; Types ;
+;-------;
+09=Feil
+10=Advarsel
+11=Info
+13=Reparert
+;----------------------;
+; Information messages ;
+;----------------------;
+14=Antall feil: %d
+15=Reparerte feil: %d
+;---------------;
+; Error reports ;
+;---------------;
+16=Inneholder linjer uten bokstaver
+17=Tom undertekst
+18=Overlapping med tidligere undertekst
+19=Feil verdi
+20=For lang visningsstid
+21=For kort visningstid
+22=For lang linje(r)
+23=Over to linjer
+24=Dårlig tekst
+25=Har tekst før kolon (":")
+26=Unødige punkter
+27=Inneholder forbudte tegn
+28=Gjentagene tegn
+29=Gjentagene undertekst
+30=OCR feil
+31=Enkel undertekst starter med "-"
+32=Ingen mellomrom etter redigeret tegn
+33=Ingen mellomrom før redigeret tegn
+34=Unødige mellomrom
+35=Markeret undertekst
+;-------------;
+; Fix reports ;
+;-------------;
+36=Slettede linier uten bokstaver
+37=Tom undertekst slettet
+38=Reparert overlapning
+39=Reparert dårlig værdi
+40=Undertekst med over to linjer justert
+41=Tekst for hørselshemmede fjernet
+42=Hørselshemmede del fjernet
+43=Fjernet tekst før kolon (":")
+44=Fjernet unødige punkter
+45=Forbudt tegn fjernet
+46=Reparert dobbeltegn
+47=Reparert dobbelt undertekst
+48=OCR feil reparert
+49=Fjernet "-" i undertekst med en linje
+50=Føyet til mellomrom etter tegn
+51=Føyet til mellomrom før redigert tegn
+52=Fjernet unødige mellomrom
+;-----
+53=Dobbelklikk for å gå til hovedvindu
+
+[Information and errors Settings]
+01=Innstillinger
+02=Generelt
+03=Avansert
+04=Undersøk
+05=Reparer
+06=Unødvendige mellomrom
+07=Vis bekreftelse i hovedvindu ved reparasjon
+08=Marker feil i hovedvinduets liste
+09=Velg farge...
+10=Fet
+11=Kursiv
+12=Understrek
+13=Marker feil når undertekst åpnes
+14=Reparer feil når undertekst åpnes
+15=Reparer en enhets overlapning ved åpning
+16=OCR Manus:
+17=&Rediger
+18=Gjentagende tegn:
+19=Forbudte tegn:
+20=Tollerense for gjentagne undertekster:
+21=Millisekunder.
+22=Mellomrom etter tegn:
+23=Mellomrom før tegn:
+24=For lang visningstid:
+25=For kort visningstid:
+26=For lang linje:
+27=Tegn.
+;------
+28=Linje uten bokstaver
+29=Blank undertekst
+30=Overlappende undertekster
+31=Dårlige verdier
+32=For lang visningstid
+33=For kort visningstid
+34=For lange linier
+35=Undertekster over to linier
+36=Undertekster hørselshemmende
+37=Tekst før kolon (":")
+38=Kun hvis tekst er med store bokstaver
+39=Unødvendige prikker
+40=Forbudte tegn
+41=Gjentatte tegn
+42=Gjentatte undertekster
+43=OCR Feil
+44="- " i undertekst med en linje
+45=Mellomrom etter redigeret tegn
+46=Mellomrom før redigeret tegn
+47=Unødvendige mellomrom
+;------
+48=Sjekk for:
+49=Reparer:
+50=Redigering og mellomrom i start og slutt
+51=Mellomrom mellom redigeringer (venstre og høyre)
+52=Dobble mellomrom mellom tegn
+53=Mellomrom foran punktmarkering
+54=Mellomrom etter "¿" og "¡"
+55=Mellomrom før "?" og "!"
+56=Mellomrom mellom nummer
+
+[Various information]
+01=Diverse Informasjon
+02=Informasjon
+03=Ekstra
+04=Original fil
+05=Oversatt fil
+06=Nåværende format:
+07=Fil:
+08=Størrelse:
+09=Totalt antall undertekster:
+10=Totalt antall linjer:
+11=Totalt antall ord:
+12=Totalt antall bokstaver:
+13=Undertekster med en linje:
+14=Undertekster med to linjer:
+15=Undertekster med flere en to linjer:
+16=Lengste linje:
+17=I underteksten %d med %d tegn
+18=Beste font størrelse for avspilling
+19=Resolution bredde:
+20=Fra AVI
+21=Font navn:
+22=Fet
+23=Kursiv
+24=Beregn
+
+[SAMI Language Extractor]
+01=SAMI språk ekstraktor
+02=SAMI fil:
+03=Output katalog:
+04=Valgt språk vil bli brukt:
+05=Klasse
+06=Språk
+07=Automatisk gjenkjennelse
+08=Legg til manuelt
+09=Ekstrakt!
+10=Legg til språk
+11=Angi klassenavn på valgt språk:
+12=Venligst vent...
+
+[About form]
+01=Om %s
+02=Informasjon
+03=Credits
+04=Versjon: %s
+05=%s versjon: %s
+06=%d Forskjellige understøttede formater
+07=Hvis du er tilfreds med denne software, ber vi deg så meget om en donasjon. Klikk her.
+08=Programmert av
+09=Tilleggs programmert
+10=%s av
+; Følgende linjer er "DirectShow programmering"
+11=%s programmering
+12=Oversettere
+13=Beta testere
+14=Standar ikon av
+15=For oppdateringer besøk:
+
+[Error messages]
+01=Kunne ikke initialisere underteksten API. Venligst last ned DLL "%s" fra %s og kopier til
+"%s" Katalog.
+02=Følgende feil (%s) stammer fra %s (%s):||"%s"||Venligst skriv til %s og innformer om hva
+du gjorde da feilen oppsto.||Trykk ok for å fortsette, og avbryt for å avslutte programmet .
+03=Filen "%s" er en dårlig undertekst eller formatet støttes ikke.
+04=Filen "%s" er ikke i %s format eller det er ikke en gyldig undertekst fil.
+05="%s" er ikke en gyldig videofil.
+06=Ikke gyldig linje nummer.
+07=Velg minst en utvidet søkning.
+08=Søkesti finnes ikke.
+09=Emnet er ikke gyldig.
+10=Vennligst Tilfør to eller flere undertekster.
+11=Kunne ikke få forbindelse til serveren!.
+12=Kunne ikke fjerne skrivebeskyttelse (read-only) fra "%s".||Er muligvis på skrivebeskyttet enhet.
+13=Feil oppsto ved forsøk på å koble til Microsoft Word!.
+14=Velg video(er) for foregående del(er) først!.
+15=Velg en tillatt katalog for eksport.
+16=Velg minst ett språk.
+17="%s" er ikke en gyldig SAMI fil.
+18=Velg en undertekst i listen.
+19=Hvis du velger et filmfragment for en del av underteksten, så skal du velge filmfragment for alle deler av underteksten (utenom den siste delen).
+20=Du behøver to eller flere punkter.
+
+[Question messages]
+01=Filen "%s" er endret.||Vil du lagre endringene?.
+02=Filen "%s" Finnes allerede.||Vil du erstatte den?.
+03=Original filen ("%s") er endret.||Vil du lagre endringene?.
+04=Den oversatte fil  ("%s") er endret.||Vil du lagre endringene?.
+05=De valgte undertekster vil bli fjernet.||vil du fortsette?.
+06=Punkt 1 Undertekst: %s|Punkt 1 Film: %s||Punkt 2 Undertekst: %s|Punkt 2 Film:
+%s||Synkroniser undertekst?
+07=Videospilleren er ikke valgt eller den eksistere ikke.||Vil du konfigurere en ekstern
+spiller?.
+08=Det er funnet en nyere versjon !.||Vil du se en liste over endringer?.
+09=Filen du forsøker å lagre er skrivebeskyttet.||Vil du forsøke å lagre den
+likevel?.
+
+[Information messages]
+01=Kunne ikke finne flere emner av "%s".
+02=Ingen nyere versjon tilgjengelig.
+03=Stavekontrollen er fullført.||%d Endring(er) er gjort.
+04=For mange deler. Nullstiller...
+05=Fant kun et språk .||Hvis filen inneholder flere språk, så tilføy dem manuelt ved at åpne
+filen med en teksteditor og reparer klasse navn  .
+06=Kunne ikke lokalisere "STIL" start og/eller steng merke!.||Filen inneholder kanskje ikke mer end et språk.|Hvis den gjør, så forsøk å søke manuelt for klassens navn på det søkte språket.
+07=Beste font for størrelse er: %d
+08=Totalt erstattet: %d
+09=Fil navn: %s|Størrelse: %s|FPS: %s|Visningstid: %s|Totale bilder: %d|Resolution: %dx%d|FourCC: %s
+10=En del av sekvensene i filmen kunde ikke tolkes ordentlig. Lyd eller billede codec mangler muligens.
+11=Det er ikke nødvendig å sette filmfragment for undertekstens siste del.
+
+[Information and errors messages]
+01=Undertekst nr %d er en blank undertekst og vil bli fjernet.||Vil du fortsette?.
+02=Undertekst nr %d:||"%s" inneholder et tegn som ikke er tillatt og kommer til å bli slettet.||Vil du fortsette?.
+03=Undertekst nr %d:||"%s" vil bli slettet.||Vil du fortsette?.
+04=Del av undertekst nr %d:||"%s" vil bli slettet, så underteksten blir:||"%s"||Vil du fortsette?.
+05=Undertekst nr %d:||"%s" er en enkelt-linje undertekst med "-".||Vil du slette "-" i begynnelsen av linjen?.
+

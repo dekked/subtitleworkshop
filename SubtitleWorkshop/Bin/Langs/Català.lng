@@ -1,0 +1,871 @@
+;   Subtitle Workshop 2.51
+;   Catalan language file
+;
+;   Author: Jesús Moreno
+;   E-mail: jmmolas1@wanadoo.es
+;   Web: http://www.txus.tk
+
+[General]
+Translator=Jesús Moreno
+Font Charset=0
+AllFiles=Tots els fitxers suportats
+Help=Manual.html
+FPS=MPS
+PlainText=Text
+STP=Projecte de traducció de subtítols
+SRF=Fitxer d'informe de subtítols
+
+[Standard buttons]
+01=D'ac&ord
+02=&Cancel·la
+03=&Explora
+04=&Aplica
+05=S&urt
+06=&Sí
+07=&No
+
+[Main Form]
+01=Mode:
+02=Temps
+03=Marcs
+04=MPS d'entrada:
+05=MPS:
+06=Treballa amb:
+07=Durada|Temps final|Ambdós
+08=Núm
+09=Mostra
+10=Amaga
+11=Text
+12=Traducció
+13=%d línies traduïdes
+14=Durada:
+15=%s (%s caràcters):
+16=- Subtítol no traduït -
+
+[Main menu header]
+01=Fitxer
+02=Edita
+03=Cerca
+04=Eines
+05=Pel·lícula
+06=Paràmetres
+07=Ajuda
+
+[Main menu/File]
+01=Nou subtítol...
+02=Carrega el subtítol...
+03=Fitxers recents
+04=Buida la llista
+05=Carrega
+06=Projecte...
+07=Original
+08=Traduït
+09=Desa
+10=L'original com a...
+11=El traduït com a...
+12=Anomena i desa...
+13=Tanca
+14=Surt
+
+[Main menu/Edit]
+01=Desfés
+02=Refés
+03=Insereix el subtítol
+04=Insereix abans
+05=Suprimeix el seleccionat
+06=Retalla
+07=Copia
+08=Enganxa
+09=Selecciona-ho tot
+
+[Main menu/Edit/Timings]
+01=Temps
+02=Estableix els límits de durada...
+03=Estableix el retard...
+04=Ajusta
+05=Ajusta els subtítols...
+06=Ajusta als subtítols sincronitzats
+07=Reductor/ampliador de temps
+08=Allarga la durada
+09=Durades automàtiques
+10=Llegeix els temps del fitxer
+11=Canvia %s mil·lisegons
+
+[Main menu/Edit/Texts]
+01=Texts
+02=Ajustament de línia intel·ligent
+03=Converteix maj/min...
+04=No tallis els subtítols
+05=Divideix les línies...
+06=Divisió ràpida de línies
+07=Estableix la llargada de línia màxima...
+08=Llegeix els texts del fitxer
+
+[Main menu/Edit/Subtitles]
+01=Subtítols
+02=Combina els subtítols
+03=Efectes
+04=Tipus d'efecte
+05=Flaix
+06=Flaix ràpid
+07=Flaix mitjà
+08=Flaix lent
+09=Dreta a esquerra
+10=Inverteix el text
+11=Corregeix la puntuació
+12=Ordena
+13=Suprimeix els enllaços innecessaris
+14=Marca els subtítols seleccionats
+15=Desmarca els subtítols seleccionats
+
+[Main menu/Edit/Translation]
+01=Traducció
+02=Mode de traducció
+03=Intercanvia
+
+[Main menu/Search]
+01=Cerca...
+02=Troba el següent
+03=Cerca i reemplaça...
+04=Vés a la línia número...
+
+[Main menu/Tools]
+01=Verificació de l'ortografia
+02=Converteix per lots...
+03=Divideix el subtítol...
+04=Uneix els subtítols...
+05=Informació i errors
+06=Informació i errors...
+07=Informació diversa...
+08=Seqüències d'OCR
+09=Mostra al formulari principal
+10=Paràmetres...
+11=Torna a comprovar els errors
+12=Arregla tots els errors
+13=Arregla els errors (subtítols seleccionats)
+14=Salta al següent error
+15=Afegeix els MPS de l'AVI
+16=Previsualitzador extern
+17=Extractor de l'idioma SAMI
+18=Seqüències Pascal
+
+[Main menu/Movie]
+01=Obre...
+02=Tanca
+03=Informació...
+04=Mode de vista prèvia de vídeo
+05=Mostra els subtítols
+06=Desa el fitxer d'inicialització de mitjans
+
+[Main menu/Movie/Playback]
+01=Reproducció
+02=Reprodueix/Pausa
+03=Atura
+04=Rebobina
+05=Avança
+06=Enrere 5 segons
+07=Avança 5 segons
+08=Velocitat de reproducció
+
+[Main menu/Movie/Subtitles]
+01=Subtítols
+02=Mou el subtítol
+03=Estableix el temps d'inici
+04=Estableix el temps final
+05=Inicia el subtítol
+06=Finalitza el subtítol
+
+[Main menu/Movie/Synchronization]
+01=Sincronització
+02=Primer punt de sinc
+03=Últim punt de sinc
+04=Afegeix un punt de sincronització
+
+[Main menu/Movie/Display]
+01=Visualització
+02=Original
+03=Traducció
+
+[Main menu/Settings]
+01=Paràmetres de sortida...
+02=Idioma
+03=Mostra el tauler esquerre
+04=Mostra els controls de temps
+05=Utilitza l'edició al punt
+
+[Main menu/Help]
+01=Quant a %s...
+02=Comprova si hi ha una nova versió
+
+[Popup Menu]
+01=Cursiva
+02=Negreta
+03=Subratllat
+04=Estableix el color
+05=Suprimeix els marcador de color
+
+[Video preview hints]
+01=Reprodueix/Pausa (%s)
+02=Atura (%s)
+03=Commuta la llista de desplaçament
+04=Salta al subtítol anterior
+05=Salta al subtítol següent
+06=Rebobina (%s)
+07=Avança (%s)
+08=Altera la velocitat de reproducció
+09=Mou el subtítol (%s)
+10=Estableix el temps d'inici (%s)
+11=Estableix el temps final (%s)
+12=Inicia el subtítol (%s)
+13=Finalitza el subtítol (%s)
+14=Marca com a primer punt de sincronització (%s)
+15=Marca com a últim punt de sincronització (%s)
+16=Afegeix un punt de sincronització de vídeo/subtítol (%s)
+
+[Save as]
+01=Anomena i desa
+02=Feu doble clic al format de sortida:
+03=Format personalitzat
+04=Tots els formats
+
+[Custom formats]
+01=Formats personalitzats
+02=Informació
+03=Nom:
+04=Extensió:
+05=Nova línia de caràc:
+06=Hora
+07=Marcs
+08=Estructura:
+09=MPS:
+10=Carrega un projecte
+11=Desa el projecte
+12=Recorda l'últim format personalitzat
+13=Desa!
+14=Projecte de format personalitzat
+
+[Settings Form]
+01=Paràmetres
+02=Modifica la configuració del programa
+; Sections
+03=General
+04=Avançat
+05=Joc de caràcters
+06=Formats
+07=Tipus de fitxer
+08=Desa
+09=Previsualització de vídeo
+10=Subtítols
+11=Previsualització externa
+12=Aparença
+13=Programa
+14=Llista
+15=Menú
+;-----------------;
+; General section ;
+;-----------------;
+16=Sempre visible
+17=Permet l'execució de més d'una instància
+18=Confirma en suprimir els subtítols
+19=Interpreta els fitxers no vàlids com a text
+20=Cerca automàtica de pel·lícules
+21=Força el treball en mode de temps
+22=Mantén l'ordre de línies en el text invers
+23=Seleccioneu el text en saltar a la línia següent
+24=Seleccioneu el text en satlar a la línia anterior
+25=Sense interacció amb els marcadors
+26=Treballa amb marcadors d'estil
+27=Límit de fitxers recents:
+;----------;
+; Advanced ;
+;----------;
+28=Justificat
+29=En dues línies si és més llarg de:
+30=caràcters
+31=Commuta el punt de divisió
+32=Divideix les línies
+33=Salt de línia després de:
+34=Justificat automàtic
+35=Longitud màxima de línia:
+36=Canvia el temps:
+37=mil·lisegons
+;----------;
+; Charsets ;
+;----------;
+38=Mostra en el formulari principal
+39=Joc de caràcters original:
+40=Joc de caràcters de la traducció:
+;-----------------;
+; Formats section ;
+;-----------------;
+41=Format predeterminat:
+42=Format a mostrar en "Anomena i desa":
+43=Mostra els formats personalitzats
+44=Seleccion&a-ho tot
+45=No en seleccionis &cap
+;--------------------;
+; File types section ;
+;--------------------;
+46=Registra les extensions en iniciar
+47=Associa amb les extensions de subtítols més suportats
+;--------------;
+; Save section ;
+;--------------;
+48=Demana si es vol desar en sortir del programa o tancar el subtítol
+49=Desa la feina automàticament cada
+50=minuts.
+51=Desa com a còpia de seguretat
+52=Paràmetres de sortida...
+;---------------;
+; Video preview ;
+;---------------;
+53=Doble clic en un subtítol:
+54=Segons a saltar:
+55=Shift i doble clic en un subtítol:
+56=Centra el quadre de text
+57=Vés al temps del subtítol en el vídeo
+58=Vés N segon(s) abans del subtítol en el vídeo
+59=Rebobina i avança el temps:
+60=segons.
+61=Velocitat de reproducció alterada per defecte:
+;-------------------------;
+; Video preview Subtitles ;
+;-------------------------;
+62=Dibuixa la vora
+63=Dibuixa l'ombra
+64=Prova el fons transparent
+65=Força la utilització de regions (pot alentir)
+66=Font...
+67=Color...
+68=Fons...
+69=Amplada de la vora:
+70=Amplada de l'ombra:
+71=MOSTRA
+;--------------------------;
+; External Preview General ;
+;--------------------------;
+72=Exe del reproductor de vídeo:
+73=Detecta el programa associat
+74=Demana per un vídeo diferent cada vegada
+75=Prova sempre amb el vídeo:
+;---------------------------;
+; External Preview Advanced ;
+;---------------------------;
+76=Desa el subtítol temporalment en el format:
+77=Format original
+78=Format personalitzat:
+79=Paràmetre a enviar al reproductor de vídeo:
+80=VIDEO_FILE representa el fitxer de vídeo en què provareu els subtítols. SUBT_FILE és el paràmetre en què el fitxer de subtítol temporal s'enviarà al reproductor de vídeo. Podeu afegir altres paràmetres, per exemple pantalla completa, etc.
+;----------------;
+; Look / Program ;
+;----------------;
+81=Font a utilitzar en el programa:
+82=Mida de la font:
+83=Alineació dels camps "Text" i "Traducció":
+84=Esquerra|Dreta|Centre
+;-------------;
+; Look / List ;
+;-------------;
+85=Mostra les línies de la graella
+86=Aplica l'estil als subtítols
+87=Marca els subtítols no traduïts amb el color:
+88=Mostra la barra de desplaçament horitzontal
+;-------------;
+; Look / Menu ;
+;-------------;
+89=Utilitza el menú d'estil Office XP
+90=Utilitza el menú gradual
+
+[Output settings]
+01=Paràmetres de sortida
+02=ID de disc:
+03=Títol del DVD:
+04=Idioma:
+05=Autor:
+06=Web:
+07=Informació:
+08=Llicència:
+09=Subtítol:
+10=Fons:
+11=MOSTRA
+12=E&stableix la font
+13=Alineació:
+14=Esquerra:
+15=Centre
+16=Dreta
+17=Velocitat de marcs:
+18=Marc deixat anar:
+19=Color 0 (fons):
+20=Color 1 (Font):
+21=Color 2 (contorn):
+22=Color 3 (antidentat):
+23=Color de la paleta núm:
+24=Contrast
+25=Títol:
+26=Seqüència:
+27=Cosmètics
+28=Altres
+29=Estil de vora:
+30=Contorn + ombra
+31=Quadre opac
+32=Color
+33=Primari:
+34=Secundari:
+35=Terciari:
+36=Ombra:
+37=Marge esquerre:
+38=Marge dret:
+39=Marge vertical:
+40=Contorn:
+41=Alineació:
+42=Codificació:
+43=Font:
+44=Programa:
+45=Camí:
+46=Retard:
+47=Pista de CD:
+48=Comentari:
+49=Format TMPlayer
+50=Format TMPLayer+
+51=Format TMPlayer multilínia
+
+[Duration limits]
+01=Límits de durada
+02=Estableix la durada màxima
+03=Mil·lisegons
+04=Estableix la durada mínima
+05=*L'augment de temps no provocarà la superposició
+
+[Set delay]
+01=Configura el retard
+02=Per a tots els subtítols
+03=Per als subtítols seleccionats
+
+[Adjust subtitles]
+01=Ajusta els subtítols
+02=Senzill
+03=Avançat
+04=Primera línia parlada:
+05=Última línia parlada:
+06=Carrega des del fitxer
+07=Desa al fitxer
+08=Línia #
+09=Tems antic
+10=Temps nou
+11=&Afegeix
+12=Afegix des del mitjà
+13=&Suprimeix
+14=Si el temps és fora de l'abast dels punts:
+15=Extrapola
+16=Torna al temps original (sense canvis)
+17=Torna el desplaçament del punt veí
+18=&Ajusta!
+19=Introduïu el nou punt de sincronia
+20=Temps antic:
+21=Temps nou:
+
+[Time expander/reducer]
+01=Reductor/ampliador de temps
+02=Amplia la duració
+03=Redueix la duració
+04=Amplia/redueix la duració:
+05=Segons
+06=Marcs
+07=Només si el subtítol és més llarg de:
+09=caràcters
+10=Només si la duració és superior a:
+11=Només si la durada és menor de:
+12=Prevén el solapament
+13=Per a tots els subtítols
+14=Per als subtítols seleccionats
+
+[Automatic durations]
+01=Durades automàtiques
+02=Mil·lisegons
+03=per caràcter
+04=per paraula
+05=per línia
+06=Aplica la nova duració a tots els casos
+07=Només si la duració és major a l'original
+08=Només si la duració és inferior a l'original
+09=Tots els subtítols
+10=Només els subtítols seleccionats
+
+[Convert case]
+01=Converteix les majúscules
+02=Tipus de frase.
+03=Només la primera lletra de la primera paraula
+04=Detecció de "..."
+05=minúscules
+06=MAJÚSCULES
+07=Tipus de títol
+08=tIPUS iNVERS
+09=Tots els subtítols
+10=Només els subtítols seleccionats
+
+[Divide lines]
+01=Divideix les línies
+02=Divideix després del número de línia:
+03=Utilitza la duració automàtica
+04=Mostra:
+05=Amaga:
+06=Durada:
+07=Continua directament
+08=%s caràcters
+09=&Divideix!
+
+[Search & Replace]
+01=Cerca i reemplaça
+02=Cerca
+03=Text a trobar:
+04=&Cerca!
+05=Reemplaça per:
+06=Troba el següe&nt
+07=&Reemplaça
+08=Reempl&aça-ho tot
+09=&Més >
+10=Me&nys <
+11=En majúscules
+12=Coincideix tots el mots
+13=Conserva les maj/mín en reemplaçar
+14=Cerca el text a:
+15=Tot el subtítol
+16=De l'element seleccionat
+17=Joc de caràcters:
+
+[Go to line]
+01=Vés a la línia número
+02=Introduïu el número de línia:
+
+[Batch convert]
+01=Conversió per lots
+02=Converteix múltiples fitxers a un sol format en pocs passos.
+; Buttons
+03=< &Enrere
+04=&Següent >
+05=C&onverteix
+06=&Surt
+07=&Tanca
+08=&Tot
+09=&Cap
+; Page 1
+10=Extensions:
+11=Cerca el camí:
+12=Inclou les subcarpetes
+13=Comprovació exhaustiva del format
+14=Directori de sortida:
+15=Format de sortida:
+16=MPS predeterminat:
+; List columns
+17=Nom de fitxer
+18=Format
+19=MPS
+20=Mida
+; Page 2
+21=&Afegeix
+22=&Suprimeix
+23=&Buida
+; Page 3
+24=Fet! Vegeu el registre per detalls:
+25=Desa...
+; Searching
+26=S'està comprovant el fitxer %s
+
+[Batch convert log]
+01=%s %s - Registre de conversió per lots
+02=Generat en %s
+03=Format de sortida: %s
+04=Total de fitxers a convertir: %d
+05=S'està intentant carregar "%s"...
+06=El fitxer s'ha carregat amb èxit!
+07=El fitxer "%s" ja existeix, s'està reemplaçant...
+08=El fitxer s'ha desat amb èxit a "%s"'
+09=El fitxer "%s" ja existeix i no heu habilitat el programa perquè el reemplaci
+10=S'ha produït un error en carregar el fitxer, no es pot desar!
+11=Total de conversions fetes: %u
+12=Temps total: %s
+13=Tots els fitxers s'han convertit amb èxit
+14=Hi ha hagut errors en convertir alguns fitxers, veieu-ne els detalls
+
+[Split]
+01=Divideix el subtítol...
+02=Senzill
+03=Advançat
+04=Element seleccionat
+05=Número d'element:
+06=Temps donat:
+07=Marc donat:
+08=Final del vídeo:
+09=S'està anomenant
+10=Part %d:
+11=Nom de fitxer
+12=Longitud
+13=Línies
+14=Parts igual en temps
+15=Parts igual en línies
+16=Al final dels vídeos
+17=Nombre de parts:
+18=Anomena automàticament les parts:
+19=Directori de sortida:
+20=Format de sortida:
+21=Recalcula els valors de temps
+22=Doble clic per seleccionar la pel·lícula
+23=&Divideix!
+
+[Join]
+01=Uneix els subtítols...
+02=Afegiu els fitxers de subtítol que voleu unir (en ordre):
+03=Nom del fitxer
+04=Format
+05=MPS
+06=Mida
+07=Fragment de pel·lícula (Opcional)
+08=&Afegeix
+09=&Suprimeix
+10=&Buida
+11=E&stableix el fragment de pel·lícula
+12=Buida e&l fragment de pel·lícula
+13=Format de sortida:
+14=MPS de sortida:
+15=Carrega el fitxer després d'unir i desar
+16=Recalcula els valors de temps
+17=&Uneix!
+
+[Information and errors]
+01=Informació i errors
+02=Comprova!
+03=Arregla els errors!
+04=Paràmetre&s
+05=Confirma cada supressió
+06=Subtítol
+07=Tipus
+08=Descripció
+;-------;
+; Types ;
+;-------;
+09=Error
+10=Avís
+11=Info
+13=Arreglat
+;----------------------;
+; Information messages ;
+;----------------------;
+14=Errors totals: %d
+15=Errors arreglats: %d
+;---------------;
+; Error reports ;
+;---------------;
+16=Conté línies sense lletres
+17=Subtítol buit
+18=S'està solapant amb subtítols anteriors
+19=Valors erronis
+20=Durada massa llarga
+21=Durada massa curta
+22=Línies massa llargues
+23=Sobre dues línies
+24=Per a sords
+25=Té text abans dels dos punts (":")
+26=Punts innecessaris
+27=Conté un caràcter prohibit
+28=Caràcter repetit
+29=Subtítol repetit
+30=Error d'OCR
+31=Un subtítol d'una línia comença per "-"
+32=Cap espai després del caràcter personalitzat
+33=Cap espai abans del caràcter personalitzat
+34=Espais innecessaris
+35=Subtítol marcat
+;-------------;
+; Fix reports ;
+;-------------;
+36=Línies suprimides sense lletres
+37=El subtítol buit s'ha suprimit
+38=S'ha arreglat el solapament
+39=S'han arreglat els valors erronis
+40=S'ha ajustat els subtítol sobre dues línies
+41=S'ha suprimit el subtítol per a sords
+42=S'ha suprimit la part per a sords
+43=S'ha suprimit el text abans dels dos punts (":")
+44=S'han suprimit els punts innecessaris
+45=Té un caràcter prohibit i s'ha suprimit
+46=S'ha arreglat el caràcter repetit
+47=S'ha arreglat el subtítol repetit
+48=S'han arreglat els errors d'OCR
+49=S'ha suprimit "-" al subtítol d'una línia
+50=S'ha afegit l'espai després del caràcter personalitzat
+51=S'ha afegit l'espai abans del caràcter personalitzat
+52=S'han suprimit els espais innecessaris
+;-----
+53=Fes doble clic per saltar a la línia del formulari principal
+
+[Information and errors Settings]
+01=Paràmetres
+02=General
+03=Avançat
+04=Comprova
+05=Arregla
+06=Espais innecessaris
+07=Mostra les confirmacions al formulari principal
+08=Marca els errors en la llista del formulari principal
+09=Estableix el color...
+10=Negreta
+11=Cursiva
+12=Subratllat
+13=Marca els errors en carregar el subtítol
+14=Arregla els errors en carregar el subtítol
+15=Arregla una unitat de solapació en carrgar
+16=Seqüència d'OCR:
+17=&Edita
+18=Caràcters repetibles:
+19=Caràcters prohibits:
+20=Tolerància per als subtítols repetits:
+21=mil·lisegons.
+22=Espai després dels caràcters:
+23=Espai abans dels caràcters:
+24=Durada massa llarga:
+25=Durada massa curta:
+26=Línia massa llarga:
+27=caràcters.
+;------
+28=Línies sense lletres
+29=Subtítols buits
+30=Subtítols superposats
+31=Valors erronis
+32=Durades massa llargues
+33=Durades massa curtes
+34=Línies massa llargues
+35=Subtítols sobre dues línies
+36=Subtítols per a sords
+37=Text abans dels dos punts (":")
+38=Només si el text està en majúscules
+39=Punts innecessaris
+40=Caràcters prohibits
+41=Caràcters repetits
+42=Subtítols repetits
+43=Errors d'OCR
+44="- " als subtítols d'una línia
+45=Espais després dels caràcters personalitzats
+46=Espais abans dels caràcters personalitzats
+47=Espais innecessaris
+;------
+48=Comprova:
+49=Arregla:
+50=Intros i espais al començament i al final
+51=Espais entre intros (esquerra i dreta)
+52=Espais i intros dobles
+53=Espais davant dels signes de puntuació
+54=Espais després de "¿" i "¡"
+55=Espais abans de "?" i "!"
+56=Espais entre números
+
+[Various information]
+01=Informació diversa
+02=Informació
+03=Extres
+04=Fitxer original
+05=Fitxer traduït
+06=Format actual:
+07=Fitxer:
+08=Mida:
+09=Número total de subtítols:
+10=Número total de línies:
+11=Número total de paraules:
+12=Número total de lletres:
+13=Subtítols amb una línia:
+14=Subtítols amb dues línies:
+15=Subtítols amb més de dues línies:
+16=Línia més llarga:
+17=Al subtítol %d amb %d caràcters
+18=Millor mida de font per a la reproducció
+19=Amplada de la resolució:
+20=Des de l'AVI
+21=Nom de la font:
+22=Negreta
+23=Cursiva
+24=Calcula
+
+[SAMI Language Extractor]
+01=Extractor d'idioma SAMI
+02=Fitxer SAMI:
+03=Directori de sortida:
+04=S'extrauran els següents idiomes:
+05=Classe
+06=Idioma
+07=Detecta-ho tot automàticament
+08=Afegeix manualment
+09=Extreu!
+10=Afegeix un idioma
+11=Introdueix el nom de la classe de l'idioma desitjat:
+12=Si us plau, espereu...
+
+[About form]
+01=Quant al %s
+02=Informació
+03=Crèdits
+04=Versió: %s
+05=%s versió: %s
+06=%d formats diferents suportats
+07=Si us agrada aquest programari, estaríem molt agraïts si en fessiu una donació. Feu clic aquí per fer-ho.
+08=Programat per
+09=Programació addicional
+10=%s per
+; Following line is "DirectShow programming"
+11=Programació de %s
+12=Traductors
+13=Provadors beta:
+14=Icona predeterminada per
+15=Visiteu per actualitzacions:
+
+[Error messages]
+01=No s'ha pogut inicialitzar el subtítol API. Si us plau, baixeu-vos el DLL "%s" des de %s i copieu-lo al directori "%s".
+02=El següent error (%s) s'ha derivat de l'objecte %s (%s):||"%s"||Si us plau, escriviu a %s informant de què estàveu fent en succeir aquest error.||Premeu D'acord per continuar, i Cancel·la per sortir del programa.
+03=El fitxer "%s" és un subtítol erroni o un format no permès.
+04=El fitxer "%s" no està en format %s o no és un fitxer de subtítol vàlid.
+05="%s" no és un fitxer de vídeo vàlid.
+06=No és un número de línia vàlid.
+07=Seleccioneu al menys una extensió a cercar.
+08=El camí de cerca no existeix.
+09=El número d'element no és un element vàlid.
+10=Si us plau, afegiu dos o més subtítols.
+11=Ha estat impossible de connectar al servidor!.
+12=No s'ha pogut suprimir l'atribut només de lectura de "%s".||Possiblement està en una unitat protegida contra escriptura.
+13=S'ha produït un error en intentar connectar al Microsoft Word!.
+14=Seleccioneu el(s) vídeo(s) de parts anteriors primer!.
+15=Seleccioneu un directori de sortida vàlid.
+16=Seleccioneu al menys un idioma per extreure.
+17="%s" no és un fitxer SAMI vàlid.
+18=Seleccioneu una part del subtítol a la llista.
+19=Si seleccioneu un fragment de pel·lícula per a una part del subtítol, heu de seleccionar un fragment de pel·lícula per a totes les parts del subtítol (excepte l'última part, és clar).
+20=Necessiteu un o més punts.
+
+[Question messages]
+01=El fitxer "%s" ha canviat.||Voleu desar els canvis?.
+02=El fitxer "%s" ja existeix.||Voleu reemplaçar-lo?.
+03=El fitxer original ("%s") ha canviat.||Voleu desar els canvis?.
+04=El fitxer traduït  ("%s") ha canviat.||Voleu desar els canvis?.
+05=Els subtítols seleccionats se suprimiran.||Voleu continuar?.
+06=Punt 1 Subtítol: %s|Punt 1 Pel·lícula: %s||Punt 2 Subtítol: %s|Punt 2 Pel·lícula: %s||Voleu sincronitzar el subtítol?
+07=No s'ha especificat el reproductor de vídeo o no existeix.||Voleu configurar el reproductor extern?.
+08=S'ha trobat una nova versió!.||Voleu veure la llista de canvis?.
+09=El fitxer que esteu intentant de desar només és de lectura.||Voleu desar-lo igualment?.
+
+[Information messages]
+01=No s'han pogut trobar més instàncies per a "%s".
+02=No hi ha cap versió nova disponible.
+03=Ha finalitzat la verificació ortogràfica.||%d canvis fets.
+04=Massa parts. S'està reiniciant...
+05=Només s'ha trobat un idioma.||Si el fitxer conté més idiomes, afegiu-los manualment obrint el fitxer a l'editor de text i cercant el nom de classe correcte.
+06=No s'ha pogut ubicar el marcador d'inici i/o tancament "STYLE"!.||És probablement per això que el fitxer no conté més d'un idioma.|Si és així, proveu de cercar manualment el nom de la classe de l'idioma desitjat.
+07=La mida de la font que més s'ajusta a la reproducció és: %d
+08=Reemplaçaments totals: %d
+09=Nom del fitxer: %s|Mida: %s|MPS: %s|Duració: %s|Marcs totals: %d|Resolució: %dx%d|FourCC: %s
+10=Algunes de les pistes de la pel·lícula no s'han pogut representar correctament. Probablement el codificador/descodificador d'àudio o vídeo s'ha perdut.
+11=No cal establir el fragment de pel·lícula corresponent a l'últim subtítol.
+
+[Information and errors messages]
+01=El número de subtítol %d és un subtítol buit i se suprimirà.||Voleu continuar?.
+02=El subtítol número %d:||"%s" té un caràcter prohibit i se suprimirà.||Voleu continuar?
+03=El subtítol número %d:||"%s" està a punt de ser suprimit.||Voleu continuar?
+04=Una part del subtítol número %d:||"%s" és a punt de suprimir-se, per tant el subtítol serà:||"%s"||Voleu continuar?.
+05=El subtítol número %d:||"%s" és un subtítol d'una línia que comença per "-".||Voleu suprimir el "-" de l'inici?.
+

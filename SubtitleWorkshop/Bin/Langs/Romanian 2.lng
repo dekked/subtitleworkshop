@@ -1,0 +1,868 @@
+;   Subtitle Workshop 2.51
+;   Romanian language file
+;
+;   Translator : yonutz80
+
+[General]
+Translator=yonutz80
+Font Charset=238
+AllFiles=Toate fiºierele suportate
+Help=Romanian Manual v2.51.html
+FPS=CPS
+PlainText=Text simplu
+STP=Proiect Traducere Subtitrare
+SRF=Fiºier Raport Subtitrare
+
+[Standard buttons]
+01=&Ok
+02=&Revocare
+03=&Rãsfoire
+04=&Aplicã
+05=&Ieºire
+06=&Da
+07=&Nu
+
+[Main Form]
+01=Mod:
+02=Timp
+03=Cadre
+04=CPS Intrare:
+05=CPS:
+06=Lucreazã cu:
+07=Duratã|Timp final|Ambele
+08=Nr.
+09=Aratã
+10=Ascunde
+11=Text
+12=Traducere
+13=%d rânduri netraduse
+14=Durata:
+15=%s (%s caractere):
+16=- Linie netradusã -
+
+[Main menu header]
+01=Fiºier
+02=Editare
+03=Cãutare
+04=Instrumente
+05=Film
+06=Setãri
+07=Ajutor
+
+[Main menu/File]
+01=Subtitrare nouã...
+02=Încarcã subtitrarea...
+03=Fiºiere recente
+04=Goleºte lista
+05=Încarcã
+06=Proiect...
+07=Original
+08=Traducere
+09=Salveazã
+10=Original sub numele...
+11=Traducere sub numele...
+12=Salveazã sub numele...
+13=Închide
+14=Ieºire
+
+[Main menu/Edit]
+01=Anulare
+02=Refacere
+03=Insereazã linie
+04=Insereazã înainte
+05=ªterge selecþie
+06=Taie
+07=Copie
+08=Lipeºte
+09=Selecteazã toate
+
+[Main menu/Edit/Timings]
+01=Timpi
+02=Seteazã limitele duratei...
+03=Seteazã decalajul...
+04=Ajusteazã
+05=Ajusteazã subtitrare...
+06=Ajusteazã la subtitrãri sincronizate
+07=Extindere/reducere timpi
+08=Extinde durata
+09=Durate automate
+10=Citeºte timpi din fiºier
+11=Schimbã cu %s milisecunde
+
+[Main menu/Edit/Texts]
+01=Texte
+02=Ajustare inteligentã a rândurilor
+03=Transformare litere...
+04=Uneºte rânduri
+05=Desparte rândurile din linie...
+06=Desparte rapid rândurile din linie
+07=Seteazã lungimea maximã a rândului...
+08=Citeºte texte din fiºier
+
+[Main menu/Edit/Subtitles]
+01=Linii
+02=Combinã linii
+03=Efecte
+04=Efect maºinã de scris
+05=Flash
+06=Flash rapid
+07=Flash mediu
+08=Flash lent
+09=Dreapta-spre-Stânga
+10=Inversare text
+11=Reparã punctuaþia
+12=Sorteazã
+13=ªterge "..." inutile
+14=Marcheazã linii selectate
+15=Demarcheazã linii selectate
+
+[Main menu/Edit/Translation]
+01=Traducere
+02=Mod translator
+03=Inverseazã
+
+[Main menu/Search]
+01=Cautã...
+02=Gãseºte urmãtorul
+03=Cautã && Înlocuieºte...
+04=Sari la linia cu nr....
+
+[Main menu/Tools]
+01=Verificã ortografia
+02=Conversie în bloc...
+03=Împarte subtitrarea...
+04=Uneºte subtitrãri...
+05=Informaþii ºi erori
+06=Informaþii ºi erori...
+07=Informaþii diverse...
+08=Scripturi OCR
+09=Aratã în fereastra principalã
+10=Setãr&i...
+11=Reverificã erori
+12=Reparã toate erorile
+13=Reparã erorile (liniile selectate)
+14=Sari la eroarea urmãtoare
+15=Adaugã CPS de la AVI
+16=Vizualizare externã
+17=Extractor limbã din fiºier SAMI
+18=Scripturi Pascal
+
+[Main menu/Movie]
+01=Deschide...
+02=Închide
+03=Informaþii...
+04=Mod vizualizare video
+05=Aratã subtitrarea
+06=Salvare fiºier media de pornire
+
+[Main menu/Movie/Playback]
+01=Redare
+02=Redare/Pauzã
+03=Stop
+04=Înapoi
+05=Înainte
+06=Înapoi 5 secunde
+07=Înainte 5 secunde
+08=Ratã redare
+
+[Main menu/Movie/Subtitles]
+01=Linii
+02=Mutã linie
+03=Seteazã timp de start
+04=Seteazã timp final
+05=Start linie
+06=Sfârºit linie
+
+[Main menu/Movie/Synchronization]
+01=Sincronizare
+02=Primul punct de sincronizare
+03=Ultimul punct de sincronizare
+04=Adaugã punct de sincronizare
+
+[Main menu/Movie/Display]
+01=Afiºeazã
+02=Original
+03=Traducere
+
+[Main menu/Settings]
+01=Setãri salvare...
+02=Limba
+03=Aratã panoul din stânga
+04=Aratã controale timp
+05=Use in-place edition
+
+[Main menu/Help]
+01=Despre %s...
+02=Cautã versiune nouã
+
+[Popup Menu]
+01=Cursiv
+02=Aldin
+03=Subliniat
+04=Seteazã culoare
+05=ªterge etichete culoare
+
+[Video preview hints]
+01=Redare/Pauzã (%s)
+02=Stop (%s)
+03=Activeazã/Dezactiveazã Salt la linie la redare
+04=Salt la linia precedentã
+05=Salt la linia urmãtoare
+06=Înapoi (%s)
+07=Înainte (%s)
+08=Cu încetinitorul
+09=Mutã linia (%s)
+10=Seteazã timp de start (%s)
+11=Seteazã timp final (%s)
+12=Start linie (%s)
+13=Sfârºit linie (%s)
+14=Marcheazã ca primul punct de sincronizare (%s)
+15=Marcheazã ca ultimul punct de sincronizare (%s)
+16=Adaugã punct de sincronizare în subtitrare/film (%s)
+
+[Save as]
+01=Salveazã sub numele
+02=Dublu-clic pe formatul pentru salvare:
+03=Format personalizat
+04=Toate formatele
+
+[Custom formats]
+01=Formate personalizate
+02=Informaþii
+03=Nume:
+04=Extensia:
+05=Caracter ptr. rând nou:
+06=Timp
+07=Cadre
+08=Structurã:
+09=CPS:
+10=Încarcã proiect
+11=Salveazã proiect
+12=Reþine ultimul format personalizat
+13=Salveazã !
+14=Proiect format personalizat
+
+[Settings Form]
+01=Setãri
+02=Modificã configuraþia programului
+; Sections
+03=General
+04=Avansat
+05=Seturi caractere
+06=Formate
+07=Tipuri de fiºiere
+08=Salvare
+09=Vizualizare video
+10=Subtitrare
+11=Vizualizare externã
+12=Aspect
+13=Program
+14=Listã
+15=Meniu
+;-----------------;
+; General section ;
+;-----------------;
+16=Mereu deasupra
+17=Permite lucrul cu instanþe multiple
+18=Confirmã ºtergerea liniilor subtitrãrii
+19=Interpreteazã fiºiere nevalide ca text simplu
+20=Auto-cãutare fiºier video
+21=Forþeazã lucrul în mod timp
+22=Pãstreazã ordinea rândurilor la inversarea textului
+23=Selecteazã text la saltul la linia urmãtoare
+24=Selecteazã text la saltul la linia precedentã
+25=Fãrã efecte de la etichete de stil
+26=Lucreazã cu etichete de stil
+27=Limitã listã "Fiºiere recente":
+;----------;
+; Advanced ;
+;----------;
+28=Ajustare inteligentã a rândurilor
+29=2 rânduri dacã depãºeºte:
+30=caractere
+31=Activeazã/Dezactiveazã breakpoint
+32=Împarte linii
+33=Rupe linia dupã:
+34=Auto-ajustare inteligentã a rândurilor
+35=Lungime maximã a liniei:
+36=Schimbã timpii cu:
+37=milisecunde
+;----------;
+; Charsets ;
+;----------;
+38=Aratã în fereastra principalã
+39=Set caractere original:
+40=Set caractere traducere:
+;-----------------;
+; Formats section ;
+;-----------------;
+41=Format implicit:
+42=Formate arãtate la "Salveazã sub numele":
+43=Aratã formate personalizate
+44=Selecteazã to&ate
+45=Selecteazã &zero
+;--------------------;
+; File types section ;
+;--------------------;
+46=Înregistreazã extensiile la start
+47=Asociazã cu majoritatea extensiilor de subtitrãri suportate
+;--------------;
+; Save section ;
+;--------------;
+48=Cere salvarea la ieºirea din program/închiderea subtitrãrii
+49=Salveazã automat lucrul la fiecare
+50=minute.
+51=Salveazã ca ºi copie de siguranþã
+52=Setãri salvare...
+;---------------;
+; Video preview ;
+;---------------;
+53=Dublu-clic în subtitrare:
+54=Secunde de sãrit:
+55=Tasta "Shift"+duble-clic în subtitrare:
+56=Trecere în cãsuþa de text
+57=Salt la timpul liniei în film
+58=Salt N secunde înaintea liniei în film
+59=Timp derulare înapoi ºi înainte:
+60=secunde.
+61=Ratã redare "cu încetinitorul":
+;-------------------------;
+; Video preview Subtitles ;
+;-------------------------;
+62=Pune margine
+63=Pune umbrã
+64=Încearcã fundal transparent
+65=Forþeazã folosire regiuni (poate fi mai lent)
+66=Font...
+67=Culoare...
+68=Fundal...
+69=Lãþime margine:
+70=Lãþime umbrã:
+71=MOSTRÃ
+;--------------------------;
+; External Preview General ;
+;--------------------------;
+72=Executabil player video:
+73=Detecteazã program asociat
+74=Cere fiºier video diferit de fiecare datã
+75=Întotdeauna testeazã cu fiºier video:
+;---------------------------;
+; External Preview Advanced ;
+;---------------------------;
+76=Salveazã fiºier temporar al subtitrãrii în format:
+77=Original
+78=Personalizat:
+79=Parametru de trimis cãtre player-ul video:
+80=VIDEO_FILE reprezintã fiºierul video cu care vei testa subtitrarea. SUBT_FILE e parametrul cu care fiºierul temporar al subtitrãrii va fi trimis cãtre player-ul video. Poþi adãuga alþi parametri, de exemplu pentru "ecran complet(full screen)-FS", etc.
+;----------------;
+; Look / Program ;
+;----------------;
+81=Font de folosit în program:
+82=Dimensiune font:
+83=Câmpurile "Text" ºi "Traducere" aliniate la:
+84=Stânga|Dreapta|Centru
+;-------------;
+; Look / List ;
+;-------------;
+85=Aratã linii grilã
+86=Aplicã stilul la linii
+87=Marcheazã liniile netraduse cu culoarea:
+88=Aratã barã de derulare orizontalã
+;-------------;
+; Look / Menu ;
+;-------------;
+89=Foloseºte meniu stil Office XP
+90=Foloseºte culori treptate în meniu
+
+[Output settings]
+01=Setãri salvare
+02=Disc ID:
+03=Titlu DVD:
+04=Limba:
+05=Autor:
+06=Paginã Web:
+07=Info:
+08=Licenþã:
+09=Subtitrare:
+10=Fundal:
+11=MOSTRÃ
+12=&Seteazã font
+13=Aliniere:
+14=Stânga
+15=Centru
+16=Dreapta
+17=CPS:
+18=Drop frame
+19=Culoare 0 (fundal):
+20=Culoare 1 (Font):
+21=Culoare 2 (contur):
+22=Culoare 3 (antialiasing):
+23=Nr. culoare în spectru:
+24=Contrast
+25=Titlu:
+26=Script:
+27=Efecte
+28=Altele
+29=Stil margine:
+30=Contur + umbrã
+31=Câmp opac
+32=Culoare
+33=Primarã:
+34=Secundarã:
+35=Terþã:
+36=Umbrã:
+37=Margine stânga:
+38=Margine dreapta:
+39=Margine verticalã:
+40=Contur:
+41=Aliniere:
+42=Codificare:
+43=Sursa:
+44=Program:
+45=Cale:
+46=Decalaj:
+47=CD Track:
+48=Comentariu:
+49=Format TMPlayer
+50=Format TMPlayer+
+51=Format TMPlayer Multiline
+
+[Duration limits]
+01=Limite duratã
+02=Seteazã durata maximã
+03=Milisecunde
+04=Seteazã durata minimã
+05=* Mãrind timpul nu se va cauza suprapunere
+
+[Set delay]
+01=Setare decalaj
+02=Pentru toate liniile
+03=Pentru liniile selectate
+
+[Adjust subtitles]
+01=Ajustare subtitrare
+02=Simplã
+03=Avansatã
+04=Prima replicã spusã:
+05=Ultima replicã spusã:
+06=Încarcã din fiºier
+07=Salveazã în fiºier
+08=Linia #
+09=Timp vechi
+10=Timp nou
+11=&Adaugã
+12=Adaugã din fil&m
+13=ªte&rge
+14=Dacã timpul e în afara intervalului:
+15=Extrapoleazã
+16=Returneazã timp original (fãrã schimbãri)
+17=Returneazã cel mai apropiat punct de sincronizare
+18=&Ajusteazã !
+19=Punct nou de sincronizare
+20=Timp vechi:
+21=Timp nou:
+
+[Time expander/reducer]
+01=Extindere/reducere timpi
+02=Extindere duratã
+03=Reducere duratã
+04=Extinde/reduce durata:
+05=Secunde
+06=Cadre
+07=Doar dacã linia e mai lungã de:
+09=caractere
+10=Doar dacã durata e mai lungã de:
+11=Doar dacã durata e mai scurtã de:
+12=Evitare suprapunere
+13=Pentru toate liniile
+14=Pentru liniile selectate
+
+[Automatic durations]
+01=Durate automate
+02=Milisecunde
+03=pe caracter
+04=pe cuvânt
+05=pe rând
+06=Aplicã durata nouã în toate cazurile
+07=Doar dacã durata nouã e mai mare decât cea originalã
+08=Doar dacã durata nouã e mai micã decât cea originalã
+09=Toate liniile
+10=Numai liniile selectate
+
+[Convert case]
+01=Transformare litere
+02=Tip propoziþie.
+03=Doar prima literã din primul cuvânt
+04=detectare "..."
+05=litere mici
+06=MAJUSCULE
+07=Tip Titlu
+08=tIP iNVERS
+09=Toate liniile
+10=Numai liniile selectate
+
+[Divide lines]
+01=Desparte rândurile din linie
+02=Desparte dupã linia cu nr.:
+03=Foloseºte durata automatã
+04=Aratã:
+05=Ascunde:
+06=Durata:
+07=Continuare directã
+08=%s caractere
+09=&Desparte !
+
+[Search & Replace]
+01=Cãutare ºi Înlocuire
+02=Cãutare
+03=Text de gãsit:
+04=&Cautã !
+05=Înlocuire cu:
+06=Gãsire &urmãtorul
+07=Înlocui&re
+08=Înlocuire to&ate
+09=&Mai mult >
+10=Ma&i puþin <
+11=Potrivire litere
+12=Potrivire cuvinte întregi
+13=Pãstreazã potrivire litere la înlocuire
+14=Cautã textul în:
+15=Toate liniile
+16=De la linia selectatã
+17=Set caractere:
+
+[Go to line]
+01=Salt la linie numerotatã
+02=Scrie nr. linie:
+
+[Batch convert]
+01=Conversie în bloc
+02=Conversie fiºiere multiple într-un singur format din câþiva paºi.
+; Buttons
+03=< În&apoi
+04=Înai&nte >
+05=C&onversie
+06=I&eºire
+07=În&chide
+08=To&ate
+09=Nici u&na
+; Page 1
+10=Extensii:
+11=Cautã calea:
+12=Include subdirectoare
+13=Verificare formate completã
+14=Director salvare:
+15=Format salvare:
+16=CPS Implicit:
+; List columns
+17=Nume fiºier
+18=Format
+19=CPS
+20=Mãrime
+; Page 2
+21=&Adaugã
+22=ªte&rge
+23=Go&leºte
+; Page 3
+24=Gata ! Vezi fiºierul log pentru detalii:
+25=Salveazã...
+; Searching
+26=Verificare fiºier %s
+
+[Batch convert log]
+01=%s %s - Fiºier Log Conversie în bloc
+02=Generat la %s
+03=Format salvare: %s
+04=Fiºiere totale de convertit: %d
+05=Se încearcã încãrcarea "%s"...
+06=Fiºier încãrcat cu succes !
+07=Fiºierul "%s" deja existã, se înlocuieºte...
+08=Fiºier salvat cu succes sub numele "%s"
+09=Fiºierul "%s" deja existã ºi nu ai permis programului sã-l înlocuiascã
+10=Eroare la încãrcarea fiºierului, nu se poate salva !
+11=Conversii totale efectuate: %u
+12=Timp total: %s
+13=Toate fiºierele au fost convertite cu succes
+14=Au fost câteva erori la convertirea unor fiºiere, vezi detaliile mai jos
+
+[Split]
+01=Împãrþire subtitrare...
+02=Simplã
+03=Avansatã
+04=La linia selectatã
+05=La linia nr.:
+06=La timpul introdus:
+07=La cadrul introdus:
+08=La sfârºitul filmului:
+09=Denumire
+10=Partea %d:
+11=NumeFiºier
+12=Durata
+13=Linii
+14=Pãrþi egale ca duratã
+15=Pãrþi egale ca nr. de linii
+16=La finalul filmelor
+17=Numãr de pãrþi:
+18=Auto-denumire pãrþi:
+19=Director salvare:
+20=Format salvare:
+21=Recalculeazã valori timp
+22=Dublu-clic pentru selectare film
+23=Îm&parte !
+
+[Join]
+01=Unire subtitrãri...
+02=Adaugã subtitrãrile pe care doreºti sã le uneºti (în ordine):
+03=Nume fiºier
+04=Format
+05=CPS
+06=Mãrime
+07=Fragment film (Opþional)
+08=&Adaugã
+09=ªte&rge
+10=Go&leºte
+11=&Seteazã fragment film
+12=ªterg&e fragment film
+13=Format salvare:
+14=CPS salvare:
+15=Încarcã fiºierul dupã unire ºi salvare
+16=Recalculeazã valori timp
+17=&Uneºte !
+
+[Information and errors]
+01=Informaþii ºi erori
+02=Verificã !
+03=Reparã erori !
+04=&Setãri
+05=Confirmã fiecare ºtergere
+06=Linia
+07=Tip
+08=Descriere
+;-------;
+; Types ;
+;-------;
+09=Eroare
+10=Avertisment
+11=Info
+13=Reparat
+;----------------------;
+; Information messages ;
+;----------------------;
+14=Total erori: %d
+15=Erori reparate: %d
+;---------------;
+; Error reports ;
+;---------------;
+16=Linia conþine rânduri fãrã litere
+17=Linie goalã
+18=Suprapunere cu linia precedentã
+19=Valori rele
+20=Duratã prea lungã
+21=Duratã prea scurtã
+22=Rând(uri) prea lung(i)
+23=Mai mult de 2 rânduri
+24=Pentru persoane cu defect auditiv
+25=Are text înainte de douã puncte (":")
+26=Puncte inutile
+27=Conþine caracter interzis
+28=Caracter repetat
+29=Linie repetatã
+30=Eroare OCR
+31=Linie cu un singur rând începe cu "-"
+32=Fãrã spaþiu dupã caracter obiºnuit
+33=Fãrã spaþiu înainte de caracter obiºnuit
+34=Spaþii inutile
+35=Linie marcatã
+;-------------;
+; Fix reports ;
+;-------------;
+36=S-au ºters rândurile fãrã litere
+37=Linia goalã a fost ºtearsã
+38=Suprapunere reparatã
+39=Valori rele reparate
+40=Linia cu mai mult de 2 rânduri a fost ajustatã
+41=Linie ºtearsã - era pentru persoane cu defect auditiv
+42=Partea pentru persoane cu defect auditiv a fost ºtearsã
+43=Text ºters înainte de (":")
+44=Puncte inutile ºterse
+45=Conþinea caracter interzis ºi a fost ºters
+46=Repetare caracter reparatã
+47=Repetare linie reparatã
+48=Erori OCR reparate
+49=S-a ºters semnul "-" în linia cu un singur rând
+50=Spaþiu adãugat dupã caracter obiºnuit
+51=Spaþiu adãugat înainte de caracter obiºnuit
+52=S-au ºters spaþiile inutile
+;-----
+53=Dublu-clic pentru salt la linia din fereastra principalã
+
+[Information and errors Settings]
+01=Setãri
+02=General
+03=Avansat
+04=Verificã
+05=Reparã
+06=Spaþii inutile
+07=Aratã confirmarea corecturii în fereastra principalã
+08=Marcheazã erorile în lista ferestrei principale
+09=Seteazã culoare...
+10=Aldin
+11=Cursiv
+12=Subliniat
+13=Marcheazã erorile la încãrcarea subtitrãrii
+14=Reparã erorile la încãrcarea subtitrãrii
+15=Reparã suprapunere de o unitate la încãrcare
+16=Script OCR:
+17=&Editeazã
+18=Caractere repetabile:
+19=Caractere interzise:
+20=Toleranþã pentru linii repetate:
+21=milisecunde.
+22=Spaþiu dupã caractere:
+23=Spaþiu înainte de caractere:
+24=Duratã prea lungã:
+25=Duratã prea scurtã:
+26=Rând prea lung:
+27=caractere.
+;------
+28=Rânduri fãrã litere
+29=Linii goale
+30=Linii suprapuse
+31=Valori rele
+32=Durate prea lungi
+33=Durate prea scurte
+34=Rânduri prea lungi
+35=Linii cu mai mult de 2 rânduri
+36=Linii pentru persoane cu defect auditiv
+37=Text înainte de douã puncte (":")
+38=Doar dacã textul e scris cu majuscule
+39=Puncte inutile
+40=Caractere interzise
+41=Caractere repetate
+42=Linii repetate
+43=Erori OCR
+44=Semnul "-" în linii cu un singur rând
+45=Spaþii dupã caracter obiºnuit
+46=Spaþii înainte de caracter obiºnuit
+47=Spaþii inutile
+;------
+48=Verificã:
+49=Reparã:
+50=Rânduri goale ºi spaþii la începutul ºi sfârºitul liniei
+51=Spaþii între rânduri (stânga ºi dreapta)
+52=Spaþii duble ºi rânduri
+53=Spaþii în faþa semnelor de punctuaþie
+54=Spaþii dupã "¿" ºi "¡"
+55=Spaþii înainte de "?" ºi "!"
+56=Spaþii între numere
+
+[Various information]
+01=Informaþii diverese
+02=Informaþii
+03=Extras
+04=Fiºier original
+05=Fiºier tradus
+06=Formatul curent:
+07=Fiºier:
+08=Mãrime:
+09=Numãr total de linii:
+10=Numãr total de rânduri:
+11=Numãr total de cuvinte:
+12=Numãr total de litere:
+13=Linii cu un singur rând:
+14=Linii cu 2 rânduri:
+15=Linii cu mai mult de 2 rânduri:
+16=Cel mai lung rând:
+17=În linia %d cu %d caractere
+18=Mãrimea optimã a fontului pentru redare
+19=Lãþime rezoluþie:
+20=Din AVI
+21=Nume font:
+22=Aldin
+23=Cursiv
+24=Calculeazã
+
+[SAMI Language Extractor]
+01=Extractor Limbã din fiºier SAMI
+02=Fiºier SAMI:
+03=Director salvare:
+04=Limbile selectate vor fi extrase:
+05=Clasa
+06=Limba
+07=Auto-detectare toate
+08=Adaugã manual
+09=Extrage !
+10=Adaugã limbã
+11=Introdu numele clasei limbii dorite:
+12=Vã rugãm, aºteptaþi...
+
+[About form]
+01=Despre %s
+02=Informaþii
+03=Credite
+04=Versiunea: %s
+05=%s versiunea: %s
+06=%d formate diferite suportate
+07=Dacã îþi place acest program, vom aprecia dacã doreºti sã faci o donaþie. Dã clic aici pentru a dona.
+08=Programatori
+09=Programatori suplimentari
+10=%s de
+; Following line is "DirectShow programming"
+11=Programare %s
+12=Translatori
+13=Testeri beta
+14=Pictogramã implicitã de
+15=Pentru actualizãri vizitaþi:
+
+[Error messages]
+01=Nu s-a iniþializat subtitrarea API. Vã rugãm descãrcaþi fiºierul DLL "%s" de la %s ºi copiaþi-l în directorul "%s".
+02=Aceastã eroare (%s) a rezultat din obiectul %s (%s):||"%s"||Vã rugãm scrieþi la %s ºi spuneþi ce fãceaþi când s-a produs eroarea.||Apãsaþi OK pentru continuare, sau Revocare pentru ieºirea din program.
+03=Fiºierul "%s" e o subtitrare invalidã sau un format nesuportat.
+04=Fiºierul "%s" nu e în format %s sau nu e un fiºier subtitrare valid.
+05="%s" nu e un fiºier video valid.
+06=Numãr linie invalid.
+07=Selectaþi cel puþin o extensie pentru cãutare.
+08=Calea de cãutare nu existã.
+09=Numãrul elementului nu e un numãr valid.
+10=Vã rugãm adãugaþi 2 subtitrãri sau mai multe.
+11=Conectarea la server a eºuat !
+12=Nu se poate îndepãrta atributul "doar în citire" al fiºierului "%s".||Posibil sã fie pe o unitate protejatã la scriere.
+13=Eroare la conectare la Microsoft Word !
+14=Mai întâi selectaþi filmul(filmurile) pentru partea(pãrþile) precedentã(precedente) !
+15=Selectaþi un director valid pentru salvare.
+16=Selectaþi cel puþin o limbã pentru extragere.
+17=Fiºierul "%s" nu e un fiºier SAMI valid.
+18=Selectaþi o parte a subtitrãrii în listã.
+19=Dacã selectaþi un fragment din film pentru o parte a subtitrãrii trebuie sã selectaþi un fragment din film pentru toate pãrþile subtitrãrii (mai puþin pentru ultima parte, desigur).
+20=E nevoie de douã sau mai multe puncte.
+
+[Question messages]
+01=Fiºierul "%s" a fost modificat.||Doriþi sã salvaþi modificãrile ?
+02=Fiºierul "%s" deja existã.||Doriþi sã-l înlocuiþi ?
+03=Fiºierul original ("%s") a fost modificat.||Doriþi sã salvaþi modificãrile ?
+04=Fiºierul traducere ("%s") a fost modificat.||Doriþi sã salvaþi modificãrile ?
+05=Liniile selectate urmeazã sã fie ºterse.||Continuaþi ?
+06=Punct 1 Linia: %s|Punct 1 Film: %s||Punct 2 Linia: %s|Punct 2 Film: %s||Sincronizaþi liniile ?
+07=Executabilul player-ului video nu a fost specificat sau nu existã.||Doriþi sã configuraþi player-ul extern ?
+08=Versiune nouã gãsitã !||Vreþi sã vedeþi lista cu modificãri ?
+09=Fiºierul pe care încercaþi sã-l salvaþi are atributul "doar în citire".||Salvaþi oricum ?
+
+[Information messages]
+01=Nu s-au gãsit mai multe instanþe ale "%s".
+02=Nu existã versiuni noi disponibile.
+03=Verificarea ortografiei s-a terminat.||%d schimbãri efectuate.
+04=Prea multe pãrþi. Resetare...
+05=Doar o singurã limbã gãsitã.||Dacã fiºierul conþine mai multe limbi, adaugã pe cele pe care le doreºti manual deschizând fiºierul într-un editor de texte ºi cãutând numele corect al clasei.
+06=Imposibil de localizat eticheta STYLE de start ºi/sau de închidere !||Probabil din acest motiv, acest fiºier nu conþine mai mult de o limbã.|Dacã conþine, încercaþi sã adãugaþi manual cãutând numele clasei limbii(limbilor) dorite.
+07=Mãrimea potrivitã pentru font la redare este: %d
+08=Înlocuiri totale: %d
+09=Nume fiºier: %s|Mãrime: %s|CPS: %s|Durata: %s|Cadre totale: %d|Rezoluþia: %dx%d|FourCC: %s
+10=Câteva din stream-urile filmului nu pot fi renderizate corect. Probabil codecul video sau audio lipseºte.
+11=Nu e necesar sã setaþi fragmentul din film corespunzãtor cu ultima linie.
+
+[Information and errors messages]
+01=Linia nr. %d e o linie goalã ºi urmeazã sã fie ºtearsã.||Continuaþi ?
+02=Linia nr. %d:||"%s" conþine caracter(e) interzis(e) ºi urmeazã sã fie ºtearsã.||Continuaþi ?
+03=Linia nr. %d:||"%s" urmeazã sã fie ºtearsã.||Continuaþi ?
+04=O parte din linia nr. %d:||"%s" urmeazã sã fie ºtearsã, iar linia va fi:||"%s"||Continuaþi ?
+05=Linia nr. %d:||"%s" e o linie de un rând ºi începe cu "-".||ªtergeþi semnul "-" de la început ?

@@ -1,0 +1,25 @@
+body {
+	font-family: Verdana,Arial,Tahoma;
+	font-size: 8pt;
+	background : White;
+}
+table {
+	font-family: Verdana,Arial,Tahoma;
+	font-size: 8pt;
+}
+a,a:visisted {
+	color: #2E60B1;
+	text-decoration: none;
+}
+a:hover {
+	color: #0080ff;
+	text-decoration: underline;
+}
+.btitle {
+	color: #000000;
+	text-decoration: underline;
+}
+.btitle:hover {
+	color: #000000;
+	text-decoration: underline;
+}

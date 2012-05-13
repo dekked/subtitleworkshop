@@ -1,0 +1,26 @@
+[Information]
+Name=SubViewer 2.0
+Extension=*.sub
+Time structure=hh:mm:ss.zz
+Time=True
+FPS=25
+New line char=[br]
+
+[Format text]
+[INFORMATION]Subtitle Workshop custom format example
+[TITLE]
+[SOURCE]
+[PRG]
+[FILEPATH]
+[DELAY]0
+[CD TRACK]0
+[COMMENT]
+[END INFORMATION]
+[SUBTITLE]
+[COLF]&HFFFFFF,[STYLE]bd,[SIZE]18,[FONT]Arial
+{RepeatSub}
+{swStart},{swEnd}
+{swText}
+
+{EndRepeat}
+

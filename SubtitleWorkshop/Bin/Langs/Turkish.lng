@@ -1,0 +1,868 @@
+;   Subtitle Workshop 2.51
+;   Turkish language file
+;
+;   Translator : Ahmet Þen
+
+[General]
+Translator=Ahmet Þen
+Font Charset=162
+AllFiles=Desteklenen tüm dosyalar
+Help=Manual.html
+FPS=FPS
+PlainText=Düz metin
+STP=Altyazý Çeviri Projesi
+SRF=Altyazý Rapor Dosyasý
+
+[Standard buttons]
+01=&Tamam
+02=&Ýptal
+03=&Gözat
+04=&Uygula
+05=&Çýkýþ
+06=&Evet
+07=&Hayýr
+
+[Main Form]
+01=Format:
+02=Zaman
+03=Kare
+04=Giriþ FPS:
+05=FPS:
+06=Çalýþma þekli:
+07=Süre|Son zaman|Her ikisi
+08=No
+09=Göster
+10=Gizle
+11=Metin
+12=Çeviri
+13=%d çevrilmemiþ satýr
+14=Süre:
+15=%s (%s karakter):
+16=- Çevrilmemiþ altyazý -
+
+[Main menu header]
+01=Dosya
+02=Düzenle
+03=Ara
+04=Araçlar
+05=Film
+06=Ayarlar
+07=Yardým
+
+[Main menu/File]
+01=Yeni altyazý...
+02=Altyazý yükle...
+03=Son dosyalar
+04=Listeyi temizle
+05=Yükle
+06=Proje...
+07=Orjinal
+08=Çeviri
+09=Kaydet
+10=Orjinali farklý kaydet...
+11=Çeviriyi farklý kaydet...
+12=Farklý kaydet...
+13=Kapat
+14=Çýkýþ
+
+[Main menu/Edit]
+01=Geri al
+02=Yinele
+03=Altyazý yerleþtir
+04=Seçili altyazýdan önce yerleþtir
+05=Seçileni sil
+06=Kes
+07=Kopyala
+08=Yapýþtýr
+09=Hepsini seç
+
+[Main menu/Edit/Timings]
+01=Zamanlama
+02=Süre limitlerini ayarla...
+03=Gecikme ayarla...
+04=Ayarla
+05=Altyazýlarý ayarla...
+06=Senkronlu altyazýya göre ayarla
+07=Zaman geniþletici/daraltýcý
+08=Uzunluðu artýr
+09=Otomatik süre
+10=Zamanlamayý dosyadan al
+11=%s milisaniye kaydýr
+
+[Main menu/Edit/Texts]
+01=Metin
+02=Satýrý hizala
+03=Büyük-küçük harf dönüþümü...
+04=Altyazýyý parçalama
+05=Satýrlarý böl...
+06=Satýrlarý hýzlý böl
+07=Maksimum satýr uzunluðunu ayarla...
+08=Metni dosyadan oku
+
+[Main menu/Edit/Subtitles]
+01=Altyazýlar
+02=Altyazýlarý birleþtir
+03=Efektler
+04=Tip efekti
+05=Flash
+06=Hýzlý flash
+07=Orta flash
+08=Yavaþ flash
+09=Saðdan sola
+10=Metni ters çevir
+11=Noktalamayý düzelt
+12=Sýrala
+13=Satýr baþýndaki ve sonundaki üç noktalarý sil
+14=Seçili altyazýlarý iþaretle
+15=Seçili altyazýlarý iþaretleme
+
+[Main menu/Edit/Translation]
+01=Çeviri
+02=Çeviri modu
+03=Modu deðiþtir
+
+[Main menu/Search]
+01=Ara...
+02=Sonrakini bul
+03=Ara && Deðiþtir...
+04=Altyazý satýrýna git...
+
+[Main menu/Tools]
+01=Yazým denetimi
+02=Çoklu dönüþtürme...
+03=Altyazýyý ayýr...
+04=Altyazýlarý birleþtir...
+05=Bilgi ve hatalar
+06=Bilgi ve hatalar...
+07=Çeþitli bilgiler...
+08=OCR Skriptleri
+09=Ana formda göster
+10=Ayarlar...
+11=Hatalarý tekrar kontrol et
+12=Hatalarý düzelt
+13=Hatalarý düzelt (seçili altyazýlar)
+14=Bir sonraki hataya geç
+15=FPS'yi AVI'den al
+16=Harici önizleme
+17=SAMI Dili ayýklayýcýsý
+18=Pascal skriptleri
+
+[Main menu/Movie]
+01=Aç...
+02=Kapat
+03=Bilgi...
+04=Video önizleme modu
+05=Altyazýlarý göster
+06=Ortam baþlangýç dosyasý kaydet
+
+[Main menu/Movie/Playback]
+01=Pleybek
+02=Oynat/Duraklat
+03=Durdur
+04=Geri
+05=Ýleri
+06=5 saniye geri
+07=5 saniye ileri
+08=Pleybek hýzý
+
+[Main menu/Movie/Subtitles]
+01=Altyazýlar
+02=Altyazýyý taþý
+03=Baþlangýç zamanýný ayarla
+04=Final zamanýný ayarla
+05=Altyazýyý baþlat
+06=Altyazýyý bitir
+
+[Main menu/Movie/Synchronization]
+01=Senkronizasyon
+02=Ýlk senkron noktasý
+03=Son senkron noktasý
+04=Senkron noktasý ekle
+
+[Main menu/Movie/Display]
+01=Göster
+02=Orjinal
+03=Çeviri
+
+[Main menu/Settings]
+01=Çýkýþ ayarlarý...
+02=Dil
+03=Soldaki paneli göster
+04=Zaman kontrollerini göster
+05=Yerinde düzenlemeyi kullan
+
+[Main menu/Help]
+01=%s hakkýnda...
+02=Yeni sürümü kontrol et
+
+[Popup Menu]
+01=Ýtalik
+02=Kalýn
+03=Altý çizili
+04=Renk ayarla
+05=Renk etiketlerini sil
+
+[Video preview hints]
+01=Oynat/Duraklat (%s)
+02=Durdur (%s)
+03=Kaydýrak listeye geçis yap
+04=Önceki altyazýya atla
+05=Sonraki altyazýya atla
+06=Geri (%s)
+07=Ýleri(%s)
+08=Pleybek hýzýný deðiþtir
+09=Altyazýyý taþý (%s)
+10=Baþlangýç zamanýný ayarla (%s)
+11=Final zamanýný ayarla (%s)
+12=Altyazýyý baþlat (%s)
+13=Altyazýyý bitir (%s)
+14=Ýlk senkron noktasý olarak iþaretle (%s)
+15=Son senkron noktasý olarak iþaretle (%s)
+16=Altyazý/video senkron noktasý ekle (%s)
+
+[Save as]
+01=Farklý kaydet
+02=Çýkýþ formatýna çift týkla:
+03=Varsayýlan format
+04=Bütün formatlar
+
+[Custom formats]
+01=Varsayýlan formatlar
+02=Bilgi
+03=Ýsim:
+04=Uzantý:
+05=Yeni satýr karakteri:
+06=Zaman
+07=Kare
+08=Yapý:
+09=FPS:
+10=Proje yükle
+11=Projeyi kaydet
+12=Son varsayýlan formatý hatýrla
+13=Kaydet!
+14=Varsayýlan proje formatý
+
+[Settings Form]
+01=Ayarlar
+02=Program ayarlarýnda deðiþiklik yap
+; Sections
+03=Genel
+04=Geliþmiþ
+05=Karakter seti
+06=Formatlar
+07=Dosya tipleri
+08=Kaydet
+09=Video önizlemesi
+10=Altyazý
+11=Harici önizleme
+12=Görünüm
+13=Program
+14=Liste
+15=Menü
+;-----------------;
+; General section ;
+;-----------------;
+16=Daima üstte
+17=Programýn birden fazla açýlmasýna izin ver
+18=Altyazýlarý silerken onayla
+19=Geçersiz dosyalarý düz metin olarak çevir
+20=Filmi otomatik ara
+21=Zaman modunda çalýþmaya zorla
+22=Metni ters çevirince satýrlarýn sýrasýný koru
+23=Sonraki satýra atlarken metini seç
+24=Önceki satýra atlarken metini seç
+25=Etiketlerle ilgili deðiþiklik yapma
+26=Stil etiketleri ile çalýþ
+27=Son kullanýlan dosya limiti:
+;----------;
+; Advanced ;
+;----------;
+28=Düzgün satýr ayarlamasý
+29=Bu karakter sayýsýndan uzun olan iki satýrý böl:
+30=karakter
+31=Toggle breakpoint
+32=Satýrlarý böl
+33=Bu karakter sayýsýndan sonra böl:
+34=Düzgün satýr ayarlamasýný otomatik olarak yap
+35=Maksimum satýr uzunluðu:
+36=Zamaný kaydýr:
+37=milisaniye
+;----------;
+; Charsets ;
+;----------;
+38=Ana formda göster
+39=Orjinal karakter seti:
+40=Çeviri karakter seti:
+;-----------------;
+; Formats section ;
+;-----------------;
+41=Varsayýlan format:
+42="Farklý kaydet"e basýldýðýnda gösterilecek formatlar:
+43=Varsayýlan formatlarý göster
+44=Hepsini &seç
+45=Hiçbirini seç&me
+;--------------------;
+; File types section ;
+;--------------------;
+46=Baþlangýçta uzantýlarla iliþkilendir
+47=En çok desteklenen altyazý uzantýlarýyla iliþkilendir
+;--------------;
+; Save section ;
+;--------------;
+48=Programdan çýkýþta/Altyazýyý kapatýrken kaydetmeyi sor
+49=Yapýlan iþi
+50=dakikada bir kaydet.
+51=Yedek olarak kaydet
+52=Çýkýþ ayarlarý...
+;---------------;
+; Video preview ;
+;---------------;
+53=Altyazýdayken çift týklayýnca:
+54=Sýçrama miktarý:
+55=Altyazýdayken Shift'e basýp çift týklayýnca:
+56=Metin kutusuna geç
+57=Filmdeki altyazý anýna git
+58=Filmde altyazýdan N saniye geri git
+59=Geri ve Ýleri sarma süresi:
+60=saniye.
+61=Önseçili deðiþtirilmiþ pleybek hýzý
+;-------------------------;
+; Video preview Subtitles ;
+;-------------------------;
+62=Kenarlýk çiz
+63=Gölge yap
+64=Transparan arka planý dene
+65=Force using regions (may be slow)
+66=Yazý tipi...
+67=Renk...
+68=Arka plan...
+69=Kenarlýk geniþliði:
+70=Gölge geniþliði:
+71=ÖRNEK
+;--------------------------;
+; External Preview General ;
+;--------------------------;
+72=Video oynatýcýsýnýn exe'si:
+73=Geçerli programý tespit et
+74=Her seferinde farklý bir video dosyasý sor
+75=Her zaman video ile test et:
+;---------------------------;
+; External Preview Advanced ;
+;---------------------------;
+76=Geçici altyazýyý kaydedeceðiniz format:
+77=Orjinal format
+78=Varsayýlan format:
+79=Video oynatýcýsýna gönderilecek parametre:
+80=VIDEO_FILE altyazýyla test edeceðin video dosyasýný gösterir. SUBT_FILE video oynatýcýsýna gönderilen geçici altyazý dosyasýna parametredir. Baþka parametreler ekleyebilirsiniz, örneðin tam ekran için /FS, vs.
+;----------------;
+; Look / Program ;
+;----------------;
+81=Programda kullanýlan yazý tipi:
+82=Yazý tipi büyüklüðü:
+83="Metin" ve "Çeviri" alanlarý hizalamasý:
+84=Sol|Sað|Orta
+;-------------;
+; Look / List ;
+;-------------;
+85=Çizgileri göster
+86=Stili altyazýya uygula
+87=Çevirilmemiþ altyazýlarý renkli göster:
+88=Yatay kaydýrak çubuðunu göster
+;-------------;
+; Look / Menu ;
+;-------------;
+89=Office XP stili menü kullan
+90=Eðimli menü kullan
+
+[Output settings]
+01=Çýkýþ ayarlarý
+02=Disk ID:
+03=DVD Baþlýðý:
+04=Dil:
+05=Yazar:
+06=Ýnternet Sitesi:
+07=Bilgi:
+08=Lisans:
+09=Altyazý:
+10=Arka plan:
+11=ÖRNEK
+12=&Yazý tipi ayarla
+13=Hiza:
+14=Sola
+15=Ortala
+16=Saða
+17=Kare oraný:
+18=Kare atla
+19=Renk 0 (arka plan):
+20=Renk 1 (Yazý tipi):
+21=Renk 2 (outline):
+22=Renk 3 (antialiasing):
+23=Palet renk n°:
+24=Karþýtlýk
+25=Baþlýk:
+26=Skript:
+27=Dýþ görünüm
+28=Diðer
+29=Kenarlýk stili:
+30=Çerçeve + drop shadow
+31=Opak kutu
+32=Renk
+33=Birincil:
+34=Ýkincil:
+35=Üçüncül:
+36=Gölge:
+37=Sol boþluk:
+38=Sað boþluk:
+39=Dikey boþluk:
+40=Çerçeve:
+41=Hizalama:
+42=Kodlama:
+43=Kaynak:
+44=Program:
+45=Yol:
+46=Gecikme:
+47=CD Ýzi:
+48=Yorum:
+49=TMPlayer Formatý
+50=TMPlayer + Format
+51=TMPlayer Çoklu Satýr Formatý
+
+[Duration limits]
+01=Gözükme süresi limitleri
+02=Maksimum süreyi ayarla
+03=Milisaniye
+04=Minimum süreyi ayarla
+05=* Zamaný artýrmak altyazýlarý üst üste bindirmeyecek
+
+[Set delay]
+01=Gecikme ayarla
+02=Tüm altyazýlar için
+03=Seçilen altyazýlar için
+
+[Adjust subtitles]
+01=Altyazýlarý ayarla
+02=Basit
+03=Geliþmiþ
+04=Ýlk konuþma satýrý:
+05=Son konuþma satýrý:
+06=Dosyadan yükle
+07=Dosyaya kaydet
+08=Satýr #
+09=Önceki
+10=Yeni
+11=&Ekle
+12=&Media'dan ekle
+13=&Sil
+14=Eðer zaman noktalarýn dýþýndaysa
+15=Tahmin et
+16=Orjinal zamana geri dön (deðiþiklik yok)
+17=Komþu noktanýn yerine dön
+18=&Ayarla!
+19=Yeni senkron noktasý girin
+20=Eski zaman:
+21=Yeni zaman:
+
+[Time expander/reducer]
+01=Süre geniþletici/daraltýcý
+02=Süreyi geniþlet
+03=Süreyi daralt
+04=Süreyi geniþlet/daralt:
+05=Saniye
+06=Kare
+07=Eðer altyazý belli bir karakterden uzunsa:
+09=karakter
+10=Eðer süre belli bir deðerden uzunsa:
+11=Eðer süre belli bir kare sayýsýndan kýsa ise:
+12=Üst üste binmeyi engelle
+13=Tüm altyazýlar için
+14=Seçili altyazýlar için
+
+[Automatic durations]
+01=Otomatik süre
+02=Milisaniye
+03=karakter baþýna
+04=kelime baþýna
+05=satýr baþýna
+06=Yeni süreyi tüm durumlarda uygula
+07=Sadece yeni süre orjinalinden büyükse
+08=Sadece yeni süre orjinalinden küçükse
+09=Tüm altyazýlar
+10=Sedece seçili altyazýlar
+
+[Convert case]
+01=Büyük-küçük harf dönüþtür
+02=Cümle tipi.
+03=Sadece ilk kelimenin ilk harfi
+04="..." tespiti
+05=küçükharf
+06=BÜYÜKHARF
+07=Baþlýk Stili
+08=tERS tÝP
+09=Tüm altyazýlar
+10=Sadece seçili altyazýlar
+
+[Divide lines]
+01=Satýrlarý böl
+02=Bu satýr numarasýndan itibaren böl:
+03=Otomatik süre kullan
+04=Göster:
+05=Gizle:
+06=Süre:
+07=Direkt olarak devam et
+08=%s karakter
+09=&Böl!
+
+[Search & Replace]
+01=Ara ve Deðiþtir
+02=Ara
+03=Bulunacak metin:
+04=&Ara!
+05=Deðiþtirilecek metin:
+06=&Sonrakini bul
+07=&Deðiþtir
+08=&Hepsini deðiþtir
+09=&Fazla >
+10=A&z <
+11=Büyük harf duyarlýlýðý
+12=Tüm kelimeleri eþleþtir
+13=Deðiþtirmede büyük-küçük harfleri koru
+14=Metni arama þekli:
+15=Bütün altyazý
+16=Seçilen altyazýdan itibaren
+17=Karakter seti:
+
+[Go to line]
+01=Satýra git
+02=Satýr numarasýný gir:
+
+[Batch convert]
+01=Çoklu dönüþtürme
+02=Birden fazla dosyayý bir kaç adýmda tek bir formata dönüþtürür.
+; Buttons
+03=< &Geri
+04=&Ýleri >
+05=&Dönüþtür
+06=&Çýkýþ
+07=&Kapat
+08=&Hepsi
+09=&Hiçbiri
+; Page 1
+10=Uzantýlar:
+11=Yol ara:
+12=Alt klasörleri içer
+13=Ayrýntýlý format kontrolü
+14=Çýkýþ klasörü:
+15=Çýkýþ formatý:
+16=Önseçili FPS:
+; List columns
+17=Dosya adý
+18=Format
+19=FPS
+20=Boyut
+; Page 2
+21=&Ekle
+22=&Çýkar
+23=&Temizle
+; Page 3
+24=Bitti!. Detay için log dosyasýna bakýn:
+25=Kaydet...
+; Searching
+26=%s dosyasý kontrol ediliyor
+
+[Batch convert log]
+01=%s %s - Toplu Dönüþtürme Log Dosyasý
+02=%s üzerinde üretildi
+03=Çýkýþ formatý: %s
+04=Dönüþtürülecek toplam dosya: %d
+05="%s" yüklenmeye çalýþýyor...
+06=Dosya baþarýyla yüklendi!
+07="%s" dosyasý zaten mevcut, deðiþtiriliyor...
+08=Dosya baþarýyla "%s"'a kaydedildi
+09="%s" dosyasý zaten mevcut ve deðiþtirmek için programa izin vermediniz
+10=Dosyayý yüklerken hata oluþtu, kaydedilemiyor!
+11=Tüm dönüþtürme bitti: %u
+12=Toplam zaman: %s
+13=Bütün dosyalar baþarýyla dönüþtürüldü
+14=Bazý dosyalarý dönüþtürürken hatalar oluþtu, aþaðýdaki detaylara bakýn
+
+[Split]
+01=Altyazýyý ayýr...
+02=Basit
+03=Geliþmiþ
+04=Seçilen yerde ayýr
+05=Altyazý numarasýnda ayýr:
+06=Verilen zamanda ayýr:
+07=Verilen karede ayýr:
+08=Filmin sonunda ayýr:
+09=Ýsimlendirme
+10=%d. parça:
+11=Dosya Adý
+12=Uzunluk
+13=Satýr
+14=Süresi eþit olacak þekilde parçala
+15=Satýrlarý eþit olacak þekilde parçala
+16=Filmin sonunda
+17=Parça sayýsý:
+18=Parçalarý otomatik isimlendir:
+19=Çýkýþ klasörü:
+20=Çýkýþ formatý:
+21=Zaman deðerlerini yeniden hesapla
+22=Filmi seçmek için çift týklayýn
+23=&Ayýr!
+
+[Join]
+01=Altyazýlarý birleþtir...
+02=Birleþtirmek istediðiniz altyazý dosyalarýný ekleyin (sýrayla):
+03=Dosya adý
+04=Format
+05=FPS
+06=Boyut
+07=Film parçasý (isteðe baðlý)
+08=&Ekle
+09=&Çýkar
+10=&Temizle
+11=&Film parçasý ayarla
+12=F&ilm parçasý temizle
+13=Çýkýþ formatý:
+14=Çýkýþ FPS:
+15=Birleþtirme ve kaydetmeden sonra dosyayý yükle
+16=Zaman deðerlerini yeniden hesapla
+17=&Birleþtir!
+
+[Information and errors]
+01=Bilgi ve hatalar
+02=Kontrol et!
+03=Hatalarý düzelt!
+04=&Ayarlar
+05=Her silme iþlemini onayla
+06=Altyazý
+07=Tip
+08=Taným
+;-------;
+; Types ;
+;-------;
+09=Hata
+10=Uyarý
+11=Bilgi
+13=Düzeltildi
+;----------------------;
+; Information messages ;
+;----------------------;
+14=Toplam hata: %d
+15=Düzeltilen hata: %d
+;---------------;
+; Error reports ;
+;---------------;
+16=Harflerden oluþmayan satýrlar içeriyor
+17=Boþ altyazý
+18=Önceki altyazý ile üst üste biniyor
+19=Kötü deðer
+20=Çok uzun gözükme süresi
+21=Çok kýsa gözükme süresi
+22=Çok uzun satýr(lar)
+23=Ýki satýrdan fazla
+24=Ýþitme engelli
+25=Ýki noktadan (":") önce metin var
+26=Gereksiz noktalar
+27=Yasak bir karakter içeriyor
+28=Karakter tekrarý
+29=Altyazý tekrarý
+30=OCR hatasý
+31="-" ile baþlayan tek satýr altyazý
+32=Varsayýlan karakterden sonra boþluk yok
+33=Varsayýlan karakterden önce boþluk yok
+34=Gereksiz boþluklar
+35=Ýþaretli altyazý
+;-------------;
+; Fix reports ;
+;-------------;
+36=Harflerden oluþmayan satýrlar silindi
+37=Boþ altyazý silindi
+38=Üst üste binme düzeltildi
+39=Kötü deðerler düzeltildi
+40=Ýki satýrdan fazla olan altyazý ayarlandý
+41=Ýþitme engelli altyazý silindi
+42=Ýþitme engelli kýsým silindi
+43=(":")'den önceki metin silindi
+44=Gereksiz noktalar silindi
+45=Yasaklanmýþ karakter içeriyordu ve silindi
+46=Tekrarlanan karakter düzeltildi
+47=Tekrarlanan altyazý düzeltildi
+48=OCR Hatalarý düzeltildi
+49=Bir satýrlý altyazýdaki "-" silindi
+50=Varsayýlan karakterden sonra boþluk eklendi
+51=Varsayýlan karakterden önce boþluk eklendi
+52=Gereksiz boþluklar silindi
+;-----
+53=Ana formda satýra atlamak için çift týkla
+
+[Information and errors Settings]
+01=Ayarlar
+02=Genel
+03=Geliþmiþ
+04=Ara
+05=Düzelt
+06=Gereksiz boþluklar
+07=Düzeltmelerde ana formda onaylama göster
+08=Ana form listesindeki hatalarý iþaretle
+09=Renk ayarla...
+10=Kalýn
+11=Ýtalik
+12=Altý çizili
+13=Altyazý yüklendiðinde hatalarý iþaretle
+14=Altyazý yüklendiðinde hatalarý düzelt
+15=Yüklendiðinde bir birim üst üste binmeyi düzelt
+16=OCR Skripti:
+17=&Düzenle
+18=Tekrarlanabilir karakterler:
+19=Yasak karakterler:
+20=Altyazý tekrar toleransý:
+21=milisaniye.
+22=Karakterlerden sonraki boþluk:
+23=Karakterlerden önceki boþluk:
+24=Çok uzun gözükme süresi:
+25=Çok kýsa gözükme süresi:
+26=Çok uzun satýr:
+27=karakter.
+;------
+28=Harflerden oluþmayan satýrlar
+29=Boþ altyazýlar
+30=Üst üste binen altyazýlar
+31=Kötü deðer
+32=Çok uzun gözükme süresi
+33=Çok kýsa gözükme süresi
+34=Çok uzun satýr
+35=Ýki satýrdan fazla olan altyazýlar
+36=Ýþitme engelli altyazýlar
+37=Ýki noktadan (":") önceki metin
+38=Sedece metin büyük harflerden oluþuyorsa
+39=Gereksiz noktalar
+40=Yasaklanmýþ karakterler
+41=Tekrarlanan karakterler
+42=Tekrarlanan altyazýlar
+43=OCR Hatalarý
+44=Bir satýrlý altyazýlardaki "- "
+45=Varsayýlan karakterden sonraki boþluklar
+46=Varsayýlan karakterden önceki boþluklar
+47=Gereksiz boþluklar
+;------
+48=Ara:
+49=Düzelt:
+50=Baþta ve sondaki yeni satýr ve boþluk karakterleri
+51=Satýrlar arasýndaki boþluk karakterleri(sol ve sað)
+52=Çifte boþluk ve yeni satýr karakterleri
+53=Noktalama iþaretlerinden önceki boþluklar
+54="¿" ve "¡"den sonraki boþluklar
+55="?" ve "!"den önceki boþluklar
+56=Rakamlar arasýndaki boþluklar
+
+[Various information]
+01=Çeþitli bilgiler
+02=Bilgi
+03=Geliþmiþ
+04=Orjinal dosya
+05=Çevirilen dosya
+06=Þu anki format:
+07=Dosya:
+08=Boyut:
+09=Toplam altyazý sayýsý:
+10=Toplam satýr sayýsý:
+11=Toplam kelime sayýsý:
+12=Toplam harf sayýsý:
+13=Tek satýrlý altyazý sayýsý:
+14=Ýki satýrlý altyazý sayýsý:
+15=Ýki satýrdan fazla altyazý sayýsý:
+16=En uzun satýr:
+17=%d. altyazýda %d karakter
+18=Pleybek için en iyi yazý tipi boyutu
+19=Çözünürlük geniþliði:
+20=AVI'den
+21=Yazý tipi adý:
+22=Kalýn
+23=Ýtalik
+24=Hesapla
+
+[SAMI Language Extractor]
+01=SAMI Dili ayýklayýcýsý
+02=SAMI dosyasý:
+03=Çýkýþ klasörü:
+04=Seçili altyazýlar alýnacak:
+05=Sýnýf
+06=Dil
+07=Tümünü otomatik tespit et
+08=Elle ekleyin
+09=Ayýkla!
+10=Dil ekleyin
+11=Ýstenilen dilin sýnýf adýný girin:
+12=Lütfen bekleyin...
+
+[About form]
+01=%s hakkýnda
+02=Bilgi
+03=Jenerik
+04=Sürüm: %s
+05=%s versiyon: %s
+06=Desteklenen %d farklý format
+07=Eðer programý beðendiyseniz, baðýþ yapmanýzdan memnun oluruz. Baðýþ yapmak için týklayýn.
+08=Programlayan
+09=Katkýda bulunanlar
+10=%s 'yi yapanlar
+; Following line is "DirectShow programming"
+11=%s programlama
+12=Çevirenler
+13=Beta sürümünü test edenler
+14=Program simgesini hazýrlayan
+15=Yeni sürümler için ziyaret edin:
+
+[Error messages]
+01=Altyazý API'si baþlatýlamadý. Lütfen "%s" DLL'sini %s'den indirin "%s" klasörüne kopyalayýn.
+02=(%s) hatasý %s nesnesinden kaynaklanýyor (%s):||"%s"||Bu hata oluþtuðunda ne yaptýðýnýzý bildirmek için lütfen %s'e yazýn.||Devam etmek için Tamam'a, programdan çýkmak için Ýptal'e basýn.
+03="%s" dosyasý kötü bir altyazý veya deteklenmeyen bir format.
+04="%s" dosyasý %s formatýnda deðil veya geçerli bir altyazý dosyasý deðil.
+05="%s" geçerli bir video dosyasý deðil.
+06=Geçerli bir satýr numarasý deðil.
+07=Aramak için en az bir uzantý seçin.
+08=Arama yolu mevcut deðil.
+09=Parça numarasý geçerli deðil
+10=Lütfen iki veya daha fazla altyazý ekleyin.
+11=Sunucuya baðlanýlamadý!.
+12=Salt oku özelliði "%s" den silinemedi.||Yazmaya karþý korumalý bir sürücü üzerinde olabilir.
+13=Microsoft Word'a baðlanmaya çalýþýrken hata oluþtu!
+14=Önce ilk parçalarýn videolarýný seçin!
+15=Geçerli bir çýkýþ klasörü seçin.
+16=Açmak için en az bir dil seçin.
+17="%s" geçerli bir SAMI dosyasý deðil..
+18=Listede bir altyazý parçasý seç.
+19=Eðer altyazýnýn bir parçasý için film parçasý seçerseniz,altyazýnýn tüm parçalarý için bir film parçasý seçmelisiniz (son parça hariç tabi ki).
+20=Bir veya daha çok noktaya ihtiyacýnýz var.
+
+[Question messages]
+01="%s" dosyasý deðiþti.||Deðiþiklikleri kaydetmek istiyor musunuz?
+02="%s" dosyasý zaten var.||Deðiþtirmek istiyor musunuz?
+03=Orjinal dosya ("%s") deðiþti.||Deðiþiklikleri kaydetmek istiyor musunuz?
+04=Çevirilen dosya ("%s") deðiþti.||Deðiþiklikleri kaydetmek istiyor musunuz?
+05=Seçili altyazý silinmek üzere.||Devam etmek istiyor musunuz?
+06=Nokta 1 Altyazý: %s|Nokta 1 Film: %s||Nokta 2 Altyazý: %s|Nokta 2 Film: %s||Altyazýyý senkronize etmek istiyor musunuz?
+07=Film oynatýcýsý belirlenmedi veya mevcut deðil.||Harici bir oynatýcý ayarlamak ister misiniz?
+08=Yeni bir sürüm bulundu!.||Deðiþiklik dosyasýný görmek istiyor musunuz?
+09=Kaydetmeye çalýþtýðýnýz dosya salt okunur.||Kaydetmeyi denemek istiyor musunuz?
+
+[Information messages]
+01="%s"'in baþka örneði bulunamadý.
+02=Yeni sürüm mevcut deðil.
+03=Yazým denetimi bitti.||%d deðiþiklik yapýldý.
+04=Çok fazla parça. Yeniden baþlatýlýyor...
+05=Sadece bir dil bulundu.||Eðer dosya çok sayýda dil içeriyorsa, dosyayý bir metin editöründe açarak ve doðru sýnýf adýný arayarak istediklerinizi elle ekleyin
+06="STYLE" baþlat ve/veya kapat etiketi yerleþtirilemedi!||Bu nedenle, bu dosya birden fazla dil içermiyor.|Eðer içeriyorsa, istenilen dil(ler)in sýnýf adýný arayarak elle eklemeyi deneyin.
+07=Pleybek için en uygun yazý tipi boyutu: %d
+08=Toplam düzeltme: %d
+09=Dosya adý: %s|Boyut: %s|FPS: %s|Süre: %s|Toplam kare: %d|Çözünürlük: %dx%d|FourCC: %s
+10=Filmin bazý "stream"leri düzgün render edilemedi. Ses veya video codec eksik olabilir.
+11=Son altyazýya uygun film parçasý ayarlamanýz gerekli deðildir.
+
+[Information and errors messages]
+01=%d. altyazý boþ bir altyazý ve silinmek üzere.||Devam etmek istiyor musunuz?
+02=%d. altyazý:||"%s" yasaklanmýþ bir karakter içeriyor ve silinmek üzere.||Devam etmek istiyor musunuz?
+03=%d. altyazý:||"%s" silinmek üzere.||Devam etmek istiyor musunuz?
+04=%d. altyazýnýn bir kýsmý:||"%s" silinmek üzere, altyazý þu hale gelecek:||"%s"||Devam etmek istiyor musunuz?
+05=%d. altyazý:||"%s" tek satýr altyazý ve "-" ile baþlýyor.||Baþtaki "-"yi silmek istiyor musun?

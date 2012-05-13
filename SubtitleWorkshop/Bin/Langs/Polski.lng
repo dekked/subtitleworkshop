@@ -1,0 +1,868 @@
+;   Subtitle Workshop 2.50
+;   Polish language file
+;
+;   Translator : Krzysztof Wayda
+;   E-mail     : kwayda@o2.pl
+;   Web        : 
+
+[General]
+Translator=Krzysztof Wayda
+Font Charset=238
+AllFiles=Wszystkie obs³ugiwane pliki
+Help=Manual.html
+FPS=FPS
+PlainText=Zwyk³y tekst
+STP=Zadanie t³umaczenia napisów
+SRF=Plik Raportu
+
+[Standard buttons]
+01=&Ok
+02=&Anuluj
+03=&ZnajdŸ
+04=&Zastosuj
+05=Za&koñcz
+06=&Tak
+07=&Nie
+
+[Main Form]
+01=Tryb pracy:
+02=Czas
+03=Klatki
+04=Wejœciowe FPS:
+05=FPS:
+06=Pracuj w trybie:
+07=Czas wyœwietl.|Czas koñcowy|Oba
+08=Lp.
+09=Pocz¹tek
+10=Koniec
+11=Tekst
+12=T³umaczenie
+13=%d nieprzet³umaczonych linii
+14=Czas wyœwietlania:
+15=%s (%s znaków):
+16=- napis nieprzet³umaczony -
+
+
+[Main menu header]
+01=Plik
+02=Edycja
+03=ZnajdŸ
+04=Narzêdzia
+05=Film
+06=Ustawienia
+07=Pomoc
+
+[Main menu/File]
+01=Nowe napisy...
+02=Otwórz plik napisów...
+03=Ostatnio otwierane pliki
+04=Wyczyœæ listê
+05=Otwórz
+06=Projekt...
+07=Orygina³
+08=Przet³umaczony
+09=Zapisz
+10=Orygina³ jako...
+11=Przet³umaczony jako...
+12=Zapisz jako...
+13=Zamknij
+14=Zakoñcz
+
+[Main menu/Edit]
+01=Cofnij
+02=Ponów
+03=Wstaw napis
+04=Wstaw przed
+05=Usuñ zaznaczone
+06=Wytnij
+07=Kopiuj
+08=Wklej
+09=Zaznacz wszystko
+
+[Main menu/Edit/Timings]
+01=Czasy
+02=Ustaw granice czasu wyœwietlania...
+03=Ustaw przesuniêcie czasu...
+04=Synchronizuj z filmem
+05=Synchronizuj z dialogami...
+06=Skorzystaj z ju¿ zsynchronizowanych
+07=Przed³u¿enie/skrócenie czasu wyœwietlania
+08=Zwiêkszona d³ugoœæ
+09=Automatyczne czasy wyœwietlania
+10=Odczytaj czasy z pliku
+11=Przesuñ %s milisekund
+
+[Main menu/Edit/Texts]
+01=Teksty
+02=Inteligentne dopasowanie linii
+03=Zmiana wielkoœci liter...
+04=Scal napis do jednej linii
+05=Podziel na dwa napisy...
+06=Szybkie dzielenie napisu
+07=Ustaw maksymaln¹ d³ugoœæ linii...
+08=Czytaj teksty z pliku
+
+[Main menu/Edit/Subtitles]
+01=Napisy
+02=Po³¹cz napisy
+03=Efekty
+04=Efekt pisania
+05=Miganie
+06=Szybkie miganie
+07=Œrednie miganie
+08=Wolne miganie
+09=Czytane od prawej do lewej
+10=Odwróæ tekst
+11=Skoryguj interpunkcjê
+12=Sortuj
+13=Usuñ zbêdne kropki "...."
+14=Zaznacz wybrane napisy
+15=Odznacz wybrane napisy
+
+[Main menu/Edit/Translation]
+01=T³umaczenie napisów
+02=Tryb t³umaczenia
+03=Przestaw kolumny
+
+[Main menu/Search]
+01=ZnajdŸ...
+02=ZnajdŸ nastêpny
+03=ZnajdŸ i zamieñ...
+04=IdŸ do linii nr...
+
+[Main menu/Tools]
+01=Sprawdzenie pisowni
+02=Konwersja wielu plików...
+03=Podziel plik napisów...
+04=Po³¹cz pliki napisów...
+05=Informacje i b³êdy
+06=ZnajdŸ b³êdy...
+07=Ró¿ne informacje...
+08=Skrypty korekty pisowni (OCR)
+09=Poka¿ na panelu g³ównym
+10=Ustawienia...
+11=Ponownie sprawdŸ b³êdy
+12=Popraw wszystkie b³êdy
+13=Popraw b³êdy w zaznaczonych napisach
+14=PrzejdŸ do nastêpnego b³êdu
+15=FPS z pliku AVI
+16=Zewnêtrzny player
+17=Ekstraktor jêzyków z formatu SAMI
+18=Skrypty w jêzyku Pascal
+
+[Main menu/Movie]
+01=Otwórz...
+02=Zamknij
+03=Informacja...
+04=Tryb podgl¹du filmu
+05=Wyœwietlaj napisy
+06=Zapisz plik startowy odtwarzania
+
+[Main menu/Movie/Playback]
+01=Odtwarzanie
+02=Odtwarzaj/Pauza
+03=Stop
+04=Przewijaj wstecz
+05=Przewijaj do przodu
+06=5 s do ty³u
+07=5 s do przodu
+08=Prêdkoœæ odtwarzania
+
+[Main menu/Movie/Subtitles]
+01=Napisy
+02=Przesuñ napis
+03=Ustaw czas pokazania
+04=Ustaw czas koñcowy
+05=Pocz¹tek nowego napisu
+06=Koniec nowego napisu
+
+[Main menu/Movie/Synchronization]
+01=Synchronizacja
+02=Pierwszy punkt synchronizacji
+03=Ostatni punkt synchronizacji
+04=Dodaj punkt synchronizacji
+
+[Main menu/Movie/Display]
+01=Poka¿
+02=Orygina³
+03=T³umaczenie
+
+[Main menu/Settings]
+01=Ustawienia wyjœciowe...
+02=Jêzyk
+03=Poka¿ lewy panel
+04=Poka¿ okienka czasów
+05=W³¹cz edycjê w polu listy
+
+[Main menu/Help]
+01=O programie %s...
+02=SprawdŸ, czy jest nowsza wersja
+
+[Popup Menu]
+01=Kursywa
+02=Pogrubienie
+03=Podkreœlenie
+04=Ustaw kolor
+05=Usuñ oznaczenie koloru
+
+[Video preview hints]
+01=Odtwarzaj/Pauza (%s)
+02=Stop (%s)
+03=Przewijaj listê napisów z filmem
+04=Poprzedni napis
+05=Nastêpny napis
+06=Przewijaj wstecz (%s)
+07=Przewijaj naprzód (%s)
+08=Zmieñ prêdkoœæ odtwarzania
+09=Przesuñ napis (%s)
+10=Ustaw czas pokazania (%s)
+11=Ustaw czas koñcowy (%s)
+12=Pocz¹tek nowego napisu (%s)
+13=Koniec nowego napisu (%s)
+14=Pierwszy punkt synchronizacji (%s)
+15=Ostatni punkt synchronizacji (%s)
+16=Dodaj punkt synchronizacji film-napisy (%s)
+
+[Save as]
+01=Zapisz jako
+02=Podwójnie kliknij na wybrany format:
+03=Format u¿ytkownika
+04=Wszystkie formaty
+
+[Custom formats]
+01=Formaty u¿ytkownika
+02=Informacja
+03=Nazwa:
+04=Rozszerzenie:
+05=Znak nowej linii:
+06=Czas
+07=Klatki
+08=Struktura:
+09=FPS:
+10=Otwórz projekt
+11=Zapisz projekt
+12=Zapamiêtaj ostatni format u¿ytkownika
+13=Zapisz!
+14=Projekty formatu u¿ytkownika
+
+[Settings Form]
+01=Ustawienia
+02=Zmiany konfiguracji programu
+; Sections
+03=Ogólne
+04=Zaawansowane
+05=Zestawy znaków
+06=Formaty
+07=Typy plików
+08=Zapisywanie
+09=Podgl¹d filmu
+10=Napisy
+11=Zewnêtrzny player
+12=Wygl¹d
+13=Program
+14=Lista
+15=Menu
+;-----------------;
+; General section ;
+;-----------------;
+16=Zawsze na wierzchu
+17=Zezwalaj na uruchomienie wielu kopii programu
+18=¯¹daj potwierdzenia kasowania napisów
+19=Traktuj nierozpoznane pliki jako zwyk³y tekst
+20=Automatycznie szukaj pliku z filmem
+21=Wymuszaj tryb pracy z czasem zamiast klatek
+22=Utrzymuj uk³ad linii dla tekstów od prawej do lewej
+23=Zaznaczaj tekst przy przejœciu do nowej linii
+24=Zaznaczaj tekst przy przejœciu do poprzedniej linii
+25=Ignoruj znaczniki stylów
+26=Uwzglêdnij znaczniki stylów
+27=Limit listy ostatnio otwieranych plików:
+;----------;
+; Advanced ;
+;----------;
+28=Inteligentne dopasowanie linii
+29=Dwie linie, jeœli napis d³u¿szy ni¿:
+30=znaków
+31=Zmieñ miejsce ³amania
+32=Podzia³ napisów na linie
+33=Nowa linia, gdy wiêcej ni¿:
+34=Automatyczne szybkie dopasowanie linii
+35=Maksymalna d³ugoœæ linii:
+36=Przesuniêcie osi czasu:
+37=milisekund
+;----------;
+; Charsets ;
+;----------;
+38=Wyœwietlaj na g³ównym panelu programu
+39=Zestaw znaków orygina³u:
+40=Zestaw znaków t³umaczenia:
+;-----------------;
+; Formats section ;
+;-----------------;
+41=Format domyœlny:
+42=Formaty wyœwietlane do polecenia "Zapisz jako":
+43=Poka¿ formaty u¿ytkownika
+44=&Zaznacz wszystko
+45=&Odznacz wszystko
+;--------------------;
+; File types section ;
+;--------------------;
+46=Zarejestruj rozszerzenia przy uruchamianiu
+47=Powi¹¿ z obs³ugiwanymi plikami napisów
+;--------------;
+; Save section ;
+;--------------;
+48=Przypomnij o zapisanie pliku przy zamkniêciu pliku/programu
+49=Zapisuj automatycznie co
+50=minut.
+51=Zapisz jako kopiê
+52=Ustawienia wyjœciowe...
+;---------------;
+; Video preview ;
+;---------------;
+53=Podwójne klikniêcie na napisie:
+54=Iloœæ sekund:
+55=Shift+podwójne klikniêcie na napisie:
+56=PrzejdŸ do pola tekstowego
+57=Przewiñ film do miejsca pokazania napisu
+58=Przewiñ film (N) sekund przed miejscem pokazania napisu
+59=Skok czasu przy przewijaniu:
+60=sekund.
+61=Domyœlna wartoœæ zmiany prêdkoœci odtwarzania:
+;-------------------------;
+; Video preview Subtitles ;
+;-------------------------;
+62=Litery z obrysem
+63=Pod³ó¿ cieñ
+64=Zastosuj przezroczyste t³o
+65=Wymuœ dok³adne wtapianie (mo¿e dzia³aæ wolno)
+66=Czcionka...
+67=Kolor...
+68=T³o...
+69=Gruboœæ obrysu:
+70=Szerokoœæ cienia:
+71=PRZYK£AD
+;--------------------------;
+; External Preview General ;
+;--------------------------;
+72=Plik zewnêtrznego playera:
+73=Wyszukaj automatycznie
+74=Zawsze pytaj o film do testowania napisów
+75=Zawsze testuj z filmem:
+;---------------------------;
+; External Preview Advanced ;
+;---------------------------;
+76=Zapisuj pliki tymczasowe w formacie:
+77=Orygina³u
+78=Innym:
+79=Parametry do przes³ania do playera:
+80=PLIK_VIDEO okreœla nazwê pliku z filmem, do którego chcesz testowaæ napisy. PLIK_NAPISÓW to nazwa pliku z testowanymi napisami. Mo¿esz dodaæ inne parametry, np. pe³ny ekran, itp.
+;----------------;
+; Look / Program ;
+;----------------;
+81=Czcionka programu:
+82=Rozmiar czcionki programu:
+83=Wyrównanie tekstów w polach "Tekst" i "T³umaczenie":
+84=Do lewej|Do prawej|Do œrodka
+;-------------;
+; Look / List ;
+;-------------;
+85=Wyœwietlaj ramki w tabelach
+86=Zastosuj style w napisach
+87=Zaznacz nieprzet³umaczone napisy kolorem:
+88=Poka¿ poziomy pasek przewijania
+;-------------;
+; Look / Menu ;
+;-------------;
+89=Menu w stylu Office XP
+90=Pasek z lewej z przejœciem tonalnym
+
+[Output settings]
+01=Parametry wyjœciowe
+02=Nr dysku:
+03=Tytu³ DVD:
+04=Jêzyk:
+05=Autor:
+06=www:
+07=Info:
+08=Licencja:
+09=Napisy:
+10=T³o:
+11=PRÓBKA
+12=&Czcionka
+13=Wyrównanie:
+14=Do lewej
+15=Do œrodka
+16=Do prawej
+17=Klatki/s:
+18=Drop frame
+19=Kolor 0 (t³o):
+20=Kolor 1 (czcionka):
+21=Kolor 2 (obrys):
+22=Kolor 3 (wyg³adzanie):
+23=Nr palety kolorów:
+24=Kontrast
+25=Tytu³:
+26=Zestaw znaków:
+27=Kosmetyka
+28=Pozosta³e
+29=Styl napisów:
+30=Obrys + cieñ
+31=T³o nieprzezroczyste
+32=Kolor
+33=Pierwszy:
+34=Drugi:
+35=Trzeci:
+36=Cieñ:
+37=Lewy margines:
+38=Prawy margines:
+39=Pionowy margines:
+40=Obrys:
+41=Wyrównanie:
+42=Kodowanie:
+43=ród³o:
+44=Program:
+45=Œcie¿ka:
+46=OpóŸnienie:
+47=Œcie¿ka na CD:
+48=Komentarz:
+49=Format TM Player
+50=Format TM Player+
+51=Format TM Player Multiline
+
+[Duration limits]
+01=Granice czasów wyœwietlania
+02=Maksymalny czas wyœwietlania
+03=milisekund
+04=Minimalny czas wyœwietlania
+05=*Zwiêkszanie czasu nie spowoduje nak³adania siê napisów na siebie
+
+[Set delay]
+01=Przesuniêcie czasu
+02=Dla wszystkich napisów
+03=Dla zaznaczonych napisów
+
+[Adjust subtitles]
+01=Synchronizacja napisów
+02=Prosta
+03=Zaawansowana
+04=Pierwszy dialog filmu:
+05=Ostatni dialog filmu:
+06=Pobierz z pliku
+07=Zapisz do pliku
+08=Linia nr
+09=Stary czas
+10=Nowy czas
+11=&Dodaj
+12=Dodaj z &filmu
+13=&Usuñ
+14=Jeœli czas jest poza oznaczonymi punktami:
+15=Ekstrapoluj
+16=Przywróæ oryginalny czas (bez zmian)
+17=Cofnij przesuniêcie s¹siedniego punktu synchronizacji
+18=&Synchronizuj!
+
+[Time expander/reducer]
+01=Zmiany czasu wyœwietlania
+02=Przed³u¿ czas
+03=Skróæ czas
+04=Zmieñ czas o:
+05=sekund
+06=klatek
+07=Tylko, jeœli napis d³u¿szy ni¿:
+09=znaków
+10=Tylko, jeœli czas wyœwietlania d³u¿szy ni¿:
+11=Tylko, jeœli czas wyœwietlania krótszy ni¿:
+12=Nie dopuszczaj do nak³adania siê napisów
+13=Dla wszystkich napisów
+14=Dla zaznaczonych napisów
+
+[Automatic durations]
+01=Automatyczne czasy wyœwietlania
+02=Milisekund
+03=na znak
+04=na s³owo
+05=na liniê tekstu
+06=Zastosuj nowe czasy wyœwietlania globalnie
+07=Tylko, jeœli nowy czas jest d³u¿szy ni¿ oryginalny
+08=Tylko, jeœli nowy czas jest krótszy ni¿ oryginalny
+09=Dla wszystkich napisów
+10=Dla zaznaczonych napisów
+
+[Convert case]
+01=Zmiana wielkoœci liter
+02=Jak w zdaniu.
+03=Tylko pierwsza litera pierwszego s³owa
+04=Wykrywanie ci¹gu "..."
+05=ma³e litery
+06=DU¯E LITERY
+07=Jak Tytu³
+08=oDWRÓCENIE
+09=Dla wszystkich napisów
+10=Dla zaznaczonych napisów
+
+[Divide lines]
+01=Podzia³ napisu
+02=Podziel po linii nr:
+03=Zastosuj automatyczne czasy wyœwietlania
+04=Poka¿:
+05=Ukryj:
+06=Czas wyœwietlania:
+07=Kontynuuj bezpoœrednio
+08=%s znaków
+09=&Podziel!
+
+[Search & Replace]
+01=ZnajdŸ i zamieñ
+02=ZnajdŸ
+03=Tekst do zamiany:
+04=&ZnajdŸ!
+05=Zamieñ na:
+06=ZnajdŸ &nastêpny
+07=Z&amieñ
+08=Zamieñ w&szystko
+09=&Wiêcej >
+10=&Mniej <
+11=Uwzglêdniaj DU¯E/ma³e litery
+12=Tylko ca³e s³owa
+13=Zachowaj wielkoœæ liter przy zamianie
+14=Szukaj tekstu w:
+15=W ca³ym pliku napisów
+16=W zaznaczonym fragmencie
+17=Zestaw znaków:
+
+[Go to line]
+01=PrzejdŸ do linii nr
+02=Podaj numer linii:
+
+[Batch convert]
+01=Konwersja wielu plików
+02=Konwertuj wiele plików ró¿nych formatów do jednego formatu w kilku krokach.
+; Buttons
+03=< &Wstecz
+04=&Dalej >
+05=K&onwertuj
+06=Za&koñcz
+07=Za&mknij
+08=Wszy&stko
+09=&Nic
+; Page 1
+10=Rozszerzenia:
+11=Œcie¿ka poszukiwañ:
+12=Uwzglêdniaj podkatalogi
+13=Dok³adna kontrola plików
+14=Folder docelowy:
+15=Format docelowy:
+16=Domyœlny FPS:
+; List columns
+17=Nazwa pliku
+18=Format
+19=FPS
+20=Rozmiar
+; Page 2
+21=&Dodaj
+22=&Usuñ
+23=&Wyczyœæ
+; Page 3
+24=Wykonane! Przejrzyj log ze szczegó³ami:
+25=Zapisz...
+; Szukam
+26=Sprawdzam plik %s
+
+[Batch convert log]
+01=%s %s - Raport konwersji wielu plików
+02=Utworzony %s
+03=Format wyjœciowy: %s
+04=Liczba plików do konwersji: %d
+05=Próba otwarcia pliku "%s"...
+06=Plik otwarty prawid³owo!
+07=Plik "%s" ju¿ istnia³, zosta³ nadpisany...
+08=Plik prawid³owo zapisany w "%s"'
+09=Plik "%s" ju¿ istnia³ i nie zezwolono na jego zamianê
+10=B³¹d przy otwieraniu pliku, nie mo¿na zapisaæ!
+11=Liczba przekonwertowanych plików: %u
+12=Ca³kowity czas konwersji: %s
+13=Wszystkie pliki zosta³y prawid³owo przekonwertowane
+14=Przy konwersji niektórych plików wyst¹pi³y b³êdy - szczegó³y poni¿ej
+
+[Split]
+01=Podzia³ pliku napisów...
+02=Prosty
+03=Zaawansowany
+04=Po zaznaczonej linii
+05=Po linii nr:
+06=Po czasie:
+07=Po klatce nr:
+08=Na koñcu filmu:
+09=Nazwy
+10=Czêœæ %d:
+11=Nazwa pliku
+12=Czas filmu
+13=Il. linii
+14=Czêœci o równych czasach
+15=Czêœci o równej iloœci linii
+16=Na koñcu filmów
+17=Iloœæ czêœci:
+18=Automatyczne nazwy czêœci:
+19=Folder docelowy:
+20=Format docelowy:
+21=Przelicz wartoœci czasów
+22=Podwójne klikniêcie wybiera film
+23=&Podziel!
+
+[Join]
+01=£¹czenie plików napisów...
+02=Dodaj pliki napisów, które chcesz po³¹czyæ (we w³aœciwej kolejnoœci):
+03=Nazwa pliku
+04=Format
+05=FPS
+06=Rozmiar
+07=Do czêœci filmu: (opcja)
+08=&Dodaj
+09=&Usuñ
+10=&Wyczyœæ
+11=P&rzypisz czêœæ filmu
+12=W&yczyœæ informacjê o filmie
+13=Format wyjœciowy:
+14=Wyjœciowy FPS:
+15=Otwórz plik po po³¹czeniu i zapisaniu
+16=Przelicz wartoœci czasów
+17=&Po³¹cz!
+
+[Information and errors]
+01=Informacje i b³êdy
+02=SprawdŸ!
+03=Popraw b³êdy!
+04=&Ustawienia
+05=Potwierdzenie ka¿dego kasowania napisu
+06=Napis
+07=Typ
+08=Opis
+;-------;
+; Types ;
+;-------;
+09=B³¹d
+10=Ostrze¿enie
+11=Info
+13=Poprawiony
+;----------------------;
+; Information messages ;
+;----------------------;
+14=Liczba b³êdów: %d
+15=Liczba poprawionych b³êdów: %d
+;---------------;
+; Error reports ;
+;---------------;
+16=Linia nie zawiera liter
+17=Pusta linia
+18=Na³o¿ony na poprzedni napis
+19=Z³e wartoœci czasów
+20=Za d³ugi czas wyœwietlania
+21=Za krótki czas wyœwietlania
+22=Za d³uga linia(e)
+23=Napis ma wiêcej ni¿ dwie linie
+24=Napis narracyjny dla nies³ysz¹cych
+25=Zawiera tekst przed dwukropkiem (":")
+26=Za du¿o kropek
+27=Zawiera niedozwolony znak
+28=Powtórzony znak
+29=Powtórzony napis
+30=Literówki
+31=Napis o jednej linii zaczyna siê od "-"
+32=Brak spacji po znaku specjalnym
+33=Brak spacji przed znakiem specjalnym
+34=Niepotrzebne spacje
+35=Zaznaczony napis
+;-------------;
+; Fix reports ;
+;-------------;
+36=Usuniêto napisy nie zawieraj¹ce liter
+37=Usuniêto puste napisy
+38=Poprawiono b³êdy nak³adania siê napisów
+39=Poprawiono b³êdy czasów
+40=Skorygowano napisy zawieraj¹ce wiêcej ni¿ dwie linie
+41=usuniêto napisy narracyjne dla nies³ysz¹cych
+42=Usuniêto fragmenty narracyjne dla nies³ysz¹cych
+43=Usuniêto teksty przed dwukropkiem (":")
+44=Usuniêto niepotrzebne kropki
+45=Usuniêto niedozwolone znaki
+46=Usuniêto powtórzone znaki
+47=Skorygowano powtórzone napisy
+48=Poprawiono literówki
+49=Usuniêto znak "-" w napisach o jednej linii
+50=Dodano spacje po znakach specjalnych
+51=Dodano spacje przed znakami specjalnymi
+52=Usuniêto niepotrzebne spacje
+;-----
+53=Kliknij podwójnie, aby przejœæ do linii z napisem na panelu g³ównym
+
+[Information and errors Settings]
+01=Ustawienia
+02=Ogólne
+03=Zaawansowane
+04=Sprawdzaj
+05=Popraw
+06=Niepotrzebne spacje
+07=Pokazuj potwierdzenia korekty b³êdów na panelu g³ównym
+08=Zaznacz napisy z b³êdami na panelu g³ównym
+09=Wybierz kolor...
+10=Pogrubienie
+11=Kursywa
+12=Podkreœlenie
+13=Zaznacz b³êdy przy otwieraniu pliku napisów
+14=Popraw b³êdy przy otwieraniu pliku napisów
+15=Skoryguj nak³adanie o jednostkê czasu przy otwieraniu pliku napisów
+16=Skrypt korekty pisowni:
+17=&Edytuj
+18=Powtarzaj¹ce siê znaki:
+19=Niedozwolone znaki:
+20=Tolerancja dla powtórzonych napisów:
+21=milisekund.
+22=Spacja po znakach:
+23=Spacja przed znakami:
+24=Za d³ugi czas wyœwietlania:
+25=Za krótki czas wyœwietlania:
+26=Za d³uga linia:
+27=znaki(ów).
+;------
+28=Linie nie zawieraj¹ce liter
+29=Puste napisy
+30=Nak³adaj¹ce siê napisy
+31=Z³e wartoœci czasów
+32=Za d³ugie czasy wyœwietlania
+33=Za krótkie czasy wyœwietlania
+34=Za d³ugie linie
+35=Napisy zawieraj¹ce wiêcej ni¿ 2 linie
+36=Napisy narracyjne dla nies³ysz¹cych
+37=Teksty przed dwukropkiem (":")
+38=Tylko, jeœli s¹ napisane DU¯YMI LITERAMI
+39=Niepotrzebne kropki
+40=Niedozwolone znaki
+41=Powtórzone znaki
+42=Powtórzone napisy
+43=Literówki
+44=Napisy o jednej linii zaczynaj¹ce siê od "-"
+45=Spacje po znakach specjalnych
+46=Spacje przed znakami specjalnymi
+47=Niepotrzebne spacje
+;------
+48=ZnajdŸ:
+49=Popraw:
+50=Znaki nowej linii i spacje na pocz¹tku i koñcu
+51=Spacje miêdzy znakami nowej linii (z lewej i prawej strony)
+52=Podwójne spacje i znaki nowej linii
+53=Spacje przed znakami przystankowymi
+54=Spacje po "¿" i "¡" (tylko dla jêzyka hiszpañskiego)
+55=Spacje przed "?" i "!"
+56=Spacje miêdzy cyframi
+
+[Various information]
+01=Ró¿ne informacje
+02=Ogólne
+03=Dodatkowe
+04=Plik oryginalny
+05=Plik przet³umaczony
+06=Bie¿¹cy format:
+07=Plik:
+08=Rozmiar:
+09=Liczba napisów:
+10=Liczba linii tekstu:
+11=Liczba s³ów:
+12=Liczba znaków:
+13=Napisy z jedn¹ lini¹ tekstu:
+14=Napisy z dwoma liniami tekstu:
+15=Napisy z wiêcej ni¿ dwoma liniami tekstu:
+16=Najd³u¿sza linia:
+17=w napisie %d zawieraj¹ca %d znaków
+18=Najlepszy rozmiar czcionki dla playera
+19=Rozdzielczoœæ w poziomie:
+20=Z filmu
+21=Czcionka:
+22=Pogrubiona
+23=Kursywa
+24=Okreœl
+
+[SAMI Language Extractor]
+01=Wyodrêbnianie pliku jêzykowego z formatu SAMI
+02=Plik SAMI:
+03=Folder docelowy:
+04=Wybrane pliki jêzykowe zostan¹ wyodrêbnione:
+05=Klasyfikacja
+06=Jêzyk
+07=Automatycznie wykryj wszystkie
+08=Dodaj rêcznie
+09=Wyodrêbnij!
+10=Dodaj jêzyk
+11=Podaj nazwê klasy wybieranego jêzyka:
+12=Proszê zaczekaæ...
+
+[About form]
+01=O programie %s
+02=Informacja
+03=Szczegó³y
+04=Wersja: %s
+05=%s wersja: %s
+06=%d obs³ugiwanych formatów napisów
+07=Jeœli podoba Ci siê ten program, mo¿esz to wyraziæ dobrowoln¹ wp³at¹. Kliknij na tekst, aby ten zamiar zrealizowaæ.
+08=Wykonany przez
+09=z pomoc¹
+10=%s
+; Following line is "DirectShow programming"
+11=Programowanie %s
+12=T³umacze
+13=Wersjê beta testowali
+14=Ikonê programu opracowa³
+15=Nowszych wersji szukaj pod adresem:
+
+[Error messages]
+01=Nie mo¿na zainicjowaæ API napisów. Proszê pobraæ plik DLL "%s" z %s i zapiaæ go w folderze "%s".
+02=B³¹d (%s) pochodzi z obiektu %s (%s):||"%s"||Proszê napisaæ do %s i poinformowaæ, co by³o robione w chwili jego wyst¹pienia.||Ok aby kontynuowaæ lub Anuluj aby wyjœæ z programu.
+03=Plik "%s" jest uszkodzony lub w nieobs³ugiwanym formacie.
+04=Plik "%s" nie jest w formacie %s lub nie jest poprawnym plikiem napisów.
+05="%s" nie jest prawid³owym plikiem video.
+06=Nieprawid³owy numer linii.
+07=Wybierz przynajmniej jedno rozszerzenie do wyszukania.
+08=Œcie¿ka wyszukiwania nie istnieje.
+09=Numer linii podzia³u jest nieprawid³owy.
+10=Proszê dodaæ dwa lub wiêcej napisów.
+11=Brak po³¹czenia z serwerem!
+12=Nie uda³o siê zmieniæ atrybutu "Tylko do odczytu" pliku "%s".||SprawdŸ, czy noœnik pozwala na zapis.
+13=B³¹d przy próbie otwarcia Microsoft Word!.
+14=Wybierz najpierw plik(i) video dla poprzedniej(ich) czêœci!
+15=Wybierz istniej¹cy folder docelowy.
+16=Wybierz przynajmniej jeden jêzyk do wyodrêbnienia.
+17="%s" nie jest prawid³owym plikiem SAMI.
+18=Zaznacz plik napisów na liœcie.
+19=Jeœli wybierzesz czêœæ filmu dla jednego z plików napisów to musisz okreœliæ filmy dla pozosta³ych plików z wyj¹tkiem ostatniego.
+20=Potrzebujesz dwóch lub wiêcej punktów.
+
+[Question messages]
+01=Plik "%s" zosta³ zmieniony.||Czy chcesz zapisaæ zmiany?
+02=Plik "%s" ju¿ istnieje.||Czy chcesz go zast¹piæ?
+03=Plik orygina³u ("%s") zosta³ zmieniony.||Czy chcesz zapisaæ zmiany?
+04=Plik t³umaczenia  ("%s") zosta³ zmieniony.||Czy chcesz zapisaæ zmiany?
+05=Zaznaczone napisy zostan¹ usuniête.||Czy chcesz kontynuowaæ?
+06=Punkt 1 napisów: %s|Punkt 1 filmu: %s||Punkt 2 napisów: %s|Punkt 2 filmu: %s||Czy synchronizowaæ napisy?
+07=Plik .exe odtwarzacza nie zosta³ okreœlony lub nie istnieje.||Czy chcesz skonfigurowaæ zewnêtrzny odtwarzacz?
+08=Dostêpna jest nowsza wersja!||Czy chcesz przejrzeæ listê zmian?
+09=Plik, który chcesz zapisaæ jest "Tylko do odczytu".||Czy spróbowaæ go zapisaæ pomimo tego?.
+
+[Information messages]
+01=Nie ma wiêcej wyst¹pieñ tekstu "%s".
+02=Nie ma nowszej wersji programu.
+03=Zakoñczono sprawdzanie pisowni.||Dokonano %d zmian.
+04=Za du¿o czêœci. Resetujê...
+05=Znaleziono tylko jeden jêzyk.||Jeœli plik zawiera wiêcej jêzyków dodaj te, które chcesz rêcznie otwieraj¹c plik w edytorze tekstów i szukaj¹c prawid³owej nazwy klasy.
+06=Nie mogê zlokalizowaæ znacznika pocz¹tku i/lub koñca "Stylu"!.||Prawdopodobnie plik zawiera tylko jeden jêzyk.|Jeœli nie, spróbuj dodaæ je rêcznie wyszukuj¹c w³aœciwe nazwy klasy.
+07=Najlepszy rozmiar czcionki dla playera: %d
+08=Ca³kowita liczba zamian: %d
+09=Nazwa pliku: %s|Rozmiar: %s|FPS: %s|Czas trwania: %s|Liczba klatek: %d|Rozdzielczoœæ: %dx%d|Kodek: %s
+10=Niektóre ze strumieni filmu nie mog¹ byæ prawid³owo odtworzone. Prawdopodobnie z powodu braku odpowiedniego kodeka video lub audio.
+11=Nie ma potrzeby okreœlania czêœci filmu dla ostatniego pliku z listy.
+
+[Information and errors messages]
+01=Napis nr %d jest pusty i zostanie usuniêty.||Czy chcesz kontynuowaæ?
+02=Napis nr %d:||"%s" zawiera niedozwolony znak i zostanie usuniêty.||Czy chcesz kontynuowaæ?
+03=Napis nr %d:||"%s" zostanie usuniêty.||Czy chcesz kontynuowaæ?
+04=Czêœæ napisu nr %d:||"%s" zostanie usuniêta; napis bêdzie:||"%s"||Czy chcesz kontynuowaæ?
+05=Napis nr %d:||"%s" ma tylko jedn¹ liniê i zaczyna siê od "-".||Czy chcesz skasowaæ znak "-" na pocz¹tku linii?

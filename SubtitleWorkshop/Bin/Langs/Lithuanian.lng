@@ -1,0 +1,869 @@
+;   Subtitle Workshop 2.51
+;   Lithuanian language file
+;
+;   Author: Marius M./Baisa Pabaisa
+;   E-mail: kepykla@tut.by
+
+[General]
+Translator=Marius M. / BaisaPabaisa
+Font Charset=186
+AllFiles=Visi palaikomi formatai
+Help=Manual.html
+FPS=KPS
+PlainText=Paprastas tekstas
+STP=Titro vertimo projektas
+SRF=Titro informacijos byla
+
+[Standard buttons]
+01=&Gerai
+02=&Atðaukti
+03=&Narðyti
+04=&Pritaikyti
+05=&Iðeiti
+06=&Taip
+07=&Ne
+
+[Main Form]
+01=Tipas:
+02=Laikas
+03=Kadrai
+04=Ávesties KPS:
+05=KPS:
+06=Darbo plotis:
+07=Trukmë|Pabaigos laikas|Abu
+08=Nr.
+09=Rodyti
+10=Slëpti
+11=Tekstas
+12=Vertimas
+13=Neiðverstø eiluèiø: %d
+14=Trukmë:
+15=%s (%s simboliø):
+16=- Neiðverstas titras -
+
+[Main menu header]
+01=Byla
+02=Redaguoti
+03=Ieðkoti
+04=Árankiai
+05=Filmas
+06=Nustatymai
+07=Pagalba
+
+[Main menu/File]
+01=Nauji titrai...
+02=Atidaryti titrus...
+03=Paskutinës bylos
+04=Valyti sàraðà
+05=Atidaryti
+06=Projektas...
+07=Originalas
+08=Iðverstas
+09=Iðsaugoti
+10=Originalà kaip...
+11=Iðverstà kaip...
+12=Iðsaugoti kaip...
+13=Uþdaryti
+14=Iðeiti
+
+[Main menu/Edit]
+01=Kaip buvo (Undo)
+02=Pakartoti (Redo)
+03=Pridëti titrà
+04=Pridëti prieð
+05=Paðalinti paþymëtà
+06=Iðkirpti
+07=Kopijuoti
+08=Áklijuoti
+09=Viskà paþymëti
+
+[Main menu/Edit/Timings]
+01=Trukmës
+02=Nustatyti trukmës ribas...
+03=Nustatyti vëlavimà...
+04=Pritaikyti
+05=Pritaikyti titrus...
+06=Pritaikyti sinchronizuotiems titrams
+07=Laiko plëtëjas/siaurintojas
+08=Iðplësti trukmæ
+09=Automatinës trukmës
+10=Nuskaityti trukmes ið bylos
+11=Paslinkti %s milisekundëmis
+
+[Main menu/Edit/Texts]
+01=Tekstai
+02=Gudrus eilutës pritaikymas
+03=Keisti raidþiø tipà...
+04=Panaikinti titrø dalijimà
+05=Dalinti eilutes...
+06=Greito dalijimo eilutës
+07=Nustatyti ilgiausià eilutæ...
+08=Nuskaityti tekstus ið bylos
+
+[Main menu/Edit/Subtitles]
+01=Titrai
+02=Jungti titrus
+03=Efektai
+04=Uþraðyti efektà
+05=Flash'as
+06=Greitas flash'as
+07=Vidutinis flash'as
+08=Lëtas flash'as
+09=Ið deðinës á kairæ
+10=Apversti tekstà
+11=Taisyti skyrybà
+12=Rûðiuoti
+13=Trinti nereikalingas nuorodas
+14=Þymëti parinktus titrus
+15=Panaikinti parinktø titrø þymëjimà
+
+[Main menu/Edit/Translation]
+01=Vertimas
+02=Vertëjo reþimas
+03=Keitimas
+
+[Main menu/Search]
+01=Ieðkoti...
+02=Rasti kità
+03=Ieðkoti & ir pakeisti...
+04=Eiti á eilutæ Nr. ...
+
+[Main menu/Tools]
+01=Raðybos tikrinimas
+02=Grupës konvertavimas...
+03=Padalinti titrus...
+04=Sujungti titrus...
+05=Informacija ir klaidos
+06=Informacija ir klaidos...
+07=Ávairi informacija...
+08=OCR skriptai
+09=Rodyti pagrindinëje formoje
+10=Nustatymai...
+11=Pertikrinti klaidas
+12=Taisyti visas klaidas
+13=Taisyti klaidas paþymëtuose titruose
+14=Pereiti prie kitos klaidos
+15=Pridëti KPS ið AVI
+16=Iðorinë perþiûra
+17=SAMI kalbos ekstraktorius
+18=Pascal skriptai
+
+[Main menu/Movie]
+01=Atidaryti...
+02=Uþdaryti
+03=Informacija...
+04=Vaizdo perþiûros reþimas
+05=Rodyti titrus
+06=Iðsaugoti pradiná media failà
+
+[Main menu/Movie/Playback]
+01=Rodymas
+02=Rodyti/Pauzë
+03=Stabdyti
+04=Atsukti atgal
+05=Pirmyn
+06=Atgal 5 sekundes
+07=Pirmyn 5 sekundes
+08=Rodymo greitis
+
+[Main menu/Movie/Subtitles]
+01=Titrai
+02=Perkelti titrà
+03=Nustatyti pradþios laikà
+04=Nustatyti pabaigos laikà
+05=Pirmas titras
+06=Paskutinis titras
+
+[Main menu/Movie/Synchronization]
+01=Sinchronizacija
+02=Pirma sinchr. vieta
+03=Paskutinë sinchr. vieta
+04=Pridëti sinchronizacijos taðkà
+
+[Main menu/Movie/Display]
+01=Rodyti
+02=Originalà
+03=Vertimà
+
+[Main menu/Settings]
+01=Iðvesties nustatymai...
+02=Kalba
+03=Rodyti kairiàjà panelæ
+04=Rodyti laiko valdiklius
+05=Naudoti in-place versijà
+
+[Main menu/Help]
+01=Apie %s...
+02=Ieðkoti naujos versijos
+
+[Popup Menu]
+01=Pasviræs
+02=Paryðkintas
+03=Pabrauktas
+04=Nustatyti spalvà
+05=Ðalinti spalvø þymenis
+
+[Video preview hints]
+01=Rodyti/Pauzë (%s)
+02=Stabdyti (%s)
+03=Perjungti á skrollistà
+04=Pereiti á ankstesná titrà
+05=Pereiti á kità titrà
+06=Atsukti atgal (%s)
+07=Pirmyn (%s)
+08=Keisti rodymo greitá
+09=Perkelti titrà (%s)
+10=Nustatyti pradþios laikà (%s)
+11=Nustatyti pabaigos laikà (%s)
+12=Pradëti titrà (%s)
+13=Uþbaigti titrà (%s)
+14=Þymëti kaip pirmà sinchr. vietà (%s)
+15=Þymëti kaip paskutinæ sinchr. vietà (%s)
+16=Pridëti titrø/video sinchronizacijos vietà (%s)
+
+[Save as]
+01=Iðsaugoti kaip
+02=Dukart kliktelëkite ant iðsaugojimo formato:
+03=Áprastas formatas
+04=Visi formatai
+
+[Custom formats]
+01=Áprasti formatai
+02=Informacija
+03=Pavadinimas:
+04=Iðplëtimas:
+05=Naujos eilutës þenklas:
+06=Laikas
+07=Kadrai
+08=Struktûra:
+09=KPS:
+10=Atidaryti projektà
+11=Iðsaugoti projectà
+12=Atsiminti paskutiná kità formatà
+13=Iðsaugoti!
+14=Áprastinio formato projektas
+
+[Settings Form]
+01=Nustatymai
+02=Pakeisti programos konfigûracijà
+; Sections
+03=Bendra
+04=Daugiau nustatymø
+05=Koduotës
+06=Formatai
+07=Bylø tipai
+08=Iðsaugoti
+09=Vaizdo perþiûra
+10=Titrai
+11=Iðorinë perþiûra
+12=Iðvaizda
+13=Programa
+14=Sàraðas
+15=Meniu
+;-----------------;
+; General section ;
+;-----------------;
+16=Visuomet virðuje
+17=Leisti daugiau nei vienà programos paleidimà
+18=Patvirtinti titrø iðtrynimà
+19=Suprasti klaidingas bylas kaip paprastà tekstà
+20=Automatiðkai ieðkoti filmo
+21=Privertinis darbas laiko reþime
+22=Iðlaikyti eiluèiø tvarkà apvertus tekstà
+23=Þymëti tekstà perðokant á kità eilutæ
+24=Þymëti tekstà perðokant á ankstesnæ eilutæ
+25=Jokios saveikos su tagais
+26=Dirbti su tipo þymenomis
+27=Paskutiniø bylø limitas:
+;----------;
+; Advanced ;
+;----------;
+28=Gudrus eiluèiø pritaikymas
+29=Dvi eilutës jei ilgesnë nei:
+30=simboliø
+31=Perjungti lûþio vietà
+32=Dalinti eilutes
+33=Dalinti eilutæ po:
+34=Gudrus eiluèiø automatinis pritaikymas
+35=Ilgiausia eilutë:
+36=Paslinkimo laikas:
+37=milisekundëmis
+;----------;
+; Charsets ;
+;----------;
+38=Rodyti pagrindinëje formoje
+39=Originali koduotë:
+40=Vertimo koduotë:
+;-----------------;
+; Formats section ;
+;-----------------;
+41=Pagrindinis formatas:
+42="Iðsaugoti kaip" rodomi formatai:
+43=Rodyti kitus formatus
+44=Paþymëti &visus
+45=Naikinti &paþymëjimà
+;--------------------;
+; File types section ;
+;--------------------;
+46=Susieti su bylø tipais atidarius programà
+47=Susieti su gerai palaikomø titrø formatø plëtiniais
+;--------------;
+; Save section ;
+;--------------;
+48=Paklausti apie iðsaugojimà uþdarant programà (titrus)
+49=Iðsaugoti pakitimus kas
+50=min.
+51=Iðsaugoti kaip atsarginá var.
+52=Iðsaugojimo nustatymai...
+;---------------;
+; Video preview ;
+;---------------;
+53=Dukart kliktelëti titrà:
+54=Kiek sekundþiø perðokti:
+55=Shift-dukart kliktelëti titrà:
+56=Fokusuoti teksto dëþutæ
+57=Pereiti filme á titro laikà
+58=Pereiti N sek. filme prieð titrà
+59=Persukimo laikas:
+60=sek.
+61=Nustatytasis pakeistas rodymo greitis:
+;-------------------------;
+; Video preview Subtitles ;
+;-------------------------;
+62=Pieðti rëmelá
+63=Pieðti ðeðëlá
+64=Bandyti permatomà fonà
+65=Priverstinis regionø naudojimas (gali stabdyti)
+66=Ðriftas...
+67=Spalva...
+68=Fonas...
+69=Rëmelio plotis:
+70=Ðeðëlio plotis:
+71=ÈEBURAÐKA
+;--------------------------;
+; External Preview General ;
+;--------------------------;
+72=Vaizdo rodymo programos Exe:
+73=Rasti susietà programà
+74=Kaskart klausti kitos vaizdo bylos
+75=Visuomet iðbandyti su vaizdo byla:
+;---------------------------;
+; External Preview Advanced ;
+;---------------------------;
+76=Laikinø titrø iðsaugojimo formatas:
+77=Originalus formatas
+78=Kitas formatas:
+79=Vaizdo grotuvui siøsti parametrus:
+80=VIDEO_FILE nurodo vaizdo bylà, su kuria iðbandysite subtitrus. SUBT_FILE yra parametras, pagal kurá laikina subtitrø byla bus nusiøsta vaizdo grotuvui. Galite nurodyti papildomus parametrus, pvz. /FS rodymui
+;----------------;
+; Look / Program ;
+;----------------;
+81=Programoje naudoti ðriftà:
+82=Ðrifto dydis:
+83="Teksto" ir "Vertimo" laukø lygiavimas:
+84=Kairinis|Deðinysis|Centruotas
+;-------------;
+; Look / List ;
+;-------------;
+85=Rodyti linijas
+86=Pritaikyti stiliø titrams
+87=Þymëti neiðverstus titrus spalva:
+88=Rodyti horizontalø ðliauþiklá
+;-------------;
+; Look / Menu ;
+;-------------;
+89=Naudoti Office XP stiliaus meniu
+90=Naudoti nuolydiná meniu
+
+[Output settings]
+01=Iðsaugojimo nustatymai
+02=Disko ID:
+03=DVD pavad.:
+04=Kalba:
+05=Autorius:
+06=WWW:
+07=Informacija:
+08=Licenzija:
+09=Titrai:
+10=Fonas
+11=ÈEBURAÐKA
+12=&Nustatyti ðriftà
+13=Lygiavimas:
+14=Kairinis
+15=Centras
+16=Deðinysis
+17=Kadrai per sekundæ:
+18=Paðalinti kadrà
+19=Spalva 0 (fonas):
+20=Spalva 1 (ðriftas):
+21=Spalva 2 (kontûras):
+22=Spalva 3 (antialiasing):
+23=Paletës spalvos Nr.:
+24=Kontrastas
+25=Pavadinimas:
+26=Scenarijus:
+27=Kosmetika
+28=Kita
+29=Rëmelio tipas:
+30=Kontûras + mesti ðeðëlá
+31=Nepermatoma dëþutë
+32=Spalva
+33=Pirmasis:
+34=Antrasis:
+35=Treèiasis:
+36=Ðeðëlis:
+37=Kairë paraðtë:
+38=Deðinë paraðtë:
+39=Vertikali paraðtë:
+40=Kontûras:
+41=Lygiavimas:
+42=Koduotë:
+43=Ðaltinis:
+44=Programa:
+45=Kelias:
+46=Uþlaikymas:
+47=CD kûrinys:
+48=Komentaras:
+49=TMPlayer formatas
+50=TMPlayer+ formatas
+51=TMPlayer daugialainis formatas
+
+[Duration limits]
+01=Trukmës apribojimai
+02=Nustatyti maksimalià trukmæ
+03=Milisekundës
+04=Nustatyti minimalià trukmæ
+05=Dël trukmës padidinimo titrø perdanga neávyks
+
+[Set delay]
+01=Nustatyti uþlaikymà
+02=Visai titrø bylai
+03=Paþymëtiems titrams
+
+[Adjust subtitles]
+01=Pritaikyti titrus
+02=Paprastas
+03=Detalesnis
+04=Pirma sakytinë eilutë:
+05=Paskutinë sakytinë eilutë:
+06=Ákrauti ið failo
+07=Iðsaugoti á failà
+08=Eilutë Nr.
+09=Senas laikas
+10=Naujas laikas
+11=P&ridëti
+12=Pridëti ið &media
+13=P&aðalinti
+14=Jei laikas iðeina uþ nurodytø ribø:
+15=Ekstrapoliuoti
+16=Gràþinti originalø laikà (be pakeitimø)
+17=Gràþinti kaimyninio taðko perkëlimà
+18=&Pritaikyti!
+19=Iveskite nauja sinchr. vieta
+20=Ankstesnis laikas:
+21=Naujas laikas:
+
+[Time expander/reducer]
+01=Laiko plëtëjas/siaurintojas
+02=Iðtæsti trukmæ
+03=Sumaþinti trukmæ
+04=Padidinti/sumaþinti trukmæ:
+05=Sek.
+06=Kadrais
+07=Tik jei titras ilgesnis nei:
+09=simboliø
+10=Tik jei trukmë didesnë nei:
+11=Tik jei trukmë trumpesnë nei:
+12=Iðvengti persidengimo
+13=Visam titrui
+14=Paþymëtiems subtitrams
+
+[Automatic durations]
+01=Automatinës trukmës
+02=Milisekundës
+03=per simbolá
+04=per þodá
+05=per eilutæ
+06=Pritaikyti naujas trukmes visada
+07=Tik jei nauja trukmë ilgesnë nei originalas
+08=Tik jei nauja trukmë trumpesnë nei originalas
+09=Visiems titrams
+10=Tik paþymëtiems titrams
+
+[Convert case]
+01=Keisti didþiàsias maþosiomis ir atv.
+02=Sakinio stilius.
+03=Tik pirmoji pirmojo þodþio raidë.
+04="..." nustatymas
+05=maþosiomis
+06=DIDÞIOSIOMIS
+07=Pirmosios Didþiosios
+08=aTVIRKÐÈIU tIPU
+09=Visus titrus
+10=Tik paþymëtus titrus
+
+[Divide lines]
+01=Dalinti eilutes
+02=Dalinti po eilutës Nr.:
+03=Naudoti automatinæ trukmæ
+04=Rodyti:
+05=Slëpti:
+06=Trukmë:
+07=Tæsti tiesiogiai
+08=%s simboliø
+09=&Dalinti!
+
+[Search & Replace]
+01=Ieðkoti ir pakeisti
+02=Ieðkoti
+03=Rasti ðá tekstà:
+04=&Ieðkoti!
+05=Kuo pakeisti:
+06=Rasti &kità
+07=&Pakeisti
+08=Pakeisti &visus
+09=&Daugiau >
+10=&Maþiau <
+11=Case sensitive
+12=Atitikti visus þodþius
+13=Iðsaugoti keièiant raidþiø skyriø
+14=Kur ieðkoti teksto:
+15=Visame titre
+16=Nuo paþymëtos vietos
+17=Koduotë:
+
+[Go to line]
+01=Pereiti á eilutæ Nr.
+02=Áveskite eilutës Nr.:
+
+[Batch convert]
+01=Masinis konvertavimas
+02=Konvertuoti grupæ bylø keliais veiksmais á vienà formatà
+; Buttons
+03=< &Atgal
+04=&Toliau>
+05=K&onvertuoti
+06=&Iðeiti
+07=&Uþdaryti
+08=&Viskà
+09=&Nieko
+; Page 1
+10=Iðplëtimai:
+11=Ieðkojimo kelias:
+12=Átraukti pakatalogius
+13=Nuodugnus formato tikrinimas
+14=Iðsaugojimo katalogas:
+15=Iðsaugojimo formatas:
+16=Pagrindiniai KPS:
+; List columns
+17=Bylos pavadinimas
+18=Formatas
+19=KPS
+20=Dydis
+; Page 2
+21=&Pridëti
+22=P&aðalinti
+23=I&ðvalyti
+; Page 3
+24=Atlikta! Detaliau:
+25=Iðsaugoti...
+; Searching
+26=Tikrinama byla %s
+
+[Batch convert log]
+01=%s %s - masinio konvertavimo logas
+02=Sukurtas %s
+03=Iðsaugojimo formatas: %s
+04=Vis konvertuojamø bylø: %d
+05=Bandoma ákrauti "%s"...
+06=Byla sëkmingai ákrauta!
+07=Byla "%s" jau yra, pakeièiama...
+08=Byla sëkmingai pervadinta á "%s"'
+09=Byla "%s" jau buvo, bet jûs neleidote programai jos pakeisti
+10=Klaida ákraunant bylà, nepavyksta iðsaugoti!
+11=Viso padaryta konvertavimø: %u
+12=Bendras laikas: %s
+13=Visos bylos sëkmingai konvertuotos
+14=Konvertuojant bylas buvo klaidø, þiûrëkite þemiau detaliau
+
+[Split]
+01=Dalinti titrà...
+02=Paprastas
+03=Iðsamus
+04=Paþymëtas áraðas
+05=Áraðo numeris:
+06=Duotas laikas:
+07=Duotas kadras:
+08=Video pabaiga:
+09=Pavadinimai
+10=Dalis %d:
+11=Bylos pavadinimas
+12=Ilgis
+13=Eilutës
+14=Dalys vienodo laiko
+15=Dalys vienodo eiluèiø skaièiaus
+16=Filmø bylø pabaigose
+17=Daliø skaièius:
+18=Auto-pavadinimas dalims:
+19=Iðsaugojimo katalogas:
+20=Iðsaugojimo formatas:
+21=Perskaièiuoti laiko vertes
+22=Dukart kliktelëkite filmui pasirinkti
+23=&Dalinti!
+
+[Join]
+01=Sujungti titrus...
+02=Pridëti titrø bylas, kurias norite sujungti (eilës tvarka):
+03=Bylos pavadinimas
+04=Formatas
+05=KPS
+06=Dydis
+07=Filmo fragmentas (pasirinktinai)
+08=P&ridëti
+09=&Paðalinti
+10=&Iðtrinti
+11=&Nustatyti filmo fragmentà
+12=&Trinti filmo fragmentà
+13=Iðsaugojimo formatas:
+14=Iðsaugojimo KPS:
+15=Atidaryti bylà po sujungimo ir iðsaugojimo
+16=Perskaièiuoti laiko vertes
+17=&Sujungti!
+
+[Information and errors]
+01=Informacija ir klaidos
+02=Tikrinti!
+03=Taisyti klaidas!
+04=&Nustatymai
+05=Patvirtinti kiekvienà iðtrynimà
+06=Titras
+07=Tipas
+08=Apibûdinimas
+;-------;
+; Types ;
+;-------;
+09=Klaida
+10=Áspëjimas
+11=Info
+13=Pataisyta
+;----------------------;
+; Information messages ;
+;----------------------;
+14=Ið viso klaidø: %d
+15=Pataisyta klaidø: %d
+;---------------;
+; Error reports ;
+;---------------;
+16=Yra eiluèiø be raidþiø
+17=Tuðèias titras
+18=Persidengimas su ankstesniu subtitru
+19=Blogos vertës
+20=Per didelë trukmë
+21=Per maþa trukmë
+22=Per ilgos eilutës
+23=Daugiau nei dvi eilutës
+24=Hearing impaired
+25=Yra tekstas prieð dvitaðká (":")
+26=Nereikalingi taðkai
+27=Turi draudþiamà simbolá
+28=Pasikartojantis simbolis
+29=Pasikartojantis titras
+30=OCR klaida
+31=Vieno titro eilutë pradedama "-"
+32=Nëra tarpo po tam tikro simbolio
+33=Nëra tarpo prieð tam tikrà simbolá
+34=Nereikalingi tarpai
+35=Paþymëtas titras
+;-------------;
+; Fix reports ;
+;-------------;
+36=Iðtrintos eilutës be raidþiø
+37=Tuðèias titras buvo iðtrintas
+38=Iðtaisytas persidengimas
+39=Iðtaisytos blogos vertës
+40=Titras su daugiau nei 2 eilutëm sutvarkytas
+41=Paðalintas "hearing impaired" titras
+42="Hearing impaired" dalis iðtrinta
+43=Paðalintas tekstas prieð dvitaðká (":")
+44=Paðalinti nereikalingi taðkai
+45=Turëjo draudþiamà simbolá ir buvo iðtrintas
+46=Iðtaisytas pasikartojæs simbolis
+47=Iðtaisytas pasikartojantis titras
+48=Iðtaisytos OCR klaidos
+49=Iðtrintas "-" titre ið vienos eilutës
+50=Pridëtas tarpas po tam tikro simbolio
+51=Pridëtas tarpas prieð tam tikrà simbolá
+52=Paðalinti nereikalingi tarpai
+;-----
+53=Dukart kliktelëkite, kad perðokti á eilutæ pagrindinëje formoje
+
+[Information and errors Settings]
+01=Nustatymai
+02=Bendri
+03=Papildomi
+04=Ieðkoti
+05=Taisyti
+06=Nereikalingi tarpai
+07=Rodyti patvirtinimus pagrindinëje formoje darant taisymus
+08=Þymëti klaidas pagrindinës formos sàraðe
+09=Nustatyti spalvà...
+10=Paryðkintas
+11=Pasviræs
+12=Pabrauktas
+13=Þymëti klaidas atidarant titrà
+14=Taisyti klaidas atidarant titrà
+15=Taisyti vieno skyriaus persidengimà ákraunant
+16=OCR skriptas:
+17=&Redaguoti
+18=Kartotini simboliai:
+19=Draudþiami simboliai:
+20=Ignoruoti pasikartojanèius titrus:
+21=milisek.
+22=Tarpas prieð simbolius:
+23=Tarpas po simboliø:
+24=Per didelë trukmë:
+25=Per maþa trukmë:
+26=Per ilga eilutë:
+27=simb.
+;------
+28=Eilutës be raidþiø
+29=Tuðti subtitrai
+30=Persidengiantys subtitrai
+31=Blogos vertës
+32=Per didelës trukmës
+33=Per maþos trukmës
+34=Per ilgos eilutës
+35=Titrai su daugiau nei 2 eilutëmis
+36="Hearing impaired" titrai
+37=Tekstas prieð dvitaðká (":")
+38=Tik jei tekste yra didþiøjø raidþiø
+39=Nereikalingi taðkai
+40=Draudþiami simboliai
+41=Pasikartojantys simboliai
+42=Pasikartojantys titrai
+43=OCR klaidos
+44=" - " titruose ið vienos eilutës
+45=Tarpai po tam tikrø simboliø
+46=Tarpai prieð tam tikrus simbolius
+47=Nereikalingi tarpai
+;------
+48=Ieðkoti:
+49=Taisyti:
+50="Enter" ir tarpai pradþioje ir pabaigoje
+51=Tarpai tarp "enter" (kairëje ir deðinëje)
+52=Dvigubi tarpai ir "enter"
+53=Tarpai prieð skyrybos þenklus
+54=Tarpai po "¿" ir "¡"
+55=Tarpai prieð "?" ir "!"
+56=Tarpai tarp skaièiø
+
+[Various information]
+01=Ávairi informacija
+02=Informacija
+03=Daugiau
+04=Originali byla
+05=Iðversta byla
+06=Esamas formatas:
+07=Byla:
+08=Dydis:
+09=Ið viso titrø:
+10=Ið viso eiluèiø:
+11=Ið viso þodþiø:
+12=Ið viso raidþiø:
+13=Titrai su viena eilute:
+14=Titrai su dviem eilutëmis:
+15=Titrai su daugiau nei dviem eilutëmis:
+16=Ilgiausia eilutë:
+17=titre %d ir turi %d simboliø
+18=Geriausias ðrifto dydis rodymui
+19=Raiðkos plotis:
+20=Ið AVI
+21=Ðriftas:
+22=Paryðkintas
+23=Pasviræs
+24=Skaièiuoti
+
+[SAMI Language Extractor]
+01=SAMI kalbos trauktuvas
+02=SAMI byla:
+03=Iðvesties katalogas:
+04=Bus iðtrauktos paþymëtos kalbos:
+05=Rûðis
+06=Kalba
+07=Auto-aptikti visas
+08=Pridëti rankiniu bûdu
+09=Iðtraukti!
+10=Pridëti kalbà
+11=Nurodykite pageidaujamos kalbos rûðá:
+12=Palaukite...
+
+[About form]
+01=Apie %s
+02=Informacija
+03=Padëka
+04=Versija: %s
+05=%s versija: %s
+06=%d skiriasi palaikomais formatais
+07=Jei jums patinka ði programa, mes bûtume dëkingi uþ finansinæ paramà. Spauskite èia, norëdami mus paremti.
+08=Programavo:
+09=Papildomas programavimas
+10=%s atliktas
+; Following line is "DirectShow programming"
+11=%s programavimas
+12=Vertëjai
+13=Beta bandytojai
+14=Pagrindinæ ikonà sukûrë
+15=Atnaujinimø ieðkoti:
+
+[Error messages]
+01=Nepavyko ákrauti titrø API. Atsisiøskite DLL "%s" ið %s ir iðsaugokite já "%s" aplanke.
+02=Ði klaida (%s) buvo gauta ið objekto %s (%s):||"%s"||Paraðykite %s praneðdami, kà darëte, kai ði klaida atsirado.||Spauskite Ok norëdami tæsti, Cancel - iðeiti ið programos.
+03=Byla "%s" yra blogas titras arba nepalaikomo formato.
+04=Byla "%s" nëra %s formato arba nëra titras.
+05="%s" nëra teisinga vaizdo byla.
+06=Neteisingas eilutës numeris.
+07=Pasirinkite bent vienà ieðkotinà plëtiná.
+08=Ieðkojimo kelias neegzistuoja.
+09=Elemento numeris nëra teisingas elementas.
+10=Paþymëkite du ar daugiau titrø.
+11=Nepavyko susisiekti su serveriu!
+12=Nepavyko panaikinti tik skaitymo atributo ið "%s".||Galbût tik skaitymui skirtas diskas.
+13=Klaida bandant jungtis prie Microsoft Word!
+14=Pirmiausia paþymëkite video ankstesnei(-ëms) daliai(-ims)!
+15=Pasirinkite teisingà iðvesties katalogà.
+16=Pasirinkite bent vienà iðtrauktinà kalbà.
+17="%s" nëra SAMI formato failas.
+18=Pasirinkite titro dalá ið sàraðo.
+19=Jei renkatës filmo fragmentà vienai titro daliai, jums reikia pasirinkti filmo fragmentà visoms titro dalims (þinoma iðskyrus paskutinàjà).
+20=Reikia dviejø ar daugiau taðkø.
+
+[Question messages]
+01=Byla "%s" buvo pakeista.||Ar norite iðsaugoti pakeitimus?
+02=Byla "%s" jau yra.||Ar norite jà pakeisti á ðià?
+03=Originali byla ("%s") buvo pakeista.||Ar norite iðsaugoti pakeitimus?
+04=Verèiama byla ("%s") buvo pakeista.||Ar norite iðsaugoti pakeitimus?
+05=Paþymëti titrai bus iðtrinti.||Ar norite tæsti?
+06=Titras 1: %s|Filmas 1: %s||Titras 2: %s|Filmas 2: %s||Sinchronizuoti titrà?
+07=Nenurodyta arba neegzistuoja vaizdo grotuvo exe byla.||Ar norite konfigûruoti iðoriná grotuvà?
+08=Rasta nauja versija!||Ar norite pamatyti pakeitimø sàraðà?
+09=Byla, kurià norite iðsaugoti, yra tik skaitymui.||Vis tiek bandyti iðsaugoti?
+
+[Information messages]
+01=Nerasta daugiau "%s" atvejø.
+02=Nauja versija nerasta.
+03=Raðybos tikrinimas baigtas.||Atlikta %d pakeitimø.
+04=Per daug daliø. Perkraunama...
+05=Rasta tik viena kalba.||Jei byloje yra daugiau kalbø, pridëkite jas rankiniu bûdu atidarydami tekstø redaktoriumi bylà ir suraskite teisingà rûðies pavadinimà.
+06=Nepavyko rasti "STYLE" pradþios ir/ar pabaigos tag'o!||Galbût todël, kad byloje tëra tik viena kalba.|Jei ne, pabandykite rankiniu bûdu rasti pageidaujamos kalbos rûðies pavadinimà.
+07=Tinkamiausias ðrifto dydis rodymui yra: %d
+08=Ið viso pakeitimø: %d
+09=Bylos pavadinimas: %s|Dydis: %s|KPS: %s|Trukmë: %s|Ið viso kadrø: %d|Rezoliucija: %dx%d|FourCC: %s
+10=Kai kuriø filmo srautø nepavyko teisingai perteikti. Turbût trûksta audio ar video kodeko.
+11=Nebûtina nustatyti filmo fragmentà pagal paskutiná titrà.
+
+[Information and errors messages]
+01=Titras Nr. %d buvo tuðèias ir dabar bus iðtrintas.||Ar norite já iðtrinti?
+02=Titras Nr. %d:||"%s" turëjo draudþiamà simbolá ir dabar bus iðtrintas.||Ar norite iðtrinti tà simbolá?
+03=Titras Nr. %d:||"%s" bus iðtrintas.||Ar tikrai já iðtrinti?
+04=Dalis titro Nr. %d:||"%s" bus iðtrinta, ir titras bus:||"%s"||Ar norite tæsti?
+05=Titras Nr. %d:||"%s" yra ið vienos eilutës ir prasideda "-".||Ar norite iðtrinti "-" titro pradþioje?

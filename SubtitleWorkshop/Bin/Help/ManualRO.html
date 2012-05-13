@@ -1,0 +1,2991 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+	<title>Manual în limba românã - Subtitle Workshop v2.51</title>
+	<link rel="stylesheet" href="style.css" type='text/css'/>
+</head>
+
+<body>
+<div align="center">
+	<h1>Manual Subtitle Workshop</h1>
+	<h3>Subtitle Workshop versiunea: <b>2.51</b></h3>
+	<h5>Instrumentul suprem de editat subtitrãri !</h5>
+	<h5>Versiunea în limba românã a manualului: <FONT COLOR="#7733FF">yonutz80</FONT></u></i> !</h5>
+	<h5>Acest manual e bazat pe traducerea în limba românã a programului Subtitle Workshop realizatã de <FONT COLOR="#7733FF">yonutz80</FONT></u></i> !</h5>
+	Copyright &copy; 2001-2003 URUSoft.<br><br>
+	<i>(Toate comenzile rapide menþionate în acest manual se bazeazã pe setãrile implicite)</i><br><br><br><br>
+</div>
+
+<ul>
+	<li><a href="#1.0"><b>Capitolul 1: Introducere în Subtitle Workshop</b></a>
+		<ul>
+			<li><a href="#1.1">1.1 Prezentare generalã</a></li>
+			<li><a href="#1.2">1.2 Motorul de citire &amp; de scriere</a>
+				<ul>
+					<li><a href="#1.2.1">1.2.1 Ce este URUSoft Subtitle API ?</a></li>
+				</ul>
+			</li>
+			<li><a href="#1.3">1.3 Prezentare vizualã</a></li>
+			<li><a href="#1.4">1.4 Începutul</a>
+				<ul>
+					<li><a href="#1.4.1">1.4.1 Cum se încarcã o subtitrare</a></li>
+					<li><a href="#1.4.2">1.4.2 Cum se încarcã un fiºier video</a></li>
+					<li><a href="#1.4.3">1.4.3 Cum se creazã un nouã subtitrare</a></li>
+					<li><a href="#1.4.4">1.4.4 Cum se adaugã linii la o subtitrare</a></li>
+					<li><a href="#1.4.5">1.4.5 Cum se ºterg linii de la o subtitrare</a></li>
+					<li><a href="#1.4.6">1.4.6 Editare manualã a unei linii</a></li>
+					<li><a href="#1.4.7">1.4.7 Etichete de stil ºi culoare</a></li>
+					<li><a href="#1.4.8">1.4.8 CPS ºi CPS de intrare</a></li>
+				</ul>
+			</li>
+			<li><a href="#1.5">1.5 Parametri ai liniei de comandã</a></li>
+			<li><a href="#1.6">1.6 Fiºierele de limbã proprie</a></li>
+			<li><a href="#1.7">1.7 Formate personalizate</a></li>
+		</ul>
+	</li>
+	<li><a href="#2.0"><b>Capitolul 2: Caracteristici referitoare la timp</b></a>
+		<ul>
+			<li><a href="#2.1">2.1 Conversie ratã cadre</a></li>
+			<li><a href="#2.2">2.2 Setare decalaj</a></li>
+			<li><a href="#2.3">2.3 Ajustare linii</a>
+				<ul>
+					<li><a href="#2.3.1">2.2.1 Metoda 1: ajustare simplã, primul ºi ultimul dialog</a></li>
+					<li><a href="#2.3.2">2.2.2 Metoda 2: sincronizare folosind douã puncte</a></li>
+					<li><a href="#2.3.3">2.2.3 Metoda 3: ajustare la subtitrãri sincronizate</a></li>
+					<li><a href="#2.3.4">2.2.4 Metoda 4: ajustare avansatã a subtitrãrii</a></li>
+				</ul>
+			</li>
+			<li><a href="#2.4">2.4 Limitele duratei</a></li>
+			<li><a href="#2.5">2.5 Extindere/reducere timp</a></li>
+			<li><a href="#2.6">2.6 Citire timpi din fiºier</a></li>
+			<li><a href="#2.7">2.7 Extindere duratã</a></li>
+			<li><a href="#2.8">2.8 Durate automate</a></li>
+			<li><a href="#2.9">2.9 Schimbare subtitrare</a></li>
+		</ul>
+	</li>
+	<li><a href="#3.0"><b>Capitolul 3: Caracteristici referitoare la text &amp; linii din subtitrãri</b></a>
+		<ul>
+			<li><a href="#3.1">3.1 Ajustare inteligentã a rândurilor</a></li>
+			<li><a href="#3.2">3.2 Transformare litere</a></li>
+			<li><a href="#3.3">3.3 Unire linii</a></li>
+			<li><a href="#3.4">3.4 Despãrþire rânduri din linie</a></li>
+			<li><a href="#3.5">3.5 Setare lungime maximã a rândului</a></li>
+			<li><a href="#3.6">3.6 Citire texte din fiºier</a></li>
+			<li><a href="#3.7">3.7 Combinare linii</a></li>
+			<li><a href="#3.8">3.8 Dreapta-spre-Stânga</a>
+				<ul>
+					<li><a href="#3.8.1">3.8.1 Inversare text</a></li>
+					<li><a href="#3.8.2">3.8.2 Reparaþie punctuaþie</a></li>
+				</ul>
+			</li>
+			<li><a href="#3.9">3.9 Sortare</a></li>
+			<li><a href="#3.10">3.10 ªtergere "..." inutile</a></li>
+			<li><a href="#3.11">3.11 Cãutare &amp; Înlocuire</a></li>
+			<li><a href="#3.12">3.12 Linii marcate</a></li>
+		</ul>
+	</li>
+	<li><a href="#4.0"><b>Capitolul 4: Setãri explicate</b></a>
+		<ul>
+			<li><a href="#4.1">4.1 General</a>
+				<ul>
+					<li><a href="#4.1.1">4.1.1 Avansat</a></li>
+					<li><a href="#4.1.2">4.1.2 Seturi de caractere</a></li>
+				</ul>
+			</li>
+			<li><a href="#4.2">4.2 Formate</a></li>
+			<li><a href="#4.3">4.3 Tipuri de fiºiere</a></li>
+			<li><a href="#4.4">4.4 Salvare</a></li>
+			<li><a href="#4.5">4.5 Vizualizare video</a>
+				<ul>
+					<li><a href="#4.5.1">4.5.1 Subtitrare</a></li>
+				</ul>
+			</li>
+			<li><a href="#4.6">4.6 Vizualizare externã</a>
+				<ul>
+					<li><a href="#4.6.1">4.6.1 General</a></li>
+					<li><a href="#4.6.2">4.6.2 Avansat</a></li>
+				</ul>
+			</li>
+			<li><a href="#4.7">4.7 Aspect</a>
+				<ul>
+					<li><a href="#4.7.1">4.7.1 Program</a></li>
+					<li><a href="#4.7.2">4.7.2 Listã</a></li>
+					<li><a href="#4.7.3">4.7.3 Meniu</a></li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+	<li><a href="#5.0"><b>Capitolul 5: Instrumente</b></a>
+		<ul>
+			<li><a href="#5.1">5.1 Verificare ortografie</a></li>
+			<li><a href="#5.2">5.2 Convertire în bloc</a></li>
+			<li><a href="#5.3">5.3 Împãrþire subtitrare</a></li>
+			<li><a href="#5.4">5.4 Unire subtitrãri</a></li>
+			<li><a href="#5.5">5.5 Informaþii ºi erori</a>
+				<ul>
+					<li><a href="#5.5.1">5.5.1 Erori &amp; reparaþii explicate</a></li>
+					<li><a href="#5.5.2">5.5.2 Setãri explicate</a></li>
+					<li><a href="#5.5.3">5.5.3 Scripturi OCR</a></li>
+					<li><a href="#5.5.4">5.5.4 Sintaxa Expresiilor Obiºnuite</a></li>
+				</ul>
+			</li>
+			<li><a href="#5.6">5.6 Adãugare CPS de la AVI</a></li>
+			<li><a href="#5.7">5.7 Vizualizare externã</a></li>
+			<li><a href="#5.8">5.8 Vizualizare internã: Motorul video</a></li>
+			<li><a href="#5.9">5.9 Extractor Limbã din fiºier SAMI</a></li>
+		</ul>
+	</li>
+	<li><a href="#FAQ"><b>Întrebãri Puse Frecvent [IPF]</b></a></li>
+	<li><a href="#CONTACT"><b>Informaþii contact</b></a></li>
+	<li><a href="#LICENSE"><b>Licenþã</b></a></li>
+</ul>
+
+<!---------------------------------------------------------->
+<!--    Capitolul 1: Introducere în Subtitle Workshop       -->
+<!---------------------------------------------------------->
+<a name="1.0"></a><h2>Capitolul 1: Introducere în Subtitle Workshop</h2><br>
+  
+<a name="1.1"></a><h3>1.1 Prezentare generalã</h3>
+Subtitle Workshop e cel mai complet, eficient ºi mai comod instrument de editare a subtitrãrilor. Suportã toate formatele de subtitrãri de care ai nevoie
+ºi are toate caracteristicile pe care le-ai dori de la un program de editare a subtitrãrilor. Subtitle Workshop face
+crearea/editarea/convertirea subtitrãrilor aproape o plãcere. Interfaþa intuitivã face accesul uºor la meniuri &amp; având
+caracteristici cu funcþii avansate ºi o stabilitate ºi vitezã remarcabile, reduce drastic timpul de editare a subtitrãrilor.
+Include funcþia de verificare a ortografiei ºi o vizualizare video avansatã care uºureazã lucrul ºi mai mult. E cea mai bunã alegere pentru
+începãtori, experþi sau pentru fani ai subtitrãrilor. Încearcã-l, ºi vei uita de celelalte !
+<br>
+<br>
+Subtitle Workshop a fost mai întâi gândit pentru a uºura foarte mult editarea subtitrãrilor, dar având toate caracteristicile necesare ºi
+nu-chiar-atât-de-necesare care fac viaþa unui editor de subtitrãri sau a unui translator mai uºoarã. Interfaþa vizualã e una din
+multele lucruri care caracterizeazã Subtitle Workshop. Într-adevãr, multe opþiuni sunt auto-explicative încât pânã ºi un copil
+poate folosi acest program.
+<br>
+<br>
+
+<b>Lista completã a caracteristicilor:</b>
+<ul>
+	<li>Motorul de citire ºi de scriere
+		<ul>
+			<li>Se bazeazã pe URUSoft SubtitleAPI, deci formatele noi pot fi adãugate cu uºurinþã descãrcând ºi actualizând fiºierul dll.</li>
+			<li>Acum (SubtitleAPI versiunea 1.05) suportã în jur de 56 de formate de subtitrãri.</li>
+			<li>Poate lucra cu subtitrãri bazate pe cadre sau timp.</li>
+			<li>Poate încãrca fiºiere cu text simplu pentru a putea fi setaþi timpii.</li>
+			<li>Suportã etichete de stil (citire ºi scriere) (aldin(bold), cursiv(italic), subliniat) ºi etichete de culoare în formate care le suportã.</li>
+			<li>Suportã Setãri Salvare în formatele DVDSubtitle, SAMI, Sonic Scenarist, SubStation Alpha, SubViewer 1 &amp; 2 ºi TMPlayer.</li>
+			<li>Suportã salvarea unei subtitrãri în formatul tãu personalizat.</li>
+		</ul>
+	</li>
+	<li>Interfaþa
+		<ul>
+			<li>Prietenoasã.</li>
+			<li>Comenzi rapide configurabile.</li>
+			<li>Suportã limbi multiple (acum sunt peste 35 de limbi disponibile !).</li>
+			<li>Poþi schimba interfaþa pentru adaptarea la nevoile utilizatorului, poþi închide sau deschide Modul Vizualizare Video ºi Modul Traducere.</li>
+			<li>"Mod translator" prietenos.</li>
+		</ul>
+	</li>
+	<li>Vizualizare video
+		<ul>
+			<li>Integratã în fereastra principalã.</li>
+			<li>Aratã subtitrarea deasupra filmului.</li>
+			<li>Poate arãta informaþii despre filmul la care te uiþi.</li>
+			<li>Poþi personaliza culoarea prim-planului, fundalului (sau transparenþã), arãta conturul sau nu, arãta umbra sau nu, conturul ºi umbra liniilor.</li>
+			<li>NU e bazat pe Windows Media Player, rezultând performanþã mult îmbunãtãþitã ºi calitate vizualã.</li>
+		</ul>
+	</li>
+	<li>Reparare subtitrare
+		<ul>
+			<li>Funcþii mult sporite strict proiectate pentru a mãri viteza de lucru ºi pentru un grad de eficacitate mai mare.</li>
+			<li>Personalizare avansatã &amp; uºoarã a scripturilor OCR pentru repararea erorilor, oferind posibilitatea folosirii de expresii obiºnuite.</li>
+			<li>Motor puternic ºi în totalitate personalizat de reparare a erorilor.</li>
+			<li>Posibilitatea de marcare a erorilor în lista principalã cu fonturi ºi culori diferite pentru a fi mai uºoare de identificat vizual.</li>
+			<li>Verificãri/reparãri automate opþionale la încãrcarea subtitrãrii.</li>
+			<li>Verificãri ºi reparãri (toate sunt opþionale, le poþi configura): linii goale, rânduri fãrã litere, suprapunere, valori rele, linii pentru persoane cu defect auditiv, text înainte de (":") (opþional - "Doar dacã textul e scris cu majuscule"), puncte inutile, semnul "-" în linii cu un singur rând, linii cu mai mult de 2 rânduri, caractere interzise (caractere configurabile), caractere repetate (caractere configurabile), linii repetate (toleranþã de timp configurabilã), erori OCR, spaþii îninte de caractere specificate, spaþii dupã de caractere specificate, spaþii inutile, durate prea scurte/lungi ºi rânduri prea lungi (numai verificare).</li>
+		</ul>
+	</li>
+	<li>General
+		<ul>
+			<li>Extrem de uºor de personalizat.</li>
+			<li>Anulare-Refacere pe mai multe nivele.</li>
+			<li>Verificare ortografie folosind motorul Microsoft Word, deci suportã orice limbã instalatã.</li>
+			<li>Poate crea subtitrãri noi de la 0.</li>
+			<li>Adãugare ºi ºtergere cu uºurinþã a liniilor cu tastele "Insert" ºi "Delete".</li>
+			<li>Poate împãrþi subtitrãri (la linia selectatã, la numãrul dat al liniei, la timpul introdus, la cadrul introdus, sau la sfârºitul fiºierului video), sau într-un numãr nedefinit de pãrþi (egale în timp, în linii sau la sfârºitul multiplelor fiºiere video).</li>
+			<li>Poate uni un numãr nedefinit de subtitrãri, ºi acele subtitrãri pot fi în formate diferite cu CPS-uri diferite (poþi selecta un CPS diferit pentru fiecare fiºier).</li>
+			<li>2 metode de a afla CPS-ul fiºierului video: nefolosind DirectX (suportã doar fiºiere AVI) sau folosind DirectX (suportã toate formatele video, dar e mai lent).</li>
+			<li>Poþi alege care extensii de subtitrãri sã le asociezi.</li>
+			<li>Suportã drag &amp; drop (fiºiere de subtitrãri ºi fiºiere video).</li>
+			<li>Suportã linie de comandã.</li>
+			<li>Listã de fiºiere recente (numãr personalizabil de fiºiere recente de la 0 la 20).</li>
+		</ul>
+	</li>
+	<li>Operaþiuni asupra timpilor
+		<ul>
+			<li>Seteazã decalajul (pozitiv sau negativ, la timp sau la cadre).</li>
+			<li>Seteazã limitele duratei (durata maximã ºi durata minimã).</li>
+			<li>Ajusteazã liniile folosind 4 metode posibile: 1- primul ºi ultimul dialog, 2- sincronizare folosind 2 puncte (algoritm liniar), 3- Ajusteazã la subtitrãrile sincronizate ºi 4- sistem avansat de sincronizare a subtitrãrilor folosind un numãr nedefinit de puncte de sincronizare.</li>
+			<li>"Extindere/reducere timpi" pentru a extinde/reduce timpul final al unei(unor) anumite linii în anumite condiþii.</li>
+			<li>"Durate automate" pentru calcularea duratei unei(unor) linii folosind o formulã simplã.</li>
+			<li>Conversie CPS cu un singur clic.</li>
+			<li>"Extinde durata" pentru extinderea duratei liniei(liniilor) selectate pânã la momentul de start al liniei urmãtoare.</li>
+			<li>"Schmbã cu..." înainte sau înapoi cu o anumitã duratã configuratã de timp.</li>
+			<li>Caracteristica "Citeºte timpi din fiºier", pentru a repara o subtitrare folosind timpii altei subtitrãri.</li>
+		</ul>
+	</li>
+	<li>Operaþiuni asupra textelor
+		<ul>
+			<li>Cautã &amp; înlocuieºte textul folosind opþiunile "Potrivire cuvinte întregi", "Potrivire litere" ºi "Pãstreazã potrivire litere la înlocuire".</li>
+			<li>"Ajustare inteligentã linie" pentru forþarea liniilor mai mari de 3 rânduri în linii de 2 rânduri ºi ajustarea lungimii rândurilor.</li>
+			<li>"Convertire litere" cu 6 moduri diferite de conversie.</li>
+			<li>"Uneºte liniile" pentru a transforma toate liniile selectate în linii cu un singur rând.</li>
+			<li>"Desparte rândurile din linie" pentru a despãrþi cu uºurinþã o linie cu mai mult de un singur rând (sau cu un rând mai mare) în 2 linii cu recalcularea adecvatã a timpilor.</li>
+			<li>"Inversare text" pãstrând ordinea rândurilor sau nu.</li>
+			<li>"Reparã punctuaþia", foarte folositoare pentru limbile scrise de la dreapta-spre-stânga.</li>
+			<li>"ªterge "..." inutile" pentru ºtergerea "..." inutile dacã sunt prezente la sfârºitul unui rând ºi la încputul rândului urmãtor.</li>
+			<li>Caracteristica "Citeºte texte din fiºier", pentru repararea unei subtitrãri folosind textul unei alte subtitrãri.</li>
+		</ul>
+	</li>
+	<li>Caracteristici referitoare la text ºi timpi
+		<ul>
+			<li>"Sorteazã" pentru sortarea tuturor liniilor în conformitate cu timpul lor de start.</li>
+			<li>"Combinã linii" pentru a face ca toate liniile selectate sã devinã o singurã linie (de exemplu. "- Salut !" ºi "- Hei !!!" în "- Salut !|- Hei !!!").</li>
+			<li>Efecte vizuale cu textele ºi timpii liniilor.</li>
+			<li>Posibilitatea de marcare a liniilor pentru o corectare ulterioarã (ºi bineînþeles demarcarea lor) ºi de citire a Fiºierelor Raport Subtitrare (*.srf) generate de ViPlay.</li>
+		</ul>
+	</li>
+</ul>
+<br>
+<b>Lista curentã de formate suportate:</b>
+<ul>
+	<li>Adobe Encore DVD (*.txt)</li>
+	<li>Advanced SubStation Alpha (*.ass)</li>
+	<li>AQTitle (*.aqt)</li>
+	<li>Captions 32 (*.txt)</li>
+	<li>Captions DAT (*.dat)</li>
+	<li>Captions DAT Text (*.dat)</li>
+	<li>Captions Inc. (*.txt)</li>
+	<li>Cheetah (*.asc)</li>
+	<li>CPC-600 (*.txt)</li>
+	<li>DKS Subtitle Format (*.dks)</li>
+	<li>DVD Junior (*.txt)</li>
+	<li>DVD Subtitle System (*.txt)</li>
+	<li>DVDSubtitle (*.sub)</li>
+	<li>FAB Subtitler (*.txt)</li>
+	<li>IAuthor Script (*.txt)</li>
+	<li>Inscriber CG (*.txt)</li>
+	<li>JACOSub 2.7+ (*.jss; *.js)</li>
+	<li>Karaoke Lyrics LRC (*.lrc)</li>
+	<li>Karaoke Lyrics VKT (*.vkt)</li>
+	<li>KoalaPlayer (*.txt) (equal to one of the variations of TMPlayer)</li>
+	<li>MAC DVD Studio Pro (*.txt)</li>
+	<li>MacSUB (*.scr)</li>
+	<li>MicroDVD (*.sub)</li>
+	<li>MPlayer (*.mpl)</li>
+	<li>MPlayer2 (*.mpl)</li>
+	<li>MPSub (*.sub)</li>
+	<li>OVR Script (*.ovr)</li>
+	<li>Panimator (*.pan)</li>
+	<li>Philips SVCD Designer (*.sub)</li>
+	<li>Phoenix Japanimation Society (*.pjs)</li>
+	<li>Pinnacle Impression (*.txt)</li>
+	<li>PowerDivX (*.psb)</li>
+	<li>PowerPixel (*.txt)</li>
+	<li>QuickTime Text (*.txt)</li>
+	<li>RealTime (*.rt)</li>
+	<li>SAMI Captioning (*.smi)</li>
+	<li>Sasami Script (*.s2k)</li>
+	<li>SBT (*.sbt)</li>
+	<li>Sofni (*.sub)</li>
+	<li>Softitler RTF (*.rtf)</li>
+	<li>SonicDVD Creator (*.sub)</li>
+	<li>Sonic Scenarist (*.sst)</li>
+	<li>Spruce DVDMaestro (*.son)</li>
+	<li>Spruce Subtitle File (*.stl)</li>
+	<li>Stream SubText Player (*.sst)</li>
+	<li>Stream SubText Script (*.ssts)</li>
+	<li>SubCreator 1.x (*.txt)</li>
+	<li>SubRip (*.srt)</li>
+	<li>SubSonic (*.sub)</li>
+	<li>SubStation Alpha (*.ssa)</li>
+	<li>SubViewer 1.0 (*.sub)</li>
+	<li>SubViewer 2.0 (*.sub)</li>
+	<li>TMPlayer (*.txt) (five different variations)</li>
+	<li>Turbo Titler (*.txt)</li>
+	<li>Ulead DVD Workshop 2.0 (*.txt)</li>
+	<li>ViPlay Subtitle File (*.vsf)</li>
+	<li>ZeroG (*.zeg)</li>
+</ul>
+<br>
+<br>
+
+<a name="1.2"></a><h3>1.2 Motorul de citire &amp; de scriere</h3>
+
+Motorul de citire & de scriere al Subtitle Workshop a evoluat foarte mult faþã de început, ºi a fost rescris de la 0 de mai multe
+ori. Mulþi au raportat bucuroºi bug-uri ºi pe toate le-am reparat cât am putut de repede. Cu timpul,
+motorul a devenit mai sigur ºi mai stabil. Din cauza acestei siguranþe am decis sã lansãm <b>URUSoft Subtitle API</b>.
+
+<br>
+<br>
+<br>
+
+<a name="1.2.1"></a><h5>1.2.1 Ce este URUSoft Subtitle API ?</h5>
+E un simplu DLL (dynamic link library) care conþine motorul de citire ºi de scriere al Subtitle Workshop. Acest DLL a fost creat pentru ca actualizãrile
+motorului de citire al Subtitle Workshop sã poatã fi publicat fãrã a lansa o nouã versiune a Subtitle Workshop, care nu conþine doar bug-uri reparate,
+ci ºi formate noi de subtitrãri. Datoritã acestui DLL, trebuie doar sã descarci numai câþiva kb în loc de mai mult de 800 kb dacã gãseºti
+un bug în motorul de citire sau scriere.<br>
+Dupã dscãrcarea fiºierului DLL, trebuie sã te duci în directorul lui Subtitle Workshop ºi sã-l pui în directorul "SubtitleAPI". Urmãtoarea datã când deschizi
+Subtitle Workshop, noile formate/bug-uri reparate vor avea efect.
+<br>
+<br>
+<br>
+
+<a name="1.3"></a><h3>1.3 Prezentare vizualã</h3>
+Dacã vrem o prezentare vizualã, ar trebui sã începem prin a ne uita laniºte niºte capturi de ecran. Pentru a vedea câteva, dã clic
+<a href="http://www.urusoft.net/products.php?cat=sw&lang=1">aici</a>.
+<br>
+<br>
+Unul din lucrurile care fac Subtitle Workshop unic e interfaþa - foarte prietenoasã dar în acelaºi timp pãstreazã
+funcþionalitatea de bazã ºi avansatã pentru a uºura accesarea meniurilor.<br>
+Interfaþa este idealã efectiv pentru  *orice* sarcinã - poþi obþine o performanþã excelentã creând subtitrãri, reparând timpii manual,
+traducând subtitrãri, ºi bineînþeles, folosind toate caracteristicile incluse.
+<br>
+<br>
+<br>
+
+<a name="1.4"></a><h3>1.4 Începutul</h3>
+Începe prin a folosi caracteristicile de bazã ale Subtitle Workshop.
+<br>
+
+<a name="1.4.1"></a><h5>1.4.1 Cum se încarcã o subtitrare</h5>
+Pentru a încãrca o subtitrare pur ºi simplu dã clic pe <b>"Fiºier/Încarcã subtitrarea"</b> sau apasã tastele <b>[Ctrl]+[O]</b>. În plus, 
+poþi lãsa subtitrarea ta în fereastra principalã, sau dacã extensiile sunt asociate cu programul, doar dã dublu-clic pe fiºierul de subtitrare
+pe care doreºti sã-l deschizi.
+<br>
+<br>
+De fiecare datã când încarci un fiºier folosind una din metodele de mai sus, fiºierul va fi verificat pentru a ºti dacã e un fiºier valid ºi care este formatul
+sãu. Majoritatea fiºierelor se vor încãrca cum trebuie, dar dacã primeºti mesajul de eroare "Fiºierul e o subtitrare invalidã sau un format nesuportat",
+mai sunt ºanse ca sã încarci subtitrarea. Mai întâi <b>TREBUIE</b> sã fii sigur de formatul fiºierului. Dacã eºti sigur,
+atunci fã aºa:
+<ol>
+	<li>Clic pe meniul <b>"Fiºier/Încarcã subtitrarea"</b>.</li>
+	<li>O fereastrã de dialog va apãrea ºi va trebui sã selectezi filtrul din dreapta (într-un combo box unde scrie "Toate fiºierele suportate",
+	trebuie sã dai clic pe butonul cu sãgeatã care e lângã text ºi sã selectezi formatul fiºierului).</li>
+	<li>Odatã ce ai fãcut asta, apasã butonul <b>Open</b> din fereastrã.</li>
+</ol>
+În aºa fel nu va exista o recunoaºtere automatã a formatului ºi nici o verificare a fiºierului. Dacã fiºierul tot nu poate fi încãrcat, vei primi un mesaj de eroare.
+În acest caz, dacã eºti sigur cã fiºierul e într-un format de subtitrare bazat pe text <a href="http://www.urusoft.net/contactus.php?lang=1">trimite-mi-l prin e-mail
+</a> ºi îl voi repara.
+
+<br>
+<br>
+<br>
+
+<a name="1.4.2"></a><h5>1.4.2 Cum se încarcã un fiºier video</h5>
+Pentru a încãrca un fiºier video pur ºi simplu dã clic pe <b>"Film/Deschide"</b> sau apasã tastele <b>[Ctrl]+[P]</b>. Dacã primeºti mesajul de eroare "Fiºierul nu e un fiºier video valid",
+asigurã-te cã ai instalate codecurile corecte. Dacã nu le ai instalate, descarcã
+<A HREF="http://jdoe.host.sk/">Coda Codec Pack</A>. Ar trebui sã repare majoritatea problemelor de redare.
+
+<br>
+<br>
+<br>
+
+<a name="1.4.3"></a><h5>1.4.3 Cum se creazã o nouã subtitrare</h5>
+Folosind Subtitle Workshop poþi uºor crea subtitrãri noi de la 0, ºi sã le salvezi apoi în orice format. Pentru a face asta, dã clic pe meniul
+<b>"Fiºier/Subtitrare nouã..."</b> sau apasã tastele <b>[Ctrl]+[N]</b>. Odatã ce ai fãcut asta, poþi începe sã adaugi linii, ºi sã salvezi fiºierul
+prin meniul <b>"Fiºier/Salveazã"</b> sau apãsând tastele <b>[Ctrl]+[S]</b>.
+
+<br>
+<br>
+<br>
+
+<a name="1.4.4"></a><h5>1.4.4 Cum se adaugã linii la o subtitrare</h5>
+Trebuie doar sã apeºi tasta <b>Insert</b> sau sã dai clic pe meniul <b>"Editare/Insereazã linie"</b>. Linia va fi întotdeauna adãugatã imediat dupã
+linia selectatã. Durata implicitã a noii linii este de o secundã, ºi timpul de start întotdeauna va fi
+timpul final al liniei precedente plus o milisecundã. Dacã adaugi o linie într-o listã goalã, timpul iniþial va fi
+zero.<br><br>
+Dacã vrei sã inserezi o linie înaintea liniei selectate, apasã tastele <b>[Shift]+[Insert]</b> sau dã clic pe meniul <b>"Editare/Insereazã înainte"</b>.
+
+<br>
+<br>
+<br>
+
+<a name="1.4.5"></a><h5>1.4.5 Cum se ºterg linii de la o subtitrare</h5>
+Selecteazã toate liniile pe care vrei sã le ºtergi þinând apãsatã tasta Ctrl ºi dând clic pe ele, apoi apasã tasta <b>Delete</b> sau dã clic pe meniul
+<b>"Editare/ªterge selecþie"</b>.
+
+<br>
+<br>
+<br>
+
+<a name="1.4.6"></a><h5>1.4.6 Editare manualã a unei linii</h5>
+Fiecare linie e compusã din trei pãrþi:
+<ol>
+	<li><b>Timpul iniþial</b> - timpul la care este arãtatã linia.</li>
+	<li><b>Timpul final</b> - timpul la care este ascunsã linia.</li>
+	<li><b>Textul</b> - linia în sine.</li>
+</ol>
+Subtitle Workshop te lasã sã editezi uºororicare din aceste câmpuri.<br><br>
+Pentru a edita timpul iniþial dã clic pe câmpul <b>"Aratã"</b>, seteazã timpul (sau cadrele) dorit(e) ºi apasã tasta <b>[Enter]</b>.<br>
+Pentru a edita timpul final dã clic pe câmpul <b>"Ascunde"</b>, seteazã timpul (sau cadrele) dorit(e) ºi apasã tasta <b>[Enter]</b>. Noteazã cã de asemenea poþi
+edita timpul final al liniei schimbând valoarea câmpului <b>"Durata"</b>.<br>
+În plus, poþi edita oricare din aceste valori de timp folosind butoanele Sus-Jos din dreapta fecãrei casete de text.<br><br>
+
+Pentru a edita textul, dã clic în caseta "Text" ºi scrie textul dorit. în lista de linii, caracterul <b>"|"</b> (linia dreaptã verticalã)
+reprezintã un nou rând.
+<br>
+<br>
+<br>
+
+<a name="1.4.7"></a><h5>1.4.7 Etichete de stil ºi culoare</h5>
+Mai întâi, trebuie sã ºtii cã Subtitle Workshop suportã <b>numai</b> etichete pentru <b>întreaga linie</b>, deci dacã vrei sã
+aplici stilul de font pentru numai o parte din linie, vei avea nevoie de un editor de texte. Întru-cât suportã etichete numai pentru întreaga linie,
+va trebui doar sã deschizi etichetele pentru cã e inutil sã le mai închizi. Etichetele suportate sunt:
+<ul>
+	<li><b>&lt;b&gt;</b> pentru <b>aldin</b></li>
+	<li><b>&lt;i&gt;</b> pentru <i>cursiv</i></li>
+	<li><b>&lt;u&gt;</b> pentru <u>subliniere</u></li>
+	<li><b>&lt;c:#<FONT COLOR="#FF0000">RR</FONT><FONT COLOR="#00FF00">GG</FONT><FONT COLOR="#0000FF">BB</FONT>&gt;</b> pentru culoare,
+	formatul culorii fiind în format HTML </li>
+</ul>
+Pentru a adãuga aceste etichete le poþi scrie pur ºi simplu, ºi în plus poþi da clic-dreapta în lista de linii ºi sã
+poþi folosi meniul care apare pentru a controla toate etichetele pentru liniile selectate. Noteazã cã poþi folosi mai mult de o singurã etichetã în aceeaºi linie
+(bineînþeles, dacã sunt etichete diferite). Linia poate avea 4 etichete suportate în acelaºi timp.
+<br>
+<br>
+<b>AVERTISMENT:</b> Nu toate formatele de subtitrãri suportã etichete de stil sau de culoare. Dacã salvezi aceste etichete într-un format de subtitrare
+care nu le suportã, etichetele se vor pierde.
+<br>
+<br>
+<br>
+
+<a name="1.4.8"></a><h5>1.4.8 CPS ºi CPS de intrare</h5>
+E crucial sã ºtii diferenþa dintre aceste douã câmpuri pentru a lucra cu Subtitle Workshop.
+<br>
+<br>
+<b>CPS de intrare</b> este CPS-ul filmului pentru care a fost fãcutã subtitrarea. <b>CPS</b> este CPS-ul filmului pentru care vrei sã ajustezi subtitrarea.
+Trebuie sã modifici acest câmp pentru a converti CPS. Când editezi subtitrãri bazate pe cadre nu e nevoie de
+CPS de intrare (e nevoie doar de CPS) deci "CPS intrare" va deveni absolut nefolositor dupã încãrcarea subtitrãrilor bazate pe cadre (nu va avea nici un efect asupra timpilor).
+<br>
+<br>
+<b>Q:</b> Cum convertesc o subtitrare cu CPS 25 într-una cu CPS 29,97 ?<br>
+<b>A:</b> Pur ºi simplu seteazã "CPS intrare" la 25, încarcã subtitrarea ºi apoi seteazã "CPS" la 29,97. Tocmai ai schimbat rata de cadre a fiºierului.
+<br>
+<br>
+<br>
+
+<a name="1.5"></a><h3>1.5 Parametri ai liniei de comandã</h3>
+E foarte recomandat sã trimiþi fiecare parametru cãtre Subtitle Workshop între " " pentru a evita problemele cu spaþii în
+numele/calea fiºierelor.<br><br>
+
+<b>Pentru a deschide un fiºier:<br>
+SubtitleWorkshop.exe "/OPEN(File)"</b>
+<br>
+<br>
+Exemplu:<br>
+<i>SubtitleWorkshop.exe "/OPEN(C:\Subtitle.srt)"</i>
+<br>
+<br>
+<b>Pentru convertire dintr-un format în altul:<br>
+SubtitleWorkshop.exe "/CONVERT(Input_File/Output_File/Output_Format/Input_FPS/Output_FPS)"
+</b>
+<br>
+<br>
+CPS intrare ºi CPS salvare sunt necesare doar dacã te ocupi de subtitrãri bazate pe cadre, dacã nu, poþi specifica orice valoare. În câmpul CPS, dacã
+nu e o valoare rotundã, zecimalele trebuie sã fie separate folosind separatorul zecimal (configurabil în Control panel/Regional
+and language settings) al calculatorului pe care ruleazã Subtitle Workshop. De obicei e "," sau ".". Formatul de subtitrare trebuie sã fie în
+format ºir de caractere, iar dacã foloseºti o versiune actualizatã a SubtitleAPI poþi specifica noi formate, deoarece formatele posibile
+depind de versiunea SubtitleAPI folositã.<br><br>
+Pentru a ºti toate formatele suportate ºi <b>*exact*</b> cum ar trebui sã le scrii, cheamã Subtitle Workshop aºa:<br><br>
+<b>SubtitleWorkshop.exe /GetSupportedFormats</b><br><br>
+Dupã asta Subtitle Workshop va salva o listã a formatelor suportate în calea unde este instalat, într-un fiºier TXT cu
+numele "SupportedFormats.txt".
+<br>
+<br>
+Câteva exemple:<br>
+<i>
+SubtitleWorkshop.exe "/CONVERT(C:\Folder\Sub.smi/C:\Subtitle.pjs/Phoenix Japanimation Society/25/29,97)"<br>
+SubtitleWorkshop.exe "/CONVERT(C:\Subtitle.vsf/C:\Subtitle.jss/JACOSub 2.7+/23,976/0)"<br>
+SubtitleWorkshop.exe "/CONVERT(C:\Subtitle.srt/C:\Subtitle.sub/MicroDVD/29,97/29,97)"<br>
+</i>
+<br>
+
+<b>Pentru a decala o subtitrare:<br>
+SubtitleWorkshop.exe "/DELAY(Input_File/Output_File/Input_FPS/Delay_in_Milliseconds)"
+</b>
+<br>
+<br>
+
+Exemplu:<br>
+<i>SubtitleWorkshop.exe "/DELAY(C:\Subtitle.srt/C:\Subtitle.srt/0/-5000)"</i><br><br>
+Exemplul de mai sus va seta un decalaj de -5 secunde în subtitrarea Subtitle.srt ºi o va rescrie. Am specificat CPS=0 deoarece încãrcãm
+o subtitrare bazatã pe timp. Ca ºi parametrul de convertire, dacã CPS nu are o valoare rotundã, zecimalele trebuie separate folosind
+separatorul calculatorului pe care ruleazã Subtitle Workshop. Dacã specifici un CPS greºit ºi e nevoie de CPS, atunci
+CPS-ul implicit (25) va fi folosit.
+
+<br>
+<br>
+<br>
+
+<a name="1.6"></a><h3>1.6 Fiºierele de limbã proprie</h3>
+Poþi crea foarte uºor propriul tãu fiºier de limbã proprie sau actualiza un fiºier deja existent ºi sã-l foloseºti în Subtitle Workshop. Pentru a face asta,
+trebuie sã traduci fiºierul English.lng (sau oricare alt fiºier *.lng) în limba pe care o vrei, ºi apoi sã-l copii în directorul Langs cu
+numele language.lng. For example, Español.lng, English.lng, Français.lng, Romanian.lng.<br><br>
+<b>Avertisment !</b>
+<b>*NU*</b> traduce textul dintre "[ ]" ºi textul de dupã semnul % (de exemplu "%s" sau "%d"). Altfel fiºierul de limbã proprie
+nu va funcþiona corect !
+<br>
+<br>
+<b>Ponturi:</b>
+<ul>
+	<li>Dacã limba în care faci traducerea foloseºte alt set de caractere decât ANSI_CHARSET nu uita sã-l schimbi în secþiunea [General]. Citeºte charsets.txt pentru edificare.</li>
+	<li>În mesaje, caracterul "|" (linie dreaptã verticalã) reprezintã un nou rând.</li>
+</ul>
+
+Dupã ce creezi un fiºier de limbã proprie, <a href="mailto:deksoft@despammed.com">trimite-mi-l mie</a> pentru a putea sã-l distribui cu
+pachetul de instalare. Numele translatorului va apãrea în fereastra "Despre Subtitle Workshop".
+
+<br>
+<br>
+<br>
+
+<a name="1.7"></a><h3>1.7 Formate personalizate</h3>
+Caracteristica aceasta face posibilã salvarea unui fiºier de subtitrare într-un format pe care Subtitle Workshop nu-l suportã, sau sã creezi propriul tãu format sau fiºier text cu subtitrare.
+Aceastã opþiune e numai pentru salvarea fiºierelor, dacã faci asta într-un format pe care Subtitle Workshop nu-l suportã,
+citirea fiºierului nu va fi posibilã.<br><br>
+Pentru accesarea ferestrei de dialog "Formate personalizate" mai întâi încarcã o subtitrare, apoi dã clic pe meniul <b>"Fiºier/Salveazã sub numele..."</b> iar apoi dã clic pe
+butonul <b>"Format personalizat"</b>.<br><br>
+
+<b>Nume format</b><br>
+Acesta e folositor pentru identificarea formatului în care salvezi fiºierul (sau proiectul).
+<br>
+<br>
+
+<b>Extensia</b>
+Specificã extensia fromatului. Subtitle Workshop o va folosi la salvarea fiºierului. Formatul extensiei
+trebuie sã fie "*.CARACTERE".
+<br>
+<br>
+
+<b>Structura</b><br>
+Specificã structura timpului. <b>h</b> reprezintã ora, <b>m</b> minutele, <b>s</b> secundele ºi <b>z</b> milisecundele. Dacã scrii
+mai multe litere de "h" sau "m" sau "s" sau "z", toate literele "h" sau "m" sau "s" sau "z" trebuie sã fie împreunã. Nu poþi scrie ceva de genul
+"h:m:h:,zmzs". Un timp ca "00:00:00,0" ar fi "hh:mm:ss,z" ºi un timp ca "0:00:00,000" ar fi "h:mm:ss,zzz". Dacã vrei ca structura timpului sã fie
+formatã numai din milisecunde, scrie "MS" în loc de o structurã de timp.
+<br>
+<br>
+
+<b>Timp sau cadre</b><br>
+Selecteazã câmpul "Timp" dacã vrei sã lucrezi cu timpi. Dacã vrei sã lucrezi cu cadre, atunci selecteazã câmpul "Cadre" ºi nu va
+trebui sã specifici o structurã, deoarece cadrele vor fi întotdeauna un simplu numãr.
+<br>
+<br>
+
+<b>CPS</b><br>
+Selecteazã CPS-ul subtitrãrii pe care o salvezi. Dacã salvezi o subtitrare bazatã pe timp în altã subtitrare bazatã pe timp nu trebuie sã atingi acest câmp. 
+<br>
+<br>
+
+<b>Caracter pentru rând nou</b><br>
+Specificã caracterul(caracterele) de separat rândurile într-o linie. Dacã vrei sã faci rânduri noi ca în formatul SubRip (fãrã sã foloseºti nici un caracter pentru rând nou,
+doar sã separi rândurile) atunci ar trebui sã scrii "[Enter]" ca fiind caracter pentru rând nou.
+<br>
+<br>
+
+<b>Încarcã proiect</b><br>
+Dã clic pe acest buton pentru a încãrca proiectul unui format personalizat dintr-un fiºier deja salvat (*.cfp).
+<br>
+<br>
+
+<b>Salveazã proiect</b><br>
+Dã clic pe acest buton pentru a salva proiectul într-un fiºier *.cfp. Asta va salva toate informaþiile vizibile în fereastra "Formate personalizate". 
+<br>
+<br>
+
+<b>Textul scriptului formatului personalizat</b><br>
+Acesta e foarte simplu. Pãrþile pe care Subtitle Workshop le va scrie într-un fiºier pot fi împãrþite în trei, în aceastã ordine:
+<ol>
+	<li>O parte e scrisã doar o datã la <b>începutul</b> fiºierului</li>
+	<li>O parte care e <b>repetatã</b> de fiecare datã înseamnã o nouã linie</li>
+	<li>O parte care e scrisã doar o datã la <b>sfârºitul</b> fiºierului</li>
+</ol>
+Tot ce trebuie sã faci e sã scrii aceste trei secþiuni în caseta de text. Când deschizi fereastra "Formate personalizate" poþi vedea
+un exemplu comentat. Comentariile încep cu ** ºi se terminã cu !*. Datoritã acestui lucru nu poþi scrie caracterele "<b>**</b>"
+într-un fiºier deoarece vor fi înþelese ca fiind început de comentariu. Dacã vrei sã foloseºti aceste douã caractere într-un fiºier poþi folosi
+<b>{asterisc}</b> (se va scrie un singur asterisc). Pentru a scrie douã, "{asterisc}*" sau "{asterisc}{asterisc}" sunt la fel.<br><br>
+Mai întâi scrie prima secþiune (dacã existã). Apoi începe a doua secþiune (partea repetitivã) cu <b>{RepeatSub}</b>.
+<br>
+<br>
+
+<b>Partea repetitivã</b><br>
+În aceastã secþiune poþi scrie 4 lucruri.
+<ol>
+	<li>
+		Timpul de start al unei linii. Trebuie sã scrii <b>{swStart}</b> ºi Subtitle Workshop îl va înlocui cu timpul iniþial (sau
+		cadre) al liniei existente. De asemenea, poþi scrie <b>{swFrameStart}</b> ºi programul îl va înlocui cu cadre. În acest fel
+		poþi salva timpul, de exemplu în formatul hh:mm:ss,zzz:CADRE. Dacã vrei sã pui zerouri în stânga pânã când atingi
+		durata doritã, poþi scrie {swFrameStart,DesiredTotalLength}. Poþi face la fel cu cadrele de sfârºit.
+	</li>
+	<li>
+		Timpul de sfârºit al liniei. Trebuie sã scrii <b>{swEnd}</b> ºi Subtitle Workshop îl va înlocui cu timpul final (sau cu cadre) al
+		liniei existente. De asemenea, poþi scrie <b>{swFrameEnd}</b>.
+	</li>
+	<li>
+		Textul liniei. Trebuie sã scrii <b>{swText}</b> ºi Subtitle Workshop îl va înlocui cu textul liniei, cu noul
+		caracter pentru rând nou pe care l-ai ales.
+	</li>
+	<li>
+		Numãrul liniei (ca în formatul SubRip). Trebuie sã scrii <b>{SubCount}</b>. Aceastã variabilã pãstreazã indexul existent al liniei.
+		Dacã eºti la prima linie, va fi "1", dacã eºti la a doua, va fi "2", etc. Unele formate
+		ca SonicDVD trebuie sã adauge zerouri la stânga pânã când lungimea ºirului de numere e de exemplu 4. Pentru asta, scrie
+		<b>{SubCount,DesiredTotalLength}</b> ºi Subtitle Workshop va adãuga zerouriYautomat.
+	</li>
+</ol>
+Verificã directorul "CEF Exemple", ºi încarcã câteva exemple pentru a vedea cum poþi folosi aceastã caracteristicã mai bine.
+
+<br>
+<br>
+<br>
+
+<!--------------------------------------------------------->
+<!--    Capitolul 2: Caracteristici referitoare la timp    -->
+<!--------------------------------------------------------->
+<a name="2.0"></a><h2>Capitolul 2: Caracteristici referitoare la timp</h2><br>
+
+<a name="2.1"></a><h3>2.1 Conversie ratã cadre</h3>
+Vezi <A HREF="#1.4.8">CPS ºi CPS de intrare</A>.
+
+<br>
+<br>
+<br>
+
+<a name="2.2"></a><h3>2.2 Setare decalaj</h3>
+Subtitle Workshop poate seta un decalaj pozitiv sau negativ, în timp sau cadre. Decalajul este un timp sau un numãr de cadre fix care
+reprezintã diferenþa punctelor de start la care linia ar trebui sã înceapã, ºi startul actual. Pentru a aplica un decalaj, mai întâi încarcã
+subtitrarea, apoi dã clic pe meniul <b>"Editare/Timpi/Seteazã decalajul..."</b> sau apasã tastele <b>[Ctrl]+[D]</b>. Fereastra de setare a decalajului va apare.<br>
+Dacã lucrezi în modul timp, ar trebui sã setezi un decalaj de timp iar dacã lucrezi în modul cadre, ar trebui sã setezi un decalaj de cadre.
+Subtitle Workshop va detecta automat modul în care lucezi. Poþi alege dacã vrei sã aplici decalajul tuturor liniilor din subtitrare
+sau doar liniilor selectate, folositor dacã doar o parte din subtitrare apare mai târziu decât trebuie.
+<br>
+<br>
+<br>
+
+<a name="2.3"></a><h3>2.3 Ajustare linii</h3>
+Subtitle Workshop poate sincroniza liniile cu un fiºier video dupã patru metode. Oricare metodã o vei folosi, primul lucru pe care trebuie
+sã-l faci e <a href="#1.4.1">sã încarci o subtitrare</a> pe care o vei ajusta, ºi pentru metodele 1, 2 ºi 4 trebuie
+<a href="#1.4.2">sã încarci fiºierul video</a> pe care îl vei lua ca punct de referinþã.<br>
+
+<a name="2.3.1"></a><h5>2.2.1 Metoda 1: ajustare simplã, primul ºi ultimul dialog</h5>
+Aceastã metodã oferã o mare exactitate ºi e recomandatã în majoritatea cazurilor. Dupã ce ai încãrcat subtitrarea ºi fiºierul video, fã urmãtoarele:<br>
+	<ul>
+		<li>Redã fiºierul video pânã când ai ajuns la <b>primul dialog vorbit</b> sau la primul punct care ar trebui sã fie subtitrat în film,
+		ºi când îl vei auzi/citi, apasã butonul <b>"Marcheazã ca primul dialog în video"</b> sau tastele <b>[Alt]+[F]</b>.</li>
+		<li>Poziþioneazã-te aproape de sfârºitul filmului ºi când auzi/citeºti <b>ultimul dialog vorbit</b> sau ultimul punct care ar trebui subtitrat,
+		apasã butonul <b>"Marcheazã ca ultimul dialog în video"</b> sau tastele <b>[Alt]+[L]</b>.</li>
+		<li>Notã: poþi lua aceste douã valori de la un player video extern.</li>
+		<li>Dupã ce ai urmat aceºti paºi, dã clic pe <b>"Editare/Timpi/Ajusteazã subtitrare..."</b> sau apasã tastele <b>[Ctrl]+[B]</b></li>
+	</ul>
+  
+<a name="2.3.2"></a><h5>2.2.2 Metoda 2: sincronizare folosind douã puncte</h5>
+Aceastã metodã nu e la fel de precisã ca prima metodã dar va funcþiona foarte bine în majoritatea cazurilor. Funcþioneazã prin luarea a douã puncte(linii) din subtitrare
+ºi douã puncte din film, calculând timpii folosind un algoritm liniar. Prima pereche de puncte va fi numitã "Primul punct de sincronizare"
+ºi ultima pereche de puncte va fi numitã "Ultimul punct de sincronizare". Fiecare pereche de puncte are un punct din subtitrare
+ºi un punct din film, punctul din subtitrare are timpi incorecþi ºi punctul din film are timpii corecþi. Dupã
+selectarea primului ºi ultimului punct de sincronizare Subtitle Workshop calculeazã restul timpilor cu aproximaþie. Cu cât e mai aproape
+primul punct de sincronizare de început ºi ultimul punct de sincronizare de sfârºit, cu atât ai mai multã exactitate. Notã: dacã punctul subtitrãrii
+selectat în primul punct de sincronizare corespunde cu prima linie, ºi punctul subtitrãrii selectat în ultimul
+punct de sincronizare corespunde cu ultima linie, atunci prima formulã (primul ºi ultimul dialog) va fi folositã.<br><br>
+Dupã ce ai înþeles lucrurile de bazã trebuie sã faci urmãtoarele:<br>
+	<ul>
+		<li>Mai întâi, selecteazã linia pe care vrei sã o marchezi ca primul punct. Primul punct în subtitrare va fi întotdeauna
+		timpul iniþial al liniei selectate.</li>
+		<li>Redã fiºierul video pânã când vei gãsi timpul corect pentru linie (acesta va fi primul punct din film), când îl gãseºti,
+		dã clic pe butonul <b>"Marcheazã ca primul punct de sincronizare"</b> sau apasã tastele <b>[Ctrl]+[1]</b>.</li>
+		<li>Acum selecteazã linia pe care vrei sã o marchezi ca ultimul punct de sincronizare. Ultimul punct de sincronizare va fi timpul iniþial al liniei selectate.</li>
+		<li>Redã fiºierul video pânã când vei gãsi timpul corect pentru linie (acesta va fi ultimul punct fin film), când îl gãseºti,
+		dã clic pe butonul <b>"Marcheazã ca ultimul punct de sincronizare"</b> sau apasã tastele <b>[Ctrl]+[2]</b>.</li>
+	</ul>
+Dupã ce faci asta vei primi un mesaj de confirmare, dã clic pe "Da" ºi subtitrarea va fi sincronizatã imediat.
+	
+	
+<a name="2.3.3"></a><h5>2.2.3 Metoda 3: ajustare la subtitrãri sincronizate</h5>
+Folositoare dacã ai subtitrãri desincronizate într-o limbã ºi vrei sã le ajustezi rapid cu o subtitrare deja ajustatã într-o
+altã limbã. Metoda asta va funcþiona chiar dacã ambele subtitrãri au un numãr diferit de linii, ºi e necesar ca prima ºi ultima linie
+din cele douã subtitrãri sã corespundã. Aceastã metodã e foarte uºor de folosit:
+trebuie doar sã dai clic pe meniul <b>"Timpi/Ajusteazã la subtitrãri sincronizate"</b> sau apasã tastele <b>[Shift]+[Ctrl]+[B]</b> ºi sã încarci
+subtitrarea sincronizatã. Notã: aceastã metodã <b>NU</b> seamãnã cu caracteristica "citeºte timpi din fiºier".
+<br>
+<br>
+<br>
+
+<a name="2.3.4"></a><h5>2.2.4 Metoda 4: ajustare avansatã a subtitrãrii</h5>
+Foloseºte aceastã metodã dacã ajustarea tradiþionalã între douã puncte eºueazã. Aceastã caracteristicã unicã face posibilã ajustarea subtitãrilor în cele mai rele cazuri,
+când desincronizarea nu e constantã, sau e diferitã în diferite pãrþi ale subtitrãrii. Sistemul îþi permite
+selectarea mai multor puncte subtitrare/film pentru a sincroniza subtitrarea pe "pãrþi". Numãrul maxim de puncte pe care îl poþi selecta
+e numãrul liniilor din subtitrare.<br>
+Pentru a atinge cea mai bunã performanþã mai întâi trebuie <a href="#1.4.1">sã încarci o subtitrare</a> ºi apoi
+<a href="#1.4.2">sã încarci un film corespondent</a>. Între controlalele din modul vizualizare video, vei observa cã ultimul buton e "Adaugã
+punct de sincronizare în subtitrare/film". Vei avea nevoie de acest buton mai târziu. Aceºtia sunt paºii pe care trebuie sã-i urmezi:
+
+<ul>
+	<li>Mai întâi, selecteazã linia pe care vrei sã o marchezi ca punct de sincronizare. Punctul va fi întotdeauna timpul iniþial al liniei selectate.
+	Aceastã linie poate fi oricare linie din subtitrare.</li>
+	<li>Redã filmul pânã când gãseºti timpul corect pentru acea linie. Când îl gãseºti, dã clic pe butonul <b>"Adaugã
+        punct de sincronizare în subtitrare/film"</b> sau apasã tastele <b>[Ctrl]+[Alt]+[P]</b>. Fereastra Ajustare subtitrare va apãrea,
+	iar modul avansat va fi setat implicit. Aceastã fereastrã e "non-modalã", adicã încã poþi folosi interfaþa principalã a lui Subtitle
+	Workshop când e deschisã.</li>
+	<li>Trebuie sã repeþi cei doi paºi de mai sus pentru fiecare punct de sincronizare pe care vrei sã-l adaugi. În plus poþi folosi butonul "Adaugã" pentru
+	a introduce un timp manual, sau butonul "Adaugã din film" pentru a adãuga puncte direct din fereastra Ajustare subtitrare (funcþioneazã la fel
+	cu butonul din controalele din modul vizualizare video).</li>
+</ul>
+
+Un lucru <b>foarte</b> important pe care trebuie sã-l ºtii e folosirea opþiunii <b>"Dacã timpul e în afara intervalului"</b>. Voi încerca sã descriu trei posibilitãþi:
+
+<ul>
+	<li><b>Extrapoleazã</b>. Subtitle Workshop va folosi calcule matematice pentru calcularea timpilor <i>fiecãrei linii din
+	subtitrare</i> chiar dacã timpul e în afara intervalului. Folosind asta poþi obþine un comportament asemãnãtor celui pe care l-ai obþine
+	folosind "sincronizare folosind douã puncte", dar cu mai multe puncte de sincronizare.
+	</li>
+	<li><b>Returneazã timp original (fãrã schimbãri)</b>. Dacã un timp e în afara intervalului punctelor ºi vrei sã calculezi noul
+	timp, Subtitle Workshop va returna timpul original încât nici o schimbare nu se va efectua. E folositor de exemplu dacã vrei doar sã
+	ajustezi liniile 100-200 ºi sã laºi liniile celelalte la fel cum sunt.</li>
+	<li><b>Returneazã cel mai apropiat punct de sincronizare</b>. Dacã timpul dorit e înaintea primului punct de sincronizare, atunci va calcula
+	noul timp folosinde cel mai apropiat punct de sincronizare. Dacã timpul dorit e dupã ultimul punct de sincronizare, atunci va calcula
+	calculate noul timp folosind cel mai apropiat ultim punct de sincronizare. Folositor câteodatã.
+</li>
+</ul>
+
+Când ai terminat de configurat toate setãrile, dã clic pe butonul <b>Ajusteazã !</b>.
+
+<br>
+<br>
+<br>
+
+<a name="2.4"></a><h3>2.4 Limitele duratei</h3>
+Limitele duratei fac posibilã repararea duratei tuturor liniilor dintr-o subtitrare într-un interval de timp. Liniile care sunt afiºate mai puþin
+de o secundã sunt de obicei greu de citit, doar dacã nu sunt cuvinte scurte ca "Da" sau "OK". Uneori sunt linii cu mai multe
+caractere ºi cu duratã scurtã, sau linii cu durata mai mare de 10 secunde. Acestea sunt cazurile în care ar trebui sã foloseºti
+aceastã caracteristicã. Poþi seta o duratã posibilã minimã sau maximã pentru linii. Fiecare duratã a liniei care e mai scurtã decât
+durata minimã admisã va fi mãritã la durata minimã posibilã setatã de tine, fãrã a se cauza suprapunerea cu linia
+urmãtoare. Fiecare duratã a liniei care e mai mare decât durata maximã posibilã va fi setatã la durata maximã setatã de tine.
+<br><br>
+Pentru a seta limitele duratei dã clic pe meniul <b>"Editare/Timpi/Seteazã limitele duratei..."</b> sau apasã tastele <b>[Ctrl]+[L]</b>. Dupã asta
+trebuie sã introduci durata maximã ºi minimã în milisecunde ºi sã apeºi butonul <b>Aplicã</b>.
+<br>
+<br>
+<br>
+
+
+<a name="2.5"></a><h3>2.5 Extindere timp</h3>
+Extinderea timpului este o caracteristicã plãcutã în caz cã ai o subtitrare care conþine câteva linii lungi cu durate scurte.
+Seamãnã cu "Limitele duratei" dar e mult mai folositoare dacã subtitrarea are doar linii lungi cu duratã scurtã. Aceastã caracteristicã te lasã
+sã extinzi durata unor anumite linii în anumite condiþii. Pentru a accesa caracteristica de extindere a timpului dã clic pe
+meniul<b>"Editare/Timpi/Extinde timpi"</b> sau apasã tastele <b>[Shift]+[Ctrl]+[Y]</b>.<br><br>
+Durata de timp cu care vrei sã extinzi durata e personalizabilã, ºi poate fi setatã în secunde (cu o precizie de pânã la
+o milisecundã) dacã lucrezi în modul timp, sau în cadre (cu o precizie de pânã la un cadru) dacã lucrezi în modul cadre.
+Poþi alege sã extinzi durata doar în anumite condiþii, doar dacã linia e mai lungã decât un numãr configurabil
+de caractere ºi/sau dacã durata e mai scurtã decât un timp dat. În plus, cãsuþa "evitã suprapunerea" ar trebui sã fie
+marcatã astfel încât sã nu aibã nici o eroare de suprapunere în timp ce se mãreºte timpul final al liniilor. Dupã ce ai cofigurat totul,
+trebuie sã selectezi dacã vrei sã aplici extiderea timpului tuturor liniilor sau numai celor selectate. În final, pentru a extinde
+duratele liniilor, apasã butonul <b>Aplicã</b>.
+<br>
+<br>
+<br>
+
+<a name="2.6"></a><h3>2.6 Citire timpi din fiºier</h3>
+Folositor dacã ai o subtitrare în care textul fiecãrei linii e corect dar timpii sunt incorecþi, ºi dacã ai altã subtitrare
+cu acelaºi numãr de linii ºi cu timpii corecþi. Trebuie doar sã încarci subtitrarea cu textele corecte, ºi apoi sã dai clic
+pe meniul <b>"Editare/Timpi/Citeºte timpi din fiºier"</b> sau apasã tastele <b>[Shift]+[Ctrl]+[T]</b>. O fereastrã de dialog va apãrea, tot ce trebuie sã
+faci e sã selectezi subtitrarea cu timpii corecþi ºi sã o încarci.
+<br>
+<br>
+<br>
+
+<a name="2.7"></a><h3>2.7 Extindere duratã</h3>
+"Extindere duratã" funcþioneazã pentru liniile selectate ºi nu are nici un efect asupra ultimei linii. Ceea ce face e sã extindã
+durata fiecãrei linii pânã la o milisecundã de timpul de start al liniei urmãtoare. Pentru a extinde durata mai întâi selecteazã
+liniile dorite, ºi apoi dã clic pe meniul <b>"Editare/Timpi/Extinde durata"</b> sau apasã tastele <b>[Shift]+[Ctrl]+[E]</b>.
+
+<br>
+<br>
+<br>
+
+<a name="#2.8"></a><h3>2.8 Durate automate</h3>
+"Durate automate" e o caracteristicã foarte folositoare în caz cã ai subtitrãri în care duratele tuturor liniilor (sau anumitor linii)
+sunt total greºite. Specificând un timp pe caracter, cuvânt ºi rând (valorile implicite dau rezultate foarte bune) Subtitle Workshop
+va calcula durata alocatã pentru linii. Alt uz pe care aceastã caracteristicã îl poate avea e, de exemplu, când subtitrezi filme,
+pentru a o face mai repede poþi seta numai timpii de start manual ºi Subtitle Workshop va calculatoþi timpii finali. Pentru a accesa meniul "Durate
+automate" dã clic pe meniul <b>"Editare/Timpi/Durate automate"</b> sau apasã tastele <b>[Shift]+[Ctrl]+[R]</b>.<br>
+În plus poþi specifica dacã vrei sã aplici durata nouã în toate cazurile, doar dacã durata e mai mare decât cea originalã sau dacã e
+mai micã decât cea originalã. Poþi de asemenea aplica durate calculate tuturor liniilor sau doar celor selectate.<br><br>
+Folosind aceastã caracteristicã împreunã cu <a href="#2.4">Limitele duratei</a> ºi <a href="#5.5.1">Detecteazã durate prea lungi/scurte</a>
+din Informaþii ºi Erori poþi avea rezultate excelente într-un timp scurt. 
+<br>
+<br>
+<br>
+
+<a name="#2.9"></a><h3>2.9 Schimbare subtitrare</h3>
+Aceastã caracteristicã schimbã timpul iniþial al tuturor liniilor cu un numãr specificat de milisecunde înainte/înapoi, fãrã a modifica
+durata liniilor. E foarte folositor pentru modificarea cu uºurinþã a timpilor pentru sincronizarea cu un film. Pentru a schimba timpul liniilor selectate înainte, dã clic
+pe meniul <b>"Editare/Timpi/Schimbã cu +X milisecunde"</b> sau apasã tastele <b>[Shift]+[Ctrl]+[H]</b>. Pentru a schimba timpul liniilor selectate înapoi,
+dã clic pe meniul <b>"Editare/Timpi/Schimbã cu -X milisecunde"</b> sau apasã tastele <b>[Shift]+[Ctrl]+[N]</b>.
+<br>
+<br>
+<br>
+
+<!-------------------------------------------------------------------------------->
+<!--    Capitolul 3: Caracteristici referitoate la text & linii din subtitrãri    -->
+<!-------------------------------------------------------------------------------->
+<a name="3.0"></a><h2>Capitolul 3: Caracteristici referitoate la text &amp; linii din subtitrãri</h2><br>
+Subtitle Workshop nu e doar un editor de subtitrãri obiºnuit - ºi de aceea oferã funcþii referitoare la text pentru a-þi uºura munca.
+<br>
+<br>
+<br>
+
+<a name="3.1"></a><h3>3.1 Ajustare inteligentã a rândurilor</h3>
+Ajustarea inteligentã a liniei e o caracteristicã foarte folositoare în caz cã o subtitrare are foarte multe linii care au mai mult de douã rânduri,
+sau dacã rândurile sunt despãrþite foarte prost. Forþeazã textul liniei sã fie într-unul sau maximum douã rânduri (depinde de lungimea liniei).
+Aceastã caracteristicã are inclusã detectarea semnului "-". Poþi alege lungimea dupã care linia va avea douã rânduri ºi nu unul, în opþiunea "2 rânduri dacã depãºeºte" în Setãri/General.<br><br>
+Pentru a folosi ajustarea inteligentã a liniei asupra unei linii selecteazã linia ºi dã clic pe meniul <b>"Editare/Texte/Ajustare inteligentã linie"</b> sau apasã tastele
+<b>[Ctrl]+[E]</b>. Ajustarea inteligentã a liniei va avea efect asupra tuturor liniilor selectate, ºi pot fi mai multe de una. Dacã lucrezi
+în modul translator, ajustarea inteligentã a liniei va afecta atât textul original cât ºi traducerea.
+<br><br>
+Notã: ajustarea inteligentã a liniei nu e perfectã ºi poate acþiona rãu în unele cazuri, e doar gânditã pentru a ajuta puþin dacã rândurile care trebuie
+ajustate sunt destule, ºi îºi face treaba chiar bine. Poate acþiona complet greºit dacã sunt cuvinte care au în componenþã semnul "-",
+deºi am adãugat o detectare a cuvintelor în a cãror componenþã existã semnul "-". Dacã vrei sã aplici Ajustarea Inteligentã a Liniei asupra unei întregi subtitrãri,
+poþi sã o faci, dar citirea întregii subtitrãri dupã e recomandatã.
+<br>
+<br>
+<br>
+
+<a name="3.2"></a><h3>3.2 Transformare litere</h3>
+Ai gãsit vreodatã o subtitrare care are toate literele scrise cu majuscule ?, sau cu litere mici ?. Atunci, "Transformare litere" e
+caracteristica potrivitã. Pentru a accesa fereastra de dialog "Transformare litere" dã clic pe meniul <b>"Editare/Texte/Transformare litere..."</b> sau apasã tastele <b>[Shift]+[Ctrl]+[C]</b>.
+Poþi alege dintre cinci moduri de transformãri diferite:
+
+<ol>
+	<li><b>"Tip propoziþie"</b> doar scrie cu literã mare prima literã dintr-o propoziþie. Schimbã "SALUT! e foarTE DrãGUþ. nu VREAU sã-l auD"
+	în "salut! e foarte drãguþ. nu vreau sã-l aud.".<br><br>
+	dacã opþiunea <b>detectare ""...""</b> e marcatã, va verifica dacã ultimele trei caractere a liniei precedente sunt "..." ºi dacã
+	sunt, atunci nu va scrie cu literã mare primul caracter al liniei curente (va crede cã e continuarea
+	liniei precedente). Dacã opþiunea <b>"Doar prima literã din primul cuvânt"</b> e marcatã, Subtitle Workshop va scrie cu literã mare numai prima literã
+	a fiecãrei propoziþii ºi va lãsa celelalte cuvinte aºa cum erau scrise.<br><br>
+	</li>
+	<li><b>"Litere mici"</b> scrie cu litere mici întregul text. Schimbã "SALUT! e foarTE DrãGUþ. nu VREAU sã-l auD." în
+	"salut! e foarte drãguþ. nu vreau sã-l aud."</li>
+	<li><b>"Majuscule"</b> scrie cu litere mari întregul text. Schimbã "SALUT! e foarTE DrãGUþ. nu VREAU sã-l auD." în
+	"SALUT! E FOARTE DRÃGUÞ. NU VREAU SÃ-L AUD.".</li>
+	<li><b>"Tip titlu"</b> scrie cu litere mari doar prima literã a fiecãrui cuvânt. Schimbã "SALUT! e foarTE DrãGUþ. nu VREAU sã-l auD"
+	în "Salut! E Foarte Drãguþ. Nu Vreau Sã-l Aud."</li>
+	<li><b>"Tip invers"</b> scrie cu litere mici literele mari ºi cu litere mari literele mici. Inverseazã tipul literei. Schimbã
+	"SALUT! e foarTE DrãGUþ. nu VREAU sã-l auD." în "salut! E FOARte dRÃguÞ. NU vreau SÃ-L AUd.".</li>
+</ol>
+
+Notã: dacã lucrezi în mod translator, transformarea literelor va funcþiona numai pentru textul original. Dacã vrei sã funcþioneze pentru
+traducere, atunci foloseºte caracteristica "Inverseazã".
+<br>
+<br>
+<br>
+
+<a name="3.3"></a><h3>3.3 Unire linii</h3>
+Nu sunt prea multe de spus despre aceastã caracteristicã. Are efect asupra tuturor liniilor selectate, ºi le transformã pe fiecare în parte într-o
+singurã linie. Când lucrezi în mod translator, aceastã caracteristicã afecteazã atât textul original cât ºi traducerea.
+<br>
+<br>
+<br>
+
+<a name="3.4"></a><h3>3.4 Despãrþire rânduri din linie</h3>
+Desparte o linie în douã linii. Foarte folositoare dacã, de exemplu, ai o subtitrare cu multe linii de patru (sau mai multe)
+rânduri, care sunt prea mari pentru a fi transformate în douã rânduri cu ajutorul caracteristicii <a href="#3.1">"Ajustare inteligentã a rândurilor"</a>. Despãrþind
+manual o linie în douã linii e posibil dar e o treabã foarte plictisitoare, deoarece dupã ce inserezi linia trebuie sã stabileºti timpii
+ºi sã iei textul din prima linie pentru a-l pune în a doua linie. "Despãrþire rânduri din linie" face toate astea foarte repede.<br><br>
+Mai întâi trebuie sã selectezi linia, apoi du-te în meniul <b>"Editare/Texte/Desparte rânduri din linie..."</b> sau apasã tastele
+<b>[Shift]+[Ctrl]+[D]</b>. Apoi va apãrea fereastra de dialog "Desparte rândurile din linie". Notã: dacã linia selectatã are doar un singur rând care e
+mai scurt decât valoarea setatã la opþiunea "Rupe linia dupã" în Setãri/Avansat, meniul nu va fi activ iar comanda scurtã de taste nu va funcþiona.<br>
+În fereastra de dialog, vei vedea douã casete de text, una cu textul primei linii ºi cealaltã cu textul celei de-a douã linii.
+Trebuie sã selectezi dupã care linie vei împãrþi, valoarea implicitã va fi corectã de cele mai multe ori. Aceastã opþiune
+nu va fi activã dacã linia pe care o vei împãrþi are doar douã rânduri. Când schimbi aceastã valoare, textul din cele douã cãsuþe de text va
+fi actualizat. Dacã observi cã linia de împãrþire dispare în unele pãrþi, mergi la Setãri/Avansat ºi demarcheazã opþiunea "Auto-ajustare inteligentã
+a liniei". Dacã opþiunea e marcatã, dupã actualizarea textului din fiecare cãsuþã de text, acesta va fi ajustat inteligent într-un rând sau douã.
+Dacã vrei sã faci asta manual, du-te pe cãsuþa de text doritã ºi apasã tastele <b>[Ctrl]+[E]</b>.<br>
+Dupã asta ar trebui sã-þi îndrepþi atenþia asupra timpilor liniilor. În majoritatea cazurilor a doua linie va fi afiºatã imediat
+dupã prima linie, de aceea e indicat sã laºi opþiunea "Continuare directã" marcatã. Dacã a doua linie ar trebui sã fie
+afiºatãla ceva timp de prima linie, va trebui sã demarchezi opþiunea ºi sã scrii timpul de start al celei de-a doua linie.
+În plus poþi folosi butoanele de proporþie temporalã disponibile în partea de sus a ferestrei. "1:1" înseamnã durate egale pentru amândouã liniile,
+"2:1" înseamnã cã prima linie va fi afiºatã de douã ori mai mult decât a doua linie, etc. De asemenea poþi alege dacã vrei sã
+foloseºti timpul liniei originale cu butoanele de proporþie sau sã calculezi o duratã automatã pentru fiecare linie nouã. În al doilea
+caz, Subtitle Workshop va calcula durata primei linii noi (bazatã pe durata pe caracter a liniei originale)
+ºi o va folosi la calculul duratei celei de-a doua linii noi.<br><br>
+În final apasã butonul <b>"Desparte !"</b>. Când lucrezi în modul translator, împãrþirea rândurilor din linie doar va insera o linie netradusã
+în traducere, nu va împãrþi liniile deoarece funcþioneazã doar pentru original.
+<br>
+<br>
+<br>
+
+<a name="#3.5"></a><h3>3.5 Setare lungime maximã a rândului</h3>
+Împarte linia într-un numãr N de rânduri încât fiecare rând e mai scurt decât o lungime maximã specificatã. Poþi configura
+lungimea maximã în Setãri/Avansat. Aceastã caracteristica afecteazã toate liniile selectate, iar în mod translator,
+afecteazã atât originalul cât ºi traducerea.<br><br>
+Exemplu (Lungimea maximã a rândului setatã la 45 de caractere):<br><br>
+<b>"Acesta e textul foarte lung asupra cãruia vom folosi aceastã caracteristicã, care va rupe textul acesta în mai
+multe rânduri."</b><br><br>
+Se schimbã în:<br><br>
+<b>"Acesta e textul foarte lung asupra cãruia<br>
+vom folosi aceastã caracteristicã, care va<br>
+rupe textul acesta în mai multe rânduri."</b>
+<br>
+<br>
+Rândurile au 41, 42 ºi 40 de caractere. Dupã cum vezi, nici o linie nu depãºeºte lungimea maximâ a rândului.<br>
+Textul rezultat nu aratã bine pe ecran, aºa cã aceastã caracteristicã ar trebui folositã împreunã cu "<a href="#3.4">Despãrþire
+rânduri din linie</a>".
+
+<br>
+<br>
+<br>
+
+<a name="3.6"></a><h3>3.6 Citire texte din fiºier</h3>
+La fel cu caracteristica <a href="#2.6">"Citire timpi din fiºier"</a> dar în loc de citirea timpilor se realizeazã citirea textelor.
+<br>
+<br>
+<br>
+
+<a name="3.7"></a><h3>3.7 Combinare linii</h3>
+Foarte folositoare, combinã toate liniile selectate într-o singurã linie. De exemplu:<br><br>
+<table>
+<tr>
+	<td><b>Timp iniþial</b></td>
+	<td><b>Timp final</b></td>
+	<td><b>Text</b></td>
+</tr>
+<tr>
+	<td><b>00:00:01,000</b></td>
+	<td><b>00:00:02,000</b></td>
+	<td><b>- De ce nu faci asta ?</b></td>
+</tr>
+<tr>
+	<td><b>00:00:02,001</b></td>
+	<td><b>00:00:03,000</b></td>
+	<td><b>- Nu ºtiu !</b></td>
+</tr>
+</table>
+<br>
+<br>
+Devine:<br><br>
+<table>
+<tr>
+	<td><b>Timp iniþial</b></td>
+	<td><b>Timp final</b></td>
+	<td><b>Text</b></td>
+</tr>
+<tr>
+	<td><b>00:00:01,000</b></td>
+	<td><b>00:00:03,000</b></td>
+	<td><b>
+	- De ce nu faci asta ?<br>
+	- Nu ºtiu !
+	</b>
+	</td>
+</tr>
+</table>
+<br>
+Timpul final al noii linii devine timpul final al ultimei linii selectate.<br><br>
+Pentru a combina douã sau mai multe linii, selecteazã-le ºi apasã tastele <b>[Ctrl]+[K]</b> sau dã clic pe meniul <b>"Editare/Linii/Combinã linii"</b>.
+<br>
+<br>
+<br>
+
+<a name="3.8"></a><h3>3.8 Dreapta-spre-Stânga</h3>
+Folositoare numai limbilor scrise de la dreapta spre stânga, cum sunt ebraica sau araba.
+<br>
+<br>
+<br>
+
+<a name="3.8.1"></a><h5>3.8.1 Inversare text</h5>
+Inverseazã textul tuturor liniilor selectate. Exemplu:<br><br>
+<b>"Inverseazã acest text !"</b> în <b>"! txet tseca ãzaesrevnI"</b>.
+<br>
+<br>
+În mod translator, aceastã caracteristicã funcþioneazã numai în textul original. Pentru a funcþiona în traducere, foloseºte caracteristica "Inverseazã".<br>
+Poþi specifica dacã vrei sã menþii ordinea rândurilor sau nu, pentru asta, mergi în Setãri/General ºi marcheazã sau demarcheazã opþiunea
+"Pãstreazã ordinea rândurilor la inversarea textului".<br><br>
+Pentru a inversa textul, selecteazã liniile dorite ºi apasã tastele <b>[Ctrl]+[H]</b> sau dã clic pe meniul <b>"Editare/Linii/Dreapta-spre-Stânga/Inversare
+text"</b>.
+<br>
+<br>
+<br>
+
+<a name="3.8.2"></a><h5>3.8.2 Reparaþie punctuaþie</h5>
+Reparã punctuaþia pentru limbile scrise de la dreapta-spre-stânga. Exemplu:<br><br>
+<b>"Reparã punctuaþia asta!..."</b> în <b>"...!Reparã punctuaþia asta"</b>.
+<br>
+<br>
+În mod translator, aceastã caracteristicã va afecta numai traducerea. Pentru a funcþiona în original, foloseºte caracteristica "Inverseazã" sau ieºi din
+modul translator.<br>
+Pentru a repara punctuaþia, selecteazã liniile dorite ºi apasã tastele <b>[Shift]+[Ctrl]+[F]</b> sau dã clic pe meniul <b>"Editare/Linii/Dreapta-spre-Stânga/
+Reparã punctuaþia"</b>.
+<br>
+<br>
+<br>
+
+<a name="3.9"></a><h3>3.9 Sortare</h3>
+Sorteazã liniile în conformitate cu timpul lor de start. Apasã tastele <b>[Ctrl]+[Y]</b> sau dã clic pe meniul <b>"Editare/Linii/Sorteazã"</b>.
+<br>
+<br>
+<br>
+
+<a name="3.10"></a><h3>3.10 ªtergere "..." inutile</h3>
+ªterge "..." când sunt plasate la sfârºitul unei linii ºi la începutul liniei urmãtoare. Exemplu:<br><br>
+<table>
+<tr>
+	<td><b>Timp iniþial</b></td>
+	<td><b>Timp final</b></td>
+	<td><b>Text</b></td>
+</tr>
+<tr>
+	<td><b>00:00:01,000</b></td>
+	<td><b>00:00:02,000</b></td>
+	<td><b>Nu chiar, pentru cã...</b></td>
+</tr>
+<tr>
+	<td><b>00:00:02,001</b></td>
+	<td><b>00:00:03,000</b></td>
+	<td><b>...e limpede ce vreau.</b></td>
+</tr>
+</table>
+<br>
+Devine:<br><br>
+<table>
+<tr>
+	<td><b>Timp iniþial</b></td>
+	<td><b>Timp final</b></td>
+	<td><b>Text</b></td>
+</tr>
+<tr>
+	<td><b>00:00:01,000</b></td>
+	<td><b>00:00:02,000</b></td>
+	<td><b>Nu chiar, pentru cã</b></td>
+</tr>
+<tr>
+	<td><b>00:00:02,001</b></td>
+	<td><b>00:00:03,000</b></td>
+	<td><b>e limpede ce vreau.</b></td>
+</tr>
+</table>
+<br>
+Unora le place stilul ãsta, altora nu. Pentru a ºterge " "..." inutile" apasã tastele <b>[Shift]+[Ctrl]+[G]</b> sau dã clic pe meniul
+<b>"Editare/Linii/ªterge "..." inutile"</b>. Va avea efect asupra întregii subtitrãri, nu asupra liniilor selectate.
+
+<br>
+<br>
+<br>
+
+<a name="3.11"></a><h3>3.11 Cãutare &amp; Înlocuire</h3>
+Motorul de Cãutare &amp; Înlocuire a lui Subtitle Workshop e foarte rapid ºi are câteva opþiuni extinse disponibile apãsând butonul "Mai mult &gt;".
+Explicarea opþiunilor:<br><br>
+
+<b>Potrivire litere</b><br>
+Executã cãutarea/înlocuirea þinând cont de MAJUSCULE/litere mici.<br><br>
+
+<b>Potrivire cuvinte întregi</b><br>
+Va gãsi textul numai dacã formeazã un cuvânt.<br><br>
+
+<b>Pãstreazã potrivire litere la înlocuire</b><br>
+Cloneazã formatul literelor textului original la înlocuire. De exemplu, textul de cãutat e "CÂINE" ºi textul cu care va fi înlocuit e "PISICÃ", dar Subtitle
+Workshop gãseºte cuvântul "Câine" ºi îl înlocuieºte cu "Pisicã" ºi nu cu "PISICÃ".
+<br>
+<br>
+
+Textul cãutat sau textul cu care se înlocuieºte poate conþine linii de despãrþire a rândurilor, de aceea putem spune cã poate fi multi-liniar. Caracterul "|" (linie dreaptã verticalã) reprezintã
+un nou rând. Dacã vrei sã cauþi "|" atunci foloseºte "||" (douã linii drepte verticale).
+
+<br>
+<br>
+<br>
+
+<a name="#3.12"></a><h3>3.12 Linii marcate</h3>
+E folositor dacã, de exemplu, traduci o subtitrare, ºi vrei sã marchezi anumite linii pentru cã nu eºti sigur de traducerea lor.
+Pentru a marca toate liniile selectate, dã clic pe meniul <b>"Editare/Linii/Marcheazã linii selectate"</b> sau apasã tastele
+<b>[Shift]+[Ctrl]+[M]</b>. Pentru a le demarca dã clic pe meniul <b>"Editare/Linii/Demarcheazã linii selectate"</b> sau apasã tastele
+<b>[Shift]+[Ctrl]+[A]</b>.<br>
+Aceastã caracteristicã mai are ºi alte întrebuinþãri. Scopul ei principal e sã lucreze împreunã cu ViPlay. Explicaþia:<br>
+În timp ce vizionzi un film în ViPlay poþi folosi o tastã configuratã (de exemplu "M") pentru a marca linia care e afiºatã
+(sau ultima linie care a fost afiºatã, dacã existã). Când vizionezi filmul în ViPlay ºi vezi o linie incorectã
+(greºealã gramaticalã, duratã prea lungã, mai mult de douã rânduri, sau orice altã greºealã) ºi apeºi "M" aceasta va fi marcatã (intern).
+Când filmul se terminã, ViPlay îþi va cere sã salvezi un Fiºier Raport Subtitrare (*.srf). Acest fiºier va fi încãrcat de Subtitle Workshop
+ºi va marca automat liniile marcate în ViPlay, pentru a le putea uºor identifica ºi corecta dupã ce ai vizionat filmul.
+
+<br>
+<br>
+<br>
+
+
+<!------------------------------------------->
+<!--    Capitolul 4: Setãri explicate        -->
+<!------------------------------------------->
+<a name="4.0"></a><h2>4.0 Setãri explicate</h2>
+Aici vom încerca sã explicãm toate înþelesurile opþiunilor disponibile în Setãri.
+<br>
+<br>
+<br>
+
+<a name="4.1"></a><h3>4.1 General</h3>
+
+<b>Mereu deasupra</b><br>
+Menþine fereastra principalã a programului Subtitle Workshop deasupra tuturor celorlalte ferestre.
+<br>
+<br>
+
+<b>Permite lucrul cu instanþe multiple</b><br>
+Permite lucrul cu mai multe instanþe ale programului, sau numai cu una. Dacã aceastã opþiune nu este selectatã ºi deschizi mai multe fiºiere,
+ele vor fi deschise în aceeaºi fereastrã, iar dacã opþiunea e selectatã, ele vor fi deschise în ferestre separate.
+<br>
+<br>
+
+<b>Confirmã ºtergerea liniilor subtitrãrii</b><br>
+Dacã aceastã opþiune e selectatã, de fiecare datã când ºtergi o linie sau mai multe, Subtitle Workshop va arãta un mesaj de confirmare
+ºi te va întreba dacã eºti sigur cã vrei sã faci ºtergerea.
+<br>
+<br>
+
+<b>Interpreteazã fiºiere nevalide ca text simplu</b><br>
+Selecteazã aceastã opþiune ºi nu vei mai primi niciodatã mesajul de eroare "Fiºierul e o subtitrare invalidã sau un format nesuportat", dar în loc de asta,
+fiºierul va fi de fapt încãrcat (fãrã timpi) ca ºi cum ar fi un text simplu. Dupã asta, trebuie sã setezi timpii manual.
+<br>
+<br>
+
+<b>Auto-cãutare fiºier video</b><br>
+De fiecare datã când deschizi o subtitrare Subtitle Workshop va cãuta fiºierul video corespondent, ºi îl va încãrca. Aceastã caracteristicã
+include detecþia sufixului (fiecare sufix trebuie separat prin ".").<br>
+Exemplu: dacã numele subtitrãrii este <b>"Spiderman.English.srt"</b> ºi în director este un film care se numeºte
+<b>"Spiderman.avi"</b>, acesta va fi încãrcat.<br><br>
+Notã: aceastã caracteristicã funcþioneazã numai dacã extensia fiºierului video e ".avi".
+<br>
+<br>
+
+<b>Forþeazã lucrul în mod timp</b><br>
+Dacã opþiunea nu e selectatã, de fiecare datã când deschizi o subtitrare într-un format bazat pe cadre, Subtitle Workshop va comuta automat
+modul cadre. Dacã e selectatã, va lucra în modul timp, dar vei putea sã comuþi în modul cadre manual.
+<br>
+<br>
+
+<b>Pãstreazã ordinea rândurilor la inversarea textului</b><br>
+Folositoare pentru limbile scrise de la dreapta-spre-stânga cum sunt araba sau ebraica. Specificã cã atunci când foloseºti caracteristica "Inversare text" (tastele <b>[Ctrl]+[H]</b>
+sau meniul <b>"Editare/Linii/Dreapta-spre-stânga/Inversare text"</b>) vrei sã pãstrezi ordinea rândurilor sau vrei sã inversezi rândurile manual.
+<br>
+<br>
+
+<b>Selecteazã text la saltul la linia urmãtoare</b><br>
+Specificã dacã vrei sã selectezi textul în cãsuþele de text "Text" sau "Traducere" la saltul la linia urmãtoare prin apãsarea
+tastelor<b>[Shift]+[Enter]</b>.
+<br>
+<br>
+
+<b>Selecteazã text la saltul la linia precedentã</b><br>
+Specificã dacã vrei sã selectezi textul în cãsuþele de text "Text" sau "Traducere" la saltul la linia precedentã prin apãsarea
+tastelor<b>[Ctrl]+[Enter]</b>.
+<br>
+<br>
+
+<b>Fãrã efecte de la etichete de stil</b><br>
+Selecteazã opþiunea asta dacã vrei ca Subtitle Workshop sã ignore etichetele de stil la citirea subtitrãrilor în orice format. ªi ignorarea nu înseamnã
+ºtergerea lor. Folositoare dacã ai vrea sã lucrezi cu întreg suportul pentru etichete (de exemplu, pentru o parte a liniei ºi nu doar pentru
+toatã linia), caracteristicã pe care Subtitle Workshop nu o suportã în versiunea curentã.
+<br>
+<br>
+
+<b>Lucreazã cu etichete de stil</b><br>
+Selecteazã aceastã opþiune dacã vrei ca Subtitle Workshop sã încarce ºi sã salveze etichetele de stil ºi culoare. Numãrul formatelor care suportã etichete
+depinde de versiune lui Subtitle API. Aceastã opþiune nu are nici un efect dacã opþiunea "Fãrã efecte de la etichete de stil" e selectatã.
+<br>
+<br>
+
+<b>Limitã listã "Fiºiere recente"</b><br>
+Limiteazã numãrul de fiºiere recente. Dacã nu vrei o listã de fiºiere recente, seteazã limita la 0. Numãrul maxim de fiºiere recente e 20.
+<br>
+<br>
+<br>
+
+<a name="4.1.1"></a><h5>4.1.1 Avansat</h5>
+
+<b>2 rânduri dacã depãºeºte</b><br>
+Cum numãrul maxim de rânduri pe care caracteristica <a href="#3.1">Ajustare inteligentã linie</a> îl produce e 2, trebuie sã setezi o lungime dupã
+care vor fi douã rânduri în loc de unul singur. Acea valoare e "2 rânduri dacã depãºeºte".
+<br>
+<br>
+
+<b>Activeazã/Dezactiveazã breakpoint</b><br>
+Activeazã/Dezactiveazã douã breakpoint (primul spaþiu înainte de lungimea specificatã sau primul spaþiu dupã lungimea specificatã) în unele linii.
+<br>
+<br>
+
+<b>Rupe linia dupã</b><br>
+Folositor de folosit "Împarte linii" pentru liniile cu un singur rând, dar acel rând e lung. Foloseºte aceastã valoare pentru a împãrþi acel rând lung
+în rânduri mai mici, care au un numãr maxim de caractere egal cu valoarea "Rupe linia dupã".
+<br>
+<br>
+
+<b>Auto-ajustare inteligentã a rândurilor</b><br>
+Specificã dacã vrei "Ajustare inteligentã linie" automatã pentru fiecare parte în fereastra "Desparte rândurile din linie".
+<br>
+<br>
+
+<b>Schimbã timpii cu</b><br>
+Timpul cu care se schimbã timpii liniilor înainte/înapoi cu caracteristica <a href="#2.9">schimbare subtitrare</a>.
+<br>
+<br>
+
+<a name="4.1.2"></a><h5>4.1.2 Seturi caractere</h5>
+
+<b>Aratã în fereastra principalã</b><br>
+Folositoare pentru persoanele care lucreazã cu subtitrãri în diferite limbi care folosesc un alfabet diferit. Aratã "Set caractere original" ºi
+"Set caractere traducere" în fereastra principalã, deci poate fi rapid modificate.
+<br>
+<br>
+
+<b>Set caractere original</b><br>
+Set de caractere care este arãtat în coloana "Text".
+<br>
+<br>
+
+<b>Set caractere traducere</b><br>
+Set de caractere care este arãtat în coloana "Traducere". Folositor doar dacã lucrezi în modul translator.
+<br>
+<br>
+
+<a name="4.2"></a><h3>4.2 Formate</h3>
+
+<b>Format implicit</b><br>
+Specificã formatul implicit folosit în toate ferestrele unde sunt liste de formate (de exemplu Uneºte subtitrãrile, Împarte subtitrarea, etc).
+<br>
+<br>
+
+<b>Formate arãtate la "Salveazã sub numele":</b><br>
+Folositoare dacã lucrezi numai cu câteva formate ºi nu vrei sã pierzi timpul cãutând formatul dorit în lista care conþine
+mai mult de 40 de dormate. Numei formatele selectate listate aici vor fi arãtate în fereastra de dialog "Salveazã sub numele".
+<br>
+<br>
+
+<b>Aratã formate personalizate</b><br>
+Specificã dacã vrei sã arãþi formatele personalizate plasate în directorul "CustomFormats" din fereastra "Salveazã sub numele". 
+<br>
+<br>
+
+<a name="4.3"></a><h3>4.3 Tipuri de fiºiere</h3>
+
+<b>Înregistreazã extensiile la start</b><br>
+Asociazã extensiile de subtitrãri dorite când e pornit Subtitle Workshop.
+<br>
+<br>
+
+<b>Asociazã cu majoritatea extensiilor de subtitrãri</b><br>
+Dacã aceastã opþiune este selectatã, trebuie doar sã dai dublu-clic pe o subtitrare sã o încarci în Subtitle Workshop, iar pictograma
+fiºierului va deveni la fel cu pictograma programului Subtitle Workshop. 
+<br>
+<br>
+
+<b>Lista cu extensii</b><br>
+Tipurile de fiºiere vor fi deschise de Subtitle Workshop când vei da dublu-clic pe fiºier.
+<br>
+<br>
+
+<a name="4.4"></a><h3>4.4 Salvare</h3>
+
+<b>Cere salvarea la ieºirea din program/închiderea subtitrãrii</b><br>
+Subtitle Workshop va afiºa mesajul "Fiºierul a fost modificat. Doriþi sã salvaþi modificãrile ?" când încerci sã ieºi din program sau
+la închiderea subtitrãrii. Dacã opþiunea "Permite lucrul cu instanþe multiple" nu e selectatã ºi încerci sã încarci o subtitrare când
+deja e o subtitrare încãrcatã, acest mesaj va fi de asemenea arãtat.
+<br>
+<br>
+
+<b>Salveazã automat lucrul la fiecare X minute</b><br>
+Subtitle Workshop va salva în liniºte fiºierul modificat la timpul ales.
+<br>
+<br>
+
+<b>Salveazã ca ºi copie de siguranþã</b><br>
+Salveazã originalul/traducerea ca o copie de siguranþã (FileName.ext.bak) în loc de de a suprascrie originalul/traducerea.
+<br>
+<br>
+
+<a name="4.5"></a><h3>4.5 Vizualizare video</h3>
+Toate opþiunile listate aici vor funcþiona doar dacã eºti în modul de vizualizare video.
+
+<b>Dublu-clic ºi shift+dublu-clic în subtitrare</b><br>
+Poþi selecta ce sã faci când dai dublu-clic pe o linie în subtitrare, ºi când dai dublu-clic pe o linie în timp ce þii apãsatã tasta [Shift].
+Sunt trei opþiuni disponibile:
+<ol>
+	<li><b>Trecere în cãsuþa de text</b> va trece focusul în cãsuþa "Text", sau, dacã eºti în mod translator va trece focusul în cãsuþa "Traducere".</li>
+	<li><b>Salt la timpul liniei în film</b> va sãri în film direct la timpul de start al liniei.</li>
+	<li><b>Salt N secund(e) înainte liniei în film</b> va sãri în film câteva "Secunde de sãrit" înainte de timpul iniþial al liniei.</li>
+</ol>
+<br>
+<br>
+
+<b>Timp derulare înainte ºi înapoi</b><br>
+Timp de derulare înapoi/înainte când apeºi butoanele "Înapoi" ºi "Înainte" din bara de control a filmului.
+<br>
+<br>
+
+<b>Ratã de redare "cu încetinitorul" implicitã</b><br>
+Procentajul de redare "cu încetinitorul" aplicat când apeºi butonul "Cu încetinitorul" din bara de control a filmului.
+<br>
+<br>
+
+<a name="4.5.1"></a><h5>4.5.1 Subtitrare</h5>
+
+<b>Încearcã fundal transparent</b><br>
+Selecteazã aceastã opþiune dacã vrei ca subtitrarea sã fie afiºatã pe un fundal transparent. Aceastã opþiune va funcþiona de cele mai multe ori,
+dar dacã nu funcþioneazã poþi selecta ºi opþiunea urmãtoare:
+<br>
+<br>
+<b>Forþeazã folosire regiuni (poate fi mai lent)</b><br>
+Dacã opþiunea este selectatã, subtitrãrile vor fi afiºate pe un fundal transparent, ºi nu ar trebui sã eºueze. Foloseºte-o <b>numai</b> dacã nu ai fundal transparent numai cu
+prima opþiune activatã ºi dacã chiar vrei sã ai un fundal transparent. Dacã aceastã opþiune e activatã atunci textul subtitrãrii nu poate avea
+culoarea <font color="#FF00FF">FUCSIE</font> (#FF00FF).
+<br>
+<br>
+
+Majoritatea celorlalte opþiuni de aici nu au nevoie de nici o explicaþie, tot ce modifici poate fi vãzut în "MOSTRÃ".
+
+<a name="4.6"></a><h3>4.6 Vizualizare externã</h3>
+Aceastã caracteristicã face posibilã vizualizarea subtitrãrilor în video player-ul favorit.
+
+<a name="4.6.1"></a><h5>4.6.1 General</h5>
+
+<b>Executabil player video</b><br>
+Fiºierul executabil al player-ului video pe care vrei sã-l foloseºti pentru vizualizare externã. Nu uita cã player-ul video trebuie sã suporte
+linii de comandã ºi subtitrãri.
+<br>
+<br>
+
+<b>Detecteazã program asociat</b><br>
+Apasã acest buton dacã player-ul video pe care vrei sã-l foloseºti e asociat cu fiºiere .AVI, ºi nu ºtii unde sã gãseºti executabilul.
+<br>
+<br>
+
+<b>Cere fiºier video diferit de fiecare datã</b><br>
+Subtitle Workshop va cere sã deschizi un film de fiecare datã când execuþi o vizualizare externã.
+<br>
+<br>
+
+<b>Întotdeauna testeazã cu fiºier video</b><br>
+Subtitle Workshop va cere întotdeauna acelaºi film pentru vizualizare externã, deci nu te va întreba nimic ºi va deschide player-ul video
+direct.
+<br>
+<br>
+
+<a name="4.6.2"></a><h5>4.6.2 Avansat</h5>
+
+<b>Salveazã fiºier temporar al subtitrãrii în format</b><br>
+Selecteazã asta dacã eºti sigur cã player-ul video suportã formatul de subtitrare cu care lucrezi.
+<br>
+<br>
+
+<b>Salveazã fiºier temporar al subtitrãrii în format personalizat</b><br>
+Dacã player-ul video nu suportã formatul cu care lucrezi, dar suportã cel puþin unul din formatele pe care Subtitle
+Workshop le suportã, atunci selecteazã aceastã opþiune ºi alege un format din listã.
+<br>
+<br>
+
+<b>Parametru de trimis cãtre player-ul video</b><br>
+E <b>foarte</b> important. Aici trebuie sã specifici cum sã spui player-ului video care subtitrare ºi care film sã deschidã.
+VIDEO_FILE reprezintã fiºierul video ºi SUBT_FILE subtitrarea. Uitã-te în fiºierul de ajutor al player-ului video pentru a vedea
+specificarea parametrilor din linia de comandã.<br><br>
+Pentru detalii, vezi <a href="#5.7">Vizualizare externã</a>.
+<br>
+<br>
+
+<a name="4.7"></a><h3>4.7 Aspect</h3>
+<a name="4.7.1"></a><h5>4.7.1 Program</h5>
+
+<b>Font de folosit în program &amp; mãrime font</b><br>
+Dacã schimbi asta, întregul font al programului ºi/sau mãrimea lui se vor schimba. Încearcã asta dacã ai probleme cu fontul sau
+dacã nu-þi place fontul implicit.
+<br>
+<br>
+
+<b>Câmpurile "Text" ºi "Traducere" aliniate la</b><br>
+Alage alinierea textului pe care o vrei pentru aceste douã câmpuri.
+<br>
+<br>
+
+<a name="4.7.2"></a><h5>4.7.2 Listã</h5>
+
+<b>Aratã linii grilã</b><br>
+Aratã linii între rândurile ºi coloanele listei subtitrãrii în fereastra principalã. 
+<br>
+<br>
+
+<b>Aplicã stilul la linii</b><br>
+Va avea efect doar dacã o linie conþine etichete de stil (aldin, cursiv, subliniat sau culoare). Dacã opþiunea asta e selectatã, Subtitle Workshop
+va arãta linia în listã cu stilul/culoarea corespunzãtor/corespunzãtoare.
+<br>
+<br>
+
+<b>Marcheazã liniile netraduse cu culoarea</b><br>
+Aratã liniile netraduse cu o culoare congigurabilã pentru a fi uºor identificate.
+<br>
+<br>
+
+<b>Aratã barã de derulare orizontalã</b><br>
+Nu selecta aceastã opþiune ºi nu vei avea niciodatã bara de derulare orizontalã în lista principalã.
+<br>
+<br>
+
+<a name="4.7.3"></a><h5>4.7.3 Meniu</h5>
+
+<b>Foloseºte meniu stil Office XP</b><br>
+Foloseºet meniul utilizator &amp; meniul pop-up în fereastra principalã. Dacã dezactivezi opþiunea asta, va fi folosit meniul Windows implicit.
+<br>
+<br>
+
+<b>Foloseºte culori treptate în meniu</b><br>
+Foloseºte o pantã (culori treptate) în stânga meniurilor.
+<br>
+<br>
+<br>
+
+<!------------------------------------>
+<!--    Capitolul 5: Instrumente      -->
+<!------------------------------------>
+
+<a name="5.0"></a><h2>Capitolul 5: Instrumente</h2>
+Caracteristici obligatorii în fiecare instrument de editat subtitrãri.
+<br>
+<br>
+
+<a name="5.1"></a><h3>5.1 Verificare ortografie</h3>
+Aceastã verificare a ortogrtafiei foloseºte motorul de verificare a ortografiei din  Microsoft Word, conectându-se la el cu ajutorul tehnologiei OLE. De aceea, e nevoie de cel puþin Microsoft Word 97.
+Pentru a verifica ortografia unei subtitrãri încarcã subtitrarea ºi apasã tasta <b>F7</b> sau dã clic pe meniul <b>"Instrumente/Verificã ortografia"</b>.
+Toate erorile ºi sugestiile vor fi arãtate folosindu-se fereastra implicitã din Word. Verificarea ortografiei ar trebui sã suporte orice dicþionar instalat.<br><br>
+<b>Notã:</b> aceastã caracteristicã ar putea da erori (TOleExeption) în unele cazuri, dar nu din cauza lui Subtitle Workshop, ci din cauza lui Word.
+Oricum, funcþioneazã destul de bine de cele mai multe ori.
+<br>
+<br>
+<br>
+
+<a name="5.2"></a><h3>5.2 Convertire în bloc</h3>
+Aceastã caracteristicã te lasã sã converteºti un mare numãr de subtitrãri în orice format într-un singur format, ºi sã le salvezi în calea pe care
+o vrei cu câteva clicuri.<br><br>
+Dã clic pe meniul <b>"Instrumente/Conversie în bloc..."</b> sau apasã tastele <b>[Ctrl]+[M]</b>. Dupã asta, trebuie sã urmezi urmãtorii paºi:<br>
+<ol>
+	<li>Selecteazã ce <b>extensii de subtitrãri vrei sã cauþi</b>, toate extensiile posibile fiind afiºate în stânga.</li>
+	<li>Selecteazã <b>calea de cãutare</b> (directorul în care sunt subtitrãrile pe care vrei sã le converteºti)</li>
+	<li>Dacã vrei sã incluzi ºi subdirectoare în cãutare, selecteazã opþiunea "Include subdirectoare".</li>
+	<li>Dacã vrei ca Subtitle Workshop sã efectueze o verificare completã a formatelor, selecteazã opþiunea "Verificare formate completã". Dacã aceastã opþiune nu e selectatã,
+	Subtitle Workshop va analiza fiºierul pentru a vedea dacã e o subtitrare validã ºi în ce format e. De obicei analiza funcþioneazã
+	foarte bine ºi foarte repede. Dacã vrei sã efectuezi teste în toate privinþele asupra fiºierului, cu o eficienþã
+	de 100%, atunci foloseºte verificarea completã. Verificarea completã e mult mai lentã decât verificarea standard.</li>
+	<li>Selecteazã <b>directorul în care se salveazã</b> (calea unde fiºierele convertite vor fi salvate)</li>
+	<li>Selecteazã <b>formatul în care se salveazã</b>.</li>
+	<li>Selecteazã CPS-ul Implicit pentru fiºierele bazate pe cadre (dacã existã).</li>
+	<li>Apasã butonul <b>"Înainte"</b>.</li>
+</ol>
+Dupã ce ai apãsat butonul, Subtitle Workshop va cãuta subtitrãri valide în calea pe care ai ales-o.<br><br>
+Când cãutare se terminã, vei vedea o listã cu toate fiºierele gãsite, formatul, CPS (pentru subtitrãri bazate pe cadre - aceastã valoare ar trebui sã fie
+implicit ca cea pe care ai setat-o la "CPS Implicit") ºi mãrimea (în Kb).<br>
+Poþi adãuga fiºiere în listã, sau sã ºtergi. De asemenea poþi schimba CPS-ul unei subtitrãri bazate pe cadre (sau al unor mai multe subtitrãri),
+selectând subtitrarea ºi schimbând cãsuþa care se aflã la stânga butonului "Goleºte".<br><br>
+În final, apasã butonul <b>Conversie</b> ºi conversia ar trebui sã înceapã. Când se terminã conversia, Subtitle Workshop va genera un fiºier log (*.log),
+relatând toate posibilele erori împreunã cu succesele.
+<br>
+<br>
+<br>
+
+<a name="5.3"></a><h3>5.3 Împãrþire subtitrare</h3>
+Sunt douã împãrþiri posibile:
+<ol>
+	<li><b>Simplã</b> - împarte subtitrarea în douã pãrþi</li>
+	<li><b>Avansatã</b> - împarte subtitrarea într-un numãr indefinit de pãrþi</li>
+</ol>
+Foloseºte-o pe cea care se potriveºte cel mai bine nevoilor tale.<br><br>
+
+<b>Împãrþire simplã</b><br>
+Mai întâi trebuie sã alegi unde sã împarþi subtitrarea ºi ai 5 posibilitãþi:
+<ol>
+	<li>
+		<b>La linia selectatã</b><br>
+		Subtitrarea va fi împãrþitã imediat dupã linia selectatã în fereastra principalã.
+	</li>
+	<li>
+		<b>La linia nr.</b><br>
+		Subtitrarea va fi împãrþitã direct de la linia selectatã.
+	</li>
+	<li>
+		<b>La timpul introdus</b><br>
+		Subtitrarea va fi împãrþitã la prima linie care are timpul iniþial mai mare decât timpul pe care l-ai introdus.
+	</li>
+	<li>
+		<b>La cadrul introdus</b><br>
+		Subtitrarea va fi împãrþitã la prima linie care are cadrul iniþial mai mare decât cadrul pe care l-ai introdus.
+	</li>
+	<li>
+		<b>La sfârºitul filmului</b><br>
+		Subtitrarea va fi împãrþitã la prima linie care are timpul iniþial mai mare decât timpul la care se sfârºeºte filmul
+		(durata filmului).
+	</li>
+</ol>
+Dupã ce ai ales momentul împãrþirii selecteazã numele fiºierelor (fãrã extensie, aceasta va fi adãugatã automat), formatul în care se salveazã
+ºi apasã butonul <b>Împarte</b>.
+<br>
+<br>
+<b>Împãrþire avansatã</b><br>
+Schimbã la pagina "Avansatã" ºi selecteazã numãrul de pãrþi pe care vrei sã creezi. Trebuie sã selectezi dacã vrei sã creezi pãrþi
+egale ca timp (duratã), ca nr. de linii sau dacã vrei sã împarþi subtitrarea la finalul filmelor.<br>
+Dacã vrei sã împarþi la finalul filmelor trebuie sã selectezi un film pentru fiecare parte. Pentru a face asta dã dublu-clic pe fiecare parte
+în listã începând cu prima. Nu poþi selecta un film pentru ultima parte de vreme ce durata e calculatã automat.<br><br>
+Lasã opþiunea "Auto-denumire pãrþi" selectatã dacã vrei ca Subtitle Workshop sã seteze numele pãrþilor automat. Dacã
+vrei sã faci asta manual, deselecteazã opþiunea, selecteazã partea doritã &amp; apasã tasta <b>F2</b> pentru a tasta numele.<br><br>
+Selecteazã opþiunea "Recalculeazã valori timp" dacã vrei ca Subtitle Workshop sã seteze automat un decalaj subtitrãrii a doua pentru a nu trebui sã o faci
+manual dupã împãrþire. În final selecteazã calea unde se salveazã, formatul în care se salveazã ºi apasã butonul <b>Împarte</b>.
+
+<br>
+<br>
+<br>
+
+<a name="5.4"></a><h3>5.4 Unire subtitrãri</h3>
+Cu Subtitle Workshop poþi uni mai mult de douã subtitrãri, ºi acele subtitrãri pot fi în formate diferite, bazate pe cadre sau timp,
+iar dacã sunt bazate pe cadre, pot avea chiar ºi CPS diferit !<br>
+Dã clic pe meniul <b>"Instrumente/Uneºte subtitrãri..."</b> sau apasã tastele <b>[Ctrl]+[J]</b>.<br><br>
+Acum apasã butonul <b>Adaugã</b> ºi adaugã toate subtitrãrile pe care le doreºti, în ordinea corectã. Dacã ai fãcut o greºealã în ordinea
+subtitrãrilor poþi sã tragi subtitrarea doritã cu ajutorul mouse-ului ºi s-o pui unde vrei. Dacã subtitrarea e bazatã pe cadre poþi de asemenea sã-i modifici CPS-ul
+selectând-o ºi modificând valoarea câmpului aflat la stânga butonului "Goleºte". Poþi face asta la toate
+subtitrãrile bazate pe cadre selectate.<br>
+Dupã asta trebuie sã selectezi <b>formatul în care se salveazã</b>, ºi dacã e o subtitrare bazatã pe cadre, <b>CPS în care se salveazã</b>. Dacã vrei sã încarci
+subtitrarea rezultatã, selecteazã opþiunea "Încarcã fiºierul dupã unire ºi salvare". Selecteazã opþiunea "Recalculeazã valori timp" dacã vrei
+ca Subtitle Workshop sã seteze automat un decalaj pentru toate subtitrãrile începând cu a doua, pentru a nu trebui sã o faci
+manual. În final, apasã butonul <b>Uneºte</b>.
+<br>
+<br>
+<br>
+
+<a name="5.5"></a><h3>5.5 Informaþii ºi erori</h3>
+Aceasta e una din caracteristicile care fac Subtitle Workshop unic - în ciuda unor încercãri ale unor programe de a-l imita, caracteristica Informaþii ºi Erori din Subtitle
+Workshop încã are cea mai bunã performanþã, flexibilitate ºi opþiuni.
+<br>
+<br>
+
+
+<a name="5.5.1"></a><h5>5.5.1 Erori &amp; reparaþii explicate</h5>
+Informaþii ºi Erori poate verifica ºi repara o mare varietate de erori obiºnuite în subtitrãri, aici vom încerca sã vedem toate
+posibilele erori ºi modul(modurile) în care sunt automat reparate. Înainte sã începem e important sã ºtim ce tipuri de erori vor fi reparate
+primele. Prioritãþile sunt:
+<ol>
+	<li>Rânduri fãrã litere</li>
+	<li>Linii goale</li>
+	<li>Linii repetate</li>
+	<li>Caractere interzise</li>
+	<li>Text înainte de douã puncte (":")</li>
+	<li>Linii pentru persoane cu defect auditiv</li>
+	<li>Suprapunere</li>
+	<li>Valori rele</li>
+	<li>Puncte inutile</li>
+	<li>Caractere repetate</li>
+	<li>Erori OCR</li>
+	<li>Semnul "- " în linii cu un singur rând</li>
+	<li>Spaþii dupã caracter obiºnuit</li>
+	<li>Spaþii înainte de caracter obiºnuit</li>
+	<li>Spaþii inutile</li>
+	<li>Linii cu mai mult de douã rânduri</li>
+	<li>Duratã prea lungã (doar verificare)</li>
+	<li>Duratã prea scurtã (doar verificare)</li>
+	<li>Rânduri prea lungi (doar verificare)</li>
+</ol>
+Erorile de la 1 pânã la 6 au prioritate deoarece când se reparã astfel de erori, linia poate fi ºtearsã în unele circumstanþe, deci dacã,
+de exemplu, reparãrile de timpi au fost primele, va conduce la o reparaþie de timpi ºi la ºtergerea subtitrãrii, ºi asta e inutil.
+
+<br>
+<br>
+<br>
+
+<b>Rânduri fãrã litere</b><br>
+ªterge rândurile unei linii care nu conþin litere (a-z, &aacute;-&iacute;, etc). Exemplu:
+<table>
+<tr>
+	<td><b>Timp iniþial</b></td>
+	<td><b>Timp final</b></td>
+	<td><b>Text</b></td>
+</tr>
+<tr>
+	<td><b>00:00:00,250</b></td>
+	<td><b>00:00:01,350</b></td>
+	<td><b>Acesta e textul 1<br>!!!!!!!</b></td>
+</tr>
+<tr>
+	<td><b>00:00:00,780</b></td>
+	<td><b>00:00:02,150</b></td>
+	<td><b>¿?!¡<br>Acesta e textul 2</b></td>
+</tr>
+</table>
+În ambele cazuri, Subtitle Workshop va ºterge a doilea ºi respectiv primul rând, pentru cã nu conþin litere (nu înþelege greºit,
+"litere" nu e acelaºi lucru cu "caractere").
+<br>
+<br>
+<br>
+
+<b>Linii goale</b><br>
+O linie goalã poate fi:
+<ol>
+	<li>O linie care nu conþine <b>nici un text</b>.</li>
+	<li>O linie care nu conþine <b>nici o literã sau cifrã</b>. De exemplu textul: "- !!!!"<br>
+	</li>
+</ol>
+În ambele cazuri, Subtitle Workshop va ºterge linia.
+<br>
+<br>
+<br>
+
+<b>Linii repetate</b><br>
+Acesta e un lucru obiºnuit în scripturi OCR. Exemplu:<br><br>
+<table>
+<tr>
+	<td><b>Timp iniþial</b></td>
+	<td><b>Timp final</b></td>
+	<td><b>Text</b></td>
+</tr>
+<tr>
+	<td><b>00:00:01,000</b></td>
+	<td><b>00:00:01,010</b></td>
+	<td><b>Haide, sã citim.</b></td>
+</tr>
+<tr>
+	<td><b>00:00:01,010</b></td>
+	<td><b>00:00:02,000</b></td>
+	<td><b>Haide, sã citim.</b></td>
+</tr>
+</table>
+<br>
+<br>
+Liniile repetate sunt caracterizate de douã lucruri:
+<ol>
+	<li>Textul e <b>exact</b> la fel.</li>
+	<li>De obicei o linie are o duratã foarte scurtã, de multe ori e prima linie (ca în exemplu) dar poate fi
+	ºi invers.</li>
+</ol>
+În exemplul de mai sus, timpul de start al liniei a doua e exact timpul de final al primei linii, un lucru obiºnuit, dar nu întotdeauna
+e aºa. De aceea valoarea câmpului "Toleranþã pentru linii repetate" e configurabilã, fiind diferenþa maximã admisã între
+TimpFinal1 ºi TimpIniþial2 pentru a detecta o linie ca fiind o linie repetatã. Dupã reparare, linia finalã va arãta
+aºa:<br><br>
+<table>
+<tr>
+	<td><b>Timp iniþial</b></td>
+	<td><b>Timp final</b></td>
+	<td><b>Text</b></td>
+</tr>
+<tr>
+	<td><b>00:00:01,000</b></td>
+	<td><b>00:00:02,000</b></td>
+	<td><b>Haide, sã citim.</b></td>
+</tr>
+</table>
+<br>
+Timpul de start va fi timpul de start al primei linii ºi timpul final va fi timpul final al ultimei linii.
+<br>
+<br>
+<br>
+
+<b>Caractere interzise</b><br>
+Gãseºte liniile care conþin caractere interzise ºi le ºterge (toatã linia - nu caracterele).
+<br>
+<br>
+<br>
+
+<b>Text înainte de douã puncte (":")</b><br>
+Textul înainte de douã puncte e de obicei pentru surzi. De multe ori reprezintã numele unei persoane care vorbeºte.<br><br>
+Exemplu:<br><br>
+<table>
+<tr>
+	<td><b>Timp iniþial</b></td>
+	<td><b>Timp final</b></td>
+	<td><b>Text</b></td>
+</tr>
+<tr>
+	<td><b>00:00:01,000</b></td>
+	<td><b>00:00:02,000</b></td>
+	<td><b>BÃRBAT:|Ea simte acelaºi lucru pentru tine ?</b></td>
+</tr>
+<tr>
+	<td><b>00:00:03,000</b></td>
+	<td><b>00:00:04,000</b></td>
+	<td><b>JERRY:|Nu ºtiu.</b></td>
+</tr>
+</table>
+<br>
+În 80% din cazuri, textul înainte de douã puncte va fi scris cu MAJUSCULE, deci poþi activa opþiunea "Doar dacã textul e scris cu majuscule",
+ºi astfel eviþi multe probleme, de exemplu cu acest gen de linie "Îþi spun ceva:|Sã nu mai faci
+asta niciodatã". Dupã reparare, textul va fi:
+<br>
+<br>
+<table>
+<tr>
+	<td><b>Timp iniþial</b></td>
+	<td><b>Timp final</b></td>
+	<td><b>Text</b></td>
+</tr>
+<tr>
+	<td><b>00:00:01,000</b></td>
+	<td><b>00:00:02,000</b></td>
+	<td><b>Ea simte acelaºi lucru pentru tine ?</b></td>
+</tr>
+<tr>
+	<td><b>00:00:03,000</b></td>
+	<td><b>00:00:04,000</b></td>
+	<td><b>Nu ºtiu.</b></td>
+</tr>
+</table>
+<br>
+Detectarea celor douã puncte nu va detecta dacã e între douã numere, de exemplu "12:30", ºi de aceea va evita problemele cu timpul.
+<br>
+<br>
+<br>
+
+<b>Linii pentru persoane cu defect auditiv</b><br>
+Liniile pentru persoane cu defect auditiv sunt linii, sau doar o parte dintr-o linie, care sunt exclusiv pentru persoane surde. Majoritatea oamenilor
+nu doresc "zgomote" ºi "sunete" în liniile lor, deci vor sã le elimine. Bineînþeles, persoanele surde nu ar trebui sã foloseascã aceastã caracteristicã.
+Liniile pentru persoane cu defect auditiv sunt de obicei în paranteze ("(" ºi ")" ºi/sau "[" ºi "]").<br><br>
+Exemplu (caracterul "|" e linia de demarcaþie a rândurilor):<br><br>
+<table>
+<tr>
+	<td><b>Timp iniþial</b></td>
+	<td><b>Timp final</b></td>
+	<td><b>Text</b></td>
+</tr>
+<tr>
+	<td><b>00:00:01,000</b></td>
+	<td><b>00:00:02,000</b></td>
+	<td><b>- [Bãiat]|Vrei sã-l omor eu pentru tine ?</b></td>
+</tr>
+<tr>
+	<td><b>00:00:03,000</b></td>
+	<td><b>00:00:04,000</b></td>
+	<td><b>Da. Vrei ?</b></td>
+</tr>
+<tr>
+	<td><b>00:00:05,000</b></td>
+	<td><b>00:00:06,000</b></td>
+	<td><b>[Folosire Jaluzea,|Pocniturã]</b></td>
+</tr>
+</table>
+<br>
+<br>
+Prima linie conþine o parte pentru persoanele cu defect auditiv, iar a treia linie e toatã pentru persoanele cu defect auditiv. Deci, dupã reparare, va resulta:
+<br><br>
+<table>
+<tr>
+	<td><b>Timp iniþial</b></td>
+	<td><b>Timp final</b></td>
+	<td><b>Text</b></td>
+</tr>
+<tr>
+	<td><b>00:00:01,000</b></td>
+	<td><b>00:00:02,000</b></td>
+	<td><b>Vrei sã-l omor eu pentru tine ?</b></td>
+</tr>
+<tr>
+	<td><b>00:00:03,000</b></td>
+	<td><b>00:00:04,000</b></td>
+	<td><b>Da. Vrei ?</b></td>
+</tr>
+</table>
+<br>
+<br>
+<br>
+
+<b>Linii suprapuse</b><br>
+Aceastã eroare e produsã oricând o linie apare pe ecran mai repede decât linia precedentã e ascunsã. Adicã,
+când timpul final al unei linii e mai mare decât timpul iniþial al liniei urmãtoare. Sã vedem exemplul urmãtor pentru edificare:
+<br><br>
+
+<table>
+<tr>
+	<td><b>Timp iniþial</b></td>
+	<td><b>Final time</b></td>
+	<td><b>Text</b></td>
+</tr>
+<tr>
+	<td><b>00:00:00,250</b></td>
+	<td><b>00:00:01,350</b></td>
+	<td><b>Acesta e textul 1</b></td>
+</tr>
+<tr>
+	<td><b>00:00:00,780</b></td>
+	<td><b>00:00:02,150</b></td>
+	<td><b>Acesta e textul 2</b></td>
+</tr>
+</table>
+<br>
+Linia a doua e arãtatã înainte ca prima linie sã fie ascunsã. Subtitle Workshop va repara asta bazându-se pe lungimea
+textelor din linii. Sunt trei soluþii posibile:
+<ol>
+	<li>
+	Dacã <b>diferenþa de lungime</b> a textelor din ambele linii e <b>mai micã de 5</b>, lungimea pentru fiecare linie
+	va fi setatã corespunzãtor. Adicã, durata fiecãrei linii va fi: <b>(TimpFinal2 - TimpIniþial1) / 2.</b><br><br>
+	E cazul exemplului de mai sus, soluþia suprapunerii fiind asta deoarece lungimea ambelor texte e egalã.<br>
+	Subtitle Workshop va repara liniile astfel:<br><br>
+	<table>
+	<tr>
+		<td><b>Timp iniþial</b></td>
+		<td><b>Final time</b></td>
+		<td><b>Text</b></td>
+	</tr>
+	<tr>
+		<td><b>00:00:00,250</b></td>
+		<td><b>00:00:01,200</b></td>
+		<td><b>Acesta e textul 1</b></td>
+	</tr>
+	<tr>
+		<td><b>00:00:01,201</b></td>
+		<td><b>00:00:02,150</b></td>
+		<td><b>Acesta e textul 2</b></td>
+	</tr>
+	</table>
+	<br>
+	Dupã cum vezi, (2150-250) / 2 = o duratã de 950 milisecunde pentru fiecare linie, ºi cum e imposibil sã alocãm
+	950 milisecunde liniei a doua (avem nevoie de o milisecundã în plus pentru asta) îi alocãm 949.
+	<br>
+	<br>
+	<br>
+	</li>
+	
+	<li>
+	Dacã textul primei linii e mai lung cu mai mult de 4 caractere decât textul liniei a doua, timpul liniei a doua va fi tãiat.
+	Subtitle Workshop va repara exemplul astfel:<br><br>
+	<table>
+	<tr>
+		<td><b>Timp iniþial</b></td>
+		<td><b>Timp final</b></td>
+		<td><b>Text</b></td>
+	</tr>
+	<tr>
+		<td><b>00:00:00,250</b></td>
+		<td><b>00:00:01,350</b></td>
+		<td><b>Acesta e textul 1. Mai mult de 4 caractere în plus.</b></td>
+	</tr>
+	<tr>
+		<td><b>00:00:01,351</b></td>
+		<td><b>00:00:02,150</b></td>
+		<td><b>Acesta e textul 2</b></td>
+	</tr>
+	</table>
+	<br>
+	Încât am tãiat timpul iniþial al liniei a doua, durata va fi evident mai micã decât durata primei linii. În
+	acest caz avem 1100 milisecunde pentru prima linie ºi 799 pentru a doua linie.
+	<br>
+	<br>
+	<br>
+	</li>
+	
+	<li>
+	Dacã textul liniei a doua e mai lung cu mai mult de 4 caractere decât textul primei linii, timpul primei linii va fi tãiat.
+	Subtitle Workshop va repara exemplul astfel:<br><br>
+	<table>
+	<tr>
+		<td><b>Timp iniþial</b></td>
+		<td><b>Timp final</b></td>
+		<td><b>Text</b></td>
+	</tr>
+	<tr>
+		<td><b>00:00:00,250</b></td>
+		<td><b>00:00:00,779</b></td>
+		<td><b>Acesta e textul 1</b></td>
+	</tr>
+	<tr>
+		<td><b>00:00:00,780</b></td>
+		<td><b>00:00:02,150</b></td>
+		<td><b>Acesta e textul 2. Mai mult de 4 caractere în plus.</b></td>
+	</tr>
+	</table>
+	Durata primei linii e de 529 milisecunde ºi durata linieii a doua e 1370 milisecunde.
+	</li>
+</ol>
+<br>
+
+<b>Valori rele</b><br>
+Valori rele sunt atunci când timpul iniþial al unei linii e mai mare decât timpul ei final.<br><br>
+Exemplu:<br><br>
+<table>
+<tr>
+	<td><b>Timp iniþial</b></td>
+	<td><b>Timp final</b></td>
+	<td><b>Text</b></td>
+</tr>
+<tr>
+	<td><b>00:00:02,000</b></td>
+	<td><b>00:00:01,000</b></td>
+	<td><b>Acesta e textul</b></td>
+</tr>
+</table>
+<br>
+Subtitle Workshop poate repara asta prin inversarea valorilor de timp, aºa cã linia va fi:<br><br>
+<table>
+<tr>
+	<td><b>Timp iniþial</b></td>
+	<td><b>Timp final</b></td>
+	<td><b>Text</b></td>
+</tr>
+<tr>
+	<td><b>00:00:01,000</b></td>
+	<td><b>00:00:02,000</b></td>
+	<td><b>Acesta e textul</b></td>
+</tr>
+</table>
+<br>
+<br>
+<br>
+
+<b>Puncte inutile</b><br>
+Aceastã opþiune înlocuieºte patru sau mai multe puncte consecutive ("....") cu numai trei urmate de un spaþiu când e necesar.<br><br>
+Example:<br><br>
+<table>
+<tr>
+	<td><b>Timp iniþial</b></td>
+	<td><b>Timp final</b></td>
+	<td><b>Text</b></td>
+</tr>
+<tr>
+	<td><b>00:00:01,000</b></td>
+	<td><b>00:00:02,000</b></td>
+	<td><b>Da.... Ar trebui gustat.....</b></td>
+</tr>
+</table>
+<br>
+Va rezulta:<br><br>
+<table>
+<tr>
+	<td><b>Timp iniþial</b></td>
+	<td><b>Timp final</b></td>
+	<td><b>Text</b></td>
+</tr>
+<tr>
+	<td><b>00:00:01,000</b></td>
+	<td><b>00:00:02,000</b></td>
+	<td><b>Da... Ar trebui gustat...<b></b></td>
+</tr>
+</table>
+<br>
+<br>
+<br>
+
+<b>Caractere repetate</b><br>
+Gãseºte caracterele dorite de tine când sunt repetate, de exemplu, dacã ai "!" ca ºi caracter repetat, va gãsi:
+<br>
+<br>
+<table>
+<tr>
+	<td><b>Timp iniþial</b></td>
+	<td><b>Timp final</b></td>
+	<td><b>Text</b></td>
+</tr>
+<tr>
+	<td><b>00:00:01,000</b></td>
+	<td><b>00:00:02,000</b></td>
+	<td><b>Fã-o, acum !!!!!!!!!!!!!!!!!!!!!!<b></b></td>
+</tr>
+</table>
+<br>
+Îl va schimba în:<br><br>
+<table>
+<tr>
+	<td><b>00:00:01,000</b></td>
+	<td><b>00:00:02,000</b></td>
+	<td><b>Fã-o, acum !<b></b></td>
+</tr>
+</table>
+<br>
+<br>
+Funcþioneazã la fel cu orice caracter repetat. Caracterele implicite sunt "-¡!¿?",;\/_[]=", poþi adãuga/ºterge caractere dacã
+vrei, în setãrile de la Informaþii ºi Erori.
+<br>
+<br>
+<br>
+
+<b>Erori OCR</b><br>
+Cum limbi diferite au erori OCR diferite, au vãzut lumina zilei scripturile OCR. Pentru mai multe informaþii despre scripturi, dã clic
+<a href="#5.5.3">aici</a>.
+<br>
+<br>
+<br>
+
+<b>Semnul "-" în linii cu un singur rând</b><br>
+Nu are nici un sens sã ai linii cu un singur rând care sã înceapã cu "-" (linie de dialog) când doar o persoanã vorbeºte. De aceea, dacã
+activezi aceastã opþiune, Subtitle Workshop va ºterge semnul "-" dacã linia are un singur rând.
+<br>
+<br>
+<br>
+
+<b>Spaþiu dupã caracter obiºnuit</b><br>
+Adaugã un spaþiu (dacã nu existã) dupã oricare din caracterele de la "Spaþiu dupã caractere" din setãrile de la Informaþii ºi Erori/Avansat.
+Folositor de exemplu pentru a adãuga un spaþiu dupã linia de dialog pentru a schimba:<br><br>
+<b>-Asta e.<br>-Serios</b><br><br>
+În:<br><br>
+<b>- Asta e.<br>- Serios</b><br><br>
+Aceastã caracteristicã conþine detectarea cuvintelor compuse, aºa cã nu adaugã un spaþiu dupã caracter din cuvinte ca "multi-linie".
+<br>
+<br>
+<br>
+
+<b>Spaþiu înainte de caracter obiºnuit</b><br>
+Adaugã un spaþiu (dacã nu existã) înainte de oricare din caracterele de la "Spaþiu înainte de caractere" din setãrile de la Informaþii ºi Erori/Avansat.
+Fololsitor de exemplu pentru limba francezã, pentru a adãuga spaþii înainte de "?", "!" ºi ":".
+<br>
+<br>
+<br>
+
+<b>Spaþii inutile</b><br>
+Asta e obligatoriu. Eliminã spaþiile inutile pe care le-ai ales din textul liniilor. În acest moment acest tip de spaþii poate fi
+ºterse:
+<ol>
+	<li>Rânduri goale ºi spaþii la începutul ºi sfârºitul liniei</li>
+	<li>Spaþii între rânduri (stânga ºi dreapta)</li>
+	<li>Spaþii duble ºi rânduri goale (rânduri goale = linie goalã)</li>
+	<li>Spaþii în faþa semnelor de punctuaþie</li>
+	<li>Spaþii dupã "¿" ºi "¡"</li>
+	<li>Spaþii înainte de "?" ºi "!"</li>
+	<li>Spaþii între numere</li>
+</ol>
+Cum limbi diferite necesitã spaþieri diferite, toate tipurile de spaþii de ºters sunt configurabile.
+<br>
+<br>
+<br>
+
+<b>Linii cu mai mult de douã rânduri</b><br>
+Doar verificã dacã o linie are trei sau mai multe rânduri, ºi foloseºte <a href="#3.1">Ajustare inteligentã a rândurilor</a> pentru a o repara.
+<br>
+<br>
+<br>
+
+<b>Duratã prea lungã/prea scurtã</b><br>
+Subtitle Workshop poate identifica dacã durata unei linii e mai lungã/mai scurtã decât o valoare minimã/maximã specificatã
+ºi îþi va raporta. Liniile cu duratã prea scurtã nu pot fi citite ºi liniile cu duratã prea lungã pot fi
+enervante. Aceastã eroare trebuie reparatã manual.
+<br>
+<br>
+<br>
+
+<b>Rânduri prea lungi</b><br>
+Detecteazã dacã o linie conþine rânduri care sunt mai lungi decât un numãr specificat de caractere. Rândurile prea lungi ar putea depãºi
+lãþimea ecranului în unele player-e video ºi asta ar putea fi periculos.
+<br>
+<br>
+<br>
+
+<a name="5.5.2"></a><h5>5.5.2 Setãri explicate</h5>
+Pentru a accesa setãrile de la Informaþii ºi Erori, apasã tastele <b>[Alt]+[I]</b> sau dã clic pe meniul <b>"Instrumente/Informaþii ºi erori/Setãri..."</b>.
+În plus poþi accesa aceste setãri din fereastra de Informaþii ºi Erori, apãsând butonul "Setãri".<br>
+Acum sã trecem în revistã toate opþiunile pe care le vei gãsi.<br><br>
+
+<h5>Opþiuni generale</h5>
+
+<b>Marcheazã erorile în lista ferestrei principale</b><br>
+Îi poþi permite lui Subtitle Workshop sã marcheze erorile în lista principalã prin bifarea acestei opþiuni. Poþi specifica Culoare font/Stil
+(aldin, cursiv, subliniat).<br>
+Dacã erorile sunt marcate în lista principalã, e foarte uºor sã le repari manual, ºi în multe cazuri e foarte folositor. De
+exemplu, dacã ai multe linii cu trei rânduri lungi le poþi marca cu o anumitã culoare, ºi apoi sã le repari pe toate (una câte una)
+folosind <a href="#3.4">Despãrþire rânduri din linie</a>.<br>
+Dacã eroarea marcatã e dificilã de identificat vizual (de exemplu uneori e foarte greu sã-þi dai seama cã o linie are
+spaþii inutile sau puncte inutile) poþi pune cursorul peste linia cu erori pentru o secundã ºi vei primi
+o descriere specificând exact ce tip de eroare are.
+<br>
+<br>
+
+<b>Marcheazã erorile la încãrcarea subtitrãrii</b><br>
+Dacã aceastã opþiune e bifatã, executã o verificare automatã a erorilor de fiecare datã când încarci o subtitrare. Aceastã opþiune va
+avea efect numai dacã opþiunea "Marcheazã erorile în lista ferestrei principale" e bifatã.
+<br>
+<br>
+
+<b>Reparã erorile la încãrcarea subtitrãrii</b><br>
+Reparã automat toate erorile când este încãrcatã subtitrarea.
+<br>
+<br>
+
+<b>Reparã suprapunere de o unitate la încãrcare</b><br>
+Reparã cea mai comunã suprapunere când este încãrcatã o subtitrare. Exemplu:<br><br>
+
+<table>
+<tr>
+	<td><b>Timp iniþial</b></td>
+	<td><b>Timp final</b></td>
+	<td><b>Text</b></td>
+</tr>
+<tr>
+	<td><b>00:00:01,000</b></td>
+	<td><b>00:00:02,000</b></td>
+	<td><b>Asta e linia 1<b></b></td>
+</tr>
+<tr>
+	<td><b>00:00:02,000</b></td>
+	<td><b>00:00:03,000</b></td>
+	<td><b>Asta e linia 2<b></b></td>
+</tr>
+</table>
+<br>
+Se va schimba în:<br><br>
+<table>
+<tr>
+	<td><b>Timp iniþial</b></td>
+	<td><b>Final time</b></td>
+	<td><b>Text</b></td>
+</tr>
+<tr>
+	<td><b>00:00:01,000</b></td>
+	<td><b>00:00:02,000</b></td>
+	<td><b>Asta e linia 1<b></b></td>
+</tr>
+<tr>
+	<td><b>00:00:02,<FONT COLOR="Red">001</FONT></b></td>
+	<td><b>00:00:03,000</b></td>
+	<td><b>Asta e linia 2<b></b></td>
+</tr>
+</table>
+<br>
+Bifarea acestei opþiuni oferã siguranþã.
+<br>
+<br>
+
+<b>Script OCR:</b><br>
+Specificã numele scriptului OCR pe care îl foloseºti. Acest script trebuie sã fie în folderul "OCRScripts" din directorul lui Subtitle
+Workshop. Toate scripturile listate aici sunt fiºiere ".ocr" gãsite în folderul menþionat anterior. Butonul "Editeazã"
+va deschide programul Notepad pentru a putea edita fiºierul manual, adãuga sau ºterge posibilele erori OCR.
+<br>
+<br>
+
+<h5>Opþiuni avansate</h5>
+
+<b>Caractere repetabile</b><br>
+Specificã toate caracterele care pot fi repetate, ºi care vor fi reparate dacã opþiunea de reparare "Caractere repetate" e bifatã.
+<br>
+<br>
+
+<b>Caractere interzise</b><br>
+Specificã toate caracterele care nu pot fi în nici o linie, dacã opþiunea de reparare "Caractere interzise" e bifatã ºi o linie conþine
+oricare din aceste caractere, va fi ºtearsã.
+<br>
+<br>
+
+<b>Toleranþã pentru linii repetate</b><br>
+Specificã diferenþa maximã admisã dintre timpul final al primei linii ºi timpul iniþial al celei de-a doua pentru a detecta
+ºi eventual repara o linie repetatã.
+<br>
+<br>
+
+<b>Spaþiu dupã caractere</b><br>
+Specificã toate caracterele de folosit cu opþiunea de reparat "Spaþiu dupã caracter obiºnuit". Caracterele trebuie sã fie unul lângã altul
+(nu separate de virgulã sau altceva).
+<br>
+<br>
+
+<b>Spaþiu înainte de caractere</b><br>
+La fel ca mai sus dar aceste caractere vor fi folosite cu opþiunea de reparare "Spaþiu înainte de caracter obiºnuit".
+<br>
+<br>
+
+<b>Duratã prea lungã</b><br>
+Specificã valoarea dupã care o duratã e consideratã prea lungã.
+<br>
+<br>
+
+<b>Duratã prea scurtã</b><br>
+Specificã valoarea dupã care o duratã e consideratã prea scurtã.
+<br>
+<br>
+
+<b>Rând prea lung</b><br>
+Specificã numãrul de caractere dupã care un rând e considerat prea lung.
+<br>
+<br>
+
+<h5>Verificare, reparare, spaþii inutile</h5>
+Poþi alege ce erori se vor verifica, ºi ce erori se vor repara. De asemenea poþi alege ce spaþii inutile sã se verifice
+ºi pe care sã le repari.
+<br>
+<br>
+<br>
+
+<a name="5.5.3"></a><h5>5.5.3 Scripturi OCR</h5>
+Scripturile OCR nu sunt decât o serie de specificaþii Gãseºte-ÎnlocuieºteCu scrise într-o sintaxã prietenoasã apropiatã de limbajul HTML. Ce le face
+puternice ? Comenzile disponibile. Posibilitatea folosirii expresiilor obiºnuite  face posibilã gãsirea ºi înlocuirea a
+aproape orice e nevoie în orice limbã. Un lucru <b>foarte</b> important de ºtiut despre Scripturile OCR e cã toate comenzile sunt executate
+pe rând, adicã în ordinea în care sunt scrise.
+<br>
+Sã vedem un exemplu de un Script OCR:
+
+<pre>
+&lt;SWOCR&gt;
+	&lt;!-- Comentariile sunt exact ca în HTML --&gt;
+	&lt;ERROR Find="[A-ZÁ-Ú](l)" ReplaceBy="I"&gt;
+	&lt;ERROR Find="[a-zá-ú](I)" ReplaceBy="l"&gt;
+	&lt;ERROR Find="\d( :)" ReplaceBy=":"&gt;
+	&lt;ERROR UseREOnlyToFind="False" Find=",{2,}" ReplaceBy="..."&gt;
+&lt;/SWOCR&gt;
+</pre>
+
+Asta e una din cele mai frecvente erori OCR din limba englezã. Cum în Motoarele OCR "l" ("L" mic) ºi "I" ("i" mare) nu sunt diferite,
+adesea sunt încurcate. O altã eroare frecventã este includerea spaþiilor înainte de douã puncte (":"). În micul exemplu
+de mai sus Subtitle Workshop va folosi expresiile obiºnuite în cãutarea erorilor. ªi dacã nu se vrea folosirea expresiilor obiºnuite ?
+Pentru asta trebuie sã trecem în revistã parametrii care definesc modul în care se face cãutarea:<br><br>
+
+<b>UseRE (Use Regular Expressions=Folosire Expresii Obiºnuite)</b><br>
+UseRE="" sau UseRE="False". Valoarea implicitã este True. Dacã e setatã pe False atunci expresiile obiºnuite  nu vor fi folosite
+în cãutare. Foloseºte False numai dacã vrei sã simplifici modul în care comenzile gãsire-înlocuire sunt scrise, pentru cã dacã expresiile obiºnuite sunt
+dezactivate atunci Scripturile OCR nu sunt foarte puternice.
+<br>
+<br>
+
+<b>UseREOnlyToFind (Use Regular Expressions To Find=Folosire Expresii Obiºnuite Pentru Gãsire)</b><br>
+UseREOnlyToFind="True" sau UseREOnlyToFind="False". Valoarea implicitã este True. Pentru a explica modul de lucru iatã un exemplu:<br>
+
+<pre>
+&lt;ERROR UseREOnlyToFind="True" Find="[a-z]at" ReplaceBy="câine"&gt;
+</pre>
+Aplicat la <i>"Am o <b>pisicã</b> pe nume Max"</i> va returna <i>"Am un <b>câine</b> pe nume Max"</i>, dar
+
+<pre>
+&lt;ERROR UseREOnlyToFind="False" Find="[a-z](at)" ReplaceBy="câine"&gt;
+</pre>
+Aplicat la <i>"Am o <b>pisicã</b> pe nume Max"</i> va returna <i>"Am un <b>pcâine</b> pe nume Max"</i>.<br><br>
+În prima situaþie, când vrem sã înlocuim înlocuim ºi partea care este o expresie obiºnuitã (în acest caz "[a-z]",
+care corespunde cu "p" acum).<br>
+În a doua situaþie, când vrem sã înlocuim folosim doar partea de expresie obiºnuitã ("[a-z]") pentru a cãuta textul, dar
+nu o folosim sã o înlocuim. Vom înlocui partea din "Find=" care e <b>între paranteze</b>, deci trebuie sã scrii
+expresia obiºnuitã normalã ºi partea care este "constantã" ºi nu variazã între paranteze. E foarte folositor pentru
+Scripturile OCR (uitã-te atent în Default.ocr pentru a înþelege).
+
+<br>
+<br>
+
+Urmãtorii parametri sunt disponibili numai când "UseRE" are valoarea False:<br><br>
+
+<b>WholeWord (Tot Cuvântul)</b><br>
+WholeWord="True" sau WholeWord="False". Setând pe False e la fel cu a nu folosi parametrul. Dacã e setat pe True, va gãsi textul din "Find="
+numai dacã formeazã un cuvânt.
+<br>
+<br>
+
+<b>CaseSensitive (În funcþie de tipul literei)</b><br>
+CaseSensitive="True" sau CaseSensitive="False". Setând pe False e la fel cu a nu folosi parametrul. Dacã e setat pe True, va þine cont de tipul literei la cãutare.
+<br>
+<br>
+Acestea sunt cele mai folosite comenzi, poþi realiza multe lucruri cu ele. Dar sunt mai multe:<br><br>
+
+<b>PreserveCase (Pãstreazã tipul literei)</b><br>
+Valoarea implicitã este False. Dacã e True, va pãstra tipul literei din textul de la "Find" când înlocuieºte textul de la "ReplaceBy". De exemplu, dacã
+existã eroarea:
+<pre>
+&lt;ERROR UseRE="False" Find="CÂINE" WholeWord="True" PreserveCase="True" ReplaceBy="PISICÃ"&gt;
+</pre>
+Cum cãutarea nu þine cont de tipul literei, presupunem cã Subtitle Workshop gãseºte tectul "Câine" ºi nu "CÂINE". La înlocuirea cu "PISICÃ", va clona
+tipul literei din textul gãsit ºi va înlocui "Câine" cu "Pisicã" ºi nu cu "PISICÃ".
+<br>
+<br>
+
+<a name="5.5.4"></a><h5>5.5.4 Sintaxa Expresiilor Obiºnuite</h5>
+
+<h5>Introducere</h5>
+<i>Acest document este preluat din fiºierul de ajutor TRegExpr, o bibliotecã excelentã de Expresii Obiºnuite pentru Delphi, de Andrey V. Sorokin.</i>
+<br>
+<br>
+Expresiile Obiºnuite sunt metode folosite foarte des în specificarea modelelor de text care se cautã. Metacaractere speciale permit
+specificarea, de exemplu, a unui ºir de caractere pe care îl cauþi ºi care se aflã aflã la începutul sau la sfârºitul unei linii, sau conþine n
+repetiþii a unui anumit caracter.<br>
+Expresiile Obiºnuite par urâte pentru începãtori, dar de fapt sunt foarte simple (de obicei sunt simple ;) ), la îndemânã ºi foarte puternice.
+<br>
+<br>
+Recomand joaca cu expresii obiºnuite. Sã începem învãþarea !
+<br>
+<br>
+
+<h5>Potriviri simple</h5>
+Orice caracter singular se potriveºte cu el însuºi, asta dacã nu e un <b>metacaracter</b> cu un înþeles special descris mai jos.<br><br>
+O serie de caractere se potriveºte cu acea serie de caractere din ºirul de caractere þintã, deci modelul "bluh" se va potrivi cu "bluh"
+din ºirul de caractere þintã. Destul de simplu, nu ?<br><br>
+Poþi face ca anumite caractere care funcþioneazã de obicei ca <b>metacaractere</b> sau <b>secvenþe de marcare</b> sã fie interpretate ad litteram prin
+'marcarea' lor, adicã precedate de un "\" (backslash). De exemplu: metacaracterul "^" se potriveºte cu începutul unui ºir de caractere, dar "\^" se potriveºte
+cu caracterul "^", "\\" se potriveºte cu "\" º.a.m.d.<br><br>
+
+<b>Exemple:</b><br>
+<table>
+<tr>
+	<td>foobar</td>
+	<td><i>se potriveºte cu ºirul de caractere 'foobar'</i></td>
+</tr>
+<tr>
+	<td>\^FooBarPtr</td>
+	<td><i>se potriveºte cu '^FooBarPtr'</i></td>
+</tr>
+</table>
+
+<h5>Secvenþe de marcare</h5>
+Caracterele pot fi specificate prin folosirea unei <b>secvenþe de marcare</b>, sintaxã asemãnãtoare cu cea folositã în C ºi Perl: "\n" înseamnã cu linie-nouã,
+"\t" echivaleazã cu un tab, etc. Mai general, \xnn, unde nn e un ºir de caractere de cifre hexazecimale, se potriveºte cu caracterul al cãrui cod ASCII e nn.
+Dacã ai nevoie de caractere Unicode, poþi folosi '\x{nnnn}', unde 'nnnn' - una sau mai multe cifre hexazecimale.<br>
+<br>
+
+<table>
+<tr>
+	<td>\xnn</td>
+	<td><i>caracter cu cod hexazecimal nn</i></td>
+</tr>
+<tr>
+	<td>\x{nnnn}</td>
+	<td><i>caracter cu cod hexazecimal nnnn (un octet pentru text simplu ºi doi octeþi pentru Unicode)</i></td>
+</tr>
+<tr>
+	<td>\t</td>
+	<td><i>tab (HT/TAB), la fel ca \x09</i></td>
+</tr>
+<tr>
+	<td>\n</td>
+	<td><i>linie nouã (NL), la fel ca \x0a</i></td>
+</tr>
+<tr>
+	<td>\r</td>
+	<td><i>caracter returnat (CR), la fel ca \x0d</i></td>
+</tr>
+<tr>
+	<td>\f</td>
+	<td><i>salt la formã (FF), la fel ca \x0c</i></td>
+</tr>
+<tr>
+	<td>\a</td>
+	<td><i>alarmã (BEL), la fel ca \x07</i></td>
+</tr>
+<tr>
+	<td>\e</td>
+	<td><i>escape (ESC), la fel ca \x1b</i></td>
+</tr>
+</table>
+<br>
+
+<b>Exemple:</b><br>
+<table>
+<tr>
+	<td>foo\x20bar</td>
+	<td><i>se potriveºte cu 'foo bar' (vezi spaþiul din mijloc)</i></td>
+</tr>
+<tr>
+	<td>\tfoobar</td>
+	<td><i>se potriveºte cu 'foobar' predefinit de un tab</i></td>
+</tr>
+</table>
+<br>
+
+<h5>Clase de caractere</h5>
+Poþi specifica o <b>clasã de caractere</b> prin includerea unei liste de caractere în [], care se va potrivi cu oricare caracter din listã.
+<br>
+<br>
+Dacã primul caracter de dupã "[" e "^", clasa se potriveºte cu orice caracter care <b>nu</b> e în listã.
+<br>
+<br>
+<b>Exemple:</b><br>
+<table>
+<tr>
+	<td>foob[aeiou]r</td>
+	<td><i>gãseºte ºirurile de caractere 'foobar', 'foober' etc. dar nu 'foobbr', 'foobcr' etc.</i></td>
+</tr>
+<tr>
+	<td>foob[^aeiou]r</td>
+	<td><i>gãseºte ºirurile de caractere 'foobbr', 'foobcr' etc. dar nu 'foobar', 'foober' etc.</i></td>
+</tr>
+</table>
+<br>
+Într-o listã, caracterul "-" e folosit la specificarea unui <b>interval</b>, deci a-z reprezintã toate caracterele între "a" ºi "z"
+inclusiv.<br><br>
+Dacã vrei ca ºi caracterul "-" sã fie membru a unei clase, pune-l la începutul sau sfârºitul listei, sau marcheazã-l cu un backslash ("\"). Dacã
+vrei caracterul ']' îl poþi pune la începutul listei sau marcheazã-l cu un backslash ("\").
+<br>
+<br>
+<b>Exemple:</b><br>
+<table>
+<tr>
+	<td>[-az]</td>
+	<td><i>se potriveºte cu 'a', 'z' ºi '-'</i></td>
+</tr>
+<tr>
+	<td>[az-]</td>
+	<td><i>se potriveºte cu 'a', 'z' ºi '-'</i></td>
+</tr>
+<tr>
+	<td>[a\-z]</td>
+	<td><i>se potriveºte cu 'a', 'z' ºi '-'</i></td>
+</tr>
+<tr>
+	<td>[a-z]</td>
+	<td><i>se potriveºte cu toate literele mici de la 'a' la 'z'</i></td>
+</tr>
+<tr>
+	<td>[\n-\x0D]</td>
+	<td><i>se potriveºte cu oricare dintre #10,#11,#12,#13.</i></td>
+</tr>
+<tr>
+	<td>[\d-t]</td>
+	<td><i>se potriveºte cu orice cifrã, '-' sau 't'.</i></td>
+</tr>
+<tr>
+	<td>[]-a]</td>
+	<td><i>se potriveºte cu orice caracter de la ']' la 'a'.</i></td>
+</tr>
+</table>
+<br>
+
+<h5>Metacaractere</h5>
+Metacaracterele sunt caractere speciale care sunt esenþa Expresiilor Obiºnuite. Existã diferite tipuri de metacaractere,
+descrise mai jos.
+<br>
+<br>
+
+<b>Metacaractere - separatori de linii</b>
+<table>
+<tr>
+	<td>^</td>
+	<td><i>începutul unei linii</i></td>
+</tr>
+<tr>
+	<td>$</td>
+	<td>sfârºitul unei linii</td>
+</tr>
+<tr>
+	<td>\A</td>
+	<td><i>începutul unui text</i></td>
+</tr>
+<tr>
+	<td>\Z</td>
+	<td><i>sfârºitul unui text</i></td>
+</tr>
+<tr>
+	<td>.</td>
+	<td><i>orice caracter din linie</i></td>
+</tr>
+</table>
+<br>
+
+<b>Exemple:</b><br>
+<table>
+<tr>
+	<td>^foobar</td>
+	<td><i>se potriveºte cu ºirul de caractere 'foobar' numai dacã e la începutul liniei</i></td>
+</tr>
+<tr>
+	<td>foobar$</td>
+	<td><i>se potriveºte cu ºirul de caractere 'foobar' numai dacã e la sfârºitul liniei</i></td>
+</tr>
+<tr>
+	<td>^foobar$</td>
+	<td><i>se potriveºte cu ºirul de caractere 'foobar' numai dacã e singurul ºir de caractere din linie</i></td>
+</tr>
+<tr>
+	<td>foob.r</td>
+	<td><i>se potriveºte cu ºiruri de caractere ca 'foobar', 'foobbr', 'foob1r' º.a.m.d.</i></td>
+</tr>
+</table>
+<br>
+Implicit, metacaracterul "^" e garantat sã se potriveascã cu începutul textului/ºirului de caractere de introdus, metacaracterul "$" numai
+cu sfârºitul. Separatorii de linie încapsulaþi nu se vor potrivi cu "^" sau "$".<br>
+Totuºi, poþi trata un ºir de caractere ca multi-liniar, aºa cum "^" se va potrivi dupã orice separator de linie din
+ºirul de caractere, ºi "$" se va potrivi înainte de orice separator de linie. Poþi face asta prin activarea modificatorului /m.<br>
+\A and \Z sunt exact ca "^" ºi "$", doar cã nu se vor potrivi de multiple ori când modificatorul /m e folosit, în timp ce "^" ºi
+"$" se vor potrivi la fiecare separator de linie intern.<br><br>
+Metacaracterul "." se potriveºte implicit cu orice caracter, dar dacã dezactivezi modificatorul /s, atunci '.' nu se va potrivi cu separatorii de linie încapsulaþi.<br><br>
+TRegExpr lucreazã cu separatori de linie aºa cum este recomandat la www.unicode.org (http://www.unicode.org/unicode/reports/tr18/):<br><br>
+
+"^" e la începutul ºirului de caractere de introdus, ºi, dacã modificatorul /m este activat, de asemenea este ºi dupã orice instanþã de \x0D\x0A sau
+\x0A sau \x0D (dacã foloseºti versiunea Unicode a lui TRegExpr, atunci ºi dupã \x2028 sau \x2029 sau \x0B sau \x0C sau \x85). Notã: nu existã
+linie goalã în secvenþa \x0D\x0A.<br><br>
+
+"$" e la sfârºitul ºirului de caractere de introdus, ºi, dacã modificatorul /m este activat, de asemenea imdediat înaintea oricãrei instanþe de \x0D\x0A sau \x0A sau
+\x0D  (dacã foloseºti versiunea Unicode a lui TRegExpr, atunci ºi înainte de \x2028 sau \x2029 sau \x0B sau \x0C sau \x85). Notã: nu existã
+linie goalã în secvenþa \x0D\x0A.<br><br>
+
+"." se potriveºte cu oricare caracter, dar dacã dezactivezi modificatorul /s atunci "." nu se potriveºte cu \x0D\x0A ºi \x0A ºi \x0D (dacã foloseºti
+versiunea Unicode a lui TRegExpr, atunci nu se potriveºte nici cu \x2028 ºi \x2029 ºi \x0B ºi \x0C and \x85).<br><br>
+ 
+Notã: "^.*$" (un model de linie goalã) nu se potriveºte cu ºirul de caractere gol din secvenþa \x0D\x0A, dar se potriveºte cu ºirul de caractere gol
+din secvenþa \x0A\x0D.<br><br>
+
+Procesarea multiliniarã poate fi uºor reglatã pentru propriul scop cu ajutorul proprietãþilor din TRegExpr LineSeparators ºi
+LinePairedSeparator. poþi folosi numai separatori stil Unix \n sau numai stil DOS/Windows \r\n sau amestecarea lor (aºa cum e descris
+mai sus ºi folosit implicit) sau sã defineºti proprii separatori de linie !<br><br>
+
+
+<h5>Metacaractere - clase predefinite</h5>
+<table>
+<tr>
+	<td>\w</td>
+	<td><i>reprezintã caracter alfanumeric (inclusiv "_")</i></td>
+</tr>
+<tr>
+	<td>\W</td>
+	<td><i>reprezintã caracter nonalfanumeric</i></td>
+</tr>
+<tr>
+	<td>\d</td>
+	<td><i>reprezintã caracter numeric</i></td>
+</tr>
+<tr>
+	<td>\D</td>
+	<td><i>reprezintã caracter non-numeric</i></td>
+</tr>
+<tr>
+	<td>\s</td>
+	<td><i>reprezintã orice spaþiu (la fel ca [ \t\n\r\f])</i></td>
+</tr>
+<tr>
+	<td>\S</td>
+	<td><i>reprezintã un non-spaþiu</i></td>
+</tr>
+</table>
+<br>
+Poþi folosi \w, \d ºi \s în <b>clasele de caractere</b> personalizate.<br><br>
+
+<b>Exemple:</b><br>
+<table>
+<tr>
+	<td>foob\dr</td>
+	<td><i>se potriveºte cu ºirurile de caractere ca 'foob1r', 'foob6r' º.a.m.d. dar nu cu 'foobar', 'foobbr' º.a.m.d.</i></td>
+</tr>
+<tr>
+	<td>foob[\w\s]r</td>
+	<td><i>se potriveºte cu ºirurile de caractere ca 'foobar', 'foob r', 'foobbr' º.a.m.d. dar nu cu 'foob1r', 'foob=r' º.a.m.d.</i></td>
+</tr>
+</table>
+<br>
+TRegExpr foloseºte proprietãþile SpaceChars ºi WordChars pentru definirea claselor de caractere \w, \W, \s, \S, deci le poþi redefini uºor.<br><br>
+
+<h5>Metacaractere - limite de cuvinte</h5>
+<table>
+<tr>
+	<td>\b</td>
+	<td><i>se potriveºte cu o limitã de cuvinte</i></td>
+</tr>
+<tr>
+	<td>\B</td>
+	<td><i>se potriveºte cu o non-(limitã de cuvânt)</i></td>
+</tr>
+</table>
+<br>
+O limitã de cuvânt (\b) e un loc între douã caractere care au \w într-o parte ºi \W în cealaltã parte (în orice ordine),
+numãrând caracterele imaginare de la începutul ºi sfârºitul ºirului de caractere care coincide cu \W.<br><br>
+
+<h5>Metacaractere - iteratori(repetitori)</h5>
+Orice element dintr-o expresie obiºnuitã poate fi urmat de un alt tip de metacaractere - <b>iteratorii</b>. Folosind aceste metacaractere
+poþi specifica un numãr de aparaþii al caracterului precedent, <b>metacaracter</b> sau <b>subexpresie</b>.<br>
+
+<table>
+<tr>
+	<td>*</td>
+	<td><i>zero sau mai multe ("lacom"), similar cu {0,}</i></td>
+</tr>
+<tr>
+	<td>+</td>
+	<td><i>una sau mai multe ("lacom"), similar cu {1,}</i></td>
+</tr>
+<tr>
+	<td>?</td>
+	<td><i>zero sau una ("lacom"), similar cu {0,1}</i></td>
+</tr>
+<tr>
+	<td>{n}</td>
+	<td><i>de exact n ori ("lacom")</i></td>
+</tr>
+<tr>
+	<td>{n,}</td>
+	<td><i>de cel puþin n ori ("lacom")</i></td>
+</tr>
+<tr>
+	<td>{n,m}</td>
+	<td><i>de cel puþin n ori dar nu mai mult de m ori ("lacom")</i></td>
+</tr>
+<tr>
+	<td>*?</td>
+	<td><i>zero sau ai multe ("ne-lacom"), similar cu {0,}?</i></td>
+</tr>
+<tr>
+	<td>+?</td>
+	<td><i>una sau mai multe ("ne-lacom"), similar cu {1,}?</i></td>
+</tr>
+<tr>
+	<td>??</td>
+	<td><i>zero sau una ("ne-lacom"), similar cu {0,1}?</i></td>
+</tr>
+<tr>
+	<td>{n}?</td>
+	<td><i>exact de n ori ("ne-lacom")</i></td>
+</tr>
+<tr>
+	<td>{n,}?</td>
+	<td><i>de cel puþin n ori ("ne-lacom")</i></td>
+</tr>
+<tr>
+	<td>{n,m}?</td>
+	<td><i>de cel puþin n ori dar nu mai mult de m ori ("ne-lacom")</i></td>
+</tr>
+</table>
+<br>
+Deci cifrele din acolade de forma {n,m} specificã numãrul minim de potriviri ale elementului n ºi numãrul maxim de m poriviri. Forma
+{n} e echivalentã cu {n,n} ºi se potriveºte de exact n ori. Forma {n,} se potriveºte de n sau mai multe ori. Nu existã limitã a mãrimii lui n
+sau m, dar numerele foarte mari vor ocupa mai multã memorie ºi vor încetini execuþia expresiilor obiºnuite.<br><br>
+
+Dacã o acoladã apare în orice alt context, e tratatã ca un caracter obiºnuit.<br><br>
+
+<b>Exemple:</b>
+<table>
+<tr>
+	<td>foob.*r</td>
+	<td><i>se potriveºte cu ºiruri de caractere ca 'foobar', 'foobalkjdflkj9r' ºi 'foobr'</i></td>
+</tr>
+<tr>
+	<td>foob.+r</td>
+	<td><i>se potriveºte cu ºiruri de caractere ca 'foobar', 'foobalkjdflkj9r' dar nu ºi 'foobr'</i></td>
+</tr>
+<tr>
+	<td>foob.?r</td>
+	<td><i>se potriveºte cu ºiruri de caractere ca 'foobar', 'foobbr' ºi 'foobr' dar nu ºi 'foobalkj9r'</i></td>
+</tr>
+<tr>
+	<td>fooba{2}r</td>
+	<td><i>se potriveºte cu ºirul de caractere 'foobaar'</i></td>
+</tr>
+<tr>
+	<td>fooba{2,}r</td>
+	<td><i>se potriveºte cu ºiruri de caractere ca 'foobaar', 'foobaaar', 'foobaaaar' etc.</i></td>
+</tr>
+<tr>
+	<td>fooba{2,3}r</td>
+	<td><i>se potriveºte cu ºiruri de caractere ca 'foobaar', sau 'foobaaar'  dar nu ºi 'foobaaaar'</i></td>
+</tr>
+</table>
+<br>
+O micã explicaþie în ce priveºte "lãcomia". "Lacom" returneazã cât mai multe caractere posibil, "ne-lacom" returneazã cât mai puþine caractere posibil. De exemplu,
+'b+' ºi 'b*' aplicate ºirului de caractere 'abbbbc' returneazã 'bbbb', 'b+?' returneazã 'b', 'b*?' returneazã ºir de caractere gol, 'b{2,3}?' returneazã 'bb',
+'b{2,3}' returneazã 'bbb'.<br><br>
+
+Poþi schimba toþi iteratorii în mod "ne-lacom" (vezi modificatorul /g).<br><br>
+
+<h5>Metacaractere - alternative</h5>
+Poþi specifica o serie de <b>alternative</b> pentru un model folosind "|" pentru a le separa, în aºa fel încât fee|fie|foe se vor potrivi cu oricare din
+"fee", "fie" sau "foe" din ºirul de caractere þintã (la fel ºi seria f(e|i|o)e). Prima alternativã include totul de la ultimul
+delimitator de model ("('', "['', sau începutul modelului) pânã la prima "|", iar ultima alternativã conþine totul
+de la ultima "|" pânã la urmãtorul delimitator de model. Din acest motiv, e o practicã normalã sã incluzi alternativele în paranteze, pentru a
+minimiza confuzia dintre începutul ºi sfârºitul lor.<br>
+Alternativele sunt încercate de la stânga spre dreapta, deci prima alternativã gãsitã pentru care întreaga expresie se potriveºte, e cea care
+e aleasã. Asta înseamnã cã alternativele nu sunt neapãrat lacome. De exemplu: când se încearcã potrivirea lui foo|foot cu "barefoot'', numai
+partea "foo" se va potrivi, deoarece e prima alternativã încercatã ºi se potriveºte cu succes cu ºirul de caractere þintã. (Poate asta nu pare
+important, dar e important când capturezi textul potrivit folosind paranmtezele.)<br>
+Nu uita cã "|" e interpretat ca ºi caracter între paranteze pãtrate, deci dacã scrii [fee|fie|foe] de fapt cauþi sã potriveºti numai
+[feio|].<br><br>
+
+<b>Exemple:</b>
+<table>
+<tr>
+	<td>foo(bar|foo)</td>
+	<td><i>se potriveºte cu ºirurile de caractere 'foobar' sau 'foofoo'.</i></td>
+</tr>
+</table>
+<br>
+
+<h5>Metacaractere - subexpresii</h5>
+Construcþia ( ... ) poate fi folositã ºi la definirea subexpresiilor expresiilor obiºnuite (dupã analiza gramaticalã poþi gãsi poziþia
+subexpresiei, lungimea ºi valorile actuale în proprietãþile MatchPos, MatchLen ºi Match ale lui TRegExpr ºi sã o înlocuieºti în ºirurile de caractere model
+cu TRegExpr.Substitute).<br><br>
+Subexpresiile sunt numerotate de la stânga la dreapta în ordinea deschiderii parantezelor.<br>
+Prima subexpresie are numãrul '1' (întreaga protrivire a expresiei obiºnuite are numãrul '0' - o poþi înlocui în TRegExpr.Substitute cu '$0' sau '$&amp;').
+<br>
+<br>
+<b>Exemple:</b>
+<table>
+<tr>
+	<td>(foobar){8,10}</td>
+	<td><i>se potriveºte cu ºirurile de caractere care conþin 8, 9 sau 10 instanþe ale lui 'foobar'</i></td>
+</tr>
+<tr>
+	<td>foob([0-9]|a+)r</td>
+	<td><i>se potriveºte cu 'foob0r', 'foob1r' , 'foobar', 'foobaar', 'foobaar' etc.</i></td>
+</tr>
+</table>
+<br>
+
+<h5>Metacaractere - memorii(backreferences)</h5>
+<b>Metacaracterele</b> de la \1 la \9 sunt interpretate ca memorii. \&lt;n&gt; se potriveºte cu precedenta subexpresie potrivitã #&lt;n&gt;.
+<br>
+<br>
+
+<b>Exemple:</b>
+<table>
+<tr>
+	<td>(.)\1+</td>
+	<td><i>se potriveºte cu 'aaaa' ºi 'cc'.</i></td>
+</tr>
+<tr>
+	<td>(.+)\1+</td>
+	<td><i>se potriveºte ºi cu 'abab' ºi '123123'</i></td>
+</tr>
+<tr>
+	<td>(['"]?)(\d+)\1</td>
+	<td><i>se potriveºte cu "13" (în ghilimele), sau cu '4' (între apostroafe) sau cu 77 (fãrã apostroafe) etc</i></td>
+</tr>
+</table>
+<br>
+
+<h5>Modificatorii</h5>
+Modificatorii sunt pentru schimbarea comportamentului lui TRegExpr.<br><br>
+Sunt multe modalitãþi pentru setarea modificatorilor. <br>
+Oricare din aceºti modificatori pot fi încapsulaþi în expresia obiºnuitã folosind construcþia (?...).<br>
+De asemenea, poþi atribui proprietãþile TRegExpr potrivite (de exemplu Modifier pentru a schimba /x, sau ModifierStr pentru a schimba toþi modificatorii
+în acelaºi timp). Valorile implicite pentru noile instanþe ale obiectului TRegExpr sunt definite în variabile globale, de exemplu variabila globalã
+RegExprModifierX defineºte valoarea noii instanþe a proprietãþii ModifierX din TRegExpr.
+<br>
+<br>
+
+<table>
+<tr>
+	<td><b>i</b></td>
+	<td>Potrivire a modelului fãrã potrivire a literii, vezi de asemenea InvertCase.</td>
+</tr>
+<tr>
+	<td><b>m</b></td>
+	<td>Trateazã ºirul de caractere ca linii multiple. Adicã schimbã "^" ºi "$" din a se potrivi numai la începutul sau sfârºitul ºirului de caractere în a se potrivi la începutul sau sfârºitul oricãrei linii de oriunde din ºirul de caractere, vezi ºi Separatorii de linii.</td>
+</tr>
+<tr>
+	<td><b>s</b></td>
+	<td>Trateazã ºirul de caractere ca linie simplã. Adicã schimbã "." pentru a se potrivi cu orice caracter, chiar ºi cu un separator de linie (vezi ºi Separatori de linii),cu care în mod normal nu s-ar potrivi.</td>
+</tr>
+<tr>
+	<td><b>g</b></td>
+	<td>Modificator non-standard. Dezactivându-l vei schimba toþi operatorii care vor urma în mod ne-lacom (implicit acest modificator e activat). Deci dacã modificatorul /g e dezactivat atunci '+' funcþioneazã ca '+?', '*' ca '*?' º.a.m.d.</td>
+</tr>
+<tr>
+	<td><b>x</b></td>
+	<td>Extinde lizibilitatea modelului prin permiterea de spaþii albe ºi comentarii (vezi explicaþia de mai jos).</td>
+</tr>
+<tr>
+	<td><b>r</b></td>
+	<td>Modificator non-standard. Dacã e setat atunci intervalul à-ÿ mai include litera ruseascã '¸', À-ß mai include '¨', iar à-ß include toate simbolurile ruseºti.
+Scuze utilizatorilor strãini, dar e setat implicit. Dacã vrei sã fie dezactivat implicit - seteazã valoarea False pentru variabila globalã RegExprModifierR.</td>
+</tr>
+</table>
+<br>
+Însuºi modificatorul /x are nevoie de mai multe explicaþii. El spune lui TRegExpr sã ignore spaþiul alb care nu e precedat de un "\"(backslash) sau
+nu e nici într-o clasã de caractere. Poþi folosi asta pentru a separa expresiile obiºnuite în pãrþi (mult mai) uºor de citit. Caracterul #
+e de asemenea tratat ca metacaracter care introduce un comentariu, de exemplu:<br><br>
+
+<pre>
+( 
+(abc) # comentariu 1
+  |   # Poþi folosi spaþii pentru a formata expresiile obiºnuite - TRegExpr le ignorã
+(efg) # comentariu 2
+)
+</pre>
+
+Asta înseamnã cã dacã vrei sã foloseºti spaþii albe sau caractere # în model (în afara unei clase de caractere, unde sunt
+neafectate de /x), trebuie sã le marchezi saã sã le codezi folosind scevenþe de marcare  octale sau hexazecimale. Luate împreunã, aceste caracteristici
+fac treabã bunã în a face textul expresiilor obiºnuite mai uºor de citit.
+<br>
+
+<h5>Extensii Perl</h5>
+(?imsxr-imsxr)<br>
+O poþi folosi într-o expresie obiºnuitã pentru modifcarea modificatorului instantaneu. Dacã aceastã construcþie este inclusã într-o subexpresie, atunci are efect numai asupra
+acestei subexpresii.<br><br>
+
+<b>Exemple:</b>
+<table>
+<tr>
+	<td>(?i)Saint-Petersburg</td>
+	<td><i>se potriveºte cu 'Saint-petersburg' ºi 'Saint-Petersburg'</i></td>
+</tr>
+<tr>
+	<td>(?i)Saint-(?-i)Petersburg</td>
+	<td><i>se potriveºte cu 'Saint-Petersburg' dar nu cu 'Saint-petersburg'</i></td>
+</tr>
+<tr>
+	<td> (?i)(Saint-)?Petersburg</td>
+	<td><i>se potriveºte cu 'Saint-petersburg' ºi 'saint-petersburg'</i></td>
+</tr>
+<tr>
+	<td>((?i)Saint-)?Petersburg</td>
+	<td><i>se potriveºte cu 'saint-Petersburg', dar nu 'saint-petersburg' </i></td>
+</tr>
+</table>
+<br>
+
+(?#text) 
+Un comentariu, textul este ignorat. Notã: TRegExpr închide comentariul imediat cum întâlneºte ")", deci nu e posibil sã introduci ca ºi caracter într-un comentariu
+caracterul ")".
+<br>
+<br>
+<br>
+
+<a name="5.6"></a><h3>5.6 Adãugare CPS de la AVI</h3>
+Folositor dacã ai un film ºi subtitrarea corespondentã lui (care e bazatã pe cadre) ºi vrei sã o editezi dar nu ºtii
+CPS-ul filmului, atunci foloseºte aceastã caracteristicã. Te ajutã sã afli CPS-ul filmului ºi îl adaugã în lista lui Subtitle Workshop.
+<br>
+Existã douã modalitãþi de utilizare a acestei caracteristici:
+<ol>
+	<li>Folosind meniul <b>"Instrumente/Adaugã CPS de la AVI"</b>. Aceastã metodã citeºte header-ul filmului, ºi de asta funcþioneazã numai cu
+	fiºiere AVI (nu MPEG, ASF, WMV, etc). E foarte rapidã ºi dacã fiºierul video e un fiºier AVI valid, funcþioneazã foarte bine.</li>
+	<li>Încãrcând un film din meniul <b>"Film/Deschide"</b>. Aceastã metodã foloseºte DirectX, ºi deci va funcþiona cu toate tipurile de fiºiere
+	video. Existã unele cazuri cu fiºiere AVI în care DirectX detecteazã 0 la CPS, în aceste cazuri, Subtitle Workshop va citi alternativ
+	header-ul fiºierului AVI.</li>
+</ol>
+De fiecare datã când foloseºti aceastã caracteristicã, CPS-ul filmului va fi adãugat în toate locurile unde existã casete pentru selectarea CPS-ului.
+<br>
+<br>
+
+<a name="5.7"></a><h3>5.7 Vizualizare externã</h3>
+Aceastã opþiune face posibilã testarea directã a subtitrãrii la care lucrezi în player-ul video favorit. Player-ul video
+pe care îl foloseºti trebuie sã suporte <b>linie de comandã</b>, ºi un minim de formate de subtitrãri pe care Subtitle Workshop le suportã.<br><br>
+În fereastra Setãri, mergi la Vizualizare externã ºi apoi la General. Aici trebuie sã selectezi executabilul player-ului video pe care vrei
+sã-l foloseºti. Dacã player-ul video e deja asociat cu fiºierele .AVI, dã clic pe butonul "Detecteazã program asociat".<br>
+Apoi selecteazã dacã vrei sã þi se cearã un fiºier diferit de fiecare datã când testezi o subtitrare, sau dacã testezi întotdeauna
+subtitrarea cu acelaºi fiºier video.<br><br>
+În secþiunea Avansat, existã alte lucruri necesare care trebuie configurate. Selecteazã formatul în care vrei sã se salveze
+fiºierul temporar al subtitrãrii (va fi salvat în directorul temp din Windows). Selecteazã numai formatul original dacã eºti sigur cã player-ul video
+pe care îl foloseºti suportã formatul subtitrãrii pe care o creezi/editezi.<br><br>
+La final trebuie sã selectezi parametrii de trimis cãtre player-ul video. VIDEO_FILE reprezintã fiºierul video iar SUBT_FILE reprezintã
+subtitrarea. Poþi adãuga alþi parametrii, cum ar fi "ecran complet", etc. Asigurã-te (în majoritatea cazurilor) sã adaugi SUBT_FILE ºi
+VIDEO_FILE între " ". Deci dacã un fiºier conþine un spaþiu (sau mai multe), va fi trimis în acelaºi parametru.<br><br>
+Când ai terminat de configurat toate aceste setãri, poþi testa subtitrarea apãsând tasta <b>F8</b> sau dând clic pe meniul
+<b>"Instrumente/Vizualizare externã"</b>.<br><br><br>
+Player-e video testate:
+<ol>
+	<li>
+		<b>BSPlayer</b><br>
+		"VIDEO_FILE" "SUBT_FILE" -fs<br>
+		(Salveazã fiºierul temporar în formatul SubRip)
+	</li>
+	<li>
+		<b>ViPlay</b><br>
+		/MOVIE:"VIDEO_FILE" /SUBTITLE:"SUBT_FILE" /FS<br>
+		(Salveazã fiºierul temporar în orice format)
+	</li>
+</ol>
+<br>
+
+<a name="5.8"></a><h3>5.8 Vizualizare internã: Motorul video</h3>
+<h4>Fereastra "Vizualizare internã": aruncã o privire la modul de comportare a subtitrãrilor</h4><br>
+Acest mod va funcþiona (ºi are sens) când ai deschis o subtitrare ºi un fiºier video (vezi <a href="#1.4.1">Cum se încarcã o
+subtitrare</a> ºi <a href="#1.4.2">Cum se încarcã un fiºier video</a>). Dacã ai încãrcat subtitrarea ºi fiºierul video. o interfaþã media
+va apãrea în partea de sus a ferestrei de editare principalã. Mãrimea interfeþei media poate fi ajustatã printr-un clic pe marginea ferestrei video ºi
+a pãrþii ferestrei de editare a subtitrãrii (un nou simbol de cursor va apãrea) prin tragerea cursorului în sus sau în jos. Ajustând fereastra video
+se va ajusta ºi mãrimea imaginii.<br><br>
+<b>Notã</b>: Dacã ai un filtru de afiºare automatã a subtitrãrii instalat cum e VobSub, acesta va funcþiona ºi aici.
+Asta rezultã în afiºarea a douã subtitrãri afiºate una peste cealaltã, în acelaºi timp. În acest caz, redenumeºte subtitrarea
+deschisã de filtru sau dezinstaleazã filtrul.<br><br>
+Fereastra video e compusã din fereastra de afiºare a filmului, o barã de derulare, un set de butoane ºi un set de cifre care afiºeazã timpul de redare curentã,
+timpul total al redãrii ºi cadrele pe secundã (CPS) ale filmului. Subtitrarea deschisã va fi afiºatã deasupra filmului,
+urmãrind timpii. Fontul, culoarea, mãrimea ºi alte atribute pot fi modificate în Setãri.<br>
+<br>
+Butoane (de la stânga la dreapta): 
+
+<ul>
+	<li><b>Redare/Pauzã</b><br>
+	Un clic pentru redare, ºi încã un clic pentru pauzã.
+	<br><br>
+	</li>
+
+	<li><b>Stop</b><br>
+	Opreºte redare ºi deruleazã la începutul filmului.
+	<br><br>
+	</li>
+
+	<li><b>Activeazã/Dezactiveazã Salt la linie la redare</b><br>
+	Dacã e în uz (va fi afiºatã pe un pãtrat închis la culoare),<br> Subtitle Workshop marcheazã linia care este afiºatã în film
+	în fereastra de editare, ºi deruleazã lista dacã e necesar.
+	<br><br>
+	</li>
+	
+	<li><b>Salt la linia precedentã/urmãtoare</b><br>
+	Aceste douã butoane mutã poziþia player-ului la timpul iniþial al liniei precedente/urmãtoare celei care este afiºatã.
+	<br><br>
+	</li>
+
+	<li><b>Înapoi &amp; Înainte</b><br>
+	Dacã sunt apãsat o singurã datã, vor derula înainte sau înapoi cu timpul specificat în Setãri. Valoarea presetatã e de 0,5 secunde (500 milisecunde).<br>
+	Dacã sunt apãsate în continuu, vor derula filmul la o ratã mai rapidã. Ambele cazuri pot fi folosite dacã filmul este redat,
+	pus pe pauzã sau oprit.
+	<br><br>
+	</li>
+	
+	<li><b>Cu încetinitorul</b><br>
+	Dacã este apãsat (va fi afiºat pe un pãtrat închis la culoare), redarea filmului va fi încetinitã cu procentul specificat în Setãri.<br>
+	Valoarea presetatã este 50%.
+	<br><br>
+	</li>
+
+	<li><b>Mutã linia</b><br>
+	Acest buton mutã toate liniile selectate, adicã timpul de start al primei linii selectate e egal cu timpul player-ului. Nu modificã
+	durata liniilor, doar se comportã ca o versiune "rapidã" a opþiunii "Seteazã decalajul".
+	<br><br>
+	</li>
+
+	<li><b>Seteazã timp de start &amp; Seteazã timp final</b><br>
+	Când sunt folosite, ambele butoane vor afecta linia selectatã în fereastra de editare.<br>
+	"Seteazã timp de start" va rescrie valoarea timpului de start al liniei cu timpul la care este filmul, iar "Seteazã timp final"
+	va face acelaºi lucru pentru timpul final, ºi va sãri la linia urmãtoare.
+	<br><br>
+	</li>
+
+	<li><b>Start linie &amp; Sfârºit linie</b><br>
+	"Start linie" seteazã o variabilã internã pentru timpul din acel moment al filmului redat, "Sfârºit linie" creazã o
+	nouã linie cu timpul iniþial egal cu acea variabilã ºi timpul final egal cu timpul curent. Foarte folositoare pentru crearea
+	subtitrãrilor de la 0.
+	<br><br>
+	</li>
+
+	<li><b>Marcheazã ca primul punct de sincronizare, Marcheazã ca ultimul punct de sincronizare, Marcheazã ca primul dialog în video ºi Marcheazã ca ultimul dialog în video</b><br>
+	Aceste butoane sunt explicate la <a href="#2.3">Ajustare linii</a>.
+	<br><br>
+	</li>
+</ul>
+
+Bara de cãutare poate fi folositã ca cea din Windows Media Player, ViPlay sau oricare alt player. Intervalul cel mai mic de cãutare
+depinde de durata filmului.
+<br>
+<br>
+<br>
+
+<a name="#5.9"></a><h3>5.9 Extractor Limbã din fiºier SAMI</h3>
+Aceastã caracteristicã intenþioneazã sã extragã una sau mai multe limbi din subtitrãri în format SAMI care conþin mai mult de o limbã.
+Subtitle Workshop nu suportã fiºiere SAMI cu mai multe limbi, deci cu aceastã caracteristicã poþi extrage limbile dorite ºi sã le deschizi
+ca un fiºier SAMI cu o singurã limbã.
+<br>
+<br>
+<br>
+
+<br><a name="FAQ"></a>
+<h2>Întrebãri Puse Frecvent [ÎPF]</h2>
+
+Cele mai recente ÎPF (lista oficialã) sunt disponibile <a href="http://www.urusoft.net/faq.php?cat=sw&lang=1">aici</a>.
+
+<br>
+
+<a name="CONTACT"></a><h2>Informaþii contact</h2>
+Ne poþi trimite comentariile tale, ideile, sugestiile, fiºierele limbii, rapoarte de bug-uri, etc. Pentru informaþii contact, intrã în secþiunea "Contacteazã-ne" la:
+<a href="http://www.urusoft.net/">http://www.urusoft.net/</a>.
+<br>
+O poþi face ºi folosind <a href="http://www.urusoft.net/forum/">forumul</a>.<br><br>
+Ne poþi vizita pe internet la adresa urmãtoare: <a href="http://www.urusoft.net">http://www.urusoft.net</a>.
+
+<br>
+<br>
+<br>
+
+<a name="LICENSE"></a><h2>Licenþã</h2>
+Acest program e distribuit 'AªA CUM E', fãrã nici o garanþie de nici un tip. Întregul risc cu privire la folosirea acestui program este asumat
+de cãtre utilizator. Autorul nu devine responsabil pentru nici o pagubã directã sau indirectã, accidentalã sau de duratã, provenitã de la o defecþiune
+a programului.<br><br>
+Acest program ar trebui distribuit liber, nu poate fi vândut sau revândut, distribuit ca parte dintr-un pachet comercial de nici un tip, folosit într-un mediu comercial
+sau distribuit ca suport pentru un serviciu comercial ºi/sau distribuit în activitãþi de nici un tip
+care se soldeazã cu câºtig de bani fãrã autorizaþia semnatã dinainte a autorului, cu excepþia distribuirii de cãtre revistele de specialitate (citeºte urmãtorul pragraf).<br><br>
+Editorii revistelor interesaþi sã includã programele URUSoft pe un CD ca parte a unei ediþii a revistei lor trebuie sã ne trimitã
+un mesaj prin e-mail ºi sã ne comunice intenþia de distribuire a programului, cu detalii privind numele ºi versiunea programului ºi de asemenea
+numele ºi numãrul revistei.<br>
+Într-o viitoare includere a programului în revistã procesul mai sus menþionat trebuie repetat.<br><br>
+Integritatea distribuirii fiºierelor acestui program ar trebui sã fie originalã aºa cum e distribuitã de autorul ei. Toate fiºierele ei
+ar trebui distribuite împreunã în formatul original.<br><br>
+Dacã acest program este o actualizare a unei versiuni mai vechi, vei putea sã-l foloseºti sau sã-l transferi împreunã cu produsul de actualizat.
+Toate Numele De Marcã aparþin Proprietarilor lor. Autorul acestui program NU este asociat cu nici o firmã.
+<br>
+<br>
+<b>DACÃ NU ACCEPÞI ACESTE TERMENE, AR TREBUI SÃ ÎNCETEZI ªI SÃ RENUNÞI LA A FOLOSI ACEST PROGRAM.</b>
+
+</body>
+</html>

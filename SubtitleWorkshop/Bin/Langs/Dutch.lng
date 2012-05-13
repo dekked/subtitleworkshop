@@ -1,0 +1,871 @@
+;   Subtitle Workshop 2.51
+;   Dutch language file
+;
+;   Author: Michaël Kon
+;   E-mail: supercharged1@gmx.net
+;   Web: http://www.urusoft.net
+
+[General]
+Translator=Michaël Kon
+Font Charset=0
+AllFiles=Alle ondersteunde bestanden
+Help=Manual.html
+FPS=FPS
+PlainText=Gewone Tekst
+STP=Subtitle Translation Project
+SRF=Subtitle Report File
+
+[Standard buttons]
+01=&Ok
+02=&Annuleer
+03=&Browse
+04=&Toepassen
+05=&Sluiten
+06=&Ja
+07=&Nee
+
+[Main Form]
+01=Modus:
+02=Tijd
+03=Frames
+04=Invoer FPS:
+05=FPS:
+06=Werk met:
+07=Duratie|Eindtijd|Beide
+08=Num
+09=Toon
+10=Verberg
+11=Text
+12=Vertaling
+13=%d niet-vertaalde regels
+14=Duratie:
+15=%s (%s leestekens):
+16=- Onvertaalde Ondertitel -
+
+[Main menu header]
+01=Bestand
+02=Bewerken
+03=Zoeken
+04=Gereedschap
+05=Film
+06=Instellingen
+07=Help
+
+[Main menu/File]
+01=Nieuwe ondertitel...
+02=Laad ondertitel...
+03=Recente bestanden
+04=Lijst legen
+05=Laadt
+06=Project...
+07=Origineel
+08=Vertaald
+09=Opslaan
+10=Origineel als...
+11=Vertaald als...
+12=Opslaan als...
+13=Sluiten
+14=Afsluiten
+
+[Main menu/Edit]
+01=Ongedaan maken
+02=Opnieuw doen
+03=Ondertitel invoegen
+04=Invoegen voor
+05=Verwijder geselecteerd
+06=Knippen
+07=Kopiëren
+08=Plakken
+09=Selecteer alles
+
+[Main menu/Edit/Timings]
+01=Timings
+02=Stel duratie limiet in...
+03=Stel vertraging in...
+04=Aanpassen
+05=Ondertitels aanpassen...
+06=Aanpassen aan gesynchroniseerde ondertitels
+07=Tijdsvergroter/verkleiner
+08=Lengte vergroten
+09=Automatische duraties
+10=Lees timings uit bestand
+11=Vershuif %s milliseconden
+
+[Main menu/Edit/Texts]
+01=Teksten
+02=Slimme regel aanpassing
+03=Hoofdletters omzetten...
+04=Unbreak ondertitels
+05=Verdeel regels...
+06=Snelle regelsplitsing
+07=Stel maximale regellengte in...
+08=Lees teksten uit bestand
+
+[Main menu/Edit/Subtitles]
+01=Ondertitels
+02=Combineer Ondertitels
+03=Effecten
+04=Typ effect
+05=Flits
+06=Snelle flits
+07=Middelsnelle flits
+08=Langzame flits
+09=Rechts-naar-links
+10=Tekst omdraaien
+11=Repareer punctuatie
+12=Sorteer
+13=Verwijder onnodige links
+14=Markeer geselecteerde ondertitels
+15=De-markeer geselecteerde ondertitels
+
+[Main menu/Edit/Translation]
+01=Vertaling
+02=Vertaler mode
+03=Omwisselen
+
+[Main menu/Search]
+01=Zoek...
+02=Vind volgende
+03=Zoek && Vervang...
+04=Ga naar regel nummer...
+
+[Main menu/Tools]
+01=Spellingscontrole
+02=Batch converteren...
+03=Splits ondertitel...
+04=Ondertitels samenvoegen...
+05=Informatie en fouten
+06=Informatie en fouten...
+07=Diverse informatie...
+08=OCR Scripts
+09=Toon in hoofdscherm
+10=Instellingen...
+11=Her-Controleer fouten
+12=Repareer alle fouten
+13=Repareer fouten (geselecteerde ondertitels)
+14=Spring naar volgende ondertitel
+15=Voeg FPS van AVI toe
+16=Externe vooruitblik
+17=SAMI taal extractor
+18=Pascal scripts
+
+[Main menu/Movie]
+01=Open...
+02=Sluit
+03=Informatie...
+04=Video vooruitblik mode
+05=Toon ondertitels
+06=Media opstart bestand opslaan
+
+[Main menu/Movie/Playback]
+01=Afspeel
+02=Afspelen/Pauzeren
+03=Stop
+04=Terug
+05=Vooruit
+06=5 Seconden terug
+07=5 Seconden vooruit
+08=Afspeelsnelheid
+
+[Main menu/Movie/Subtitles]
+01=Ondertitels
+02=Verplaats ondertitel
+03=Zet starttijd
+04=Zet eindtijd
+05=Start ondertitel
+06=Eind ondertitel
+
+[Main menu/Movie/Synchronization]
+01=Synchronisatie
+02=Eerste sync punt
+03=Laatste sync punt
+04=Synchronisatiepunt toevoegen
+
+[Main menu/Movie/Display]
+01=Weergave
+02=Origineel
+03=Vertaling
+
+[Main menu/Settings]
+01=Uitvoer instellingen...
+02=Taal
+03=Toon linker paneel
+04=Toon tijdsbesturing
+05=Gebruik 'in-place' editie
+
+[Main menu/Help]
+01=Over %s...
+02=Controleer op nieuwere versie
+
+[Popup Menu]
+01=Cursief
+02=Vet
+03=Onderlijnd
+04=Stel kleur in
+05=Verwijder color tags
+
+[Video preview hints]
+01=Afspelen/Pauzeren (%s)
+02=Stop (%s)
+03=Wissel scroll lijst
+04=Spring naar vorige ondertitel
+05=Spring naar volgende ondertitel
+06=Terugspoelen (%s)
+07=Vooruitspoelen (%s)
+08=Afspeelratio aanpassen
+09=Verplaats ondertitel (%s)
+10=Stel starttijd in (%s)
+11=Stel eindtijd in (%s)
+12=Start ondertitel (%s)
+13=Eind ondertitel (%s)
+14=Markeer als eerste sync punt (%s)
+15=Markeer als laatste sync punt (%s)
+16=Ondertitel/video synchronisatie punt toevoegen (%s)
+
+[Save as]
+01=Opslaan als
+02=Dubbel-klik op het uitvoerformaat:
+03=Apart formaat
+04=Alle formaten
+
+[Custom formats]
+01=Aangepaste formaten
+02=Informatie
+03=Naam:
+04=Extensie:
+05=Nieuwe regel char:
+06=Tijd
+07=Frames
+08=Structuur:
+09=FPS:
+10=Laadt project
+11=Sla project op
+12=Herinner laatste aparte formaat
+13=Opslaan!
+14=Apart formaat project
+
+[Settings Form]
+01=Instellingen
+02=Pas de programma configuratie aan
+; Sections
+03=Algemeen
+04=Geavanceerd
+05=Charsets
+06=Formaten
+07=Bestandstypen
+08=Opslaan
+09=Video vooruitblik
+10=Ondertitels
+11=Externe vooruitblik
+12=Kijk
+13=Programma
+14=Lijst
+15=Menu
+;-----------------;
+; General section ;
+;-----------------;
+16=Altijd bovenop
+17=Programma meerdere malen opstarten toelaten
+18=Bevestig verwijderen van ondertitels
+19=Interpreteer ongeldige bestanden als normale tekst
+20=Autozoek naar film
+21=Forceer werken in tijd mode
+22=Houdt volgorde van regels bij omdraaien text
+23=Selecteer text tijdens sprong naar volgende regel
+24=Selecteer text tijdens sprong naar voorgaande regel
+25=Geen interactie met tags
+26=Werk met style tags
+27=Recente bestanden limiet:
+;----------;
+; Advanced ;
+;----------;
+28=Slimme regel aanpassing
+29=Twee regels als langer dan:
+30=leestekens
+31=Breekpunt verwisselen
+32=Deel regels
+33=Regel afbreken na:
+34=Automatische slimme regel aanpassing
+35=Maximale regel lengte:
+36=Verschuif tijd:
+37=milliseconden
+;----------;
+; Charsets ;
+;----------;
+38=Toon in hoofdvenster
+39=Originele charset:
+40=Vertaling charset:
+;-----------------;
+; Formats section ;
+;-----------------;
+41=Standaard formaat:
+42=Formaten laten zien bij "Opslaan als":
+43=Toon aparte formaten
+44=Selecteer &alles
+45=Selecteer &niets
+;--------------------;
+; File types section ;
+;--------------------;
+46=Registreer extensies tijdens start
+47=Associeer met meest gebruikte ondertitelextensies
+;--------------;
+; Save section ;
+;--------------;
+48=Vragen om op te slaan bij programma afsluiten/sluiten ondertitel
+49=Werk automatisch opslaan elke
+50=minuten.
+51=Opslaan als backup
+52=Uitvoerinstellingen...
+;---------------;
+; Video preview ;
+;---------------;
+53=Dubbel-klik in een ondertitel:
+54=Seconden om te springen:
+55=Shift+dubbel-klik in een ondertitel:
+56=Focus tekstbox
+57=Ga ondertitel's tijd in video
+58=Ga N seconde(n) voor ondertitel in video
+59=Terugspoel en vooruitspoel tijd:
+60=seconden.
+61=Standaard aangepaste afspeelratio:
+;-------------------------;
+; Video preview Subtitles ;
+;-------------------------;
+62=Teken grens
+63=Teken schaduw
+64=Probeer transparente achtergrond
+65=Forceer regio gebruik (kan traag zijn)
+66=Lettertype...
+67=Kleur...
+68=Achtergrond...
+69=Grens breedte:
+70=Schaduw breedte:
+71=VOORBEELD
+;--------------------------;
+; External Preview General ;
+;--------------------------;
+72=Exe Van de video speler:
+73=Detecteer geassocieerd programma
+74=Vraag elke keer naar een andere video
+75=Altijd testen met video:
+;---------------------------;
+; External Preview Advanced ;
+;---------------------------;
+76=Tijdelijk ondertitel opslaan in formaat:
+77=Origineel formaat
+78=Apart formaat:
+79=Parameter om naar de video speler te zenden:
+80=VIDEO_FILE stelt het video bestand voor waarin je de ondertitels gaat testen. SUBT_FILE is de parameter waarin het tijdelijke ondertitel bestand naar de video speler gezonden wordt. Je mag andere parameters toevoegen, bijvoorbeeld volledig scherm, etc.
+;----------------;
+; Look / Program ;
+;----------------;
+81=Lettertype om te gebruiken in programma:
+82=Lettergrootte:
+83="Tekst" en "Vertaling" velden uitlijning:
+84=Links|Rechts|Centrum
+;-------------;
+; Look / List ;
+;-------------;
+85=Toon rasterlijnen
+86=Stijl toepassen op ondertitels
+87=Markeer niet-vertaalde ondertitels met kleur:
+88=Toon horizontale scrollbar
+;-------------;
+; Look / Menu ;
+;-------------;
+89=Gebruik Office XP style Menu
+90=Gebruik gradient menu
+
+[Output settings]
+01=Uitvoerinstellingen
+02=Disk ID:
+03=DVD Titel:
+04=Taal:
+05=Autheur:
+06=Web:
+07=Info:
+08=Licensie:
+09=Ondertitel:
+10=Achtergrond:
+11=VOORBEELD
+12=&Zet lettertype
+13=Uitlijning:
+14=Links
+15=Centrum
+16=Rechts
+17=Framerate:
+18=Laat frame vallen
+19=Kleur 0 (achtergrond):
+20=Kleur 1 (Lettertype):
+21=Kleur 2 (omtrekking):
+22=Kleur 3 (anti-aliasing):
+23=Palet kleur n°:
+24=Contrast
+25=Titel:
+26=Script:
+27=Cosmetics
+28=Anderen
+29=Grens stijl:
+30=Omlijnen + werp schaduw
+31=Opaque doos
+32=Kleur
+33=Primair:
+34=Secondair:
+35=Tertiair:
+36=Schaduw:
+37=Linker marge:
+38=Rechter marge:
+39=Verticale marge:
+40=Omlijnen:
+41=Uitlijning:
+42=Encoding:
+43=Bron:
+44=Programma:
+45=Pad:
+46=Vertraging:
+47=CD Track:
+48=Commentaar:
+49=TMPlayer Formaat
+50=TMPlayer+ Formaat
+51=TMPlayer Multiline Formaat
+
+[Duration limits]
+01=Duratie limieten
+02=Zet maximum duratie
+03=Milliseconden
+04=Zet minimum duratie
+05=* De tijd verhogen veroorzaakt geen overlapping
+
+[Set delay]
+01=Zet vertraging
+02=Voor all de ondertitels
+03=Voor geselecteerde ondertitels
+
+[Adjust subtitles]
+01=Ondertitels aanpassen
+02=Simpel
+03=Geavanceerd
+04=Eerste gesproken regel:
+05=Laatste gesproken regel:
+06=Laad uit bestand
+07=Opslaan naar bestand
+08=Regel #
+09=Oude tijd
+10=Nieuwe tijd
+11=&Toevoegen
+12=Toevoegen uit &media
+13=&Verwijderen
+14=Als tijd buiten de punten ligt:
+15=Extrapoleren
+16=Originele tijd terugsturen (geen veranderingen)
+17=Verplaatsing van buurtpunt terugsturen
+18=&Aanpassen!
+19=Nieuw sync punt invoeren
+20=Oude tijd:
+21=Nieuwe tijd:
+
+[Time expander/reducer]
+01=Tijdvergroter/verkleiner
+02=Duratie uitbreiden
+03=Duratie verminderen
+04=Duratie uitbreiden/verminderen:
+05=Seconden
+06=Frames
+07=Alleen als ondertitel langer is dan:
+09=leestekens
+10=Alleen als de duratie langer is dan:
+11=Alleen als de duratie korter is dan:
+12=Overlapping voorkomen
+13=Voor al de ondertitels
+14=Voor geslecteerde ondertitels
+
+[Automatic durations]
+01=Automatische duraties
+02=Milliseconden
+03=per leesteken
+04=per woord
+05=per regel
+06=Nieuwe duraties in alle gevallen toepassen
+07=Alleen als nieuwe duratie groter is dan het origineel
+08=Alleen als nieuwe duratie kleiner is dan het origineel
+09=Alle ondertitels
+10=Alleen geselecteerde ondertitels
+
+[Convert case]
+01=Converteer hoofdletter
+02=Zin type.
+03=Alleen eerste letter van het eerste woord
+04="..." detectie
+05=kleine letters
+06=HOOFDLETTERS
+07=Titel type
+08=tYPE oMDRAAIEN
+09=Alle ondertitels
+10=Alleen geseleteerde ondertitels
+
+[Divide lines]
+01=Deel regels
+02=Deel na regel nummer:
+03=Gebruik automatische duratie
+04=Toon:
+05=Verberg:
+06=Duratie:
+07=Direct doorgaan
+08=%s leestekens
+09=&Deel!
+
+[Search & Replace]
+01=Zoek en vervang
+02=Zoek
+03=Tekst om te vinden:
+04=&Zoek!
+05=Vervang door:
+06=Vind &volgende
+07=&Vervang
+08=Vervang &alles
+09=&Meer >
+10=Minder <
+11=Hoofdlettergevoelig
+12=Hele woord zoeken
+13=Behoudt hoofdletters bij vervangen
+14=Zoek naar text in:
+15=De hele ondertitel
+16=Van het geselecteerde item
+17=Charset:
+
+[Go to line]
+01=Ga naar regel nummer
+02=Voer regelnummer in:
+
+[Batch convert]
+01=Batch conversie
+02=Converteer meerdere bestanden naar een enkel formaat in een paar stappen.
+; Buttons
+03=< &Vorige
+04=&Volgende >
+05=C&onverteer
+06=&Afsluiten
+07=&Sluit
+08=&Alles
+09=&Geen
+; Page 1
+10=Extensies:
+11=Zoek pad:
+12=Includeer submappen
+13=Uitvoerige formaat controle
+14=Uitvoer map:
+15=Uitvoerformaat:
+16=Standaard FPS:
+; List columns
+17=Bestandsnaam
+18=Formaat
+19=FPS
+20=Grootte
+; Page 2
+21=&Toevoegen
+22=&Verwijderen
+23=&Leeg
+; Page 3
+24=Klaar!. Bekijk logboek voor details:
+25=Opslaan...
+; Searching
+26=Controleer bestand %s
+
+[Batch convert log]
+01=%s %s - Batch Conversie Logboek
+02=Gegenereerd op %s
+03=Uitvoer formaat: %s
+04=Totaal aantal bestanden te converteren: %d
+05=Probeer te laden "%s"...
+06=Bestand succesvol geladen!
+07=Bestand "%s" bestaat al, vervangen...
+08=Bestand succesvol opgeslagen naar "%s"'
+09=Bestand "%s" bestond al en je liet het programma niet toe het te vervangen
+10=Fout tijdens laden van bestand, kan niet opslaan!
+11=Totaal aantal conversies gedaan: %u
+12=Totale tijd: %s
+13=Alle bestanden zijn succesvol geconverteerd
+14=Er waren fouten tijdens het converteren van sommige bestanden, kijk hieronder voor details
+
+[Split]
+01=Splits ondertitel...
+02=Simpel
+03=Geavanceerd
+04=Geselecteerd item
+05=Item nummer:
+06=Gegeven tijd:
+07=Gegeven frame:
+08=Eind van film:
+09=Noemen
+10=Deel %d:
+11=Bestandsnaam
+12=Lengte
+13=Regels
+14=Delen gelijk in lengte
+15=Delen gelijk in regels
+16=Aan de einden van videos
+17=Aantal delen:
+18=Auto-noem de delen:
+19=Uitvoer map:
+20=Uitvoerformaat:
+21=Herbereken tijd waarden
+22=Dubbel-klik om film te selecteren
+23=&Deel!
+
+[Join]
+01=Samenvoegen ondertitels...
+02=Voeg de ondertitelbestanden die je wil samenvoegen toe (in order):
+03=Bestandsnaam
+04=Formaat
+05=FPS
+06=Grootte
+07=Film fragment (Optioneel)
+08=&Toevoegen
+09=&Verwijderen
+10=&Leeg
+11=&Zet film fragment
+12=&Leeg film fragment
+13=Uitvoer formaat:
+14=Uitvoer FPS:
+15=Laad bestand na samenvoegen en opslaan
+16=Herbereken tijd waarden
+17=&Samenvoegen!
+
+[Information and errors]
+01=Informatie en fouten
+02=Controleer!
+03=Repareer fouten!
+04=&Instellingen
+05=Iedere verwijdering bevestigen
+06=Ondertitel
+07=Type
+08=Beschrijving
+;-------;
+; Types ;
+;-------;
+09=Fout
+10=Waarschuwing
+11=Info
+13=Gerepareerd
+;----------------------;
+; Information messages ;
+;----------------------;
+14=Totale fouten: %d
+15=Gerepareerde fouten: %d
+;---------------;
+; Error reports ;
+;---------------;
+16=Bevat regels zonder letters
+17=Lege ondertitel
+18=Overlapping met vorige ondertitel
+19=Slechte waarden
+20=Te lange duratie
+21=Te korte duratie
+22=Te lange regel(s)
+23=Over twee regels
+24=Slechthorenden
+25=Heeft voor dubbele punt (":")
+26=Onnodige punten
+27=Bevat een verboden leesteken
+28=Herhaald leesteken
+29=Herhaalde ondertitel
+30=OCR fout
+31=Enkele regel ondertitel start met "-"
+32=Geen spatie na aangepast leesteken
+33=Geen spatie voor aangepast leesteken
+34=Onnodige spaties
+35=Gemarkeerde ondertitel
+;-------------;
+; Fix reports ;
+;-------------;
+36=Verwijderde regels zonder letters
+37=Lege ondertitel is verwijdert
+38=Overlapping gerepareerd
+39=Slechte waarden gerepareerd
+40=Ondertitel over twee regels is aangepast
+41=Onnodige slechthorenden ondertitel
+42=Slechthorenden deel is verwijdert
+43=Tekst voor dubbele punt verwijdert (":")
+44=Onnodige punten verwijdert
+45=Had een verboden leesteken en is verwijdert
+46=Herhaald leesteken gerepareerd
+47=Herhaalde ondertitel gerepareerd
+48=OCR fouten gerepareerd
+49=Verwijderd "-" in ondertitel met een regel
+50=Spatie toegevoegd na aangepast leesteken
+51=Spatie toegevoegd voor aangepast leesteken
+52=Onnodige spaties verwijdert
+;-----
+53=Dubbel-klik om naar regel op hoofd-form te springen
+
+[Information and errors Settings]
+01=Instellingen
+02=Algemeen
+03=Geavanceerd
+04=Kijk voor
+05=Fix
+06=Onnodige spaties
+07=Toon bevestigingen in hoofd-form bij reparaties
+08=Markeer fouten in hoofdvenster lijst
+09=Stel kleur in...
+10=Vet
+11=Cursief
+12=Onderlijnd
+13=Markeer fouten bij laden ondertitel
+14=Repareer fouten bij laden ondertitel
+15=Repareer en eenheid overlapping tijdens laden
+16=OCR Script:
+17=&Bewerk
+18=Herhaaldelijke leestekens:
+19=Voorbehouden leestekens:
+20=Tolerantie voor herhaaldelijke ondertitels:
+21=milliseconden.
+22=Spatie na leestekens:
+23=Spatie voor leestekens:
+24=Te lange duratie:
+25=Te korte duratie:
+26=Te lange regel:
+27=leestekens.
+;------
+28=Regels zonder letters
+29=Lege ondertitels
+30=Overlappende ondertitels
+31=Slechte waarden
+32=Te lange duraties
+33=Te korte duraties
+34=Te lange regels
+35=Ondertitels over twee regels
+36=Slecht-horenden ondertitels
+37=Tekst voor dubbele punt (":")
+38=Alleen als tekst in hoofdletters staat
+39=Onnodige punten
+40=Verboden leestekens
+41=Herhaalde leestekens
+42=Herhaalde ondertitels
+43=OCR Fouten
+44="- " in ondertitels met een regel
+45=Spaties na aangepaste leestekens
+46=Spaties voor aangepaste leestekens
+47=Onnodige spaties
+;------
+48=Controleer op:
+49=Repareer:
+50=Enters en spaties aan het begin en eind
+51=Spaties tussen enters (links en rechts)
+52=Dubbele spaties en enters
+53=Spaties voor en na punctuatie tekens
+54=Spaties na "¿" en "¡"
+55=Spaties voor "?" en "!"
+56=Spaties tussen nummers
+
+[Various information]
+01=Diverse informatie
+02=Informatie
+03=Extras
+04=Origineel bestand
+05=Vertaald bestand
+06=Huidig formaat:
+07=Bestand:
+08=Grootte:
+09=Totaal aantal ondertitels:
+10=Totaal aantal regels:
+11=Totaal aantal woorden:
+12=Totaal aantal letters:
+13=Ondertitels met een regel:
+14=Ondertitels met twee regels:
+15=Ondertitels met meer dan twee regels:
+16=Langste regel:
+17=In ondertitel %d met %d leestekens
+18=Beste lettergrootte voor ondertitel
+19=Resolutie breedte:
+20=Van AVI
+21=Lettertype naam:
+22=Vet
+23=Cursief
+24=Bereken
+
+[SAMI Language Extractor]
+01=SAMI Language Extractor
+02=SAMI bestand:
+03=Uitvoer map:
+04=De geselecteerde talen worden uitgepakt:
+05=Klasse
+06=Taal
+07=Auto detecteer alles
+08=Handmatig toevoegen
+09=Uitpakken!
+10=Taal toevoegen
+11=Voer de klasse naam van de taal in:
+12=Even wachten aub...
+
+[About form]
+01=Over %s
+02=Informatie
+03=Credits
+04=Versie: %s
+05=%s versie: %s
+06=%d verschillende ondersteunde formaten
+07=Als u deze software nuttig vindt, zouden we het zeer op prijs stellen als u een donatie deed. Klik hier om dit te doen.
+08=Geprogrammeerd door
+09=Extra programmering
+10=%s door
+; Following line is "DirectShow programming"
+11=%s programmering
+12=Vertalers
+13=Beta testers
+14=Standaard icoon door
+15=Voor updates bezoek:
+
+[Error messages]
+01=Kan de ondertitel API niet initialiseren. Download aub de DLL "%s" van %s en kopiëer het naar de "%s" map.
+02=De volgende fout (%s) is afgeleid van object %s (%s):||"%s"||Schrijf aub naar %s met informatie over wat je deed en wanneer de fout zich voordeed.||Klik op Ok om door te gaan, en Annuleer om het programma te sluiten.
+03=Het bestand "%s" is een slechte ondertitel of een niet-ondersteund formaat.
+04=Het bestand "%s" is niet in het %s formaat of is geen geldig ondertitel bestand.
+05="%s" is geen geldig film bestand.
+06=Geen geldig regel nummer.
+07=Selecteer tenminste een extensie om naar te zoeken.
+08=Het zoek pad bestaat niet.
+09=Item nummer is geen geldig item.
+10=Voeg aub twee of meer ondertitels toe.
+11=Verbinden met server gefaald!.
+12=Couldn't remove the read-only attribute from "%s".||Mogelijk op een write-protected schijfstation.
+13=Fout tijdens verbinden met Microsoft Word!.
+14=Selecteer de video(s) voor het volgende deel eerst!.
+15=Selecteer een geldige uitvoermap.
+16=Selecteer tenminste een taal om eruit te halen.
+17="%s" is geen geldig SAMI bestand.
+18=Selecteer een ondertitel gedeelte uit de lijst.
+19=Als u een film fragment voor een deel van de ondertitel selecteerd, moet u een film fragment voor alle delen van de ondertitel selecteren (behalve voor het laatste deel natuurlijk).
+20=Je hebt twee of meer punten nodig.
+
+[Question messages]
+01=Bestand "%s" is verandert.||Wilt u de veranderingen opslaan?.
+02=Bestand "%s" bestaat al.||Wilt u het vervangen?.
+03=Origineel bestand ("%s") is verandert.||Wilt u de veranderingen opslaan?.
+04=Vertaald bestand  ("%s") is verandert.||Wilt u de veranderingen opslaan?.
+05=De geselecteerde ondertitels staan op het punt verwijdert te worden.||Wilt u doorgaan?.
+06=Punt 1 Ondertitel: %s|Punt 1 Film: %s||Punt 2 Ondertitel: %s|Punt 2 Film: %s||Ondertitel synchroniseren?
+07=De video speler''s exe is niet gespecificeerd of bestaat niet.||Wilt u een externe speler configureren?.
+08=Er is een nieuwe versie gevonden!.||Wilt u de lijst met veranderingen bekijken?.
+09=Het bestand dat u wilt opslaan is alleen-lezen.||Toch proberen op te slaan?.
+
+[Information messages]
+01=Kon geen meerdere instanties vinden van "%s".
+02=Geen nieuwe versie beschikbaar.
+03=Spellingscontrole voltooid.||%d verandering(en) gemaakt.
+04=Te veel delen. Herstellen naar standaard...
+05=Er is maar een taal gevonden.||Als het bestand meer talen bevat, kun je de gewenste taal handmatig toevoegen door het bestand in een tekst bewerker te openen en naar de correcte klasse naam te zoeken.
+06=Kon "STYLE" start en/of sluiten tag niet vinden!.||Door deze reden is het wwarschijnlijk dat het bestand niet meer dan een taal bevat.|Als dit wel zo is, probeer dan handmatig te zoeken naar de klasse naam en de talen toe te voegen.
+07=Beste lettergrootte voor afspelen is: %d
+08=Totaal aantal vervangingen: %d
+09=Bestandsnaam: %s|Grootte: %s|FPS: %s|Duratie: %s|Totaal aantal frames: %d|Resolutie: %dx%d|FourCC: %s
+10=Sommige streams van deze film konden niet correct gerenderd worden. Het is waarschijnlijk dat er een audio of video codec mist.
+11=Het is niet nodig om het film fragment corresponderend met de ondertitel in te stellen.
+
+[Information and errors messages]
+01=Ondertitel nummer %d is is een lege ondertitel en staat op het punt verwijdert te worden.||Wil je doorgaan?.
+02=Ondertitel nummer %d:||"%s" heeft een illegaal leesteken en staat op het punt te worden verwijdert.||Wil je doorgaan?.
+03=Ondertitel nummer %d:||"%s" staat op het punt te worden verwijdert.||Wil je doorgaan?.
+04=Deel van ondertitel nummer %d:||"%s" staat op het punt verwijdert te worden, waardoor de ondertitel wordt:||"%s"||Wilt u doorgaan?.
+05=Ondertitel nummer %d:||"%s" is een een-regel ondertitel en begint met "-".||Wilt u de "-" aan het begin verwijderen?.
+

@@ -1,0 +1,15 @@
+[Information]
+Name=SonicDVD
+Extension=*.sub
+Time structure=hh:mm:ss:zz
+Time=True
+FPS=25
+New line char=[Enter]
+
+[Format text]
+{RepeatSub}
+{SubCount,4}  {swStart}  {swEnd}  {swText}
+** Leave this blank line: !*
+
+{EndRepeat}
+

@@ -1,0 +1,30 @@
+[Information]
+Name=SAMI
+Extension=*.smi
+Time structure=MS
+Time=True
+FPS=25
+New line char=<br>
+
+[Format text]
+<SAMI>
+<HEAD>
+   <STYLE TYPE="Text/css">
+   <!--
+      P {margin-left: 29pt; margin-right: 29pt; font-size: 14pt;
+      text-align: center; font-family: tahoma, arial, sans-serif;
+      font-weight: bold; color: white; background-color: black;}
+      .SUBTTL {Name: 'Subtitles'; Lang: en-US; SAMIType: CC;}
+   -->
+   </STYLE>
+</HEAD>
+<BODY>
+{RepeatSub}
+   <SYNC Start={swStart}>
+      <P>{swText}
+   <SYNC Start={swEnd}>
+      <P>&nbsp;
+{EndRepeat}
+</BODY>
+</SAMI>
+

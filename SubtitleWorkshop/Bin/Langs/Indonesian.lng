@@ -1,0 +1,870 @@
+;   Subtitle Workshop 2.51
+;   Berkas Bahasa Indonesia
+;   (Maidar's systems: Subtitle=subtajuk; file=berkas, settings=tatanan, etc?)
+;   Author     : M. Maidar
+;   E-mail     : cosmoscopia@yahoo.de
+;   Web        : http://www.cosmoscopiaclub.com/maidar
+
+[General]
+Translator=M. Maidar
+Font Charset=0
+AllFiles=Semua berkas yang belum diterjemah
+Help=Manual.html
+FPS=FPS
+PlainText=Plain text
+STP=Subtitle Translation Project
+SRF=Subtitle Report File
+
+[Standard buttons]
+01=&Ok
+02=&Batal
+03=&Imbas
+04=&Terap
+05=&Keluar
+06=&Ya
+07=&Tidak
+
+[Main Form]
+01=Modus:
+02=Waktu
+03=Kerangka
+04=Masuknya FPS:
+05=FPS:
+06=Bekerja dengan:
+07=Jangkawaktu|Waktu akhir|Keduanya
+08=Nomer
+09=Mulai
+10=Usai
+11=Teks
+12=Terjemahan
+13=%d baris belum diterjemah
+14=Jangkawaktu:
+15=%s (%s characters):
+16=- Subtajuk belum diterjemah -
+
+[Main menu header]
+01=Berkas
+02=Sunting
+03=Cari
+04=Alat
+05=Film
+06=Tatanan
+07=Acuan
+
+[Main menu/File]
+01=Subtajuk baru...
+02=Muat subtajuk...
+03=Berkas baru
+04=Hapus daftar
+05=Muat
+06=Proyek...
+07=Orisinal
+08=Diterjemah
+09=Simpan
+10=Orisinal sebagai...
+11=Diterjemah sebagai...
+12=Simpan sebagai...
+13=Tutup
+14=Keluar
+
+[Main menu/Edit]
+01=Urung dilakukan
+02=Buat seperti semula
+03=Sisip subtajuk
+04=Sisip sebelum
+05=Buang pilihan
+06=Potong
+07=Salin
+08=Timpal
+09=Pilih semua
+
+[Main menu/Edit/Timings]
+01=Jangkawaktu
+02=Tata batas jangkawaktu...
+03=Tata pembatalan...
+04=Sesuaikan
+05=Sesuaikan subtajuk...
+06=Sesuaikan ke subtajuk yang tersinkron
+07=Perpanjangan/pengurangan waktu
+08=Perluasan perpanjangan
+09=Jangka waktu otomatis
+10=Baca jangkawaktu dari berkas
+11=Tekan %s millidetik
+
+[Main menu/Edit/Texts]
+01=Teks
+02=Penyesuaian baris hias
+03=Gubah laci...
+04=Gabung subtajuk
+05=Pisah barisan...
+06=Pisah barisan cepat
+07=Susun panjang baris maksimum...
+08=Baca teks dari berkas
+
+[Main menu/Edit/Subtitles]
+01=Subtajuk
+02=Gabungkan subtajuk
+03=Dampak/efek
+04=Bentuk dampak/efek
+05=Gelinding
+06=Gelinding cepat
+07=Gelinding sedang
+08=Gelinding lambat
+09=Kanan-ke-Kiri
+10=Teks kebalikan
+11=Tandabaca khas
+12=Jenis
+13=Hapus sambungan tak perlu
+14=Tandai subtajuk terpilih
+15=Jangan tandai subtajuk terpilih
+
+[Main menu/Edit/Translation]
+01=Terjemahan
+02=Modus terjemahan
+03=Ganti kedudukan
+
+[Main menu/Search]
+01=Cari...
+02=Cari selanjutnya
+03=Cari && Tindih...
+04=Pergi ke nomer baris...
+
+[Main menu/Tools]
+01=Periksa ejaan
+02=Ubah gugus akhiran/sambungan...
+03=Bagi subtajuk...
+04=Sambung subtajuk...
+05=Info dan ralat
+06=Info dan ralat...
+07=Ragam info...
+08=Skripsi OCR
+09=Tunjuk dalam halaman utama
+10=Tatanan...
+11=Periksa kembali kesalahan
+12=Perbaiki semua kesalahan
+13=Perbaiki kesalahan (subtajuk terpilih)
+14=Pindah ke ralat selanjutnya
+15=Ambil FPS dari AVI
+16=Tontonan eksternal
+17=Penyaring bahasa SAMI
+18=Skripsi bahasa Pascal
+
+[Main menu/Movie]
+01=Buka film...
+02=Tutup 
+03=Info...
+04=Modus tontonan video/film
+05=Tunjuk subtajuk
+06=Simpan berkas media pemula
+
+[Main menu/Movie/Playback]
+01=Putar
+02=Putar/Jeda
+03=Henti
+04=Mundurkan
+05=Majukan
+06=Surut 5 detik
+07=Maju 5 detik
+08=Nilai putar
+
+[Main menu/Movie/Subtitles]
+01=Subtajuk
+02=Pindah subtajuk
+03=Susun waktu awal
+04=Susun waktu akhir
+05=Mula subtajuk
+06=Usai subtajuk
+
+[Main menu/Movie/Synchronization]
+01=Sinkronisasi
+02=Titik sinkron awal
+03=Titik sinkron akhir
+04=Tambah titik sinkron
+
+[Main menu/Movie/Display]
+01=Papar
+02=Orisinal
+03=Terjemahan
+
+[Main menu/Settings]
+01=Tatanan hasil...
+02=Bahasa
+03=Hadirkan panel kiri
+04=Hadirkan kontrol waktu
+05=Pakai suntingan langsung
+
+[Main menu/Help]
+01=Tentang %s...
+02=Periksa versi mutakhir
+
+[Popup Menu]
+01=Huruf miring
+02=Huruf tebal
+03=Garis bawah
+04=Laraskan warna
+05=Ganti tanda warna
+
+[Video preview hints]
+01=Putar/Jeda (%s)
+02=Henti (%s)
+03=Papar daftar layar
+04=Lompat ke subtajuk sebelumnya
+05=Lompat ke subtajuk selanjutnya
+06=Putar balik (%s)
+07=Maju (%s)
+08=Ubah nilai putarbalik
+09=Pindah subtajuk (%s)
+10=Tata waktu awal (%s)
+11=Tata waktu akhir (%s)
+12=Mula subtajuk (%s)
+13=Usai subtajuk (%s)
+14=Tanda sebagai titik sinkron awal (%s)
+15=Tanda sebagai titik sinkron akhir (%s)
+16=Masukkan titik sinkron subtajuk/video (%s)
+
+[Save as]
+01=Simpan sebagai
+02=Klik duakali gugusan format:
+03=Format semula
+04=Semua jenis format
+
+[Custom formats]
+01=Format semula
+02=Info
+03=Nama:
+04=Akhiran/sambungan:
+05=Aksara baris baru:
+06=Waktu
+07=Kerangka
+08=Struktur:
+09=FPS:
+10=Muat proyek
+11=Simpan proyek
+12=Ingat format akhir semula
+13=Simpan!
+14=Proyek format semula
+
+[Settings Form]
+01=Tata
+02=Ubah konfigurasi program
+; Sections
+03=Umum
+04=Lanjutan
+05=Susunan aksara
+06=Format
+07=Jenis berkas
+08=Simpan
+09=Tontonan video/film
+10=Subtajuk
+11=Tontonan eksternal
+12=Lihat
+13=Program
+14=Daftar
+15=Menu
+;-----------------;
+; General section ;
+;-----------------;
+16=Senantiasa di atas
+17=Biarkan lebih dari satu cara berjalan
+18=Pastikan saat menghapus subtajuk
+19=Tafsirkan berkas tidak pasti sebagai teks biasa
+20=Cari film secara otomatis
+21=Paksa bekerja dalam modus waktu
+22=Jaga tatanan barisan bila membalik teks
+23=Pilih teks saat melompat ke baris selanjutnya
+24=Pilih teks saat melompat ke baris sebelumnya
+25=Tanpa interaksi dengan pertanda
+26=Bekerja dengan pertanda bergaya
+27=Batas berkas baru:
+;----------;
+; Advanced ;
+;----------;
+28=Pengaturan baris hias
+29=Dua baris jika lebih dari:
+30=aksara
+31=Togel tanda jeda
+32=Bagikan barisan
+33=Baris jeda setelah:
+34=Atur baris hias secara otomatis
+35=Panjang baris maksimal:
+36=Ubah waktu:
+37=millidetik
+;----------;
+; Charsets ;
+;----------;
+38=Papar dalam halaman utama
+39=Susunan aksara orisinal:
+40=Susuanan aksara terjemahan:
+;-----------------;
+; Formats section ;
+;-----------------;
+41=Format semula:
+42=Format bila papar "Simpan sebagai":
+43=Papar format semula
+44=Pilih &semua
+45=Pilih &kosong
+;--------------------;
+; File types section ;
+;--------------------;
+46=Daftarkan sambungan pada permulaan
+47=Laraskan dengan tambahan subtajuk yang cocok
+;--------------;
+; Save section ;
+;--------------;
+48=Tanya agar simpan saat keluar program/tutup subtajuk
+49=Simpan kerja secara otomatis setiap
+50=menit.
+51=Simpan sebagai sandaran
+52=Tata hasilnya...
+;---------------;
+; Video preview ;
+;---------------;
+53=Duakali klik pada subtajuk:
+54=Detik untuk melompat:
+55=SHIFT-duakali klik pada subtajuk:
+56=Fokus pada kotak teks
+57=Pergi ke waktu subtajuk dalam video
+58=Pergi ke detik(-detik) N sebelum subtajuk dalam video
+59=Waktu putar dan maju:
+60=detik.
+61=Nilai putar semula yang berubah:
+;-------------------------;
+; Video preview Subtitles ;
+;-------------------------;
+62=Lukis pinggiran
+63=Lukis bayangan
+64=Coba latarbelakang yang transparan
+65=Paksa pakai lingkupan (mungkin lambat)
+66=Huruf...
+67=Warna...
+68=Latarbelakang...
+69=Lebar pinggiran:
+70=Lebar bayangan:
+71=CONTOH
+;--------------------------;
+; External Preview General ;
+;--------------------------;
+72=Berkas pemutar video:
+73=Deteksi program bersama
+74=Tanya atas video/film lain setiap kali
+75=Senantisa uji dengan video/film:
+;---------------------------;
+; External Preview Advanced ;
+;---------------------------;
+76=Simpan subtajuk sementara dalam format:
+77=Format orisinal
+78=Format umum:
+79=Parameter untuk mengirim ke pemutar video:
+80=VIDEO_FILE mewakili berkas video yang akan anda coba dengan subtajuk. SUBT_FILE adalah parameter dalam berkas subtajuk yang akan dikirim ke pemancar video. Anda bisa menambahkan parameter lain, misalnya layar penuh, dll.
+;----------------;
+; Look / Program ;
+;----------------;
+81=Huruf untuk dipakai dalam program:
+82=Ukiran huruf:
+83=Lingkup "Teks" dan "Terjemahan" sejajar:
+84=Kiri|Kanan|Tengah
+;-------------;
+; Look / List ;
+;-------------;
+85=Tunjuk garis pemetaan
+86=Gunakan gaya buat subtajuk
+87=Tandai subtajuk tak diterjemah dengan warna:
+88=Tunjuk palang mendatar
+;-------------;
+; Look / Menu ;
+;-------------;
+89=Pakai menu gaya "Office XP"
+90=Pakai menu bertingkat
+
+[Output settings]
+01=Tata hasilnya
+02=Disket ID:
+03=Judul DVD:
+04=Bahasa:
+05=Pengarang:
+06=Jaring internet:
+07=Info:
+08=Lisensi:
+09=Subtajuk:
+10=Latarbelakang:
+11=CONTOH
+12=&Susun huruf
+13=Jajaran:
+14=Kiri
+15=Tengah
+16=Kanan
+17=Kadar kerangka:
+18=Buang kerangka
+19=Warna 0 (latarbelakang):
+20=Warna 1 (Huruf):
+21=Warna 2 (garis umum):
+22=Warna 3 (tanpa alias):
+23=Palet warna n°:
+24=Kontras
+25=Judul:
+26=Naskah:
+27=Rupa
+28=Lainya
+29=Gaya pingiran:
+30=Garis umum + buat bayangan
+31=Kotak legap
+32=Warna
+33=Primer:
+34=Sekunder:
+35=Tertier:
+36=Bayangan:
+37=Sisi kiri:
+38=Sisi kanan:
+39=Sisi tegak:
+40=Garis umum:
+41=Sejajar:
+42=Peng-kode-an:
+43=Sumber:
+44=Program:
+45=Jejak:
+46=Batal:
+47=Jejak "Track CD":
+48=Komentar:
+49=Format TMPlayer
+50=Format TMPlayer+
+51=Format TMPlayer Aneka baris
+
+[Duration limits]
+01=Batas jangkawaktu
+02=Susunan jangkawaktu maksimal
+03=Millidetik
+04=Susunan jangkawaktu minimal
+05=* Penambahan waktu tanpa timbulnya tumpangtindih
+
+[Set delay]
+01=Tatanan batal
+02=Buat semua subtajuk
+03=Buat subtajuk terpilih
+
+[Adjust subtitles]
+01=Atur subtajuk
+02=Umum
+03=Lanjutan
+04=baris tutur pertama:
+05=baris tutur terakhir:
+06=Muat dari berkas
+07=Simpan ke berkas
+08=Baris #
+09=Waktu lalu
+10=Waktu kini
+11=&Tambah
+12=Tambah dari &media
+13=&Copot
+14=Jika waktu di luar titik lingkup:
+15=Extrapolasi
+16=Kembali ke waktu asal (tanpa perubahan)
+17=Kembali ke penggantian titik samping
+18=&Sesuaikan!
+19=Masuk ke titik sinkron baru
+20=Waktu lalu:
+21=Waktu kini:
+
+[Time expander/reducer]
+01=Penambah/pengurang waktu
+02=Tambahkan jangkawaktu
+03=Kurangkan jangkawaktu
+04=Tambahkan/kurangkan jangkawaktu:
+05=Detik
+06=Rangkaian
+07=Hanya jika subtajuk lebih dari:
+09=aksara
+10=Hanya jika jangkawaktu lebih dari:
+11=Hanya jika jangkawaktu kurang dari:
+12=Cegah tumpangtindih
+13=Buat semua subtajuk
+14=Buat subtajuk pilihan
+
+[Automatic durations]
+01=Jangkawaktu otomatis
+02=Millidetik
+03=setiap aksara
+04=setiap kata
+05=setiap baris
+06=Pakai jangkawaktu baru dalam semua hal
+07=Hanya jika jangkawaktu lebih dari yang asal
+08=Hanya jika jangkawaktu kurang dari yang asal
+09=Semua subtajuk
+10=Hanya subtajuk pilihan
+
+[Convert case]
+01=Ganti kotak
+02=Jenis kalimat.
+03=Hanya huruf awal dari kata awal
+04="..." deteksi
+05=hurufkecil
+06=HURUFBESAR
+07=Jenis Judul
+08=bALIKKAN hURUF
+09=Semua subtajuk
+10=Hanya subtajuk pilihan
+
+[Divide lines]
+01=Pisah baris
+02=Pisah setelah nomer baris:
+03=Pakai jangkawaktu otomatis
+04=Tunjukkan:
+05=Sembunyikan:
+06=Jangkawaktu:
+07=Sambung langsung
+08=%s aksara
+09=&Pisah!
+
+[Search & Replace]
+01=Cari dan Ganti
+02=Cari
+03=Teks yang dicari:
+04=&Cari!
+05=Ganti dengan:
+06=Cari &selanjutnya
+07=&Ganti
+08=Ganti &semua
+09=&Lebih >
+10=&Kurang <
+11=Peka terhadap tanda
+12=Padanan semua kata
+13=Kekalkan tanda saat mengganti
+14=Cari teks dalam:
+15=Semua subtajuk
+16=Dari unsur terpilih
+17=Susunan aksara:
+
+[Go to line]
+01=Pergi ke nomer baris
+02=Masuk ke nomer baris:
+
+[Batch convert]
+01=Gubah gugus
+02=Gubah sejumlah berkas dalam format tunggal dalam beberapa langkah.
+; Buttons
+03=< &Balik
+04=&Lanjut >
+05=G&ubah
+06=&Keluar
+07=&Tutup
+08=&Semua
+09=&Tanpa
+; Page 1
+10=Sambungan/akhiran:
+11=Cari jejak:
+12=Sisip dalam laci/directory
+13=Periksa format seluruhnya
+14=Laci hasil/output directory:
+15=Format hasil/output format:
+16=FPS semula/default:
+; List columns
+17=Nama berkas
+18=Format
+19=FPS
+20=Ukuran
+; Page 2
+21=&Tambah
+22=&Copot
+23=H&apus
+; Page 3
+24=Usai!. Lihat rekaman/log buat rincian:
+25=Simpan...
+; Searching
+26=Periksa berkas %s
+
+[Batch convert log]
+01=%s %s - Rekaman pertukaran gugusan/batch
+02=Digenerasikan ke %s
+03=Format hasil: %s
+04=Jumlah berkas yang dikonversi: %d
+05=Coba memuat "%s"...
+06=Berkas berhasil dimuat!
+07=Berkas "%s" sudah ada, akan diganti...
+08=Berkas berhasil disimpan ke "%s"'
+09=Berkas "%s" sudah ada dan anda tidak membenarkan program menggantinya
+10=Gagal memuat berkas, tidak bisa disimpan!
+11=Jumlah penukaran: %u
+12=Jumlah waktu: %s
+13=Semua berkas berhasil dikonversi
+14=Timbul kesalahan saat mengkonversi sejumlah berkas, lihat di bawah untuk rinciannya
+
+[Split]
+01=Belah subtajuk...
+02=Umum
+03=Lanjutan
+04=Unsur terpilih
+05=Nomer unsur:
+06=Waktu yang diberikan:
+07=Kerangka yang diberikan:
+08=Akhir video:
+09=Penamaan
+10=Bagian %d:
+11=Nama Berkas
+12=Panjang
+13=Barisan
+14=Bagian yang selaras dengan waktu
+15=Bagian yang selaras dengan baris
+16=Pada akhir video
+17=Jumlah bahagian:
+18=Bagian penamaan-diri:
+19=Laci hasil/output directory:
+20=Format hasil/output format:
+21=Hitung kembali nilai waktu
+22=Klik duakali untuk pilih film
+23=&Belah!
+
+[Join]
+01=Gabung subtajuk...
+02=Tambah berkas subtajuk yang ingin anda gabung (sesuai urutan):
+03=Nama berkas
+04=Format
+05=FPS
+06=Ukuran
+07=Kepingan film (pilihan)
+08=&Tambah
+09=&Buang
+10=H&apus
+11=&Susun fragmen film
+12=H&apus fragmen film
+13=Format hasil/output format:
+14=FPS hasil/output:
+15=Muat berkas setelah digabung dan simpan
+16=Hitung kembali nilai waktu
+17=&Gabung!
+
+[Information and errors]
+01=Info dan ralat
+02=Uji!
+03=Perbaiki ralat!
+04=&Tata 
+05=Yakinkan semua yang terhapus
+06=Subtajuk
+07=Jenis
+08=Deskripsi
+;-------;
+; Types ;
+;-------;
+09=Ralat
+10=Peringatan
+11=Info
+13=Perbaikan
+;----------------------;
+; Information messages ;
+;----------------------;
+14=Jumlah ralat: %d
+15=Perbaikan ralat: %d
+;---------------;
+; Error reports ;
+;---------------;
+16=Isi barisan tanpa aksara
+17=Subtajuk kosong
+18=Tumpangtindih dengan subtajuk sebelumnya
+19=Nilai tidak sah
+20=Jangkawaktu terlalu lama
+21=Jangkawaktu terlalu singkat
+22=Baris(an) terlalu panjang
+23=Lebih dua baris
+24=Pendengaran rusak
+25=Punya teks sebelum tanda petik (":")
+26=Noktah tak perlu
+27=Berisi aksara terlarang
+28=Aksara terulang
+29=Subtajuk terulang
+30=OCR rusak
+31=Satu baris subtajuk mulai dengan "-"
+32=Tidak ada ruang setelah aksara semula
+33=Tidak ada ruang sebelum aksara semula
+34=Ruangan yang tak perlu
+35=Subtajuk bertanda
+;-------------;
+; Fix reports ;
+;-------------;
+36=Hapus barisan tanpa aksara
+37=Subtajuk kosong dihapus
+38=Tumpangtindih diperbaiki
+39=Nilai salah diperbaiki
+40=Subtajuk lebih dari dua baris dirapikan
+41=Buang subtajuk salah dengar
+42=Bagian salah dengar telah dihapus    
+43=Teks sebelum tanda petik (":") dihapus
+44=Noktah tak perlu dihapus
+45=Ada aksara terlarang dan dihapus       
+46=Aksara terulang diperbaiki
+47=Subtajuk terulang diperbaiki
+48=Ralat kesalahan OCR
+49=Tanda "-" dihapus dalam subtajuk sebaris
+50=Ruang ditambah setelah aksara semula
+51=Ruang ditambah sebelum aksara semula
+52=Ruang tanpa-guna dihapus
+;-----
+53=Klik duakali untuk lompat ke baris di halaman utama
+
+[Information and errors Settings]
+01=Tata
+02=Umum
+03=Lanjutan
+04=Periksa buat
+05=Perbaiki
+06=Ruangan tak perlu
+07=Tunjukkan konfirmasi di halaman utama tentang perbaikan
+08=Tandai ralat dalam daftar halaman utama
+09=Tata warna...
+10=Huruf tebal
+11=Huruf miring
+12=Garis bawah
+13=Tandai ralat saat memuat subtajuk
+14=Perbaiki ralat saat memuat subtajuk
+15=Perbaikan bagian tumpangtindih saat memuat
+16=Skripsi OCR:
+17=&Suntingan
+18=Aksara boleh berulang:
+19=Aksara terlarang:
+20=Toleransi buat subtajuk berulang:
+21=millidetik.
+22=Ruang setelah aksara:
+23=Ruang sebelum aksara:
+24=Jangkawaktu terlalu lama:
+25=Jangkawaktu terlalu singkat:
+26=Baris terlalu lama:
+27=aksara.
+;------
+28=Barisan tanpa aksara
+29=Subtajuk kosong
+30=Subtajuk tumpangtindih
+31=Nilai salah
+32=Jangkawaktu terlalu lama
+33=Jangkawaktu terlalu singkat
+34=Barisan terlalu lama
+35=Subtajuk lebih dari dua baris
+36=Subtajuk salah dengan
+37=Teks sebelum tanda petik (":")
+38=Hanya jika teks dalam huruf besar
+39=Noktah tak perlu
+40=Aksara terlarang
+41=Aksara terulang
+42=Subtajuk terulang
+43=Ralat OCR
+44="- " dalam subtajuk dengan satu baris
+45=Ruangan setelah aksara semula
+46=Ruangan sebelum aksara semula
+47=Ruangan tak perlu
+;------
+48=Periksa buat:
+49=Perbaiki:
+50=Masukan dan ruangan pada permulaan dan akhir
+51=Ruangan di antara masukan (kiri dan kanan)
+52=Dua ruang dan masukan
+53=Ruang di muka tanda baca
+54=Ruangan setelah "¿" dan "¡"
+55=Ruangan sebelum "?" dan "!"
+56=Ruangan di antara nomer
+
+[Various information]
+01=Aneka info
+02=Info
+03=Ekstra
+04=Berkas orisinal
+05=Berkas terjemah
+06=Format sementara:
+07=Berkas:
+08=Ukuran:
+09=Jumlah nomer subtajuk:
+10=Jumlah nomer baris:
+11=Jumlah nomer kata:
+12=Jumlah nomer aksara:
+13=Subtajuk dengan satu baris:
+14=Subtajuk dengan dua baris:
+15=Subtajuk dengan lebih dari dua baris:
+16=Baris terpanjang:
+17=Dalam subtajuk %d dengan aksara %d
+18=Ukuran huruf terbaik buat putarmain
+19=Lebar resolusi:
+20=Dari AVI
+21=Nama huruf:
+22=Huruf tebal
+23=Huruf miring
+24=Kalkulasi
+
+[SAMI Language Extractor]
+01=Pengekstrak bahasa SAMI
+02=Berkas SAMI:
+03=Laci hasil/output directory:
+04=Bahasa yang dipilih akan diekstraksikan:
+05=Kelas
+06=Bahasa
+07=Autodeteksi semua
+08=Tambahkan secara manual
+09=Ekstrak!
+10=Tambah bahasa
+11=Masukkan nama kelas buat bahasa:
+12=Harap tunggu...
+
+[About form]
+01=Tentang %s
+02=Info
+03=Kreditasi
+04=Versi: %s
+05=%s versi: %s
+06=%d format lainnya yang disokong
+07=Jika anda suka software ini, kami sangat menghargai jika anda bisa memberikan sumbangan. Klik di sini untuk itu.
+08=Diprogramkan oleh
+09=Program tambahan
+10=%s oleh
+; Following line is "DirectShow programming"
+11=%s pemograman
+12=Para penerjemah
+13=Penguji Beta
+14=Ikon semula oleh
+15=Untuk pembaruan harap hubungi:
+
+[Error messages]
+01=Tidak bisa mengenali subtajuk API. Silakan download DLL "%s" dari %s dan salin ke dalam "%s" laci/directory.
+02=Ralat berikut (%s) dimunculkan dari %s (%s):||"%s"||Harap menulis ke %s lapor apa yang akan ditindak jika kesalahan begini terjadi.||Tekan Ok untuk terus, dan Batal untuk keluar program.
+03=Berkas "%s" adalah subtajuk rusak atau format yang tidak tersokong.
+04=Berkas "%s" tidak ada dalam %s format atau bukan merupakan berkas subtajuk yang sah.
+05="%s" bukan merupakan berkas video yang sah.
+06=Bukan merupakan nomer baris yang sah.
+07=Pilih sekurang-kurangnya satu akhiran untuk mencari.
+08=Jejak pencarian tidak ada.
+09=Nomer unsur bukan merupakan unsur yang sah.
+10=Harap menambah dua subtajuk atau lebih.
+11=Gagal tersambung ke server!.
+12=Tidak dapat menghapus atribut hanya-buat-baca dari "%s".||Mungkin hanya bisa pada drive terproteksi.
+13=Gagal coba sambung ke Microsoft Word!.
+14=Pilih film/video untuk bagian awal lebihdulu!.
+15=Pilih laci hasil/output directory yang sah.
+16=Pilih paling tidak satu bahasa untuk diekstraksi.
+17="%s" bukan merupakan berkas SAMI yang sah.
+18=Pilih sebagian subtajuk dalam daftar.
+19=Jika anda memilih fragmen film buat satu bagian subtajuk yang anda butuh buat memilih fragmen film demi semua bagian dari subtajuk (kecuali bagian akhir tentunya).
+20=Anda perlu dua tanda atau lebih.
+
+[Question messages]
+01=Berkas "%s" telah diganti.||Anda ingin simpan?.
+02=Berkas "%s" telah ada.||Anda ingin ganti?.
+03=Berkas orisinal ("%s") telah diganti.||Anda ingin simpan yang diganti?.
+04=Berkas terjemahan ("%s") telah diganti.||Anda ingin simpan yang diganti?.
+05=Subtajuk terpilih akan dihapus.||Anda ingin meneruskan?.
+06=Titik 1 Subtajuk: %s|Titik 1 Film: %s||Titik 2 Subtajuk: %s|Titik 2 Film: %s||Sinkronisasi subtajuk?
+07=Pemancar video belum dipasang atau belum ada.||Ingin mengkonfigurasikan pemancar eksternal?.
+08=Versi baru ditemukan!.||Anda ingin lihat daftar perubah?.
+09=Berkas yang anda coba simpan hanya buat dibaca.||Masih juga mau simpan?.
+
+[Information messages]
+01=Tidak ketemu contoh dari "%s".
+02=Tidak tersedia versi mutakhir.
+03=Pemeriksaan ejaan selesai.||%d pertukaran telah dilakukan.
+04=Terlalu banyak bagian. Susutkan/reset kembali...
+05=Hanya satu bahasa ditemukan.||Jika berkas mengandung bayak bahasa, tambahi salahsatu yang ingin anda buka secara manual dengan membuka berkas dalam suatu editor teks dan cari nama kelas yang benar.
+06=Tak dapat melokalisir "STYLE" awal dan/atau tutup tanda cantol!.||Barangkali karena alasan tersebut, berkas ini tidak memuat lebih dari satu bahasa.|Jika ada, coba lagi pencarian secara manual buat nama kelas dari bahasa yang dikehendaki.
+07=Ukuran huruf paling cocok adalah: %d
+08=Jumlah penggantian: %d
+09=Nama berkas: %s|Ukuran: %s|FPS: %s|Jangkawaktu: %s|Jumlah kerangka: %d|Resolusi: %dx%d|EmpatCC: %s
+10=Sebagian dari unsur film tidak bisa diolah dengan benar. Kemungkinan kodeks audio atau video hilang.
+11=Tidak perlu menata fragmen film yang berhubungan dengan subtajuk terakhir.
+
+[Information and errors messages]
+01=Nomer subtajuk %d adalah subtajuk kosong dan akan dihapus.||Anda ingin meneruskan?.
+02=Nomer subtajuk %d:||"%s" punya aksara terlarang dan akan dihapus.||Anda ingin meneruskan?.
+03=Nomer subtajuk %d:||"%s" akan dihapus.||Anda ingin meneruskan?.
+04=Bagian dari nomer subtajuk %d:||"%s" akan dihapus, sehingga subtajuk akan menjadi:||"%s"||Anda ingin meneruskan?.
+05=Nomer subtajuk %d:||"%s" merupakan subtajuk berbaris satu dan mulai dengan "-".||Apakah anda ingin menghapus "-" sejak dari awal?.

@@ -1,0 +1,14 @@
+[Information]
+Name=ViPlay Subtitle File
+Extension=*.vsf
+Time structure=hh:mm:ss,zzz
+Time=True
+FPS=25
+New line char=|
+
+[Format text]
+{* VIPLAY SUBTITLE FILE *}
+{RepeatSub}
+{swStart}-{swEnd}={swText}
+{EndRepeat}
+

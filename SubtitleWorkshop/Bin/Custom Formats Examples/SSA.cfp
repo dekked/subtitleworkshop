@@ -1,0 +1,17 @@
+[Information]
+Name=SubStation Alpha
+Extension=*.ssa
+Time structure=h:mm:ss.zz
+Time=True
+FPS=25
+New line char=\n
+
+[Format text]
+Synch Point: Side 1 0m00s
+Collisions: Normal
+Timer: 100.0000
+Style: Default,Arial,26,253436,0,16777215,0,-1,0,2,2,2,20,20,10,0,0
+{RepeatSub}
+Dialogue: Marked=0,{swStart},{swEnd},Default,NTP,0000,0000,0000,!Effect,{swText}
+{EndRepeat}
+

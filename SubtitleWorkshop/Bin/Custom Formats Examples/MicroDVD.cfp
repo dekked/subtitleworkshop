@@ -1,0 +1,13 @@
+[Information]
+Name=MicroDVD
+Extension=*.sub
+Time structure=hh:mm:ss,zzz
+Time=False
+FPS=25
+New line char=|
+
+[Format text]
+{RepeatSub}
+{{swStart}}{{swEnd}}{swText}
+{EndRepeat}
+

@@ -1,0 +1,3016 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+	<title>The Subtitle Workshop Manual</title>
+	<link rel="stylesheet" href="style.css" type='text/css'/>
+</head>
+
+<body>
+<div align="center">
+	<h1>The Subtitle Workshop Manual</h1>
+	<h3>Subtitle Workshop version: <b>2.51</b></h3>
+	<h5>The ultimate subtitle editing tool!</h5>
+	Copyright &copy; 2001-2004 URUSoft.<br><br>
+	<i>(All key shortcuts mentioned in this manual are based on the defaults)</i><br><br><br><br>
+</div>
+
+<ul>
+	<li><a href="#1.0"><b>Chapter 1: Introduction to Subtitle Workshop</b></a>
+		<ul>
+			<li><a href="#1.1">1.1 General overview</a></li>
+			<li><a href="#1.2">1.2 Reading &amp; Writing engine</a>
+				<ul>
+					<li><a href="#1.2.1">1.2.1 What is URUSoft Subtitle API?</a></li>
+				</ul>
+			</li>
+			<li><a href="#1.3">1.3 Visual overview</a></li>
+			<li><a href="#1.4">1.4 Getting started</a>
+				<ul>
+					<li><a href="#1.4.1">1.4.1 Loading a subtitle file</a></li>
+					<li><a href="#1.4.2">1.4.2 Loading a video file</a></li>
+					<li><a href="#1.4.3">1.4.3 Create a new file</a></li>
+					<li><a href="#1.4.4">1.4.4 Adding subtitles</a></li>
+					<li><a href="#1.4.5">1.4.5 Deleting subtitles</a></li>
+					<li><a href="#1.4.6">1.4.6 Manually edit a subtitle</a></li>
+					<li><a href="#1.4.7">1.4.7 Style and color tags</a></li>
+					<li><a href="#1.4.8">1.4.8 FPS and Input FPS</a></li>
+				</ul>
+			</li>
+			<li><a href="#1.5">1.5 Command line parameters</a></li>
+			<li><a href="#1.6">1.6 Language files</a></li>
+			<li><a href="#1.7">1.7 Custom formats</a></li>
+		</ul>
+	</li>
+	<li><a href="#2.0"><b>Chapter 2: Time related features</b></a>
+		<ul>
+			<li><a href="#2.1">2.1 Framerate conversion</a></li>
+			<li><a href="#2.2">2.2 Set delay</a></li>
+			<li><a href="#2.3">2.3 Adjust subtitles</a>
+				<ul>
+					<li><a href="#2.3.1">2.2.1 Method 1: simple adjust, first and last dialogs</a></li>
+					<li><a href="#2.3.2">2.2.2 Method 2: synchronize using two points</a></li>
+					<li><a href="#2.3.3">2.2.3 Method 3: adjust to synchronized subtitles</a></li>
+					<li><a href="#2.3.4">2.2.4 Method 4: advanced subtitle adjust</a></li>
+				</ul>
+			</li>
+			<li><a href="#2.4">2.4 Duration limits</a></li>
+			<li><a href="#2.5">2.5 Time expander/reducer</a></li>
+			<li><a href="#2.6">2.6 Read times from file</a></li>
+			<li><a href="#2.7">2.7 Extend length</a></li>
+			<li><a href="#2.8">2.8 Automatic durations</a></li>
+			<li><a href="#2.9">2.9 Shift subtitles</a></li>
+		</ul>
+	</li>
+	<li><a href="#3.0"><b>Chapter 3: Text &amp; subtitles related features</b></a>
+		<ul>
+			<li><a href="#3.1">3.1 Smart line adjust</a></li>
+			<li><a href="#3.2">3.2 Convert case</a></li>
+			<li><a href="#3.3">3.3 Unbreak subtitles</a></li>
+			<li><a href="#3.4">3.4 Divide lines</a></li>
+			<li><a href="#3.5">3.5 Set maximum line length</a></li>
+			<li><a href="#3.6">3.6 Read texts from file</a></li>
+			<li><a href="#3.7">3.7 Combine subtitles</a></li>
+			<li><a href="#3.8">3.8 Right-to-left</a>
+				<ul>
+					<li><a href="#3.8.1">3.8.1 Reverse text</a></li>
+					<li><a href="#3.8.2">3.8.2 Fix punctuation</a></li>
+				</ul>
+			</li>
+			<li><a href="#3.8">3.8 Sort</a></li>
+			<li><a href="#3.10">3.10 Delete unnecessary links</a></li>
+			<li><a href="#3.11">3.11 Search &amp; Replace</a></li>
+			<li><a href="#3.12">3.12 Marked subtitles</a></li>
+		</ul>
+	</li>
+	<li><a href="#4.0"><b>Chapter 4: Settings explained</b></a>
+		<ul>
+			<li><a href="#4.1">4.1 General</a>
+				<ul>
+					<li><a href="#4.1.1">4.1.1 Advanced</a></li>
+					<li><a href="#4.1.2">4.1.2 Charsets</a></li>
+				</ul>
+			</li>
+			<li><a href="#4.2">4.2 Formats</a></li>
+			<li><a href="#4.3">4.3 File types</a></li>
+			<li><a href="#4.4">4.4 Save</a></li>
+			<li><a href="#4.5">4.5 Video preview</a>
+				<ul>
+					<li><a href="#4.5.1">4.5.1 Subtitles</a></li>
+				</ul>
+			</li>
+			<li><a href="#4.6">4.6 External preview</a>
+				<ul>
+					<li><a href="#4.6.1">4.6.1 General</a></li>
+					<li><a href="#4.6.2">4.6.2 Advanced</a></li>
+				</ul>
+			</li>
+			<li><a href="#4.7">4.7 Look</a>
+				<ul>
+					<li><a href="#4.7.1">4.7.1 Program</a></li>
+					<li><a href="#4.7.2">4.7.2 List</a></li>
+					<li><a href="#4.7.3">4.7.3 Menu</a></li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+	<li><a href="#5.0"><b>Chapter 5: Tools</b></a>
+		<ul>
+			<li><a href="#5.1">5.1 Spell check</a></li>
+			<li><a href="#5.2">5.2 Batch convert</a></li>
+			<li><a href="#5.3">5.3 Split subtitles</a></li>
+			<li><a href="#5.4">5.4 Join subtitles</a></li>
+			<li><a href="#5.5">5.5 Information and errors</a>
+				<ul>
+					<li><a href="#5.5.1">5.5.1 Errors &amp; fixes explained</a></li>
+					<li><a href="#5.5.2">5.5.2 Settings explained</a></li>
+					<li><a href="#5.5.3">5.5.3 OCR Scripts</a></li>
+					<li><a href="#5.5.4">5.5.4 Syntax of Regular Expressions</a></li>
+				</ul>
+			</li>
+			<li><a href="#5.6">5.6 Add FPS from AVI</a></li>
+			<li><a href="#5.7">5.7 External preview</a></li>
+			<li><a href="#5.8">5.8 Internal Preview: The video engine</a></li>
+			<li><a href="#5.9">5.9 SAMI Language Extractor</a></li>
+		</ul>
+	</li>
+	<li><a href="#FAQ"><b>Frequently Asked Questions [FAQ]</b></a></li>
+	<li><a href="#CONTACT"><b>Contact information</b></a></li>
+	<li><a href="#LICENSE"><b>License</b></a></li>
+</ul>
+
+<!---------------------------------------------------------->
+<!--    Chapter 1: Introduction to Subtitle Workshop      -->
+<!---------------------------------------------------------->
+<a name="1.0"></a><h2>Chapter 1: Introduction to Subtitle Workshop</h2><br>
+
+<a name="1.1"></a><h3>1.1 General overview</h3>
+Subtitle Workshop is the most complete, efficient and convenient subtitle editing tool. It supports all the subtitle formats you
+need and has all the features you would want from a subtitle editing program. Subtitle Workshop makes subtitle
+creating/editing/converting tasks almost a pleasure, the amicable and intuitive interface mixes easy to access menus &amp;  must
+have features with advanced functions and a remarkable speed and stability, drastically reducing subtitle editing time.
+It includes spell check function and an advanced video preview feature which will ease the task even more. The best choice for the
+beginner, expert or the fansubber. Have a try, and you'll forget the rest!.
+<br>
+<br>
+Subtitle Workshop was originally thought in order to make subtitle editing very easy, but having all the necessary and
+not-so-necessary features that make the life of a subtitle editor or translator easier. The visual interface is one of
+the many things that characterizes Subtitle Workshop. Most of the options are indeed, self-explanatory so even a kid can
+use this software.
+<br>
+<br>
+
+<b>Complete list of features:</b>
+<ul>
+	<li>Reading and writing engine
+		<ul>
+			<li>Based in URUSoft SubtitleAPI, so new formats can be easily added by downloading an updated dll file.</li>
+			<li>Currently (version 1.05 of SubtitleAPI) supports around 56 subtitle formats.</li>
+			<li>Can handle both time and frame based subtitles.</li>
+			<li>Can load files in plain text format so that you can set the timings.</li>
+			<li>Supports reading and writing style tags (bold, italic, underline) and color tags in format which support it.</li>
+			<li>Supports Output Settings in DVDSubtitle, SAMI, Sonic Scenarist, SubStation Alpha, SubViewer 1 &amp; 2 and TMPlayer formats.</li>
+			<li>Supports saving a subtitle in your custom format.</li>
+		</ul>
+	</li>
+	<li>Interface
+		<ul>
+			<li>User friendly.</li>
+			<li>Configurable shortcuts.</li>
+			<li>Supports multi-language (currently over 35 languages are available!).</li>
+			<li>Can switch between interfaces to adapt to the user's need, you can turn Video Preview Mode on and off and Translator Mode on and off.</li>
+			<li>User friendly "Translator mode".</li>
+		</ul>
+	</li>
+	<li>Video preview
+		<ul>
+			<li>Integrated in the main window.</li>
+			<li>Shows subtitles over the video.</li>
+			<li>Can show information about the video you are watching.</li>
+			<li>You are able to customize foreground color, background color (or transparent), show border or not, show shadow or not, border and shadow's width of the subtitles.</li>
+			<li>NOT based in Windows Media Player, this results in a highly improved performance and visual quality.</li>
+		</ul>
+	</li>
+	<li>Subtitle fixing
+		<ul>
+			<li>Highly enhanced functions strictly designed to get speed and a high grade of efficiency.</li>
+			<li>Advanced &amp; easy to customize text scripts for OCR errors repair, offering the possibility of using regular expressions.</li>
+			<li>Powerful and totally customizable error fixing engine.</li>
+			<li>Possibility to mark errors in the main list with a different font style and color so that it is easy to identify them visually.</li>
+			<li>Optional automated checks/fixes on load subtitle.</li>
+			<li>Checks and fixes (all are optional, you may configure it): empty subtitles, lines without letters, overlapping, bad values, hearing impaired subtitles, text before colon (":") (optional - "Only if text is in capital letters"), unnecessary dots, "-" in subtitles with one line, subtitles over two lines, prohibited characters (configurable characters), repeated characters (configurable characters), repeated subtitles (configurable time tolerance), OCR errors, spaces before custom characters, spaces after custom characters, unnecessary spaces, too long/short durations and too long lines (only check).</li>
+		</ul>
+	</li>
+	<li>General
+		<ul>
+			<li>Extremely customizable.</li>
+			<li>Multi-level Undo-Redo.</li>
+			<li>Spell check using Microsoft Word's engine, so it supports any installed language.</li>
+			<li>Can create new subtitles from scratch.</li>
+			<li>Easily add and delete subtitles with "Insert" and "Delete" keys.</li>
+			<li>Can split subtitle (at selected item, at given item, at given time, at given frame, or at the end of video), or in an indefinite number of parts (equal in time, in lines or at the end of multiple videos).</li>
+			<li>Can join an indefinite number of subtitles, and those subtitles may be in different formats with different FPS (you can select a different FPS for each file).</li>
+			<li>Two methods of getting FPS from video: without using DirectX (only supports AVI) and using DirectX (supports all video formats, but it is slower).</li>
+			<li>You are able to choose which subtitle extensions to associate.</li>
+			<li>Supports drag &amp; drop (subtitle files and video files).</li>
+			<li>Supports command line.</li>
+			<li>Recent files list (customizable number of recent files from 0 to 20).</li>
+		</ul>
+	</li>
+	<li>Timing operations
+		<ul>
+			<li>Set delay (positive or negative, time or frames).</li>
+			<li>Set duration limits (maximum duration and minimum duration).</li>
+			<li>Adjust subtitles using four possible methods: 1- first and last dialogs, 2- synchronize using two points (linear algorithm), 3- Adjust to synchronized subtitles and 4- Advanced system to synchronize subtitles using an indefinite number of points.</li>
+			<li>"Time expander/reducer" to expand/reduce the final time of certain subtitles under certain conditions.</li>
+			<li>"Automatic durations" to calculate the duration of subtitles using a simple formula.</li>
+			<li>FPS Conversion with one click.</li>
+			<li>"Extend length" to extend the length of selected subtitles to the start time of the next one.</li>
+			<li>"Shift subtitle" forward or backwards a configurable amount of time.</li>
+			<li>"Read times from file" feature, to fix a subtitle using another subtitle's times.</li>
+		</ul>
+	</li>
+	<li>Text-related operations
+		<ul>
+			<li>Search &amp; Replace text with "Match whole words", "Case sensitive" and "Preserve case" options.</li>
+			<li>"Smart line adjust" to constrain subtitles bigger than three lines into two and adjust length of lines.</li>
+			<li>"Convert case" with 6 different conversion modes.</li>
+			<li>"Unbreak subtitles" to make all selected subtitles be in one line.</li>
+			<li>"Divide lines" to easily divide a subtitle with more than one line (or one big line) into two subtitles with proper time recalculation.</li>
+			<li>"Reverse text" keeping lines order or not.</li>
+			<li>"Fix punctuation", very useful for right-to-left languages.</li>
+			<li>"Delete unnecessary links" to delete the unnecessary "..." if they are present the end of one line and at the beginning of the next one.</li>
+			<li>"Read texts from file" feature, to fix a subtitle using another subtitle's text.</li>
+		</ul>
+	</li>
+	<li>Text and times related
+		<ul>
+			<li>"Sort subtitles" to sort all the subtitles according to their start time.</li>
+			<li>"Combine subtitles" to make all the selected subtitles become only one (for eg. "- Hi!" and "- Hey!!!" to "- Hi!|- Hey!!!").</li>
+			<li>Visual effects with the texts and times of the subtitles.</li>
+			<li>Possibility to mark subtitles for later review (and of course unmark them) and read Subtitle Report Files (*.srf) generated by ViPlay.</li>
+		</ul>
+	</li>
+</ul>
+<br>
+<b>Current list of supported formats:</b>
+<ul>
+	<li>Adobe Encore DVD (*.txt)</li>
+	<li>Advanced SubStation Alpha (*.ass)</li>
+	<li>AQTitle (*.aqt)</li>
+	<li>Captions 32 (*.txt)</li>
+	<li>Captions DAT (*.dat)</li>
+	<li>Captions DAT Text (*.dat)</li>
+	<li>Captions Inc. (*.txt)</li>
+	<li>Cheetah (*.asc)</li>
+	<li>CPC-600 (*.txt)</li>
+	<li>DKS Subtitle Format (*.dks)</li>
+	<li>DVD Junior (*.txt)</li>
+	<li>DVD Subtitle System (*.txt)</li>
+	<li>DVDSubtitle (*.sub)</li>
+	<li>FAB Subtitler (*.txt)</li>
+	<li>IAuthor Script (*.txt)</li>
+	<li>Inscriber CG (*.txt)</li>
+	<li>JACOSub 2.7+ (*.jss; *.js)</li>
+	<li>Karaoke Lyrics LRC (*.lrc)</li>
+	<li>Karaoke Lyrics VKT (*.vkt)</li>
+	<li>KoalaPlayer (*.txt) (equal to one of the variations of TMPlayer)</li>
+	<li>MAC DVD Studio Pro (*.txt)</li>
+	<li>MacSUB (*.scr)</li>
+	<li>MicroDVD (*.sub)</li>
+	<li>MPlayer (*.mpl)</li>
+	<li>MPlayer2 (*.mpl)</li>
+	<li>MPSub (*.sub)</li>
+	<li>OVR Script (*.ovr)</li>
+	<li>Panimator (*.pan)</li>
+	<li>Philips SVCD Designer (*.sub)</li>
+	<li>Phoenix Japanimation Society (*.pjs)</li>
+	<li>Pinnacle Impression (*.txt)</li>
+	<li>PowerDivX (*.psb)</li>
+	<li>PowerPixel (*.txt)</li>
+	<li>QuickTime Text (*.txt)</li>
+	<li>RealTime (*.rt)</li>
+	<li>SAMI Captioning (*.smi)</li>
+	<li>Sasami Script (*.s2k)</li>
+	<li>SBT (*.sbt)</li>
+	<li>Sofni (*.sub)</li>
+	<li>Softitler RTF (*.rtf)</li>
+	<li>SonicDVD Creator (*.sub)</li>
+	<li>Sonic Scenarist (*.sst)</li>
+	<li>Spruce DVDMaestro (*.son)</li>
+	<li>Spruce Subtitle File (*.stl)</li>
+	<li>Stream SubText Player (*.sst)</li>
+	<li>Stream SubText Script (*.ssts)</li>
+	<li>SubCreator 1.x (*.txt)</li>
+	<li>SubRip (*.srt)</li>
+	<li>SubSonic (*.sub)</li>
+	<li>SubStation Alpha (*.ssa)</li>
+	<li>SubViewer 1.0 (*.sub)</li>
+	<li>SubViewer 2.0 (*.sub)</li>
+	<li>TMPlayer (*.txt) (five different variations)</li>
+	<li>Turbo Titler (*.txt)</li>
+	<li>Ulead DVD Workshop 2.0 (*.txt)</li>
+	<li>ViPlay Subtitle File (*.vsf)</li>
+	<li>ZeroG (*.zeg)</li>
+</ul>
+<br>
+<br>
+
+<a name="1.2"></a><h3>1.2 Reading &amp; Writing engine</h3>
+
+Subtitle Workshop's reading &amp; writing engine has highly evolved since the beginning, and was rewritten from scratch a
+bunch of times. Many people have gladly reported bugs and they were all fixed as soon as we could. As time passed, the
+engine became more reliable and stable. Because of this reliability is that we decided to release <b>URUSoft Subtitle API</b>.
+
+<br>
+<br>
+<br>
+
+<a name="1.2.1"></a><h5>1.2.1 What is URUSoft Subtitle API?</h5>
+It is simply a dynamic link library (DLL) which contains the Subtitle Workshop reading and writing engine. This DLL was created so
+updates in the reading engine of Subtitle Workshop can be published without releasing a new version, that not only includes bug
+fixes, but also new subtitle formats. Because of this DLL, you only have to download few kb instead of more than 800 kb if you find
+a bug in the reading or writing engine.<br>
+After downloading the DLL, you must go to Subtitle Workshop's folder and put it in the "SubtitleAPI" directory. The next time you open
+Subtitle Workshop, new formats/bug fixes will make effect.
+<br>
+<br>
+<br>
+
+<a name="1.3"></a><h3>1.3 Visual overview</h3>
+If we are going to have a visual overview, we should start by looking at a screenshots. To view some, click
+<a href="http://www.urusoft.net/products.php?cat=sw&lang=1">here</a>.
+<br>
+<br>
+One of the things that make Subtitle Workshop unique is it's interface - very user friendly but at the same time keeps the basic
+and advanced functionality in easy to access menus.<br>
+The interface is ideal for virtually *any* task - you can obtain an excellent performance creating subtitles, fixing times manually,
+translating subtitles, and of course, using all the built in features.
+<br>
+<br>
+<br>
+
+<a name="1.4"></a><h3>1.4 Getting started</h3>
+Get started using Subtitle Workshop's basic features.
+<br>
+
+<a name="1.4.1"></a><h5>1.4.1 Loading a subtitle file</h5>
+To load a subtitle file simply click the <b>"File/Load Subtitle"</b> menu or press <b>[Ctrl]+[O]</b> keys. Additionally,
+you can drop your file into the main window, or if the extensions are associated, just double click on the subtitle file
+you wish to open.
+<br>
+<br>
+Every time you load a file using any of this methods, the file will be checked to see if it is a valid file and which is the format
+of it. Most of the files will load properly, but if you get the "The file is a bad subtitle or an unsupported format" error message,
+there is still some chance you can load the file. First of all you <b>MUST</b> be sure about the format of the file, if you are,
+then proceed like this:
+<ol>
+	<li>Click the <b>"File/Load subtitle"</b> menu.</li>
+	<li>A dialog will pop up, you have to select the right filter in it (there is a combo box where you see the "All supported files"
+	text, you have to click the button with the arrow that is next to it and select the format of the file).</li>
+	<li>Once you have done this, press the <b>Open</b> button in the dialog.</li>
+</ol>
+This way there will be no automatic format recognition nor file check. If the file still can't be loaded, you will get an error
+message. In this case, if you are sure the file is a text-based subtitle format <a href="http://www.urusoft.net/contactus.php?lang=1">e-mail it
+to me</a> and I'll fix it.
+
+<br>
+<br>
+<br>
+
+<a name="1.4.2"></a><h5>1.4.2 Loading a video file</h5>
+To load a video file simply click the <b>"Movie/Open"</b> menu or press the <b>[Ctrl]+[P]</b> keys. If you get the "File is
+not a valid video file" error message, make sure you have the right codecs installed. If you don't, download
+<A HREF="http://jdoe.host.sk/">Coda Codec Pack</A>, it should fix most of the playback problems.
+
+<br>
+<br>
+<br>
+
+<a name="1.4.3"></a><h5>1.4.3 Create a new file</h5>
+Using Subtitle Workshop you can easily create new files from scratch, and then save them in any format. To do so, click the
+<b>"File/New subtitle..."</b> menu or press <b>[Ctrl]+[N]</b> keys. Once you have done this, you can start adding subtitles, and
+then save the file by the <b>"File/Save"</b> menu or pressing <b>[Ctrl]+[S]</b> keys.
+
+<br>
+<br>
+<br>
+
+<a name="1.4.4"></a><h5>1.4.4 Adding subtitles</h5>
+You just need to press the <b>Insert</b> key or click the <b>"Edit/Insert subtitle"</b> menu. The subtitle will always be added right
+after the focused item. The default duration of the new subtitle is one second, and the start time of it is always going to be the
+final time of the previous one plus 1 millisecond. If you are adding the subtitle in a blank list, the initial time of it will be
+zero.<br><br>
+If you want to insert a subtitle before the selected item, press <b>[Shift]+[Insert]</b> keys or the <b>"Edit/Insert before"</b>
+menu.
+
+<br>
+<br>
+<br>
+
+<a name="1.4.5"></a><h5>1.4.5 Deleting subtitles</h5>
+Select all the subtitles you wish to delete by holding Ctrl key and click in them and press the <b>Delete</b> key or click the
+<b>"Edit/Remove selected"</b> menu.
+
+<br>
+<br>
+<br>
+
+<a name="1.4.6"></a><h5>1.4.6 Manually edit a subtitle</h5>
+Every subtitle is composed by three parts:
+<ol>
+	<li>The <b>initial time</b> - the time in which the subtitle is shown.</li>
+	<li>The <b>final time</b> - the time in which the subtitle is hidden.</li>
+	<li>The <b>text</b> - the subtitle itself.</li>
+</ol>
+Subtitle Workshop lets you easily edit any of these fields.<br><br>
+To edit the initial time just click the <b>"Show"</b> field, set the time (or frames) you wish and press <b>[Enter]</b>.<br>
+To edit the final time click the <b>"Hide"</b> field, set the time (or frames) you wish and press <b>[Enter]</b>. Note that you
+can also edit the final time of a subtitle by changing the <b>"Duration"</b> field.<br>
+Additionally, you can edit any of this time values using the Up-Down buttons at the right side of each text box.<br><br>
+
+To edit the text, simply click the "Text" box and write the desired text. In the list of subtitles, the character <b>"|"</b> (pipe)
+represents new line.
+<br>
+<br>
+<br>
+
+<a name="1.4.7"></a><h5>1.4.7 Style and color tags</h5>
+First of all, you must know that Subtitle Workshop <b>only</b> supports tags for <b>the whole subtitle</b>. So if you really want
+to apply font style over one part of the subtitle, you are going to need notepad. As it only supports tags for the whole subtitle,
+you only need to open the tags because closing them would be useless. The supported tags are:
+<ul>
+	<li><b>&lt;b&gt;</b> for <b>bold</b></li>
+	<li><b>&lt;i&gt;</b> for <i>italic</i></li>
+	<li><b>&lt;u&gt;</b> for <u>underline</u></li>
+	<li><b>&lt;c:#<FONT COLOR="#FF0000">RR</FONT><FONT COLOR="#00FF00">GG</FONT><FONT COLOR="#0000FF">BB</FONT>&gt;</b> for color,
+	the format of the color is HTML format</li>
+</ul>
+To add this tags you can simply write them, and additionally you can right-click the list of subtitles and a menu will pop up, you
+can use this menu to control the all tags on the selected subtitles. Note that more than one tag can be used in the same subtitle
+(of course, if they are all different tags), it may have even the 4 supported tags at the same time.
+<br>
+<br>
+<b>WARNING:</b> Please note that not all subtitle formats support style tags, nor color tags. If you save these tags in a subtitle
+format which doesn't support them, the tags will be lost.
+<br>
+<br>
+<br>
+
+<a name="1.4.8"></a><h5>1.4.8 FPS and Input FPS</h5>
+Knowing the difference between this two fields is crucial to work with Subtitle Workshop.
+<br>
+<br>
+<b>Input FPS </b>is the FPS of the movie that the subtitle was originally made for. <b>FPS</b> is the FPS of the movie you want it
+to adjust the subtitle to. You have to modify this field in order to convert FPS. When editing frame based subtitles there is no
+need for Input FPS (we only need FPS) so "Input FPS" will become absolutely useless after loading frame based subtitles (it won't
+have any effect in the times).
+<br>
+<br>
+<b>Q:</b> How do I convert a 25 FPS subtitle File into 29,97?<br>
+<b>A:</b> Simply set "Input FPS" to 25, load the subtitle file and then set "FPS" to 29,97. You have just changed framerate of the
+file.
+<br>
+<br>
+<br>
+
+<a name="1.5"></a><h3>1.5 Command line parameters</h3>
+It is highly recommended that you send each parameter to Subtitle Workshop between " " to avoid problems with spaces in the
+name/path of the files.<br><br>
+
+<b>To open a file:<br>
+SubtitleWorkshop.exe "/OPEN(File)"</b>
+<br>
+<br>
+Example:<br>
+<i>SubtitleWorkshop.exe "/OPEN(C:\Subtitle.srt)"</i>
+<br>
+<br>
+<b>To convert from one format to another:<br>
+SubtitleWorkshop.exe "/CONVERT(Input_File/Output_File/Output_Format/Input_FPS/Output_FPS)"
+</b>
+<br>
+<br>
+Input FPS and Output FPS are only required if you are handling frame based files, if not, you may specify any value. In the FPS, if
+not a rounded value, the decimal digits have to be separated using the decimal separator (configurable from Control panel/Regional
+and language settings) of the PC on which Subtitle Workshop is running. Usually it is "," or ".". The subtitle format has to be in
+the form of a string, and if you are using an updated version of SubtitleAPI you may specify new formats, since the possible
+formats depends on the version of SubtitleAPI.<br><br>
+For you to know all the supported formats and <b>*exactly*</b> how you should write them, call Subtitle Workshop like this:<br><br>
+<b>SubtitleWorkshop.exe /GetSupportedFormats</b><br><br>
+After doing this Subtitle Workshop will save a list of the supported formats to the path in which it is installed, in a TXT file with
+the name "SupportedFormats.txt".
+<br>
+<br>
+Some examples:<br>
+<i>
+SubtitleWorkshop.exe "/CONVERT(C:\Folder\Sub.smi/C:\Subtitle.pjs/Phoenix Japanimation Society/25/29,97)"<br>
+SubtitleWorkshop.exe "/CONVERT(C:\Subtitle.vsf/C:\Subtitle.jss/JACOSub 2.7+/23,976/0)"<br>
+SubtitleWorkshop.exe "/CONVERT(C:\Subtitle.srt/C:\Subtitle.sub/MicroDVD/29,97/29,97)"<br>
+</i>
+<br>
+
+<b>To delay a file:<br>
+SubtitleWorkshop.exe "/DELAY(Input_File/Output_File/Input_FPS/Delay_in_Milliseconds)"
+</b>
+<br>
+<br>
+
+Example:<br>
+<i>SubtitleWorkshop.exe "/DELAY(C:\Subtitle.srt/C:\Subtitle.srt/0/-5000)"</i><br><br>
+The example above will set a -5 seconds delay to Subtitle.srt and overwrite it. We specify 0 as FPS since we are loading a time
+based format. As in the parameter to convert a file, if FPS is not a rounded value, the decimal digits have to be separated using
+the decimal separator of the PC in which Subtitle Workshop is running. If you specify a wrong FPS and FPS is really needed, then
+the default FPS (25) will be used.
+
+<br>
+<br>
+<br>
+
+<a name="1.6"></a><h3>1.6 Language files</h3>
+You can easily create your own language file or update a currently existing language file and use it in Subtitle Workshop. To do so,
+you must translate the English.lng (or any other .lng) file to the language you want, and then copy it to the Langs directory with
+the name language.lng. For example, Español.lng, English.lng, Français.lng.<br><br>
+<b>Warning! </b>
+Do <b>*NOT*</b> translate the text between "[ ]" and the text after the % sign (for example "%s" or "%d"). Otherwise the language
+file will not work properly!.
+<br>
+<br>
+<b>Tips:</b>
+<ul>
+	<li>If the language you are translating to use another charset than ANSI_CHARSET do not forget to change it on the [General] section. Read charsets.txt for a reference.</li>
+	<li>In the messages, character "|" (pipe) represents new line.</li>
+</ul>
+
+After you create a language file, <a href="http://www.urusoft.net/contactus.php?lang=1">send it to me</a> so I can distribute it with the
+installation package. The name of the translator will be shown in the About Subtitle Workshop window.
+
+<br>
+<br>
+<br>
+
+<a name="1.7"></a><h3>1.7 Custom formats</h3>
+This feature makes possible to save a subtitle file in a format that Subtitle Workshop doesn't support, or to easily create your own
+format or text files with subtitles. This option is only to save files, if you do this in a format that Subtitle Workshop doesn't
+support, reading the file will not be possible.<br><br>
+To access the custom formats dialogue first load a subtitle, then click the <b>"File/Save as..." </b>menu and then click the
+<b>"Custom format"</b> button.<br><br>
+
+<b>Format name</b><br>
+This is useful to identify the format in which you are saving the file (or the project).
+<br>
+<br>
+
+<b>Extension</b>
+Specifies the file extension of the format. Subtitle Workshop will use this when saving the file. Please note that the format of
+the extension must be "*.CHARS".
+<br>
+<br>
+
+<b>Structure</b><br>
+Specifies the time structure. <b>h</b> represents hours, <b>m</b> minutes, <b>s</b> seconds and <b>z</b> milliseconds. If you write
+more than one h or "m" or "s" or "z", all the h or "m" or "s" or "z" have to be together. You can't write something like
+"h:m:h:,zmzs". A time like "00:00:00,0" would be "hh:mm:ss,z" and a time like "0:00:00,000" would be "h:mm:ss,zzz". If you want the
+time structure to be just milliseconds, write "MS" instead of a time structure.
+<br>
+<br>
+
+<b>Time or frames</b><br>
+Check the "Time" field if you are going to work with time. If you are going to work with frames, then check the "frames" field and
+you don't need to specify a structure, because frames are always going to be a simple number.
+<br>
+<br>
+
+<b>FPS</b><br>
+Select the FPS of the subtitle you are saving. If you are saving a time subtitle to another time subtitle you don't need to touch
+this.
+<br>
+<br>
+
+<b>New line char</b><br>
+Specifies the character(s) to separate lines in subtitles. If you want to make new lines like in SubRip format (without using any
+new line char, just separating lines) then you should write "[Enter]" as the new line character.
+<br>
+<br>
+
+<b>Load project</b><br>
+Click this button to load the a custom format project from an already saved file (*.cfp).
+<br>
+<br>
+
+<b>Save project</b><br>
+Click this button to save the project into a *.cfp file. This will save all the information visible on the "Custom formats" dialogue.
+<br>
+<br>
+
+<b>Text of the custom format script</b><br>
+This is very simple. The parts that Subtitle Workshop will write to a file can be divided in three, and in this order:
+<ol>
+	<li>A part that is written only once at the <b>beginning</b> of the file</li>
+	<li>A part that is <b>repeated</b> each time there is a new subtitle</li>
+	<li>A part that is written only once at the <b>end</b> of the file</li>
+</ol>
+All you have to do is to write those three sections in the text box. When you first open the "Custom formats" dialogue you can see
+a commented example. Comments are started with ** and are finished with !*. Due to this you can't write the characters "<b>**</b>"
+to a file because it would be understood as a comment start. If you want to write this two characters into a file you may use
+<b>{asterisk}</b> (this will write only one asterisk). To write two, "{asterisk}*" or "{asterisk}{asterisk}" are the same.<br><br>
+First write the first section (if there is). Then begin the second section (the repeating part) with <b>{RepeatSub}</b>.
+<br>
+<br>
+
+<b>Repeating section</b><br>
+In this section it is possible to write 4 things.
+<ol>
+	<li>
+		The start time of the subtitle. You have to write <b>{swStart}</b> and Subtitle Workshop will replace it by the initial time (or
+		frames) of the actual subtitle. You can also write <b>{swFrameStart}</b> and the program will replace by the frame. In this way
+		you can save the time, for example in hh:mm:ss,zzz:FRAMES format. If you want to put zeros in the left until you reach the
+		desired length, you can write {swFrameStart,DesiredTotalLength}. You can do the same with the end frame.
+	</li>
+	<li>
+		The end time of the subtitle. You have to write <b>{swEnd}</b> and Subtitle Workshop will replace it by the final time (or frames) of
+		the actual subtitle. You can also write <b>{swFrameEnd}</b>.
+	</li>
+	<li>
+		The subtitle's text. You have to write <b>{swText}</b> and Subtitle Workshop will replace it by the subtitle's text, with the new
+		line char you selected.
+	</li>
+	<li>
+		The subtitle count (like in SubRip format). You have to write <b>{SubCount}</b>. This variable holds the actual index of the
+		subtitle. If you are in the first, subtitle, it will be "1", if you are in the second, it will be "2", etc. Some formats
+		like SonicDVD need to add zeros in the left until the length of the number string is for example 4. For this, write
+		<b>{SubCount,DesiredTotalLength}</b> and Subtitle Workshop will add zeros automatically.
+	</li>
+</ol>
+Check the "CEF Examples" folder, and load some examples to see how to use this feature better.
+
+<br>
+<br>
+<br>
+
+<!---------------------------------------------->
+<!--    Chapter 2: Time related features      -->
+<!---------------------------------------------->
+<a name="2.0"></a><h2>Chapter 2: Time related features</h2><br>
+
+<a name="2.1"></a><h3>2.1 Framerate conversion</h3>
+See <A HREF="#1.4.8">FPS and Input FPS</A>.
+
+<br>
+<br>
+<br>
+
+<a name="2.2"></a><h3>2.2 Set delay</h3>
+Subtitle Workshop can set a positive or a negative delay, in time or frames. The delay is a fixed time or frames (constant) that
+represents the difference of the points where the subtitles should start, and actually start. To apply a delay, first load your
+subtitle, then click the <b>"Edit/Timings/Set delay..."</b> menu or press <b>[Ctrl]+[D]</b> keys. The delay dialog will pop up.<br>
+If you are working in the time mode, you should set a time delay and if you are working in the frames mode, you should set a frames
+delay. Subtitle Workshop will automatically detect it. You are able to choose if you want to apply the delay to all the subtitles
+or just to the selected ones, useful if only one part of the subtitle gets appears later than it should.
+<br>
+<br>
+<br>
+
+<a name="2.3"></a><h3>2.3 Adjust subtitles</h3>
+Subtitle Workshop can synchronize subtitles to a video by four methods. Whatever method you want to use, the first thing you have
+to do is <a href="#1.4.1">load the subtitle file</a> you are going to adjust, and for methods 1, 2 y 4 you need to
+<a href="#1.4.2">load the video</a> file you want to take as a reference.<br>
+
+<a name="2.3.1"></a><h5>2.2.1 Method 1: simple adjust, first and last dialogs</h5>
+This method offers a lot of accuracy, and is recommended in most cases. After you loaded the subtitle file and video, do this:<br>
+	<ul>
+		<li>Play the video until you reach the <b>first spoken dialog</b> or the first place that should be subtitled in the movie,
+		and when you hear/read it, take note the time (you will need it later).</li>
+		<li>Seek to the near end of the video and when you hear/read the <b>last spoken dialog</b> or the last place that
+		should be subtitled, take note the time, too.</li>
+		<li>You can additionally take this two time values from an external video player instead of using Subtitle Worksop's
+		video preview.</li>
+		<li>After you have followed this steps, click the <b>"Edit/Timings/Adjust subtitles..."</b> or the <b>[Ctrl]+[B]</b>
+		keys. Switch to "Simple" tab. In "First spoken line" write the first time, and in "Last spoken line" write the last
+		time. Then press <b>Adjust!</b> button.</li>
+	</ul>
+
+<a name="2.3.2"></a><h5>2.2.2 Method 2: synchronize using two points</h5>
+This method will work very well in most cases. It works by taking two points of the subtitle file and two points of the
+video, and calculate the times using a linear algorithm. The first pair of points will be called "First sync points" and the
+last pair of points will be called "Last sync points". Each pair of points consist in one point in the subtitle and one
+point in the video, the point in the subtitle has the wrong times and the point of the video has the right times. After
+selecting the first sync points and last sync points Subtitle Workshop calculates the rest of the times appropriately. The
+closer first sync points are to the beginning and last sync points are to the end, the most accuracy you get. Note: if the
+point of the subtitle selected in the first sync points corresponds to the first subtitle, and the point of the subtitle
+selected in the last sync points corresponds to the last subtitle, then the first formula (first and last dialogs) will be
+used.<br><br>
+After understanding this basics you have to do this:<br>
+	<ul>
+		<li>First of all, select the subtitle you want to mark as first point. The first point in the subtitle will always be the
+		selected subtitle's initial time.</li>
+		<li>Play the video until you find the right time for that subtitle (this will be the first point in the video), when you
+		do, click the <b>"Mark as first sync point"</b> button or press the <b>[Ctrl]+[1]</b> keys.</li>
+		<li>Now select the subtitle you want to mark as last sync point. The last sync point will be the selected subtitle's
+		initial time.</li>
+		<li>Play the video until you find the right time for that subtitle (this will be the last point in the video), when you
+		do, click the <b>"Mark as last sync point"</b> button or press the <b>[Ctrl]+[2]</b> keys.</li>
+	</ul>
+After doing this you will get a confirmation message, click "Yes" and the subtitle will be instantly synchronized.
+
+<a name="2.3.3"></a><h5>2.2.3 Method 3: adjust to synchronized subtitles</h5>
+Useful if you have desynchronized subtitles in one language and want to quickly adjust them to an already adjusted subtitle file in
+another language. This method will work even if both files have a different number of subtitles, the only requirement for proper
+adjustment is that first and last subtitles in both files correspond - that is, mean the same. This method is extremely easy: you
+just have to click the <b>"Timings/Adjust/Adjust to synchronized subtitles"</b> menu or press the <b>[Shift]+[Ctrl]+[B]</b>
+keys, and load the synchronized file. Note: this method is <b>NOT</b> the same as the "read times from file" feature.
+<br>
+<br>
+
+<a name="2.3.4"></a><h5>2.2.4 Method 4: advanced subtitle adjust</h5>
+Use this if the traditional two points adjust fails. This unique feature makes possible to adjust subtitles in the worst
+cases, when desynchronization is not constant, or is different in different parts of the subtitle. This system lets you
+select multiple subtitle/video points so that you can synchronize the subtitle by "parts". The maximum number of points you
+can select is the number of subtitles there are.<br>
+For the best performance to be achieved you first have to <a href="#1.4.1">load the subtitle file</a> and then
+<a href="#1.4.2">load the corresponding video</a>. In the video preview controls, you will notice that last button is "Add
+subtitle/video synchronization point". You will need this button later. This are the steps yous should follow now:
+
+<ul>
+	<li>First of all, select the subtitle you want to mark as point. The point will always be the selected subtitle's
+	initial time. This subtitle can be any subtitle in the file.</li>
+	<li>Play the video until you find the right time for that subtitle, when you do, click the <b>"Add subtitle/video
+	synchronization point"</b> button or press the <b>[Ctrl]+[Alt]+[P]</b> keys. The Adjust subtitles window will show,
+	and advanced mode will be set by default. This window is "non-modal", that means, you can still use the main Subtitle
+	Workshop interface while it is opened.</li>
+	<li>You need to repeat the two steps above for each point you want to add. You can additionally use the "Add" button to
+	enter a time manually, or the "Add from media" button to add points directly from the Adjust subtitles window (works the
+	same way as the button in the video preview control).</li>
+</ul>
+
+A <b>very</b> important thing you must know is the use of the <b>"If time is outside the points scope"</b> option. I will
+try to describe the three possibilities:
+
+<ul>
+	<li><b>Extrapolate</b>. Subtitle Workshop will use mathematical routines to calculate the times for <i>every subtitle in
+	the file</i> even if it is outside the scope of points. Using this you can have behaviours like the one you would obtain
+	using "synchronize using two points", but with more points.
+	</li>
+	<li><b>Return original time (no changes)</b>. If a time is outside the points range and you want to calculate the new
+	time, Subtitle Workshop will return the original time so no changes will be made. This is useful for eg. if you only want
+	to adjust subtitles 100-200 and leave all other subtitles like they are.</li>
+	<li><b>Return displacement of neighbour point</b>. If desired time is before first sync point, then it will calculate
+	the new time using the displacement of the first sync point. If desired time is after last sync point, then it will
+	calculate the new time using the displacement of the last sync point. Useful sometimes.
+</li>
+</ul>
+
+When you are done configuring all the settings, click the <b>Adjust!</b> button.
+
+<br>
+<br>
+<br>
+
+
+<a name="2.4"></a><h3>2.4 Duration limits</h3>
+Duration limits makes possible to fix the duration of all the subtitles in a file to a range of time. Subtitles which are shown less
+than 1 second are usually hard to read, except if they are short words like "Yes" or "Ok". Sometimes there are subtitles with more
+characters and with short duration, or subtitles with durations greater than 10 seconds, this are the cases in which you should use
+this feature. You can set a minimum and maximum possible duration for the subtitles. Each subtitle's duration which is shorter than
+the minimum duration allowed will be increased to the minimum possible duration you set, without causing overlapping with the next
+subtitle. Each subtitle's duration which is larger than the maximum possible duration will be set to the maximum duration you set.
+<br><br>
+To set duration limits click the <b>"Edit/Timings/Set duration limits..."</b> menu or press the <b>[Ctrl]+[L]</b> keys. After that
+you need to enter the maximum and minimum duration in milliseconds and press the <b>Apply</b> button.
+<br>
+<br>
+<br>
+
+
+<a name="2.5"></a><h3>2.5 Time expander/reducer</h3>
+Time expander/reducer is a very nice feature in the cases you have a subtitle file that contains some long subtitles with
+short durations. It is close to "Duration limits" but much more useful if the file only has long subtitles with short times.
+This feature lets you expand or reduce the duration of certain subtitles under certain conditions. To access to time
+expander/reducer click the <b>"Edit/Timings/Time expander/reducer"</b> menu or press <b>[Shift]+[Ctrl]+[Y]</b> keys.<br><br>
+The amount of time you want to expand or reduce the duration is customizable, and may be set in seconds (with a precision of
+up to one millisecond) if you are working in time mode, or in frames (with a precision of up to one frame) if you are
+working in frames mode. You can also choose to expand/reduce the duration only under certain conditions, only if the
+subtitle is longer than a customizable number of characters and/or only if duration is shorter/longer (depends if you want
+to expand or reduce duration) than a fixed time.
+Additionally, the "prevent overlapping" check box should be checked so that no overlapping errors occur while increasing
+the final time of the subtitles. When you have configured everything, you have to select if you want to apply time expander
+to all the subtitles or only to the selected subtitles. To finally expand the durations of the pertinent subtitles, press
+the <b>Apply</b> button.
+<br>
+<br>
+<br>
+
+<a name="2.6"></a><h3>2.6 Read times from file</h3>
+Useful if you have one subtitle file in which the text of each subtitle is right but the timings are not, and you have another file
+with the same number of subtitles and with the right times. You just have to load the file with the right texts, and then click the
+<b>"Edit/Timings/Read timings from file"</b> menu or press the <b>[Shift]+[Ctrl]+[T]</b> keys. A dialog will pop up, all you have to
+do is select the file with the right times in that dialog and load it.
+<br>
+<br>
+<br>
+
+<a name="2.7"></a><h3>2.7 Extend length</h3>
+"Extend length" works only for the selected subtitles and has no effect over the last subtitle of the file. What is does is, extend
+length of each subtitle to one millisecond before the start time of the next subtitle. To extend length first select
+the subtitles you want, and then click the <b>"Edit/Timings/Extend length"</b> menu or press the <b>[Shift]+[Ctrl]+[E]</b> keys.
+
+<br>
+<br>
+<br>
+
+<a name="2.8"></a><h3>2.8 Automatic durations</h3>
+"Automatic durations" is a very useful feature in the cases you have a subtitle file in which the duration of all (or some) subtitles
+is totally wrong. By specifying a time per character, word and line (the default values give very good results) Subtitle Workshop
+will calculate the appropiate duration for the subtitle. Another use this feature may have is for example when subtitling videos,
+to go faster you can only set start times manually and Subtitle Workshop will calculate all final times. To access "Automatic
+durations" click the <b>"Edit/Timings/Automatic durations"</b> menu or the <b>[Shift]+[Ctrl]+[R]</b> keys.<br>
+You can additionally specify if you want to apply new duration in all cases, only if it is greater than original or only if it is
+smaller than original. You can also apply calculated durations to all the subtitles or just the selected ones.<br><br>
+The use of this feature together with <a href="#2.4">Duration limits</a> and <a href="#5.5.1">Detect too long/short durations</a>
+from Information and Errors can give excellent results in a short time.
+<br>
+<br>
+<br>
+
+<a name="2.9"></a><h3>2.9 Shift subtitles</h3>
+This feature moves all the selected subtitles initial time a specified number of milliseconds forward/backwards, without modifying
+their duration. It is very useful to easily modify timings to synchronize with a movie. To shift selected subtitles forward, click
+the <b>"Edit/Timings/Shift +X milliseconds"</b> menu or the <b>[Shift]+[Ctrl]+[H]</b> keys. To shift selected subtitles backwards,
+click the <b>"Edit/Timings/Shift -X milliseconds"</b> menu or the <b>[Shift]+[Ctrl]+[N]</b> keys.
+<br>
+<br>
+<br>
+
+<!-------------------------------------------------------->
+<!--    Chapter 3: Text & subtitles related features    -->
+<!-------------------------------------------------------->
+<a name="3.0"></a><h2>Chapter 3: Text &amp; subtitles related features</h2><br>
+Subtitle Workshop isn't just an ordinary subtitle editor - and thus it offers many text related functions to ease your work.
+<br>
+<br>
+<br>
+
+<a name="3.1"></a><h3>3.1 Smart line adjust</h3>
+Smart line adjust is a very useful feature in the case you find a file that has a lot of subtitles that have more than two lines,
+or if the line breaks are just put stupidly. It constrains the subtitle's text to be in one or maximum two lines (depending on the
+length of it). This feature has a bit of "-" sign detection. You may choose the length after which the subtitle will be in two lines
+and not in one, in the "Two lines if longer than" option in Settings/General.<br><br>
+To use smart line adjust over a subtitle just select it and click the <b>"Edit/Texts/Smart line adjust"</b> menu or press
+<b>[Ctrl]+[E]</b>. Smart line adjust will take effect over all the selected subtitles, and they may be more than one. If you are
+working in translator mode, smart line adjust will affect both original and translated text.
+<br><br>
+Note that smart line adjust is not perfect and it may act badly in some cases, it is just thought to help a bit if the lines needed
+to adjust are a lot, and does its job quite well. It may act completely wrongly if there are words composed by the "-" sign,
+although I've added a little detection for words composed with "-" sign. If you want to apply Smart Line Adjust over a whole
+file, you can do it, but reading all the subtitle after that is highly recommended.
+<br>
+<br>
+<br>
+
+<a name="3.2"></a><h3>3.2 Convert case</h3>
+Have you ever found a unique subtitle file that is all in uppercase?, or all in lowercase?. Well, then "Convert case" is your
+feature. To access convert case dialogue click the <b>"Edit/Texts/Convert case..."</b> menu or press <b>[Shift]+[Ctrl]+[C]</b>.
+You are able to select among five different case conversion modes:
+
+<ol>
+	<li><b>"Sentence type"</b> only upper cases the first letter of a sentence. It turns "HELLO!, thiS iS VERY nice. i don't WANT
+	tO heAr IT." to "Hello!, this is very nice. I don't want to hear it.".<br><br>
+	if <b>""..." detection"</b> is enabled, it will check if the final three characters of the previous subtitle are "..." and if
+	they are, then it will not uppercase the first character of the current subtitle (it will think it's the continuation of the
+	previous subtitle). If <b>"Only first letter of first word"</b> option is enabled, Subtitle Workshop will uppercase only first letter
+	of each sentence and leave all other words like they are.<br><br>
+	</li>
+	<li><b>"Lowercase"</b> lower cases the whole text. Turns "HELLO!, thiS iS VERY nice. i don't WANT tO heAr IT." into
+	"hello!, this is very nice. i don't want to hear it."</li>
+	<li><b>"Uppercase"</b> upper cases the whole text. Turns "HELLO!, thiS iS VERY nice. i don't WANT tO heAr IT." to
+	"HELLO!, THIS IS VERY NICE. I DON'T WANT TO HEAR IT.".</li>
+	<li><b>"Title type"</b> only upper cases the first letter of each word. Turns "HELLO!, thiS iS VERY nice. i don't WANT tO heAr
+	IT." to "Hello!, This Is Very Nice. I Don'T Want To Hear It."</li>
+	<li><b>"Inverse type"</b> lower cases the uppercase characters and upper cases the lowercase characters. It reverses case. Turns
+	"HELLO!, thiS iS VERY nice. i don't WANT tO heAr IT." to "hello!, THIs Is very NICE. I DON'T want To HEaR it.".</li>
+</ol>
+
+Note that if you are working in translator mode, convert case will only work for original text. If you want it to work for
+translation, then use the "Swap" feature.
+<br>
+<br>
+<br>
+
+<a name="3.3"></a><h3>3.3 Unbreak subtitles</h3>
+Not much to say about this feature. It takes effect over all the selected subtitles, and make each one of them to be in only one
+large line. When working in translator mode, this feature affects the original text and also the translation.
+<br>
+<br>
+<br>
+
+<a name="3.4"></a><h3>3.4 Divide lines</h3>
+Divides a subtitle into two subtitles. Very useful for example if you have a subtitle file with a lot of subtitles with four (or more)
+lines, which are too big to be constrained into two lines with the <a href="#3.1">"Smart line adjust"</a> feature. Dividing a
+subtitle into two manually is possible but is a very annoying job, since after you insert the subtitle you also have to set all the
+times and cut text from the first subtitle to put in the second one. "Divide lines" does all this very quickly.<br><br>
+First of all you have to select the subtitle, then go to the <b>"Edit/Texts/Divide lines..."</b> menu or press
+<b>[Shift]+[Ctrl]+[D]</b>. Then the "Divide line" dialog will pop up. Note that if the selected subtitle has only one line that is
+shorter than the "Break line after" value set in Settings/Advanced, the menu will be disabled and the key shortcut will not work.<br>
+When in the divide line dialog, you are going to see two text boxes, one with first subtitle's text and the other one with second
+subtitle's text. You have to select after which line to divide, the default value will be correct most of the times. That option
+will be disabled if the subtitle you will divide has only two lines. When you change this value, the text of both text boxes will
+be updated. If you notice that a line break disappears in some of the parts, go to Settings/Advanced and uncheck "Smart line adjust
+automatically". If that option is checked, after updating the text of each text box, it will be smartly adjusted into one or two
+lines. If you want to do it manually, pass the focus to the desired text box and press <b>[Ctrl]+[E]</b>.<br>
+After this you should focus on the times of the subtitles. Most of the times the second subtitle will be displayed immediately
+after the first one, and so it is recommended to leave the "Continue directly" check box checked. If the second subtitle should be
+displayed some time after the first one, you have to uncheck the check box and write the start time of the second subtitle.
+Additionally you can use the time proportion buttons available at the top of the window. "1:1" means equal duration for both
+subtitles, "2:1" means the first part will be displayed the double time as the second one, etc. You can also choose if you want to
+use the original subtitle's time with proportionality buttons or to calculate an automatic duration for each new subtitle. In the
+second case, Subtitle Workshop will calculate the duration of the first new subtitle (based on duration per character on the
+original subtitle) and use it to calculate the duration of the second new subtitle.<br><br>
+Finally press the <b>"Divide!"</b> button. When working in translator mode, divide lines will only insert an untranslated line
+in the translation, it will not divide the lines since it only works for original subtitle.
+<br>
+<br>
+<br>
+
+<a name="3.5"></a><h3>3.5 Set maximum line length</h3>
+Splits the subtitle in N number of lines so that each of the lines is shorter than a maximum specified length. That maximum
+length is configurable from Settings/Advanced. This feature affects all the selected subtitles, and while in translator mode,
+affects original and translated text.<br><br>
+Example (Max. line length set to 45):<br><br>
+<b>"This is the extremely long text in which we are going to use this feature, that will break what you are reading in more
+lines."</b><br><br>
+To:<br><br>
+<b>"This is the extremely long text in which we<br>
+are going to use this feature, that will<br>
+break what you are reading in more lines."</b>
+<br>
+<br>
+The lines have respectively 43, 40 and 41 characters. As you can see, no line exceeds the maximum line length.<br>
+The resulting text doesn't look good on the screen, so this feature should be used together with "<a href="#3.4">Divide
+lines</a>".
+
+<br>
+<br>
+<br>
+
+<a name="3.6"></a><h3>3.6 Read texts from file</h3>
+The same as the <a href="#2.6">"Read times from file"</a> feature but instead of reading the times it reads the texts.
+<br>
+<br>
+<br>
+
+<a name="3.7"></a><h3>3.7 Combine subtitles</h3>
+Very useful, combines all the selected subtitles into one. For example:<br><br>
+<table>
+<tr>
+	<td><b>Start time</b></td>
+	<td><b>Final time</b></td>
+	<td><b>Text</b></td>
+</tr>
+<tr>
+	<td><b>00:00:01,000</b></td>
+	<td><b>00:00:02,000</b></td>
+	<td><b>- Why don't you do that?</b></td>
+</tr>
+<tr>
+	<td><b>00:00:02,001</b></td>
+	<td><b>00:00:03,000</b></td>
+	<td><b>- I don't know!</b></td>
+</tr>
+</table>
+<br>
+<br>
+Becomes:<br><br>
+<table>
+<tr>
+	<td><b>Start time</b></td>
+	<td><b>Final time</b></td>
+	<td><b>Text</b></td>
+</tr>
+<tr>
+	<td><b>00:00:01,000</b></td>
+	<td><b>00:00:03,000</b></td>
+	<td><b>
+	- Why don't you do that?<br>
+	- I don't know!
+	</b>
+	</td>
+</tr>
+</table>
+<br>
+The final time of the new subtitle becomes the final time of the last selected subtitle.<br><br>
+To combine two or more subtitles, select them and press <b>[Ctrl]+[K]</b> or the <b>"Edit/Subtitles/Combine subtitles"</b> menu.
+<br>
+<br>
+<br>
+
+<a name="3.8"></a><h3>3.8 Right-to-left</h3>
+Features only useful for right to left languages, such as Hebrew or Arabic.
+<br>
+<br>
+<br>
+
+<a name="3.8.1"></a><h5>3.8.1 Reverse text</h5>
+Reverses the text of all the selected subtitles. Example:<br><br>
+<b>"Reverse this text!"</b> to <b>"!txet siht esreveR"</b>.
+<br>
+<br>
+When in Translator mode, this feature will only work in original text. To make it work in translation, use the "Swap" feature.<br>
+You can specify if you want to keep the order of the lines or not, for that, go to Settings/General and check or uncheck the
+"Keep order of lines when reverse text" option.<br><br>
+To reverse the text, select the desired subtitles and press <b>[Ctrl]+[H]</b> keys or the <b>"Edit/Subtitles/Right to left/Reverse
+text"</b> menu.
+<br>
+<br>
+<br>
+
+<a name="3.8.2"></a><h5>3.8.2 Fix punctuation</h5>
+Fixes punctuation for right to left languages. Example:<br><br>
+<b>"Fix this punctuation!..."</b> to <b>"...!Fix this punctuation"</b>.
+<br>
+<br>
+When in Translator mode, this feature will only affect translation. To make it work in original text, use the "Swap" feature or exit
+translator mode.<br>
+To fix the punctuation, select the desired subtitles and press <b>[Shift]+[Ctrl]+[F]</b> keys or the <b>"Edit/Subtitles/Right to
+left/Fix punctuation"</b> menu.
+<br>
+<br>
+<br>
+
+<a name="3.9"></a><h3>3.9 Sort</h3>
+Sorts the subtitles according to their start time. Just press <b>[Ctrl]+[Y]</b> or the <b>"Edit/Subtitles/Sort"</b> menu.
+<br>
+<br>
+<br>
+
+<a name="3.10"></a><h3>3.10 Delete unnecessary links</h3>
+Deletes "..." when they are placed at the end of a subtitle and at the beginning of the next one. Example:<br><br>
+<table>
+<tr>
+	<td><b>Start time</b></td>
+	<td><b>Final time</b></td>
+	<td><b>Text</b></td>
+</tr>
+<tr>
+	<td><b>00:00:01,000</b></td>
+	<td><b>00:00:02,000</b></td>
+	<td><b>But not exactly because...</b></td>
+</tr>
+<tr>
+	<td><b>00:00:02,001</b></td>
+	<td><b>00:00:03,000</b></td>
+	<td><b>...what I want is clear.</b></td>
+</tr>
+</table>
+<br>
+Becomes:<br><br>
+<table>
+<tr>
+	<td><b>Start time</b></td>
+	<td><b>Final time</b></td>
+	<td><b>Text</b></td>
+</tr>
+<tr>
+	<td><b>00:00:01,000</b></td>
+	<td><b>00:00:02,000</b></td>
+	<td><b>But not exactly because</b></td>
+</tr>
+<tr>
+	<td><b>00:00:02,001</b></td>
+	<td><b>00:00:03,000</b></td>
+	<td><b>what I want is clear.</b></td>
+</tr>
+</table>
+<br>
+Some people like it this way, some other people don't. To delete "unnecessary links" press <b>[Shift]+[Ctrl]+[G]</b> keys or the
+<b>"Edit/Subtitles/Delete unnecessary links"</b> menu. It will make effect over the whole subtitle, not the selected subtitles.
+
+<br>
+<br>
+<br>
+
+<a name="3.11"></a><h3>3.11 Search &amp; Replace</h3>
+Subtitle Workshop's Search &amp; Replace is very fast and has some extended options available pressing "More &gt;" button.
+Explanation of the options:<br><br>
+
+<b>Case sensitive</b><br>
+Performs the search/replace being sensitive to UPPERCASE and lowercase characters.<br><br>
+
+<b>Match whole words</b><br>
+Will find the text only if it's forming a word.<br><br>
+
+<b>Preserve case on replace</b><br>
+Clones the case of the original text when replacing. For eg. text to find is "DOG" and text to replace by is "CAT", Subtitle
+Workshop finds "Dog" and replaces it by "Cat" and not by "CAT".
+<br>
+<br>
+
+The text to find or to replace may contain line breaks, and thus we can say it can be multi-line. Character "|" (pipe) represents
+new line. If you want to search for "|" then use "||" (two pipes).
+
+<br>
+<br>
+<br>
+
+<a name="3.12"></a><h3>3.12 Marked subtitles</h3>
+This is useful for example if you are translating a file, and want to mark certain subtitles because you are not sure about their
+translation. To mark all the selected subtitles, click the <b>"Edit/Subtitles/Mark selected subtitles"</b> menu or the
+<b>[Shift]+[Ctrl]+[M]</b> keys. To unmark them click the <b>"Edit/Subtitles/Unmark selected subtitles"</b> or the
+<b>[Shift]+[Ctrl]+[A]</b> keys.<br>
+This feature has other uses, too. It's main purpose is to work together with ViPlay. Explanation:<br>
+While you are watching a movie in ViPlay you can use a custom key (eg. "M") to mark the subtitle that is currently being displayed
+(or the last subtitle that has been displayed, if any). When you are watching the movie in ViPlay and you see a wrong subtitle
+(spelling mistake, too long duration, over two lines, or any other mistake) and you press "M" and it will be marked (internally).
+When the movie ends, ViPlay will ask you to save a Subtitle Report File (*.srf). This file will later be loaded by Subtitle Workshop
+and it will automatically mark the subtitles you marked in ViPlay, so you can easily identify them and correct them after watching
+the movie.
+
+<br>
+<br>
+<br>
+
+
+<!------------------------------------------->
+<!--    Chapter 4: Settings explained      -->
+<!------------------------------------------->
+<a name="4.0"></a><h2>4.0 Settings explained</h2>
+Here we will try to explain all the meaning of the options available in Settings.
+<br>
+<br>
+<br>
+
+<a name="4.1"></a><h3>4.1 General</h3>
+
+<b>Always on top</b><br>
+Maintains the Subtitle Workshop's main window above all the other windows.
+<br>
+<br>
+
+<b>Allow more than one instance running</b><br>
+Allows more than one instance of the program running, or only one. If this option is unchecked and you open more files via explorer,
+they will all be opened in the same window, and if that option is checked, they will be opened in separate windows.
+<br>
+<br>
+
+<b>Confirm when deleting subtitles</b><br>
+If this option is checked, each time you try to delete a subtitle or more than one in the main list, Subtitle Workshop will show a
+confirmation message and ask you if you are really sure to make the deletion.
+<br>
+<br>
+
+<b>Interpret invalid files as plain text</b><br>
+Check this option and you will never get the "The file is an invalid subtitle or an unsupported format" error message, but instead,
+the file with actually be loaded (without timings) like if it was plain text. After this, you need to set the timings manually.
+<br>
+<br>
+
+<b>Autosearch for movie</b><br>
+Each time you open a subtitle file Subtitle Workshop will search for the corresponding movie file, and load it. This feature
+includes suffix detection (each suffix has to be separated by ".").<br>
+Example: if the file name of the subtitle is <b>"Spiderman.English.srt"</b> and there is a movie in that directory called
+<b>"Spiderman.avi"</b>, it will be loaded.<br><br>
+<br>
+<br>
+
+<b>Force working in time mode</b><br>
+If this option is unchecked, each time you open a subtitle in a frame based format, Subtitle Workshop will automatically switch to
+frames mode. If not, it will work in time mode, but you will be able to switch to frames mode manually.
+<br>
+<br>
+
+<b>Keep order of lines when reverse text</b><br>
+Useful for Right-to-Left languages like Arabic or Hebrew. Specifies if when you use the "Reverse text" feature (<b>[Ctrl]+[H]</b>
+keys or <b>"Edit/Subtitles/Right to left/Reverse text"</b> menu) you want to keep the order of the lines or reverse the text as
+a whole.
+<br>
+<br>
+
+<b>Select text on jump to next line</b><br>
+Specifies if you want to select the text in the "Text" or "Translation" text box, when jumping to the next line pressing
+<b>[Shift]+[Enter]</b>.
+<br>
+<br>
+
+<b>Select text on jump to previous line</b><br>
+Specifies if you want to select the text in the "Text" or "Translation" text box, when jumping to the previous line pressing
+<b>[Ctrl]+[Enter]</b>.
+<br>
+<br>
+
+<b>No interaction with tags</b><br>
+Check this option if you want Subtitle Workshop to simply ignore tags when reading files in any subtitle format. And ignoring means
+do not delete them. Useful if you would like to work with full support for tags (eg. for one part of the subtitle and not just
+all the subtitle), feature which Subtitle Workshop does not support in it's current version.
+<br>
+<br>
+
+<b>Work with style tags</b><br>
+Check this option if you want Subtitle Workshop to load and save style and color tags. The number of formats that support tags
+depends on the version of Subtitle API. This option doesn't have any effect if "No interaction with tags" is turned on.
+<br>
+<br>
+
+<b>Recent files limit</b><br>
+Limit the amount of recent files. If you don't want recent files, set the limit to 0. The maximum of recent files is 20.
+<br>
+<br>
+<br>
+
+<a name="4.1.1"></a><h5>4.1.1 Advanced</h5>
+
+<b>Two lines if longer than</b><br>
+As the maximum number of lines that <a href="#3.1">Smart line adjust</a> will produce is two, you have to set a length after
+which there will be two lines instead of one. "Two lines if longer than" is that value.
+<br>
+<br>
+
+<b>Toggle break point</b><br>
+Toggles between two break points (first space before specified length, or first space after specified length) in some subtitles.
+<br>
+<br>
+
+<b>Break line after</b><br>
+Useful to use "Divide lines" in subtitles that are only one line, but that line is long. Use this value to divide that long line
+in various smaller lines, that have a maximum of number of characters equal to "Break line after" value.
+<br>
+<br>
+
+<b>Smart line adjust automatically</b><br>
+Specifies if you want to automatically "Smart line adjust" each part in the "Divide lines" window.
+<br>
+<br>
+
+<b>Shift time</b><br>
+Time to shift subtitle forwards/backwards with the <a href="#2.9">shift subtitles</a> feature.
+<br>
+<br>
+
+<a name="4.1.2"></a><h5>4.1.2 Charsets</h5>
+
+<b>Show in main form</b><br>
+Useful for people working with subtitles in various languages who use a different alphabet. Shows "Original charset" and
+"Translation charset" in the main form, so it can be quickly modified.
+<br>
+<br>
+
+<b>Original charset</b><br>
+Charset to display characters in the "Text" column.
+<br>
+<br>
+
+<b>Translation charset</b><br>
+Charset to display characters in the "Translation" column. Only useful if you work in translator mode.
+<br>
+<br>
+
+<a name="4.2"></a><h3>4.2 Formats</h3>
+
+<b>Default format</b><br>
+Specifies the default format to use in all the windows where there are formats lists (eg. Join subtitles, Split, etc).
+<br>
+<br>
+
+<b>Formats to show when "Save as"</b><br>
+Useful if you only work with a few formats and you don't want to waste time looking for the desired format in a list that contains
+more than 40 items. Only the checked formats listed here will be shown in the "Save as" dialog.
+<br>
+<br>
+
+<b>Show custom formats</b><br>
+Specifies if you want to show the custom formats placed on the "CustomFormats" folder in the "Save as" window.
+<br>
+<br>
+
+<a name="4.3"></a><h3>4.3 File types</h3>
+
+<b>Register extensions on start</b><br>
+Associate the desired subtitle extensions when Subtitle Workshop is executed.
+<br>
+<br>
+
+<b>Associate with most supported subtitle extensions</b><br>
+If this option is checked, then you just have to double-click on a subtitle file to load it into Subtitle Workshop, and the file's
+icon will become Subtitle Workshop's main icon.
+<br>
+<br>
+
+<b>List of file extensions</b><br>
+Files types which will be open by Subtitle Workshop when double clicking on file icon.
+<br>
+<br>
+
+<a name="4.4"></a><h3>4.4 Save</h3>
+
+<b>Ask to save on exit program/close subtitle</b><br>
+Subtitle Workshop will display the "File has changed. Do you want to save the changes?." message when you try to exit program or
+close subtitle. If you disabled the "Allow more than one instance running" option and you try to load a file via explorer when
+there is already a loaded file, this message will be also shown.
+<br>
+<br>
+
+<b>Save work automatically every X minutes</b><br>
+Subtitle Workshop will silently save the modified subtitle file every the minutes you choose.
+<br>
+<br>
+
+<b>Save as backup</b><br>
+Saves the original/translated file as a backup (FileName.ext.bak) instead of overwriting the original/translated file.
+<br>
+<br>
+
+<a name="4.5"></a><h3>4.5 Video preview</h3>
+All the options listed here will work only if you are in video preview mode.
+
+<b>Double click and shift-double click in a subtitle</b><br>
+You are able to select what to do when you double click in a subtitle, and when you double click in a subtitle while holding [Shift]
+key. The available options are three:
+<ol>
+	<li><b>Focus text box</b> will pass the focus to the "Text" box, or, if you are in translator mode to the "Translation" box.</li>
+	<li><b>Go to subtitles time in video</b> will jump directly to the start time of the subtitle in the video.</li>
+	<li><b>Go N seconds before subtitle in video</b> will jump the "Seconds to jump" value before the initial time of the subtitle
+	in the video.</li>
+</ol>
+<br>
+<br>
+
+<b>Rewind and forward times</b><br>
+Times to rewind/forward when pressing the "Rew" and "Forward" buttons in the video controls bar.
+<br>
+<br>
+
+<b>Default altered playback rate</b><br>
+The percentage of playback rate to apply when pressing the "Alter playback rate" button in the video controls bar.
+<br>
+<br>
+
+<a name="4.5.1"></a><h5>4.5.1 Subtitles</h5>
+
+<b>Try transparent background</b><br>
+Enable this check box if you want the subtitles to be displayed transparently over the video. This option will work most of the
+times, but if it doesn't work you can check the following option:
+<br>
+<br>
+<b>Force using regions (may be slow)</b><br>
+If checked, the subtitles will be transparent, and should never fail. Use it <b>only</b> if you don't get transparent subtitles only
+with the first option enabled and you really want them. If this option is enabled then the text of the subtitles can't have the
+<font color="#FF00FF">FUCHSIA</font> color (#FF00FF).
+<br>
+<br>
+
+Most of the other things here don't need any kind of explanation, everything you modify can be seen in the "SAMPLE" subtitle.
+
+<a name="4.6"></a><h3>4.6 External preview</h3>
+This feature makes possible to preview subtitles in your favourite movie player.
+
+<a name="4.6.1"></a><h5>4.6.1 General</h5>
+
+<b>Exe of the video player</b><br>
+The executable file of the video player you want to use for external preview. Remember that the video player must support command
+line and external subtitles.
+<br>
+<br>
+
+<b>Detect associated program</b><br>
+Press this button if the movie player you want to use is associated with .AVI files, and you don't know where to find the
+executable file.
+<br>
+<br>
+
+<b>Ask for a different video each time</b><br>
+Subtitle Workshop will ask you to open a video file each time you do the external preview.
+<br>
+<br>
+
+<b>Always test with same video</b><br>
+Subtitle Workshop will always use the same video for external preview, so it won't ask you anything and will open the movie player
+directly.
+<br>
+<br>
+
+<a name="4.6.2"></a><h5>4.6.2 Advanced</h5>
+
+<b>Save temporary file in original format</b><br>
+Select this if you are sure that the video player supports the subtitle format you are handling.
+<br>
+<br>
+
+<b>Save temporary file in custom format</b><br>
+If the video player doesn't support the subtitle format you are handling, but supports a minimum of one of the formats that Subtitle
+Workshop supports, then check this check box and select a format in the list.
+<br>
+<br>
+
+<b>Parameter to send the video player</b><br>
+This is <b>very</b> important. Here you have to specify how to tell the video player which subtitle and which video file to open.
+VIDEO_FILE represents the video file and SUBT_FILE the subtitle file. Look at the help file of the video player to see the
+specification on the command line parameters.<br><br>
+For details, refer to <a href="#5.7">External preview</a>.
+<br>
+<br>
+
+<a name="4.7"></a><h3>4.7 Look</h3>
+<a name="4.7.1"></a><h5>4.7.1 Program</h5>
+
+<b>Font to use in the program &amp; font size</b><br>
+If you change this, the whole font of the program and/or it's size will be changed. Try this if you get problems with the fonts or
+if you don't like the default font.
+<br>
+<br>
+
+<b>"Text" and "Translation" fields align</b><br>
+Choose the text alignment that you want for this two fields.
+<br>
+<br>
+
+<a name="4.7.2"></a><h5>4.7.2 List</h5>
+
+<b>Show grid lines</b><br>
+Shows line between the rows and columns of the subtitle's list in the main window.
+<br>
+<br>
+
+<b>Apply style to subtitles</b><br>
+Only will take effect if a subtitle contains tags (bold, italic, underline or color). If this option is checked, Subtitle Workshop
+will draw the subtitle in the list with the appropriate style/color.
+<br>
+<br>
+
+<b>Mark untranslated subtitles with color</b><br>
+Draws the untranslated subtitles with a particular configurable color, so they can be easily identified.
+<br>
+<br>
+
+<b>Show horizontal scroll bar</b><br>
+Uncheck this option and you will never get the horizontal scrollbar in the main list.
+<br>
+<br>
+
+<a name="4.7.3"></a><h5>4.7.3 Menu</h5>
+
+<b>Use Office XP style menu</b><br>
+Uses the custom menu &amp; popup menu in the main form. If you turn this off, the default Windows menus will be used.
+<br>
+<br>
+
+<b>Use gradient menu</b><br>
+Draws a gradient in the left of the menus.
+<br>
+<br>
+<br>
+
+<!------------------------------>
+<!--    Chapter 5: Tools      -->
+<!------------------------------>
+
+<a name="5.0"></a><h2>Chapter 5: Tools</h2>
+Must-have features in every subtitle tool.
+<br>
+<br>
+
+<a name="5.1"></a><h3>5.1 Spell check</h3>
+This spell check uses Microsoft Word's spell check engine, connecting to it through OLE technology. Thus, at least Microsoft Word 97
+is required. To spell check a subtitle just load it and press <b>F7</b> key or the <b>"Tools/Spell check"</b> menu. All the errors
+and suggestions will be shown using Word's default windows. The spell check should support any installed dictionary.<br><br>
+<b>Note:</b> this feature may give errors (TOleExeption) some times, this is not because of Subtitle Workshop, but because of Word.
+But anyway, it works pretty well most of the time.
+<br>
+<br>
+<br>
+
+<a name="5.2"></a><h3>5.2 Batch convert</h3>
+This feature lets you convert a large number of subtitle files in any format to a single format, and then save them in the path you
+wish with only few clicks.<br><br>
+Click the <b>"Tools/Batch convert..."</b> menu or press <b>[Ctrl]+[M]</b>. After doing this, you should follow this steps:<br>
+<ol>
+	<li>Select what <b>file extensions to search for</b>, all the possible extensions are shown on the left.</li>
+	<li>Select the <b>search path</b> (the folder in which the subtitle files you want to convert are)</li>
+	<li>If you want to include subfolders in the search, check the "Include subfolders" check box.</li>
+	<li>If you want Subtitle Workshop to make an exhaustive format check, check the "Exhaustive format check" check box. If this
+	option is off, Subtitle Workshop will skim the file to see if it is a valid file and in what format it is. Skimming usually
+	works very well, and it gives an excellent speed. If you want to perform throughout tests through the file, with an effectivity
+	of 100%, then use exhaustive check. Exhaustive check is remarkably slower than standard check.</li>
+	<li>Select the <b>output directory</b> (the path in which the converted files will be saved)</li>
+	<li>Select the <b>output format</b>.</li>
+	<li>Select the Default FPS for the frame based files (if there are).</li>
+	<li>Press the <b>"Next"</b> button.</li>
+</ol>
+After pressing the button, Subtitle Workshop will search for valid subtitle files in the search path you chose.<br><br>
+When searching finishes, you will see a list with all the found files, format, FPS (for frame based subtitles - this value should be
+by default, the same as "Default FPS" you set) and size (in Kb).<br>
+You may add new files to the list, or remove files. You can also change FPS of a frame based file (or many files at one time),
+selecting it and changing the box that is at the left of the "Clear" button.<br><br>
+Finally, press the <b>Convert</b> button and conversion should start. When it finishes, Subtitle Workshop will generate a log (*.log)
+file, reporting all the possible errors together with the successes.
+<br>
+<br>
+<br>
+
+<a name="5.3"></a><h3>5.3 Split subtitles</h3>
+There are two possible splits:
+<ol>
+	<li><b>Simple</b> - splits subtitle file in two parts</li>
+	<li><b>Advanced</b> - splits subtitle file in an indefinite number of parts</li>
+</ol>
+Use the one that best fits your needs.<br><br>
+
+<b>Simple split</b><br>
+You first have to choose where to split the file, you have 5 possibilities:
+<ol>
+	<li>
+		<b>Split in selected item</b><br>
+		The subtitle file will be split right after the item that is selected in the main window.
+	</li>
+	<li>
+		<b>Split in item number</b><br>
+		The subtitle file will be split in the item you select.
+	</li>
+	<li>
+		<b>Split in given time</b><br>
+		The subtitle file will be split in the first subtitle which's initial time is greater than the time you select.
+	</li>
+	<li>
+		<b>Split in given frame</b><br>
+		The subtitle file will be split in the first subtitle which's initial frame is greater than the frame you select.
+	</li>
+	<li>
+		<b>Split in end of video</b><br>
+		The subtitle file will be split in the first subtitle which's initial time is greater than the time in which a video ends
+		(the video's duration).
+	</li>
+</ol>
+After selecting where to split select the file names (excluding the extension, it will be added automatically), the output format
+and press the <b>Split</b> button.
+<br>
+<br>
+<b>Advanced split</b><br>
+Switch to the Advanced page, and then select the number of parts you want to make. You have to select if you want to make the parts
+equal in time (length), in lines or if you want to split at the end of multiple videos.<br>
+If you want to split at the end of multiple videos you need to select a video for each part, to do so double click in each part in
+the list starting with the first one. You can't select a video for the last part since it will be calculated automatically.<br><br>
+Leave the "Auto-name the parts" check box checked if you want Subtitle Workshop to set the file names of the parts automatically, if
+you want to do it manually, uncheck the check box, select the desired part &amp; press <b>F2</b> to type the name.<br><br>
+Check "Recalculate time values" if you want Subtitle Workshop to automatically set a delay to the second subtitle so you don't have
+to do it manually after spliting. Finally select the output path, the output format and press the <b>Split</b> button.
+
+<br>
+<br>
+<br>
+
+<a name="5.4"></a><h3>5.4 Join subtitles</h3>
+With Subtitle Workshop you can join more than two subtitles, and those subtitles may be in different formats, time or frame based,
+and if frame based, they even may have different FPS!<br>
+Click the <b>"Tools/Join subtitles..."</b> menu or press <b>[Ctrl]+[J]</b>.<br><br>
+Now press the <b>Add</b> button and add all the files you want, in the correct order. If you made a mistake in the order of one
+file you may drag it with the mouse and put it where you want. If the file is a frame based subtitle you may also modify it's FPS
+selecting it and modifying the value of the combo box that is at the left of the "Clear" button. You can do that operation to all
+selected frame based subtitles at one time.<br>
+Optionally, may set a movie fragment for each part (except of course the last) so Subtitle Workshop will make all changes in the
+timings of subtitles automatically. This way you won't need to make any changes to the resulting file. To select a movie
+fragment for each part select it and click the <b>Set movie fragment</b> button. If you made a mistake, select that part and
+press the <b>Delete movie fragment</b> button.
+Now need to select the <b>output format</b>, and if it is a frame based one, the <b>output FPS</b>. If you want to load
+the resulting file, check the "Load file after joining and saving" check box. Check the "Recalculate time values" if you want
+Subtitle Workshop to automatically set the delay to all the subtitles beginning in the second one, so you don't have to do it
+manually. This option will not work if the parts are associated to movie fragments. Finally, press the <b>Join</b> button.
+<br>
+<br>
+<br>
+
+<a name="5.5"></a><h3>5.5 Information and errors</h3>
+This is one of the features that make Subtitle Workshop unique - despite of other program's attempt to imitate it, Subtitle
+Workshop's Information and Errors still has the best performance, flexibility and options.
+<br>
+<br>
+
+
+<a name="5.5.1"></a><h5>5.5.1 Errors &amp; fixes explained</h5>
+Information and Errors can check for and fix a large variety of common errors in subtitles, here we will try to review all the
+possible errors and the way(s) they are automatically fixed. Before we do it is important to know what types of errors are going to
+be fixed first. The priorities are:
+<ol>
+	<li>Lines without letters</li>
+	<li>Empty subtitles</li>
+	<li>Repeated subtitles</li>
+	<li>Prohibited characters</li>
+	<li>Text before colon (":")</li>
+	<li>Hearing impaired</li>
+	<li>Overlapping</li>
+	<li>Bad values</li>
+	<li>Unnecessary dots</li>
+	<li>Repeated character</li>
+	<li>OCR Errors</li>
+	<li>"- " in subtitles with one line</li>
+	<li>Space after custom characters</li>
+	<li>Space before custom characters</li>
+	<li>Unnecessary spaces</li>
+	<li>Subtitle over two lines</li>
+	<li>Too long duration (only check)</li>
+	<li>Too short duration (only check)</li>
+	<li>Too long lines (only check)</li>
+</ol>
+Errors 1 to 6 are first because when fixing that type of errors, the subtitle can get deleted under certain circumstances, so if
+for example time fixings were first, it would lead to a time fix and then to delete the subtitle, and that is pointless.
+
+<br>
+<br>
+<br>
+
+<b>Lines without letters</b><br>
+Deletes lines of the subtitle that don't contain letters (a-z, &aacute;-&iacute;, etc). Example:
+<table>
+<tr>
+	<td><b>Start time</b></td>
+	<td><b>Final time</b></td>
+	<td><b>Text</b></td>
+</tr>
+<tr>
+	<td><b>00:00:00,250</b></td>
+	<td><b>00:00:01,350</b></td>
+	<td><b>This is the text 1<br>!!!!!!!</b></td>
+</tr>
+<tr>
+	<td><b>00:00:00,780</b></td>
+	<td><b>00:00:02,150</b></td>
+	<td><b>¿?!¡<br>This is the text 2</b></td>
+</tr>
+</table>
+In both cases, Subtitle Workshop will delete second and first lines respectively, because they do not contain letters (don't
+misunderstand, "letters" is not the same as "characters").
+<br>
+<br>
+<br>
+
+<b>Empty subtitles</b><br>
+An empty subtitle can be:
+<ol>
+	<li>A subtitle that contains <b>no text at all</b> (blank text).</li>
+	<li>A subtitle that doesn't contain <b>any letter or number</b>. Eg. the text: "- !!!!"<br>
+	</li>
+</ol>
+In both cases, Subtitle Workshop will delete the subtitle.
+<br>
+<br>
+<br>
+
+<b>Repeated subtitles</b><br>
+This is very common in OCRs. Example:<br><br>
+<table>
+<tr>
+	<td><b>Start time</b></td>
+	<td><b>Final time</b></td>
+	<td><b>Text</b></td>
+</tr>
+<tr>
+	<td><b>00:00:01,000</b></td>
+	<td><b>00:00:01,010</b></td>
+	<td><b>Come on, let's book.</b></td>
+</tr>
+<tr>
+	<td><b>00:00:01,010</b></td>
+	<td><b>00:00:02,000</b></td>
+	<td><b>Come on, let's book.</b></td>
+</tr>
+</table>
+<br>
+<br>
+Repeated subtitles are characterized by two things:
+<ol>
+	<li>The text is <b>exactly</b> the same.</li>
+	<li>Usually one subtitle has a very short duration, most of the times it is the first one (like in the example) but can be the
+	other way round.</li>
+</ol>
+In the example above, the start time of second subtitle is exactly the final time of the first, this is very common, but it's not like
+this always. That's why the "Tolerance for repeated subtitles" value is configurable, it is the maximum difference between
+FinalTime1 and InitialTime2 admittible to detect a subtitle as a repeated subtitle. After fixing, the final subtitle will look like
+this:<br><br>
+<table>
+<tr>
+	<td><b>Start time</b></td>
+	<td><b>Final time</b></td>
+	<td><b>Text</b></td>
+</tr>
+<tr>
+	<td><b>00:00:01,000</b></td>
+	<td><b>00:00:02,000</b></td>
+	<td><b>Come on, let's book.</b></td>
+</tr>
+</table>
+<br>
+The start time will be the start time of the first subtitle, and the final time will be the final time of the last subtitle.
+<br>
+<br>
+<br>
+
+<b>Prohibited characters</b><br>
+Finds subtitles that contains prohibited characters and delete them (the whole subtitle - not the characters).
+<br>
+<br>
+<br>
+
+<b>Text before colon (":")</b><br>
+The text before colon is usually for deaf people. Most of the times it represents the name of the person who is currently
+speaking.<br><br>
+Example:<br><br>
+<table>
+<tr>
+	<td><b>Start time</b></td>
+	<td><b>Final time</b></td>
+	<td><b>Text</b></td>
+</tr>
+<tr>
+	<td><b>00:00:01,000</b></td>
+	<td><b>00:00:02,000</b></td>
+	<td><b>MAN:|She feel the same about you?</b></td>
+</tr>
+<tr>
+	<td><b>00:00:03,000</b></td>
+	<td><b>00:00:04,000</b></td>
+	<td><b>JERRY:|I don't know.</b></td>
+</tr>
+</table>
+<br>
+In 80% of the cases, the text before colon will usually be all in CAPITAL LETTERS, so you can enable the "Only if text is in capital
+letters" option, and thus avoid many kind of problems, eg. with this kind of subtitles "I'm going to tell you something:|Don't ever
+do that again". After fixing, the text will be:
+<br>
+<br>
+<table>
+<tr>
+	<td><b>Start time</b></td>
+	<td><b>Final time</b></td>
+	<td><b>Text</b></td>
+</tr>
+<tr>
+	<td><b>00:00:01,000</b></td>
+	<td><b>00:00:02,000</b></td>
+	<td><b>She feel the same about you?</b></td>
+</tr>
+<tr>
+	<td><b>00:00:03,000</b></td>
+	<td><b>00:00:04,000</b></td>
+	<td><b>I don't know.</b></td>
+</tr>
+</table>
+<br>
+The detection for the colon will not detect it if it is between two numbers, eg. "12:30", and thus it will avoid problems with times.
+<br>
+<br>
+<br>
+
+<b>Hearing impaired subtitles</b><br>
+Hearing impaired subtitles are whole subtitles, or just part of a subtitle, that are exclusively for deaf people. Most of the people
+don't want "noises" and "sounds" inside their subtitles, so they want to eliminate them. Deaf people shouldn't use this feature, of
+course. Hearing impaired subtitles are usually enclosed in parenthesis ("(" and ")" and/or "[" and "]").<br><br>
+Example:<br><br>
+<table>
+<tr>
+	<td><b>Start time</b></td>
+	<td><b>Final time</b></td>
+	<td><b>Text</b></td>
+</tr>
+<tr>
+	<td><b>00:00:01,000</b></td>
+	<td><b>00:00:02,000</b></td>
+	<td><b>- [Boy]</b></td>
+	<td><b>You want me to kill him for you?</b></td>
+</tr>
+<tr>
+	<td><b>00:00:03,000</b></td>
+	<td><b>00:00:04,000</b></td>
+	<td><b>Yeah. Would you?</b></td>
+</tr>
+<tr>
+	<td><b>00:00:05,000</b></td>
+	<td><b>00:00:06,000</b></td>
+	<td><b>[Shutter Whirring,</b></td>
+	<td><b>Clicking Off]</b></td>
+</tr>
+</table>
+<br>
+<br>
+First subtitle contains a part for hearing impaired, and third subtitle is all for hearing impaired. So, after fixing, this will
+result in:<br><br>
+<table>
+<tr>
+	<td><b>Start time</b></td>
+	<td><b>Final time</b></td>
+	<td><b>Text</b></td>
+</tr>
+<tr>
+	<td><b>00:00:01,000</b></td>
+	<td><b>00:00:02,000</b></td>
+	<td><b>You want me to kill him for you?</b></td>
+</tr>
+<tr>
+	<td><b>00:00:03,000</b></td>
+	<td><b>00:00:04,000</b></td>
+	<td><b>Yeah. Would you?</b></td>
+</tr>
+</table>
+<br>
+<br>
+<br>
+
+<b>Overlapping subtitles</b><br>
+This error is produces whenever a subtitle appears in the screen sonner than the time in which previous subtitle is hidden. That is
+to say, when the final time of a subtitle is greater than the initial time of the next one. Let's see this example to see it
+clearly:<br><br>
+
+<table>
+<tr>
+	<td><b>Start time</b></td>
+	<td><b>Final time</b></td>
+	<td><b>Text</b></td>
+</tr>
+<tr>
+	<td><b>00:00:00,250</b></td>
+	<td><b>00:00:01,350</b></td>
+	<td><b>This is the text 1</b></td>
+</tr>
+<tr>
+	<td><b>00:00:00,780</b></td>
+	<td><b>00:00:02,150</b></td>
+	<td><b>This is the text 2</b></td>
+</tr>
+</table>
+<br>
+Subtitle number two is shown before subtitle number one is hidden. Subtitle Workshop will fix this acting appropiately, depending of
+the length of the texts of the subtitles. There are three possible solutions:
+<ol>
+	<li>
+	If the <b>difference between the length</b> of the text of both subtitles is <b>less than 5</b>, the length for each subtitle
+	will be set appropiately. That is, the duration of each subtitle will be: <b>(FinalTime2 - InitialTime1) div 2.</b><br><br>
+	This is the case of the example above, the solution for overlapping is this one since the length of both texts is equal.<br>
+	Subtitle Workshop will fix the subtitles like this:<br><br>
+	<table>
+	<tr>
+		<td><b>Start time</b></td>
+		<td><b>Final time</b></td>
+		<td><b>Text</b></td>
+	</tr>
+	<tr>
+		<td><b>00:00:00,250</b></td>
+		<td><b>00:00:01,200</b></td>
+		<td><b>This is the text 1</b></td>
+	</tr>
+	<tr>
+		<td><b>00:00:01,201</b></td>
+		<td><b>00:00:02,150</b></td>
+		<td><b>This is the text 2</b></td>
+	</tr>
+	</table>
+	<br>
+	As you can see, (2150-250) div 2 = a duration of 950 Milliseconds for each subtitle, and as it is impossible to give the 950
+	milliseconds to the second subtitle (we need one extra millisecond for that) we give it 949.
+	<br>
+	<br>
+	<br>
+	</li>
+
+	<li>
+	If the text of first subtitle is more than 4 characters longer than the text of second one, second subtitle's time will be cut.
+	Subtitle Workshop will fix the example like this:<br><br>
+	<table>
+	<tr>
+		<td><b>Start time</b></td>
+		<td><b>Final time</b></td>
+		<td><b>Text</b></td>
+	</tr>
+	<tr>
+		<td><b>00:00:00,250</b></td>
+		<td><b>00:00:01,350</b></td>
+		<td><b>This is the text 1. More than four extra characters.</b></td>
+	</tr>
+	<tr>
+		<td><b>00:00:01,351</b></td>
+		<td><b>00:00:02,150</b></td>
+		<td><b>This is the text 2</b></td>
+	</tr>
+	</table>
+	<br>
+	So as we cut second subtitle's initial time, the duration will obviously be less than the duration of the first subtitle. In
+	this case we have got 1100 milliseconds for the first subtitle and 799 for the second.
+	<br>
+	<br>
+	<br>
+	</li>
+
+	<li>
+	If the text of second subtitle is more than 4 characters longer than the text of first one, first subtitle's time will be cut.
+	Subtitle Workshop will fix the example like this:<br><br>
+	<table>
+	<tr>
+		<td><b>Start time</b></td>
+		<td><b>Final time</b></td>
+		<td><b>Text</b></td>
+	</tr>
+	<tr>
+		<td><b>00:00:00,250</b></td>
+		<td><b>00:00:00,779</b></td>
+		<td><b>This is the text 1</b></td>
+	</tr>
+	<tr>
+		<td><b>00:00:00,780</b></td>
+		<td><b>00:00:02,150</b></td>
+		<td><b>This is the text 2. More than four extra characters.</b></td>
+	</tr>
+	</table>
+	The duration of the first subtitle is 529 milliseconds, and the duration of the second one is 1370 milliseconds.
+	</li>
+</ol>
+<br>
+
+<b>Bad values</b><br>
+Bad values is when the initial time of a subtitle is greater than it's final time.<br><br>
+Example:<br><br>
+<table>
+<tr>
+	<td><b>Start time</b></td>
+	<td><b>Final time</b></td>
+	<td><b>Text</b></td>
+</tr>
+<tr>
+	<td><b>00:00:02,000</b></td>
+	<td><b>00:00:01,000</b></td>
+	<td><b>This is the text</b></td>
+</tr>
+</table>
+<br>
+Subtitle Workshop can fix that by inverting the time values, so the subtitle would be:<br><br>
+<table>
+<tr>
+	<td><b>Start time</b></td>
+	<td><b>Final time</b></td>
+	<td><b>Text</b></td>
+</tr>
+<tr>
+	<td><b>00:00:01,000</b></td>
+	<td><b>00:00:02,000</b></td>
+	<td><b>This is the text</b></td>
+</tr>
+</table>
+<br>
+<br>
+<br>
+
+<b>Unnecessary dots</b><br>
+This option replaces four or more consecutive dots ("....") to only three followed by a space when necessary.<br><br>
+Example:<br><br>
+<table>
+<tr>
+	<td><b>Start time</b></td>
+	<td><b>Final time</b></td>
+	<td><b>Text</b></td>
+</tr>
+<tr>
+	<td><b>00:00:01,000</b></td>
+	<td><b>00:00:02,000</b></td>
+	<td><b>Yeah.... Should taste it.....</b></td>
+</tr>
+</table>
+<br>
+Would result in:<br><br>
+<table>
+<tr>
+	<td><b>Start time</b></td>
+	<td><b>Final time</b></td>
+	<td><b>Text</b></td>
+</tr>
+<tr>
+	<td><b>00:00:01,000</b></td>
+	<td><b>00:00:02,000</b></td>
+	<td><b>Yeah... Should taste it...<b></b></td>
+</tr>
+</table>
+<br>
+<br>
+<br>
+
+<b>Repeated characters</b><br>
+Finds the characters you wish when they are repeated, for example, if you have "!" as a repeatable characters, it would find:
+<br>
+<br>
+<table>
+<tr>
+	<td><b>Start time</b></td>
+	<td><b>Final time</b></td>
+	<td><b>Text</b></td>
+</tr>
+<tr>
+	<td><b>00:00:01,000</b></td>
+	<td><b>00:00:02,000</b></td>
+	<td><b>Do it, now!!!!!!!!!!!!!!!!!!!!!!<b></b></td>
+</tr>
+</table>
+<br>
+And will replace into:<br><br>
+<table>
+<tr>
+	<td><b>00:00:01,000</b></td>
+	<td><b>00:00:02,000</b></td>
+	<td><b>Do it, now!<b></b></td>
+</tr>
+</table>
+<br>
+<br>
+It works the same with every repeatable character. The default characters are "-¡!¿?",;\/_[]=", you may add/remove characters if you
+want, from Information and Errors settings.
+<br>
+<br>
+<br>
+
+<b>OCR Errors</b><br>
+As different languages have different OCR errors, the OCR scripts were born. For more information on the scripts, refer
+<a href="#5.5.3">here</a>.
+<br>
+<br>
+<br>
+
+<b>"-" in subtitles with one line</b><br>
+There is no sense in having subtitles with one line starting with "-" (open dialog) since only one person speaks in them. Thus, if
+you enable this option, Subtitle Workshop will delete the "-" if the subtitle contains only one line.
+<br>
+<br>
+<br>
+
+<b>Space after custom characters</b><br>
+Adds a space (if not present) after any of the characters in "Space after characters" in Information and Errors's settings/Advanced.
+Useful for example to add a space after the dialog start to turn:<br><br>
+<b>-This is it.<br>-Really</b><br><br>
+To:<br><br>
+<b>- This is it.<br>- Really</b><br><br>
+This feature has a bit of composed words detection, so it doesn't add a space after the character in words like "multi-line".
+<br>
+<br>
+<br>
+
+<b>Space before custom characters</b><br>
+Adds a space (if not present) before any of the characters in "Space before characters" in Information and Errors's settings/Advanced.
+Useful for example for french language, to add spaces before "?", "!" and ":".
+<br>
+<br>
+<br>
+
+<b>Unnecessary spaces</b><br>
+This is a must. Eliminates the unnecessary spaces you choose from the text of a subtitle file. Currently this type of spaces can be
+removed:
+<ol>
+	<li>Enters and spaces at the beginning and end</li>
+	<li>Spaces between enters (left and right)</li>
+	<li>Double spaces and enters (double enter = blank line)</li>
+	<li>Spaces in front of punctuation marks</li>
+	<li>Spaces after "¿" and "¡"</li>
+	<li>Spaces before "?" and "!"</li>
+	<li>Spaces between numbers</li>
+</ol>
+As different languages may require different spacings, all the types of spaces to remove are configurable.
+<br>
+<br>
+<br>
+
+<b>Subtitles over two lines</b><br>
+Just checks if a subtitle has three or more lines, and uses <a href="#3.1">Smart line adjust</a> to fix it.
+<br>
+<br>
+<br>
+
+<b>Too long/short duration</b><br>
+Subtitle Workshop can identify if the duration of a subtitle is longer/shorter that a specified minimum/maximum value
+and report it to you. Subtitles with too short duration can be unreadable and subtitles with too long duration can be
+annoying. This error must be fixed manually.
+<br>
+<br>
+<br>
+
+<b>Too long lines</b><br>
+Detects if a subtitle contains lines that are longer than a specified number of characters. Too long lines can exceed the
+width of the screen in some video players and this is potentially dangerous.
+<br>
+<br>
+<br>
+
+<a name="5.5.2"></a><h5>5.5.2 Settings explained</h5>
+To access to Information and Errors Settings, press <b>[Alt]+[I]</b> keys or the <b>"Tools/Information and errors/Settings..."</b>
+menu. Additionally you can access this Settings from the Information and Errors window, pressing the "Settings" button.<br>
+Now let's review all the options you will find.<br><br>
+
+<h5>General options</h5>
+
+<b>Mark errors in main form's list</b><br>
+You are able to let Subtitle Workshop mark the errors in the main list by enabling this option. You can specify Font Color/Style
+(bold, italic, underline).<br>
+If the errors are marked in the main list, it is very easy to fix them manually, and in a lot of cases this is very useful. For
+example, if you have lots of long three lines subtitles you can mark them in a certain color, and then fix them all (one by one)
+using <a href="#3.4">Divide lines</a>.<br>
+If the marked error is difficult to identify visually (for example it is very hard sometimes to tell that a subtitle has got
+unnecessary spaces or unnecessary dots) you can put the mouse over the subtitle with errors for half a second and you'll
+get a description specifying exactly what type of error it has.
+<br>
+<br>
+
+<b>Mark errors on load subtitle</b><br>
+If this option is enabled, it performs an automated check for errors each time you load a subtitle file. This option is going to
+take effect only if "Mark errors in main form's list" is enabled.
+<br>
+<br>
+
+<b>Fix errors on load subtitle</b><br>
+Automatically fixes all the errors when the subtitle is loaded.
+<br>
+<br>
+
+<b>Fix one unit overlap at load</b><br>
+Fixes the most common overlapping when the subtitle is loaded. Example:<br><br>
+
+<table>
+<tr>
+	<td><b>Start time</b></td>
+	<td><b>Final time</b></td>
+	<td><b>Text</b></td>
+</tr>
+<tr>
+	<td><b>00:00:01,000</b></td>
+	<td><b>00:00:02,000</b></td>
+	<td><b>This is subtitle 1<b></b></td>
+</tr>
+<tr>
+	<td><b>00:00:02,000</b></td>
+	<td><b>00:00:03,000</b></td>
+	<td><b>This is subtitle 2<b></b></td>
+</tr>
+</table>
+<br>
+Would be changed to:<br><br>
+<table>
+<tr>
+	<td><b>Start time</b></td>
+	<td><b>Final time</b></td>
+	<td><b>Text</b></td>
+</tr>
+<tr>
+	<td><b>00:00:01,000</b></td>
+	<td><b>00:00:02,000</b></td>
+	<td><b>This is subtitle 1<b></b></td>
+</tr>
+<tr>
+	<td><b>00:00:02,<FONT COLOR="Red">001</FONT></b></td>
+	<td><b>00:00:03,000</b></td>
+	<td><b>This is subtitle 2<b></b></td>
+</tr>
+</table>
+<br>
+Enabling this option is very safe.
+<br>
+<br>
+
+<b>OCR Script:</b><br>
+Specifies the name of the OCR Script you are currently using. This script has to be in the "OCRScripts" folder inside Subtitle
+Workshop's directory. All the scripts listed here are all the ".ocr" files found in the above mentioned folder. The "Edit" button
+will open Notepad so you can edit the file manually, add or remove possible OCR Errors.
+<br>
+<br>
+
+<h5>Advanced options</h5>
+
+<b>Repeatable characters</b><br>
+Specifies all the characters that can be repeated, and that are going to be fixed if the "Repeated characters" fixing is enabled.
+<br>
+<br>
+
+<b>Prohibited characters</b><br>
+Specifies all the characters that can't be in any subtitle, if the "Prohibited characters" fixing is enabled and a subtitle contains
+any of this characters, it will be deleted.
+<br>
+<br>
+
+<b>Tolerance for repeated subtitles</b><br>
+Specifies the maximum admittible difference between final time of the first subtitle and initial time of the second one to detect
+and eventually fix a repeated subtitle.
+<br>
+<br>
+
+<b>Space after characters</b><br>
+Specifies all the characters to use with the "Space after custom characters" repair. The characters have to be one after the other
+(not separated by comma or whatever).
+<br>
+<br>
+
+<b>Space before characters</b><br>
+The same as above but this characters will be used with the "Space before custom characters" repair.
+<br>
+<br>
+
+<b>Too long duration</b><br>
+Specifies the value after which a duration is considered as too long.
+<br>
+<br>
+
+<b>Too short duration</b><br>
+Specifies the value before which a duration is considered as too short.
+<br>
+<br>
+
+<b>Too long line</b><br>
+Specifies the number of characters after which a line is considered as too long.
+<br>
+<br>
+
+<h5>Check for, fix, unnecessary spaces</h5>
+You are able to choose what errors to check for, and what errors to fix. And also, you can choose what unnecessary spaces to check
+for and what to fix.
+<br>
+<br>
+<br>
+
+<a name="5.5.3"></a><h5>5.5.3 OCR Scripts</h5>
+The OCR Scripts are nothing but a serie of Find-ReplaceBy specifications in a human-friendly close to HTML syntax. What makes them
+powerful?. The commands that are available. The possibility of using regular expression makes possible for you to find and replace
+almost anything needed in any language. A <b>very</b> important thing to know about OCR Scripts is that all commands are performed
+consecutively, that is, in the order they are written.
+<br>
+Let's now see a small example of an OCR Script:
+
+<pre>
+&lt;SWOCR WordChars="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_ñÑáéíóúÁÉÍÓÚäëïöü"&gt;
+	&lt;!-- The comments are set just like in HTML --&gt;
+	&lt;ERROR Find="[A-ZÁ-Ú](l)" ReplaceBy="I"&gt;
+	&lt;ERROR Find="[a-zá-ú](I)" ReplaceBy="l"&gt;
+	&lt;ERROR Find="\d( :)" ReplaceBy=":"&gt;
+	&lt;ERROR UseREOnlyToFind="False" Find=",{2,}" ReplaceBy="..."&gt;
+&lt;/SWOCR&gt;
+</pre>
+WordChars represents all the charcters that can form a word in your language. The default is the string shown above. If no
+parameter is passed, the default will be used.
+
+This are one of the most common OCR errors in English language, as in OCR Engines, "l" (small "L") and "I" (big "i") have no
+difference at all, they are often misplaced. Another very common error is the inclussion of spaces before colon. In the short
+example above Subtitle Workshop will use regular expressions on the search for errors. And if we don't want to use regular
+expressions?. For that we need to take a look at the parameters that define how you want the search to be made:<br><br>
+
+<b>UseRE</b><br>
+UseRE="True" or UseRE="False". The default value is True. If it is set to false then regular expressions will not be used in the
+search. Use it as False only if you want to simplify the way find-replace commands are written, because if regular expressions are
+disabled then the OCR scripts have few power.
+<br>
+<br>
+
+<b>UseREOnlyToFind</b><br>
+UseREOnlyToFind="True" or UseREOnlyToFind="False". The default value is True. To explain how this works we need to see an example:<br>
+
+<pre>
+&lt;ERROR UseREOnlyToFind="True" Find="[a-z]at" ReplaceBy="dog"&gt;
+</pre>
+Applied to <i>"The name of my <b>cat</b> is Max"</i> will return <i>"The name of my <b>dog</b> is Max"</i>, but
+
+<pre>
+&lt;ERROR UseREOnlyToFind="False" Find="[a-z](at)" ReplaceBy="dog"&gt;
+</pre>
+Applied to <i>"The name of my <b>cat</b> is Max"</i> will return <i>"The name of my <b>cdog</b> is Max"</i>.<br><br>
+In the first situation, when we are about to replace we also replace the part that is a regular expression (in this case "[a-z]",
+matching "c" this time).<br>
+In the second situation, when we are about to replace we only use the regular expression part ("[a-z]") to search for the text, but
+we don't use it to replace. We will only replace the part o the "Find=" text that is <b>between parenthesis</b>, that is, you need to
+write the normal regular expression and the part that is "constant" and won't vary between parenthesis. This is extremely useful for
+the OCR Scripts (take a deep look at Default.ocr to understand).
+
+<br>
+<br>
+
+The following parameters are only available when "UseRE" is set to false:<br><br>
+
+<b>WholeWord</b><br>
+WholeWord="True" or WholeWord="False". Setting it to False is the same as not including it. If true, it will find the "Find=" text
+only if it is forming a Word.
+<br>
+<br>
+
+<b>CaseSensitive</b><br>
+CaseSensitive="True" or CaseSensitive="False". Setting it to False is the same as not including it. If true, it will be case
+sensitive while finding the text.
+<br>
+<br>
+This are the most used commands, you can do a lot with them. But there are more:<br><br>
+
+<b>PreserveCase</b><br>
+The default value is False. If true, it will preserve the case of "Find" text when replacing to "ReplaceBy" text. For example, if we
+have this error:
+<pre>
+&lt;ERROR UseRE="False" Find="DOG" WholeWord="True" PreserveCase="True" ReplaceBy="CAT"&gt;
+</pre>
+As it is not case sensitive, we suppose Subtitle Workshop finds the text "Dog" and not "DOG". When replacing to "CAT", it will clone
+the case of the text it found, so it will replace "Dog" by "Cat" and not by "CAT".
+<br>
+<br>
+
+<a name="5.5.4"></a><h5>Syntax of Regular Expressions</h5>
+
+<h5>Introduction</h5>
+<i>This document is taken from TRegExpr help file, an excellent Regular Expressions library for Delphi, by Andrey V. Sorokin.</i>
+<br>
+<br>
+Regular Expressions are a widely-used method of specifying patterns of text to search for. Special metacharacters allow You to
+specify, for instance, that a particular string You are looking for occurs at the beginning or end of a line, or contains n
+recurrences of a certain character.<br>
+Regular expressions look ugly for novices, but really they are very simple (well, usually simple ;) ), handly and powerfull tool.
+<br>
+<br>
+I strongly recommend you to play with regular expressions. Let's start our learning trip!
+<br>
+<br>
+
+<h5>Simple matches</h5>
+Any single character matches itself, unless it is a <b>metacharacter</b> with a special meaning described below.<br><br>
+A series of characters matches that series of characters in the target string, so the pattern "bluh" would match "bluh"
+in the target string. Quite simple, eh?<br><br>
+You can cause characters that normally function as <b>metacharacters</b> or <b>escape sequences</b> to be interpreted literally by
+'escaping' them by preceding them with a backslash "\", for instance: metacharacter "^" match beginning of string, but "\^" match
+character "^", "\\" match "\" and so on.<br><br>
+
+<b>Examples:</b><br>
+<table>
+<tr>
+	<td>foobar</td>
+	<td><i>matchs string 'foobar'</i></td>
+</tr>
+<tr>
+	<td>\^FooBarPtr</td>
+	<td><i>matchs '^FooBarPtr'</i></td>
+</tr>
+</table>
+
+<h5>Escape sequences</h5>
+Characters may be specified using a <b>escape sequences</b> syntax much like that used in C and Perl: "\n'' matches a newline,
+"\t'' a tab, etc. More generally, \xnn, where nn is a string of hexadecimal digits, matches the character whose ASCII value is nn.
+If You need wide (Unicode) character code, You can use '\x{nnnn}', where 'nnnn' - one or more hexadecimal digits.<br>
+<br>
+
+<table>
+<tr>
+	<td>\xnn</td>
+	<td><i>char with hex code nn</i></td>
+</tr>
+<tr>
+	<td>\x{nnnn}</td>
+	<td><i>char with hex code nnnn (one byte for plain text and two bytes for Unicode)</i></td>
+</tr>
+<tr>
+	<td>\t</td>
+	<td><i>tab (HT/TAB), same as \x09</i></td>
+</tr>
+<tr>
+	<td>\n</td>
+	<td><i>newline (NL), same as \x0a</i></td>
+</tr>
+<tr>
+	<td>\r</td>
+	<td><i>car.return (CR), same as \x0d</i></td>
+</tr>
+<tr>
+	<td>\f</td>
+	<td><i>form feed (FF), same as \x0c</i></td>
+</tr>
+<tr>
+	<td>\a</td>
+	<td><i>alarm (bell) (BEL), same as \x07</i></td>
+</tr>
+<tr>
+	<td>\e</td>
+	<td><i>escape (ESC), same as \x1b</i></td>
+</tr>
+</table>
+<br>
+
+<b>Examples:</b><br>
+<table>
+<tr>
+	<td>foo\x20bar</td>
+	<td><i>matchs 'foo bar' (note space in the middle)</i></td>
+</tr>
+<tr>
+	<td>\tfoobar</td>
+	<td><i>matchs 'foobar' predefined by tab</i></td>
+</tr>
+</table>
+<br>
+
+<h5>Character classes</h5>
+You can specify a <b>character class</b>, by enclosing a list of characters in [], which will match any one character from the list.
+<br>
+<br>
+If the first character after the "['' is "^'', the class matches any character <b>not</b> in the list.
+<br>
+<br>
+<b>Examples:</b><br>
+<table>
+<tr>
+	<td>foob[aeiou]r</td>
+	<td><i>finds strings 'foobar', 'foober' etc. but not 'foobbr', 'foobcr' etc.</i></td>
+</tr>
+<tr>
+	<td>foob[^aeiou]r</td>
+	<td><i>find strings 'foobbr', 'foobcr' etc. but not 'foobar', 'foober' etc.</i></td>
+</tr>
+</table>
+<br>
+Within a list, the "-'' character is used to specify a <b>range</b>, so that a-z represents all characters between "a'' and "z'',
+inclusive.<br><br>
+If you want "-'' itself to be a member of a class, put it at the start or end of the list, or escape it with a backslash. If you
+want ']' you may place it at the start of list or escape it with a backslash.
+<br>
+<br>
+<b>Examples:</b><br>
+<table>
+<tr>
+	<td>[-az]</td>
+	<td><i>matchs 'a', 'z' and '-'</i></td>
+</tr>
+<tr>
+	<td>[az-]</td>
+	<td><i>matchs 'a', 'z' and '-'</i></td>
+</tr>
+<tr>
+	<td>[a\-z]</td>
+	<td><i>matchs 'a', 'z' and '-'</i></td>
+</tr>
+<tr>
+	<td>[a-z]</td>
+	<td><i>matchs all twenty six small characters from 'a' to 'z'</i></td>
+</tr>
+<tr>
+	<td>[\n-\x0D]</td>
+	<td><i>matchs any of #10,#11,#12,#13.</i></td>
+</tr>
+<tr>
+	<td>[\d-t]</td>
+	<td><i>matchs any digit, '-' or 't'.</i></td>
+</tr>
+<tr>
+	<td>[]-a]</td>
+	<td><i>matchs any char from ']'..'a'.</i></td>
+</tr>
+</table>
+<br>
+
+<h5>Metacharacters</h5>
+Metacharacters are special characters which are the essence of Regular Expressions. There are different types of metacharacters,
+described below.
+<br>
+<br>
+
+<b>Metacharacters - line separators</b>
+<table>
+<tr>
+	<td>^</td>
+	<td><i>start of line</i></td>
+</tr>
+<tr>
+	<td>$</td>
+	<td><i>end of line</i></td>
+</tr>
+<tr>
+	<td>\A</td>
+	<td><i>start of text</i></td>
+</tr>
+<tr>
+	<td>\Z</td>
+	<td><i>end of text</i></td>
+</tr>
+<tr>
+	<td>.</td>
+	<td><i>any character in line</i></td>
+</tr>
+</table>
+<br>
+
+<b>Examples:</b><br>
+<table>
+<tr>
+	<td>^foobar</td>
+	<td><i>matchs string 'foobar' only if it's at the beginning of line</i></td>
+</tr>
+<tr>
+	<td>foobar$</td>
+	<td><i>matchs string 'foobar' only if it's at the end of line</i></td>
+</tr>
+<tr>
+	<td>^foobar$</td>
+	<td><i>matchs string 'foobar' only if it's the only string in line</i></td>
+</tr>
+<tr>
+	<td>foob.r</td>
+	<td><i>matchs strings like 'foobar', 'foobbr', 'foob1r' and so on</i></td>
+</tr>
+</table>
+<br>
+The "^" metacharacter by default is only guaranteed to match at the beginning of the input string/text, the "$" metacharacter only
+at the end. Embedded line separators will not be matched by "^'' or "$''.<br>
+You may, however, wish to treat a string as a multi-line buffer, such that the "^'' will match after any line separator within the
+string, and "$'' will match before any line separator. You can do this by switching On the modifier /m.<br>
+The \A and \Z are just like "^'' and "$'', except that they won't match multiple times when the modifier /m is used, while "^'' and
+"$'' will match at every internal line separator.<br><br>
+The ".'' metacharacter by default matches any character, but if You switch Off the modifier /s, then '.' won't match embedded line
+separators.<br><br>
+TRegExpr works with line separators as recommended at www.unicode.org (http://www.unicode.org/unicode/reports/tr18/):<br><br>
+
+ "^" is at the beginning of a input string, and, if modifier /m is On, also immediately following any occurrence of \x0D\x0A or
+ \x0A or \x0D (if You are using Unicode version of TRegExpr, then also \x2028 or  \x2029 or \x0B or \x0C or \x85). Note that there
+ is no empty line within the sequence \x0D\x0A.<br><br>
+
+"$" is at the end of a input string, and, if modifier /m is On, also immediately preceding any occurrence of  \x0D\x0A or \x0A or
+\x0D (if You are using Unicode version of TRegExpr, then also \x2028 or  \x2029 or \x0B or \x0C or \x85). Note that there is no
+empty line within the sequence \x0D\x0A.<br><br>
+
+"." matchs any character, but if You switch Off modifier /s then "." doesn't match \x0D\x0A and \x0A and \x0D (if You are using
+Unicode version of TRegExpr, then also \x2028 and  \x2029 and \x0B and \x0C and \x85).<br><br>
+
+Note that "^.*$" (an empty line pattern) doesnot match the empty string within the sequence \x0D\x0A, but matchs the empty string
+within the sequence \x0A\x0D.<br><br>
+
+Multiline processing can be easely tuned for Your own purpose with help of TRegExpr properties LineSeparators and
+LinePairedSeparator, You can use only Unix style separators \n or only DOS/Windows style \r\n or mix them together (as described
+above and used by default) or define Your own line separators!<br><br>
+
+
+<h5>Metacharacters - predefined classes</h5>
+<table>
+<tr>
+	<td>\w</td>
+	<td><i>an alphanumeric character (including "_")</i></td>
+</tr>
+<tr>
+	<td>\W</td>
+	<td><i>a nonalphanumeric</i></td>
+</tr>
+<tr>
+	<td>\d</td>
+	<td><i>a numeric character</i></td>
+</tr>
+<tr>
+	<td>\D</td>
+	<td><i>a non-numeric</i></td>
+</tr>
+<tr>
+	<td>\s</td>
+	<td><i>any space (same as [ \t\n\r\f])</i></td>
+</tr>
+<tr>
+	<td>\S</td>
+	<td><i>a non space</i></td>
+</tr>
+</table>
+<br>
+You may use \w, \d and \s within custom <b>character classes</b>.<br><br>
+
+<b>Examples:</b><br>
+<table>
+<tr>
+	<td>foob\dr</td>
+	<td><i>matchs strings like 'foob1r', ''foob6r' and so on but not 'foobar', 'foobbr' and so on</i></td>
+</tr>
+<tr>
+	<td>foob[\w\s]r</td>
+	<td><i>matchs strings like 'foobar', 'foob r', 'foobbr' and so on but not 'foob1r', 'foob=r' and so on</i></td>
+</tr>
+</table>
+<br>
+TRegExpr uses properties SpaceChars and WordChars to define character classes \w, \W, \s, \S, so You can easely redefine it.<br><br>
+
+<h5>Metacharacters - word boundaries</h5>
+<table>
+<tr>
+	<td>\b</td>
+	<td><i>Match a word boundary</i></td>
+</tr>
+<tr>
+	<td>\B</td>
+	<td><i>Match a non-(word boundary)</i></td>
+</tr>
+</table>
+<br>
+A word boundary (\b) is a spot between two characters that has a \w on one side of it and a \W on the other side of it (in either
+order), counting the imaginary characters off the beginning and end of the string as matching a \W.<br><br>
+
+<h5>Metacharacters - iterators</h5>
+Any item of a regular expression may be followed by another type of metacharacters - <b>iterators</b>. Using this metacharacters
+you can specify number of occurences of previous character, <b>metacharacter</b> or <b>subexpression</b>.<br>
+
+<table>
+<tr>
+	<td>*</td>
+	<td><i>zero or more ("greedy"), similar to {0,}</i></td>
+</tr>
+<tr>
+	<td>+</td>
+	<td><i>one or more ("greedy"), similar to {1,}</i></td>
+</tr>
+<tr>
+	<td>?</td>
+	<td><i>zero or one ("greedy"), similar to {0,1}</i></td>
+</tr>
+<tr>
+	<td>{n}</td>
+	<td><i>exactly n times ("greedy")</i></td>
+</tr>
+<tr>
+	<td>{n,}</td>
+	<td><i>at least n times ("greedy")</i></td>
+</tr>
+<tr>
+	<td>{n,m}</td>
+	<td><i>at least n but not more than m times ("greedy")</i></td>
+</tr>
+<tr>
+	<td>*?</td>
+	<td><i>zero or more ("non-greedy"), similar to {0,}?</i></td>
+</tr>
+<tr>
+	<td>+?</td>
+	<td><i>one or more ("non-greedy"), similar to {1,}?</i></td>
+</tr>
+<tr>
+	<td>??</td>
+	<td><i>zero or one ("non-greedy"), similar to {0,1}?</i></td>
+</tr>
+<tr>
+	<td>{n}?</td>
+	<td><i>exactly n times ("non-greedy")</i></td>
+</tr>
+<tr>
+	<td>{n,}?</td>
+	<td><i>at least n times ("non-greedy")</i></td>
+</tr>
+<tr>
+	<td>{n,m}?</td>
+	<td><i>at least n but not more than m times ("non-greedy")</i></td>
+</tr>
+</table>
+<br>
+So, digits in curly brackets of the form {n,m}, specify the minimum number of times to match the item n and the maximum m. The form
+{n} is equivalent to {n,n} and matches exactly n times. The form {n,} matches n or more times. There is no limit to the size of n
+or m, but large numbers will chew up more memory and slow down r.e. execution.<br><br>
+
+If a curly bracket occurs in any other context, it is treated as a regular character.<br><br>
+
+<b>Examples:</b>
+<table>
+<tr>
+	<td>foob.*r</td>
+	<td><i>matchs strings like 'foobar',  'foobalkjdflkj9r' and 'foobr'</i></td>
+</tr>
+<tr>
+	<td>foob.+r</td>
+	<td><i>matchs strings like 'foobar', 'foobalkjdflkj9r' but not 'foobr'</i></td>
+</tr>
+<tr>
+	<td>foob.?r</td>
+	<td><i>matchs strings like 'foobar', 'foobbr' and 'foobr' but not 'foobalkj9r'</i></td>
+</tr>
+<tr>
+	<td>fooba{2}r</td>
+	<td><i>matchs the string 'foobaar'</i></td>
+</tr>
+<tr>
+	<td>fooba{2,}r</td>
+	<td><i>matchs strings like 'foobaar', 'foobaaar', 'foobaaaar' etc.</i></td>
+</tr>
+<tr>
+	<td>fooba{2,3}r</td>
+	<td><i>matchs strings like 'foobaar', or 'foobaaar'  but not 'foobaaaar'</i></td>
+</tr>
+</table>
+<br>
+A little explanation about "greediness". "Greedy" takes as many as possible, "non-greedy" takes as few as possible. For example,
+'b+' and 'b*' applied to string 'abbbbc' return 'bbbb', 'b+?' returns 'b', 'b*?' returns empty string, 'b{2,3}?' returns 'bb',
+'b{2,3}' returns 'bbb'.<br><br>
+
+You can switch all iterators into "non-greedy" mode (see the modifier /g).<br><br>
+
+<h5>Metacharacters - alternatives</h5>
+You can specify a series of <b>alternatives</b> for a pattern using "|'' to separate them, so that fee|fie|foe will match any of
+"fee'', "fie'', or "foe'' in the target string (as would f(e|i|o)e). The first alternative includes everything from the last
+pattern delimiter ("('', "['', or the beginning of the pattern) up to the first "|'', and the last alternative contains everything
+from the last "|'' to the next pattern delimiter. For this reason, it's common practice to include alternatives in parentheses, to
+minimize confusion about where they start and end.<br>
+Alternatives are tried from left to right, so the first alternative found for which the entire expression matches, is the one that
+is chosen. This means that alternatives are not necessarily greedy. For example: when matching foo|foot against "barefoot'', only
+the "foo'' part will match, as that is the first alternative tried, and it successfully matches the target string. (This might not
+seem important, but it is important when you are capturing matched text using parentheses.)<br>
+Also remember that "|'' is interpreted as a literal within square brackets, so if You write [fee|fie|foe] You're really only
+matching [feio|].<br><br>
+
+<b>Examples:</b>
+<table>
+<tr>
+	<td>foo(bar|foo)</td>
+	<td><i>matchs strings 'foobar' or 'foofoo'.</i></td>
+</tr>
+</table>
+<br>
+
+<h5>Metacharacters - subexpressions</h5>
+The bracketing construct ( ... ) may also be used for define r.e. subexpressions (after parsing You can find subexpression
+positions, lengths and actual values in MatchPos, MatchLen and Match properties of TRegExpr, and substitute it in template strings
+by TRegExpr.Substitute).<br><br>
+Subexpressions are numbered based on the left to right order of their opening parenthesis.<br>
+First subexpression has number '1' (whole r.e. match has number '0' - You can substitute it in TRegExpr.Substitute as '$0' or '$&amp;').
+<br>
+<br>
+<b>Examples:</b>
+<table>
+<tr>
+	<td>(foobar){8,10}</td>
+	<td><i>matchs strings which contain 8, 9 or 10 instances of the 'foobar'</i></td>
+</tr>
+<tr>
+	<td>foob([0-9]|a+)r</td>
+	<td><i>matchs 'foob0r', 'foob1r' , 'foobar', 'foobaar', 'foobaar' etc.</i></td>
+</tr>
+</table>
+<br>
+
+<h5>Metacharacters - backreferences</h5>
+<b>Metacharacters</b> \1 through \9 are interpreted as backreferences. \&lt;n&gt; matches previously matched subexpression #&lt;n&gt;.
+<br>
+<br>
+
+<b>Examples:</b>
+<table>
+<tr>
+	<td>(.)\1+</td>
+	<td><i>matchs 'aaaa' and 'cc'.</i></td>
+</tr>
+<tr>
+	<td>(.+)\1+</td>
+	<td><i>also match 'abab' and '123123'</i></td>
+</tr>
+<tr>
+	<td>(['"]?)(\d+)\1</td>
+	<td><i>matchs '"13" (in double quotes), or '4' (in single quotes) or 77 (without quotes) etc</i></td>
+</tr>
+</table>
+<br>
+
+<h5>Modifiers</h5>
+Modifiers are for changing behaviour of TRegExpr.<br><br>
+There are many ways to set up modifiers. <br>
+Any of these modifiers may be embedded within the regular expression itself using the (?...) construct.<br>
+Also, you can assign to appropriate TRegExpr properties (Modifier for example to change /x, or ModifierStr to change all modifiers
+together). The default values for new instances of TRegExpr object defined in global variables, for example global variable
+RegExprModifierX defines value of new TRegExpr instance ModifierX property.
+<br>
+<br>
+
+<table>
+<tr>
+	<td><b>i</b></td>
+	<td>Do case-insensitive pattern matching (using installed in you system locale settings), see also InvertCase.</td>
+</tr>
+<tr>
+	<td><b>m</b></td>
+	<td>Treat string as multiple lines. That is, change "^'' and "$'' from matching at only the very start or end of the string to the start or end of any line anywhere within the string, see also Line separators.</td>
+</tr>
+<tr>
+	<td><b>s</b></td>
+	<td>Treat string as single line. That is, change ".'' to match any character whatsoever, even a line separators (see also Line separators), which it normally would not match.</td>
+</tr>
+<tr>
+	<td><b>g</b></td>
+	<td>Non standard modifier. Switching it Off You'll switch all following operators into non-greedy mode (by default this modifier is On). So, if modifier /g is Off then '+' works as '+?', '*' as '*?' and so on</td>
+</tr>
+<tr>
+	<td><b>x</b></td>
+	<td>Extend your pattern's legibility by permitting whitespace and comments (see explanation below).</td>
+</tr>
+<tr>
+	<td><b>r</b></td>
+	<td>Non-standard modifier. If is set then range à-ÿ additional include russian letter '¸', À-ß  additional include '¨', and à-ß include all russian symbols.
+Sorry for foreign users, but it's set by default. If you want switch if off by default - set false to global variable RegExprModifierR.</td>
+</tr>
+</table>
+<br>
+The modifier /x itself needs a little more explanation. It tells the TRegExpr to ignore whitespace that is neither backslashed nor
+within a character class. You can use this to break up your regular expression into (slightly) more readable parts. The # character
+is also treated as a metacharacter introducing a comment, for example:<br><br>
+
+<pre>
+(
+(abc) # comment 1
+  |   # You can use spaces to format r.e. - TRegExpr ignores it
+(efg) # comment 2
+)
+</pre>
+
+This also means that if you want real whitespace or # characters in the pattern (outside a character class, where they are
+unaffected by /x), that you'll either have to escape them or encode them using octal or hex escapes. Taken together, these features
+go a long way towards making regular expressions text more readable.
+<br>
+
+<h5>Perl extensions</h5>
+(?imsxr-imsxr)<br>
+You may use it into r.e. for modifying modifiers by the fly. If this construction inlined into subexpression, then it effects only
+into this subexpression.<br><br>
+
+<b>Examples:</b>
+<table>
+<tr>
+	<td>(?i)Saint-Petersburg</td>
+	<td><i>matchs 'Saint-petersburg' and 'Saint-Petersburg'</i></td>
+</tr>
+<tr>
+	<td>(?i)Saint-(?-i)Petersburg</td>
+	<td><i>matchs 'Saint-Petersburg' but not 'Saint-petersburg'</i></td>
+</tr>
+<tr>
+	<td> (?i)(Saint-)?Petersburg</td>
+	<td><i>matchs 'Saint-petersburg' and 'saint-petersburg'</i></td>
+</tr>
+<tr>
+	<td>((?i)Saint-)?Petersburg</td>
+	<td><i>matchs 'saint-Petersburg', but not 'saint-petersburg' </i></td>
+</tr>
+</table>
+<br>
+
+(?#text)
+A comment, the text is ignored. Note that TRegExpr closes the comment as soon as it sees a ")", so there is no way to put a literal
+")" in the comment.
+<br>
+<br>
+<br>
+
+<a name="5.6"></a><h3>5.6 Add FPS from AVI</h3>
+Useful if you have a movie and it's corresponding subtitle (which is a frame based one) and you want to edit it but you don't know
+the FPS of the movie. If this is your case then use this feature. It lets you find out the FPS of a movie file and add it to
+Subtitle Workshop's list.
+<br>
+There are two ways in which you can use this feature:
+<ol>
+	<li>Using the <b>"Tools/Add FPS from AVI"</b> menu. This method reads the header of the video file, and thus it only works with
+	AVI files (not MPEG, ASF, WMV, etc). It is very fast and if the file is a valid AVI file, it works very well.</li>
+	<li>Loading the movie from the <b>"Movie/Open"</b> menu. This method uses DirectX, and so it will work with all kind of video
+	files. There are some cases with AVI files that DirectX detects 0 as FPS, in this cases, Subtitle Workshop will alternatively
+	read the header of the AVI.</li>
+</ol>
+Each time you use this feature, the FPS of the video will be added to all the places in which there are boxes to select FPS.
+<br>
+<br>
+
+<a name="5.7"></a><h3>5.7 External preview</h3>
+This option makes possible to directly test the subtitle file you are working with in your favourite movie player. The movie player
+you use must support <b>command line</b>, and a minimum of one of the subtitle formats that Subtitle Workshop supports.<br><br>
+In the Settings window, go to External preview and then to General. Here you must select the exe file of the video player you want
+to use. If the video player is already associated with .AVI files, click "Detect associated program" button.<br>
+Then select if you want to be asked for a different video each time you test the subtitle, or if you are always going to test the
+subtitle with the same video.<br><br>
+In the Advanced section, we have other necessary things we have to configure. Select the format in which you want the temporary
+subtitle file to be saved (it will be saved in the temp directory). Only select Original format if you are sure that the video
+player you are using supports the subtitle format that you are creating/editing.<br><br>
+Finally, you must select the parameters to send to the video player. VIDEO_FILE represents the video file, and SUBT_FILE represents
+the subtitle file. You may add other parameters, like full screen, etc. Please be sure (in most cases) to add SUBT_FILE and
+VIDEO_FILE between " " so if one of the files contains one (or more) spaces, it will be sent on the same parameter.<br><br>
+When you finished configuring all this settings, you can test the subtitle pressing the <b>F8</b> key or the
+<b>"Tools/External preview"</b> menu.<br><br><br>
+Tested video players:
+<ol>
+	<li>
+		<b>BSPlayer</b><br>
+		"VIDEO_FILE" "SUBT_FILE" -fs<br>
+		(Save temp. file in SubRip format)
+	</li>
+	<li>
+		<b>ViPlay</b><br>
+		/MOVIE:"VIDEO_FILE" /SUBTITLE:"SUBT_FILE" /FS<br>
+		(Save temp. file in any format)
+	</li>
+</ol>
+<br>
+
+<a name="5.8"></a><h3>5.8 Internal Preview: The video engine</h3>
+<h4>The Video Preview window: have a look at how your subtitles will perform</h4><br>
+This mode will only works (and makes sense) when you have opened a subtitle file and a video file (see <a href="#1.4.1">Loading a
+subtitle file</a> and <a href="#1.4.2">Loading a video file</a>). If you have done both, a media player interface will be inserted
+into the upper part of the main editor window. The size of it can be adjusted by clicking the mouse on the border of the video and
+subtitle part of the window (a new cursor symbol will show up) and dragging up or down . Adjusting the video window will also
+resize the video itself .<br><br>
+<b>Note</b>: If you have an automatic subtitle display filter such as VobSub installed, it will of course also be effective in here.
+This may result in two subtitles being displayed on top of each other, at the same time. In that case, rename the subtitle file
+opened unwillingly, or uninstall the filter.<br><br>
+The video window is composed of the displayed video itself, a scroll bar, a set of buttons and a set of figures giving current play
+time, total play time and frames per second (FPS) of the video. The subtitle file opened will be displayed on top of the video,
+following it's timing. Font, color, size and other attributes can be adjusted in Settings.<br>
+<br>
+Buttons (from left to right):
+
+<ul>
+	<li><b>Play/Pause</b><br>
+	Click once to play, and again to pause.
+	<br><br>
+	</li>
+
+	<li><b>Stop</b><br>
+	Stops playback and rewinds to 00:00:00.000.
+	<br><br>
+	</li>
+
+	<li><b>Toggle scroll list</b><br>
+	If in use (will be set in a darkened square), Subtitle Workshop marks the subtitle item being currently displayed in the
+	video in the editor window, and scroll down if necessary.
+	<br><br>
+	</li>
+
+	<li><b>Jump to previous/next subtitle</b><br>
+	This two buttons just move the player's position to the initial time of the previous/next subtitle of the one currently being
+	displayed.
+	<br><br>
+	</li>
+
+	<li><b>Rewind &amp; Forward</b><br>
+	If pushed once, they will rewind or forward the amount of time specified in Settings. Preset is 0.5 seconds (500 milliseconds).<br>
+	If pushed continuously, they will scroll through the video at rather fast pace. Both ways can be used if the video is playing,
+	paused or stopped.
+	<br><br>
+	</li>
+
+	<li><b>Alter playback rate</b><br>
+	If pressed (will be set in a dark square), video playback will be slower/faster by the percentage specified in Settings.<br>
+	Preset is 50%.
+	<br><br>
+	</li>
+
+	<li><b>Move subtitle</b><br>
+	This button moves all the selected subtitles, so that the first one's start time is equal to the player's time. It doesn't modify
+	the duration of the subtitles, just acts like a "quick" version of "Set delay".
+	<br><br>
+	</li>
+
+	<li><b>Set Start Time &amp; Set Final Time</b><br>
+	When used, both buttons will affect the subtitle item currently selected in the editor window.<br>
+	"Set start time" will overwrite the start time value of this subtitle to the time the video is currently on, and "Set final time"
+	will do just this for the final time, and jump to the next subtitle.
+	<br><br>
+	</li>
+
+	<li><b>Start Subtitle &amp; End Subtitle</b><br>
+	"Start subtitle" sets an internal variable to the time in which the movie is playing at that moment, "End subtitle" creates a
+	new subtitle with Initial time equal to that variable and final time equal to the current time. Very useful for creating
+	subtitles from scratch.
+	<br><br>
+	</li>
+
+	<li><b>Mark as first synch point, Mark as last synch point, and Add subtitle/vide synchronization point</b><br>
+	This buttons are explained in <a href="#2.3">Adjust subtitles</a>.
+	<br><br>
+	</li>
+</ul>
+
+The seek bar can be used like the one in Windows Media Player, ViPlay or any other player. The smallest possible seeking interval
+depends on the length of the video file.
+<br>
+<br>
+<br>
+
+<a name="5.9"></a><h3>5.9 SAMI Language Extractor</h3>
+This feature is intended to extract one or more languages from subtitles in SAMI format that contain more than one language.
+Subtitle Workshop doesn't support multilingual SAMIs so with this tool you can extract the desired languages and open
+them as one language SAMIs.
+<br>
+<br>
+<br>
+
+<br><a name="FAQ"></a>
+<h2>Frequently Asked Questions [FAQ]</h2>
+The most up to date FAQ, the official one, is available <a href="http://www.urusoft.net/faq.php?cat=sw&lang=1">here</a>.
+<br>
+
+<a name="CONTACT"></a><h2>Contact information</h2>
+You are free to send me your comments, ideas, suggestions, language files, bug reports, etc. For contact information, enter
+the "Contact us" section in <a href="http://www.urusoft.net/">http://www.urusoft.net/</a>.
+<br>
+You can also use the <a href="http://www.urusoft.net/forum/">forum</a>.<br><br>
+You can visit us on the internet in the following direction: <a href="http://www.urusoft.net">http://www.urusoft.net</a>.
+
+<br>
+<br>
+<br>
+
+<a name="LICENSE"></a><h2>License</h2>
+This program is provided 'AS IS', without the guarantee of any type. The whole risk with regard to the use of this program is taken
+by the user. The author doesn't become responsible for any direct or indirect, incidental or consequent damage, being from any flaw
+in the program.<br><br>
+This program should be distributed freely, it cannot be sold or resold, distributed as part of any commercial package, used
+in a commercial, used environment or distributed as support of a commercial, or used service and/or distributed in any
+activity type with ends of lucre without the author's previous signed authorization, with the only exception of the
+distribution in magazines (read below).<br><br>
+Magazine publishers interested in including URUSoft programs in a CD as a part of an edition of their magazine must send us
+a message via e-mail telling us that they are going to distribute the program, detailing it's name and version and also
+name and edition number of the magazine.<br>
+In any future inclusion of the program in the magazine the above mentioned process must be repeated.<br><br>
+The integrity of the file of distribution of this program should be original as it is distributed by its author. All their files
+should be distributed together in the original format.<br><br>
+If this program is an upgrade of an old version, you will be able to use it or to only transfer it together with the product to
+upgrade. All Brand Names are Copyright of their Respective Owners. The Author of this program is NOT associated with any company.
+<br>
+<br>
+<b>IF YOU DON'T ACCEPT THESE TERMS, YOU SHOULD CEASE AND DESIST TO USE THIS PROGRAM.</b>
+
+</body>
+</html>

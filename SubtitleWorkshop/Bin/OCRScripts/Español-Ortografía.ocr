@@ -1,0 +1,294 @@
+<!----------------------------------------------->
+<!--     Subtitle Workshop OCR Script file     -->
+<!--       Copyright © 2001-2004 URUSoft       -->
+<!--           http://www.urusoft.net          -->
+<!--                                           -->
+<!--    ¡Específico para lenguaje español!     -->
+<!----------------------------------------------->
+
+<SWOCR WordChars="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_ñÑáéíóúÁÉÍÓÚäëïöü">
+
+<!-- Palabras en particular -->
+<ERROR UseRE=False Find="llegal" WholeWord="True" ReplaceBy="Ilegal">
+
+<!-- Correcciones ortográficas -->
+<!-- Terminaciones ción/sión -->
+<ERROR Find="(cion)\b" ReplaceBy="ción">
+<ERROR Find="(sion)\b" ReplaceBy="sión">
+
+<!-- Falta de tildes en preguntas -->
+<ERROR UseRE=False Find="¿que" WholeWord="True" PreserveCase="True" ReplaceBy="¿qué">
+<ERROR UseRE=False Find="que?" WholeWord="True" PreserveCase="True" ReplaceBy="qué?">
+<ERROR UseRE=False Find="¿como" WholeWord="True" PreserveCase="True" ReplaceBy="¿cómo">
+<ERROR UseRE=False Find="¿y como" WholeWord="True" PreserveCase="True" ReplaceBy="¿y cómo">
+<ERROR UseRE=False Find="¿cual" WholeWord="True" PreserveCase="True" ReplaceBy="¿cuál">
+<ERROR UseRE=False Find="¿en cual" WholeWord="True" PreserveCase="True" ReplaceBy="¿en cuál">
+<ERROR UseRE=False Find="¿cuando" WholeWord="True" PreserveCase="True" ReplaceBy="¿cuándo">
+<ERROR UseRE=False Find="¿cuanto" WholeWord="True" PreserveCase="True" ReplaceBy="¿cuánto">
+<ERROR UseRE=False Find="¿cuantos" WholeWord="True" PreserveCase="True" ReplaceBy="¿cuántos">
+<ERROR UseRE=False Find="¿donde" WholeWord="True" PreserveCase="True" ReplaceBy="¿dónde">
+<ERROR UseRE=False Find="¿de que" WholeWord="True" PreserveCase="True" ReplaceBy="¿de qué">
+<ERROR UseRE=False Find="¿por que" WholeWord="True" PreserveCase="True" ReplaceBy="¿por qué">
+<ERROR UseRE=False Find="¿porque" WholeWord="True" PreserveCase="True" ReplaceBy="¿por qué">
+<ERROR UseRE=False Find="¿porqué" WholeWord="True" PreserveCase="True" ReplaceBy="¿por qué">
+<ERROR UseRE=False Find="¿y que" WholeWord="True" PreserveCase="True" ReplaceBy="¿y qué">
+<ERROR UseRE=False Find="¿quien" WholeWord="True" PreserveCase="True" ReplaceBy="¿quién">
+
+<!-- Falta de tildes en general -->
+<ERROR UseRE=False Find="aca" WholeWord="True" PreserveCase="True" ReplaceBy="acá">
+<ERROR UseRE=False Find="actuas" WholeWord="True" PreserveCase="True" ReplaceBy="actúas">
+<ERROR UseRE=False Find="actues" WholeWord="True" PreserveCase="True" ReplaceBy="actúes">
+<ERROR UseRE=False Find="adios" WholeWord="True" PreserveCase="True" ReplaceBy="adiós">
+<ERROR UseRE=False Find="agarrenla" WholeWord="True" PreserveCase="True" ReplaceBy="agárrenla">
+<ERROR UseRE=False Find="agarrenlo" WholeWord="True" PreserveCase="True" ReplaceBy="agárrenlo">
+<ERROR UseRE=False Find="agarrandose" WholeWord="True" PreserveCase="True" ReplaceBy="agarrándose">
+<ERROR UseRE=False Find="algun" WholeWord="True" PreserveCase="True" ReplaceBy="algún">
+<ERROR UseRE=False Find="alli" WholeWord="True" PreserveCase="True" ReplaceBy="allí">
+<ERROR UseRE=False Find="alla" WholeWord="True" PreserveCase="True" ReplaceBy="allá">
+<ERROR UseRE=False Find="alejate" WholeWord="True" PreserveCase="True" ReplaceBy="aléjate">
+<ERROR UseRE=False Find="ahi" WholeWord="True" PreserveCase="True" ReplaceBy="ahí">
+<ERROR UseRE=False Find="angel" WholeWord="True" PreserveCase="True" ReplaceBy="ángel">
+<ERROR UseRE=False Find="angeles" WholeWord="True" PreserveCase="True" ReplaceBy="ángeles">
+<ERROR UseRE=False Find="apagala" WholeWord="True" PreserveCase="True" ReplaceBy="apágala">
+<ERROR UseRE=False Find="aqui" WholeWord="True" PreserveCase="True" ReplaceBy="aquí">
+<ERROR UseRE=False Find="asi" WholeWord="True" PreserveCase="True" ReplaceBy="así">
+<ERROR UseRE=False Find="bahia" WholeWord="True" PreserveCase="True" ReplaceBy="bahía">
+<ERROR UseRE=False Find="busqueda" WholeWord="True" PreserveCase="True" ReplaceBy="búsqueda">
+<ERROR UseRE=False Find="busquedas" WholeWord="True" PreserveCase="True" ReplaceBy="búsquedas">
+<ERROR UseRE=False Find="callate" WholeWord="True" PreserveCase="True" ReplaceBy="cállate">
+<ERROR UseRE=False Find="carcel" WholeWord="True" PreserveCase="True" ReplaceBy="cárcel">
+<ERROR UseRE=False Find="camara" WholeWord="True" PreserveCase="True" ReplaceBy="cámara">
+<ERROR UseRE=False Find="caido" WholeWord="True" PreserveCase="True" ReplaceBy="caído">
+<ERROR UseRE=False Find="cabron" WholeWord="True" PreserveCase="True" ReplaceBy="cabrón">
+<ERROR UseRE=False Find="camion" WholeWord="True" PreserveCase="True" ReplaceBy="camión">
+<ERROR UseRE=False Find="codigo" WholeWord="True" PreserveCase="True" ReplaceBy="código">
+<ERROR UseRE=False Find="codigos" WholeWord="True" PreserveCase="True" ReplaceBy="códigos">
+<ERROR UseRE=False Find="comence" WholeWord="True" PreserveCase="True" ReplaceBy="comencé">
+<ERROR UseRE=False Find="comprate" WholeWord="True" PreserveCase="True" ReplaceBy="cómprate">
+<ERROR UseRE=False Find="consegui" WholeWord="True" PreserveCase="True" ReplaceBy="conseguí">
+<ERROR UseRE=False Find="confias" WholeWord="True" PreserveCase="True" ReplaceBy="confías">
+<ERROR UseRE=False Find="convertira" WholeWord="True" PreserveCase="True" ReplaceBy="convertirá">
+<ERROR UseRE=False Find="corazon" WholeWord="True" PreserveCase="True" ReplaceBy="corazón">
+<ERROR UseRE=False Find="crei" WholeWord="True" PreserveCase="True" ReplaceBy="creí">
+<ERROR UseRE=False Find="creia" WholeWord="True" PreserveCase="True" ReplaceBy="creía">
+<ERROR UseRE=False Find="creido" WholeWord="True" PreserveCase="True" ReplaceBy="creído">
+<ERROR UseRE=False Find="creiste" WholeWord="True" PreserveCase="True" ReplaceBy="creíste">
+<ERROR UseRE=False Find="cubrenos" WholeWord="True" PreserveCase="True" ReplaceBy="cúbrenos">
+<ERROR UseRE=False Find="comio" WholeWord="True" PreserveCase="True" ReplaceBy="comió">
+<ERROR UseRE=False Find="dara" WholeWord="True" PreserveCase="True" ReplaceBy="dará">
+<ERROR UseRE=False Find="dia" WholeWord="True" PreserveCase="True" ReplaceBy="día">
+<ERROR UseRE=False Find="dias" WholeWord="True" PreserveCase="True" ReplaceBy="días">
+<ERROR UseRE=False Find="debio" WholeWord="True" PreserveCase="True" ReplaceBy="debió">
+<ERROR UseRE=False Find="dele" WholeWord="True" PreserveCase="True" ReplaceBy="déle">
+<ERROR UseRE=False Find="deme" WholeWord="True" PreserveCase="True" ReplaceBy="déme">
+<ERROR UseRE=False Find="denos" WholeWord="True" PreserveCase="True" ReplaceBy="dénos">
+<ERROR UseRE=False Find="dese" WholeWord="True" PreserveCase="True" ReplaceBy="dése">
+<ERROR UseRE=False Find="decia" WholeWord="True" PreserveCase="True" ReplaceBy="decía">
+<ERROR UseRE=False Find="decian" WholeWord="True" PreserveCase="True" ReplaceBy="decían">
+<ERROR UseRE=False Find="detras" WholeWord="True" PreserveCase="True" ReplaceBy="detrás">
+<ERROR UseRE=False Find="deberia" WholeWord="True" PreserveCase="True" ReplaceBy="debería">
+<ERROR UseRE=False Find="deberas" WholeWord="True" PreserveCase="True" ReplaceBy="deberás">
+<ERROR UseRE=False Find="deberias" WholeWord="True" PreserveCase="True" ReplaceBy="deberías">
+<ERROR UseRE=False Find="deberian" WholeWord="True" PreserveCase="True" ReplaceBy="deberían">
+<ERROR UseRE=False Find="deberiamos" WholeWord="True" PreserveCase="True" ReplaceBy="deberíamos">
+<ERROR UseRE=False Find="dejame" WholeWord="True" PreserveCase="True" ReplaceBy="déjame">
+<ERROR UseRE=False Find="dejate" WholeWord="True" PreserveCase="True" ReplaceBy="déjate">
+<ERROR UseRE=False Find="dejalo" WholeWord="True" PreserveCase="True" ReplaceBy="déjalo">
+<ERROR UseRE=False Find="dejarian" WholeWord="True" PreserveCase="True" ReplaceBy="dejarían">
+<ERROR UseRE=False Find="damela" WholeWord="True" PreserveCase="True" ReplaceBy="dámela">
+<ERROR UseRE=False Find="despues" WholeWord="True" PreserveCase="True" ReplaceBy="después">
+<ERROR UseRE=False Find="diciendome" WholeWord="True" PreserveCase="True" ReplaceBy="diciéndome">
+<ERROR UseRE=False Find="dificil" WholeWord="True" PreserveCase="True" ReplaceBy="difícil">
+<ERROR UseRE=False Find="dificiles" WholeWord="True" PreserveCase="True" ReplaceBy="difíciles">
+<ERROR UseRE=False Find="disculpate" WholeWord="True" PreserveCase="True" ReplaceBy="discúlpate">
+<ERROR UseRE=False Find="dolares" WholeWord="True" PreserveCase="True" ReplaceBy="dólares">
+<ERROR UseRE=False Find="hechar" WholeWord="True" PreserveCase="True" ReplaceBy="echar">
+<ERROR UseRE=False Find="examenes" WholeWord="True" PreserveCase="True" ReplaceBy="exámenes">
+<ERROR UseRE=False Find="empezo" WholeWord="True" PreserveCase="True" ReplaceBy="empezó">
+<ERROR UseRE=False Find="empujon" WholeWord="True" PreserveCase="True" ReplaceBy="empujón">
+<ERROR UseRE=False Find="empujalo" WholeWord="True" PreserveCase="True" ReplaceBy="empújalo">
+<ERROR UseRE=False Find="escondanme" WholeWord="True" PreserveCase="True" ReplaceBy="escóndanme">
+<ERROR UseRE=False Find="esperame" WholeWord="True" PreserveCase="True" ReplaceBy="espérame">
+<ERROR UseRE=False Find="estara" WholeWord="True" PreserveCase="True" ReplaceBy="estará">
+<ERROR UseRE=False Find="estaria" WholeWord="True" PreserveCase="True" ReplaceBy="estaría">
+<ERROR UseRE=False Find="estan" WholeWord="True" PreserveCase="True" ReplaceBy="están">
+<ERROR UseRE=False Find="estaran" WholeWord="True" PreserveCase="True" ReplaceBy="estarán">
+<ERROR UseRE=False Find="estabamos" WholeWord="True" PreserveCase="True" ReplaceBy="estábamos">
+<ERROR UseRE=False Find="estuvieramos" WholeWord="True" PreserveCase="True" ReplaceBy="estuviéramos">
+<ERROR UseRE=False Find="ésto" WholeWord="True" PreserveCase="True" ReplaceBy="esto">
+<ERROR UseRE=False Find="exito" WholeWord="True" PreserveCase="True" ReplaceBy="éxito">
+<ERROR UseRE=False Find="facil" WholeWord="True" PreserveCase="True" ReplaceBy="fácil">
+<ERROR UseRE=False Find="fiscalia" WholeWord="True" PreserveCase="True" ReplaceBy="fiscalía">
+<ERROR UseRE=False Find="fragil" WholeWord="True" PreserveCase="True" ReplaceBy="frágil">
+<ERROR UseRE=False Find="fragiles" WholeWord="True" PreserveCase="True" ReplaceBy="frágiles">
+<ERROR UseRE=False Find="frances" WholeWord="True" PreserveCase="True" ReplaceBy="francés">
+<ERROR UseRE=False Find="freir" WholeWord="True" PreserveCase="True" ReplaceBy="freír">
+<ERROR UseRE=False Find="gustaria" WholeWord="True" PreserveCase="True" ReplaceBy="gustaría">
+<ERROR UseRE=False Find="habia" WholeWord="True" PreserveCase="True" ReplaceBy="había">
+<ERROR UseRE=False Find="habias" WholeWord="True" PreserveCase="True" ReplaceBy="habías">
+<ERROR UseRE=False Find="habian" WholeWord="True" PreserveCase="True" ReplaceBy="habían">
+<ERROR UseRE=False Find="habrian" WholeWord="True" PreserveCase="True" ReplaceBy="habrían">
+<ERROR UseRE=False Find="habrias" WholeWord="True" PreserveCase="True" ReplaceBy="habrías">
+<ERROR UseRE=False Find="hagalo" WholeWord="True" PreserveCase="True" ReplaceBy="hagálo">
+<ERROR UseRE=False Find="haria" WholeWord="True" PreserveCase="True" ReplaceBy="haría">
+<ERROR UseRE=False Find="increible" WholeWord="True" PreserveCase="True" ReplaceBy="increíble">
+<ERROR UseRE=False Find="intentalo" WholeWord="True" PreserveCase="True" ReplaceBy="inténtalo">
+<ERROR UseRE=False Find="ire" WholeWord="True" PreserveCase="True" ReplaceBy="iré">
+<ERROR UseRE=False Find="jovenes" WholeWord="True" PreserveCase="True" ReplaceBy="jóvenes">
+<ERROR UseRE=False Find="ladron" WholeWord="True" PreserveCase="True" ReplaceBy="ladrón">
+<ERROR UseRE=False Find="linea" WholeWord="True" PreserveCase="True" ReplaceBy="línea">
+<ERROR UseRE=False Find="llamame" WholeWord="True" PreserveCase="True" ReplaceBy="llámame">
+<ERROR UseRE=False Find="llevalo" WholeWord="True" PreserveCase="True" ReplaceBy="llévalo">
+<ERROR UseRE=False Find="maricon" WholeWord="True" PreserveCase="True" ReplaceBy="maricón">
+<ERROR UseRE=False Find="mayoria" WholeWord="True" PreserveCase="True" ReplaceBy="mayoría">
+<ERROR UseRE=False Find="metodo" WholeWord="True" PreserveCase="True" ReplaceBy="método">
+<ERROR UseRE=False Find="metodos" WholeWord="True" PreserveCase="True" ReplaceBy="métodos">
+<ERROR UseRE=False Find="mio" WholeWord="True" PreserveCase="True" ReplaceBy="mío">
+<ERROR UseRE=False Find="mios" WholeWord="True" PreserveCase="True" ReplaceBy="míos">
+<ERROR UseRE=False Find="mostro" WholeWord="True" PreserveCase="True" ReplaceBy="mostró">
+<ERROR UseRE=False Find="morira" WholeWord="True" PreserveCase="True" ReplaceBy="morirá">
+<ERROR UseRE=False Find="muevete" WholeWord="True" PreserveCase="True" ReplaceBy="muévete">
+<ERROR UseRE=False Find="murio" WholeWord="True" PreserveCase="True" ReplaceBy="murió">
+<ERROR UseRE=False Find="numero" WholeWord="True" PreserveCase="True" ReplaceBy="número">
+<ERROR UseRE=False Find="numeros" WholeWord="True" PreserveCase="True" ReplaceBy="números">
+<ERROR UseRE=False Find="ningun" WholeWord="True" PreserveCase="True" ReplaceBy="ningún">
+<ERROR UseRE=False Find="oir" WholeWord="True" PreserveCase="True" ReplaceBy="oír">
+<ERROR UseRE=False Find="oido" WholeWord="True" PreserveCase="True" ReplaceBy="oído">
+<ERROR UseRE=False Find="oidos" WholeWord="True" PreserveCase="True" ReplaceBy="oídos">
+<ERROR UseRE=False Find="oimos" WholeWord="True" PreserveCase="True" ReplaceBy="oímos">
+<ERROR UseRE=False Find="oiste" WholeWord="True" PreserveCase="True" ReplaceBy="oíste">
+<ERROR UseRE=False Find="pasale" WholeWord="True" PreserveCase="True" ReplaceBy="pásale">
+<ERROR UseRE=False Find="pasame" WholeWord="True" PreserveCase="True" ReplaceBy="pásame">
+<ERROR UseRE=False Find="paraiso" WholeWord="True" PreserveCase="True" ReplaceBy="paraíso">
+<ERROR UseRE=False Find="parate" WholeWord="True" PreserveCase="True" ReplaceBy="párate">
+<ERROR UseRE=False Find="pense" WholeWord="True" PreserveCase="True" ReplaceBy="pensé">
+<ERROR UseRE=False Find="peluqueria" WholeWord="True" PreserveCase="True" ReplaceBy="peluquería">
+<ERROR UseRE=False Find="platano" WholeWord="True" PreserveCase="True" ReplaceBy="plátano">
+<ERROR UseRE=False Find="plastico" WholeWord="True" PreserveCase="True" ReplaceBy="plástico">
+<ERROR UseRE=False Find="plasticos" WholeWord="True" PreserveCase="True" ReplaceBy="plásticos">
+<ERROR UseRE=False Find="policia" WholeWord="True" PreserveCase="True" ReplaceBy="policía">
+<ERROR UseRE=False Find="policias" WholeWord="True" PreserveCase="True" ReplaceBy="policías">
+<ERROR UseRE=False Find="poster" WholeWord="True" PreserveCase="True" ReplaceBy="póster">
+<ERROR UseRE=False Find="podia" WholeWord="True" PreserveCase="True" ReplaceBy="podía">
+<ERROR UseRE=False Find="podias" WholeWord="True" PreserveCase="True" ReplaceBy="podías">
+<ERROR UseRE=False Find="podria" WholeWord="True" PreserveCase="True" ReplaceBy="podría">
+<ERROR UseRE=False Find="podrian" WholeWord="True" PreserveCase="True" ReplaceBy="podrían">
+<ERROR UseRE=False Find="podrias" WholeWord="True" PreserveCase="True" ReplaceBy="podrías">
+<ERROR UseRE=False Find="podriamos" WholeWord="True" PreserveCase="True" ReplaceBy="podríamos">
+<ERROR UseRE=False Find="prometio" WholeWord="True" PreserveCase="True" ReplaceBy="prometió">
+<ERROR UseRE=False Find="proposito" WholeWord="True" PreserveCase="True" ReplaceBy="propósito">
+<ERROR UseRE=False Find="pideselo" WholeWord="True" PreserveCase="True" ReplaceBy="pídeselo">
+<ERROR UseRE=False Find="ponganse" WholeWord="True" PreserveCase="True" ReplaceBy="pónganse">
+<ERROR UseRE=False Find="prometeme" WholeWord="True" PreserveCase="True" ReplaceBy="prométeme">
+<ERROR UseRE=False Find="publico" WholeWord="True" PreserveCase="True" ReplaceBy="público">
+<ERROR UseRE=False Find="publicos" WholeWord="True" PreserveCase="True" ReplaceBy="públicos">
+<ERROR UseRE=False Find="publicamente" WholeWord="True" PreserveCase="True" ReplaceBy="públicamente">
+<ERROR UseRE=False Find="quedate" WholeWord="True" PreserveCase="True" ReplaceBy="quédate">
+<ERROR UseRE=False Find="queria" WholeWord="True" PreserveCase="True" ReplaceBy="quería">
+<ERROR UseRE=False Find="querrias" WholeWord="True" PreserveCase="True" ReplaceBy="querrías">
+<ERROR UseRE=False Find="querian" WholeWord="True" PreserveCase="True" ReplaceBy="querían">
+<ERROR UseRE=False Find="rapido" WholeWord="True" PreserveCase="True" ReplaceBy="rápido">
+<ERROR UseRE=False Find="rapidamente" WholeWord="True" PreserveCase="True" ReplaceBy="rápidamente">
+<ERROR UseRE=False Find="razon" WholeWord="True" PreserveCase="True" ReplaceBy="razón">
+<ERROR UseRE=False Find="rehusen" WholeWord="True" PreserveCase="True" ReplaceBy="rehúsen">
+<ERROR UseRE=False Find="rie" WholeWord="True" PreserveCase="True" ReplaceBy="ríe">
+<ERROR UseRE=False Find="rias" WholeWord="True" PreserveCase="True" ReplaceBy="rías">
+<ERROR UseRE=False Find="rindete" WholeWord="True" PreserveCase="True" ReplaceBy="ríndete">
+<ERROR UseRE=False Find="sacame" WholeWord="True" PreserveCase="True" ReplaceBy="sácame">
+<ERROR UseRE=False Find="sentian" WholeWord="True" PreserveCase="True" ReplaceBy="sentían">
+<ERROR UseRE=False Find="sientate" WholeWord="True" PreserveCase="True" ReplaceBy="siéntate">
+<ERROR UseRE=False Find="sera" WholeWord="True" PreserveCase="True" ReplaceBy="será">
+<ERROR UseRE=False Find="soplon" WholeWord="True" PreserveCase="True" ReplaceBy="soplón">
+<ERROR UseRE=False Find="sueltalo" WholeWord="True" PreserveCase="True" ReplaceBy="suéltalo">
+<ERROR UseRE=False Find="tambien" WholeWord="True" PreserveCase="True" ReplaceBy="también">
+<ERROR UseRE=False Find="teoria" WholeWord="True" PreserveCase="True" ReplaceBy="teoría">
+<ERROR UseRE=False Find="tendra" WholeWord="True" PreserveCase="True" ReplaceBy="tendrá">
+<ERROR UseRE=False Find="telefono" WholeWord="True" PreserveCase="True" ReplaceBy="teléfono">
+<ERROR UseRE=False Find="tipica" WholeWord="True" PreserveCase="True" ReplaceBy="típica">
+<ERROR UseRE=False Find="tio" WholeWord="True" PreserveCase="True" ReplaceBy="tío">
+<ERROR UseRE=False Find="todavia" WholeWord="True" PreserveCase="True" ReplaceBy="todavía">
+<ERROR UseRE=False Find="tomalo" WholeWord="True" PreserveCase="True" ReplaceBy="tómalo">
+<ERROR UseRE=False Find="tonterias" WholeWord="True" PreserveCase="True" ReplaceBy="tonterías">
+<ERROR UseRE=False Find="torci" WholeWord="True" PreserveCase="True" ReplaceBy="torcí">
+<ERROR UseRE=False Find="traelos" WholeWord="True" PreserveCase="True" ReplaceBy="tráelos">
+<ERROR UseRE=False Find="traiganlo" WholeWord="True" PreserveCase="True" ReplaceBy="tráiganlo">
+<ERROR UseRE=False Find="traiganlos" WholeWord="True" PreserveCase="True" ReplaceBy="tráiganlos">
+<ERROR UseRE=False Find="trio" WholeWord="True" PreserveCase="True" ReplaceBy="trío">
+<ERROR UseRE=False Find="tuvieramos" WholeWord="True" PreserveCase="True" ReplaceBy="tuviéramos">
+<ERROR UseRE=False Find="union" WholeWord="True" PreserveCase="True" ReplaceBy="unión">
+<ERROR UseRE=False Find="ultimo" WholeWord="True" PreserveCase="True" ReplaceBy="último">
+<ERROR UseRE=False Find="ultima" WholeWord="True" PreserveCase="True" ReplaceBy="última">
+<ERROR UseRE=False Find="ultimos" WholeWord="True" PreserveCase="True" ReplaceBy="últimos">
+<ERROR UseRE=False Find="unica" WholeWord="True" PreserveCase="True" ReplaceBy="única">
+<ERROR UseRE=False Find="unico" WholeWord="True" PreserveCase="True" ReplaceBy="único">
+<ERROR UseRE=False Find="vamonos" WholeWord="True" PreserveCase="True" ReplaceBy="vámonos">
+<ERROR UseRE=False Find="vayanse" WholeWord="True" PreserveCase="True" ReplaceBy="váyanse">
+<ERROR UseRE=False Find="vision" WholeWord="True" PreserveCase="True" ReplaceBy="visión">
+<ERROR UseRE=False Find="vivira" WholeWord="True" PreserveCase="True" ReplaceBy="vivirá">
+<ERROR UseRE=False Find="volvio" WholeWord="True" PreserveCase="True" ReplaceBy="volvió">
+<ERROR UseRE=False Find="volvia" WholeWord="True" PreserveCase="True" ReplaceBy="volvía">
+<ERROR UseRE=False Find="volvio" WholeWord="True" PreserveCase="True" ReplaceBy="volvío">
+<ERROR UseRE=False Find="volvian" WholeWord="True" PreserveCase="True" ReplaceBy="volvían">
+
+<!-- Palabras que no tienen tilde -->
+<ERROR UseRE=False Find="bién" WholeWord="True" PreserveCase="True" ReplaceBy="bien">
+<ERROR UseRE=False Find="crímen" WholeWord="True" PreserveCase="True" ReplaceBy="crimen">
+<ERROR UseRE=False Find="fué" WholeWord="True" PreserveCase="True" ReplaceBy="fue">
+<ERROR UseRE=False Find="fuí" WholeWord="True" PreserveCase="True" ReplaceBy="fui">
+<ERROR UseRE=False Find="quiéres" WholeWord="True" PreserveCase="True" ReplaceBy="quieres">
+<ERROR UseRE=False Find="tí" WholeWord="True" PreserveCase="True" ReplaceBy="ti">
+<ERROR UseRE=False Find="vá" WholeWord="True" PreserveCase="True" ReplaceBy="va">
+<ERROR UseRE=False Find="vé" WholeWord="True" PreserveCase="True" ReplaceBy="ve">
+<ERROR UseRE=False Find="ví" WholeWord="True" PreserveCase="True" ReplaceBy="vi">
+<ERROR UseRE=False Find="vió" WholeWord="True" PreserveCase="True" ReplaceBy="vio">
+
+<!-- Errores no relacionados con los tildes -->
+<ERROR UseRE=False Find="coktel" WholeWord="True" PreserveCase="True" ReplaceBy="cóctel">
+<ERROR UseRE=False Find="cocktel" WholeWord="True" PreserveCase="True" ReplaceBy="cóctel">
+<ERROR UseRE=False Find="conciente" WholeWord="True" PreserveCase="True" ReplaceBy="consciente">
+<ERROR UseRE=False Find="comenzé" WholeWord="True" PreserveCase="True" ReplaceBy="comencé">
+<ERROR UseRE=False Find="desilucionarte" WholeWord="True" PreserveCase="True" ReplaceBy="desilusionarte">
+<ERROR UseRE=False Find="dió" WholeWord="True" PreserveCase="True" ReplaceBy="dio">
+<ERROR UseRE=False Find="dijieron" WholeWord="True" PreserveCase="True" ReplaceBy="dijeron">
+<ERROR UseRE=False Find="empezé" WholeWord="True" PreserveCase="True" ReplaceBy="empecé">
+<ERROR UseRE=False Find="hize" WholeWord="True" PreserveCase="True" ReplaceBy="hice">
+<ERROR UseRE=False Find="ilucionarte" WholeWord="True" PreserveCase="True" ReplaceBy="ilusionarte">
+<ERROR UseRE=False Find="inconciente" WholeWord="True" PreserveCase="True" ReplaceBy="inconsciente">
+<ERROR UseRE=False Find="quize" WholeWord="True" PreserveCase="True" ReplaceBy="quise">
+<ERROR UseRE=False Find="quizo" WholeWord="True" PreserveCase="True" ReplaceBy="quiso">
+<ERROR UseRE=False Find="verguenza" WholeWord="True" PreserveCase="True" ReplaceBy="vergüenza">
+
+<!-- Errores en nombres propios o de países -->
+<ERROR UseRE=False Find="Nuñez" WholeWord="True" CaseSensitive="True" ReplaceBy="Núñez">
+<ERROR UseRE=False Find="Ivan" WholeWord="True" Casesensitive="True" ReplaceBy="Iván">
+<ERROR UseRE=False Find="Japon" WholeWord="True" Casesensitive="True" ReplaceBy="Japón">
+<ERROR UseRE=False Find="Tokyo" WholeWord="True" Casesensitive="True" ReplaceBy="Tokio">
+
+<!-- Errores de "l" en vez de "i" en el ripeo -->
+<!-- Ej. Ilegó, Ilenar, etc. Esto podría generar errores con algunos nombres 'raros' ej Ilena ¿? -->
+<ERROR Find="\b(I)le" ReplaceBy="l">
+<!-- "l" en vez de "i" en terminación "ción" -->
+<ERROR Find="c(lón)\b" ReplaceBy="ión">
+<!-- para corregir x ej raclones, perforaclones, opciones, etc -->
+<ERROR Find="rac(l)[o]" ReplaceBy="i">
+<ERROR Find="opc(l)[o]" ReplaceBy="i">
+<!-- corregir x ej tenldo, víctlmas, olvldarlo, legítlmo, etc -->
+<ERROR Find="[BbCcDdFfHhMmNnRrSsTtVv](l)[bcdhmnrstv]" ReplaceBy="i">
+<!-- "sl" en vez de "si" -->
+<ERROR Find="\b(sl)\b" ReplaceBy="si">
+
+<!-- casos específicos -->
+<ERROR UseRE=False Find="sllbato" PreserveCase="True"  WholeWord="True" ReplaceBy="silbato">
+<ERROR UseRE=False Find="sllenclo" PreserveCase="True"  WholeWord="True" ReplaceBy="silencio">
+<ERROR UseRE=False Find="clemencla" PreserveCase="True"  WholeWord="True" ReplaceBy="clemencia">
+<ERROR UseRE=False Find="socledad" PreserveCase="True"  WholeWord="True" ReplaceBy="sociedad">
+<ERROR UseRE=False Find="tlene" PreserveCase="True"  WholeWord="True" ReplaceBy="tiene">
+<ERROR UseRE=False Find="tlempo" PreserveCase="True"  WholeWord="True" ReplaceBy="tiempo">
+<ERROR UseRE=False Find="equlvocaba" PreserveCase="True"  WholeWord="True" ReplaceBy="equivocaba">
+<ERROR UseRE=False Find="qulnce" PreserveCase="True"  WholeWord="True" ReplaceBy="quince">
+<ERROR UseRE=False Find="comlen" PreserveCase="True"  ReplaceBy="comien">
+<ERROR UseRE=False Find="historl" PreserveCase="True" ReplaceBy="histori">
+<ERROR UseRE=False Find="misterl" PreserveCase="True" ReplaceBy="misteri">
+<ERROR UseRE=False Find="vivencl" PreserveCase="True" ReplaceBy="vivenci">
+
+</SWOCR>

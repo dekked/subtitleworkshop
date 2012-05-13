@@ -1,0 +1,870 @@
+;   Subtitle Workshop 2.51
+;   Spanish language file
+;
+;   Translator : DeK
+;   E-mail     : deksoft@adinet.com.uy
+;   Web        : http://www.urusoft.net
+
+[General]
+Translator=DeK
+Font Charset=0
+AllFiles=Todos los archivos soportados
+Help=ManualSPA.html
+FPS=FPS
+PlainText=Texto plano
+STP=Proyecto de traducción de subtítulo
+SRF=Archivo de reporte de subtitulos
+
+[Standard buttons]
+01=&Aceptar
+02=&Cancelar
+03=&Examinar
+04=&Aplicar
+05=&Cerrar
+06=&Sí
+07=&No
+
+[Main Form]
+01=Modo:
+02=Tiempo
+03=Cuadros
+04=FPS de entrada:
+05=FPS:
+06=Trabajar con:
+07=Duración|Tiempo final|Ambos
+08=Num
+09=Mostrar
+10=Ocultar
+11=Texto
+12=Traducción
+13=%d líneas sin traducir
+14=Duración:
+15=%s (%s caracteres):
+16=- Subtítulo no traducido -
+
+[Main menu header]
+01=Archivo
+02=Edición
+03=Buscar
+04=Herramientas
+05=Película
+06=Configuración
+07=Ayuda
+
+[Main menu/File]
+01=Nuevo subtítulo...
+02=Cargar subtítulo...
+03=Archivos recientes
+04=Borrar lista
+05=Cargar
+06=Proyecto...
+07=Original
+08=Traducido
+09=Guardar
+10=Original como...
+11=Traducido como...
+12=Guardar como...
+13=Cerrar
+14=Salir
+
+[Main menu/Edit]
+01=Deshacer
+02=Rehacer
+03=Insertar subtítulo
+04=Insertar antes
+05=Remover seleccionados
+06=Cortar
+07=Copiar
+08=Pegar
+09=Seleccionar todo
+
+[Main menu/Edit/Timings]
+01=Tiempos
+02=Aplicar límites de duración...
+03=Aplicar demora...
+04=Ajustar
+05=Ajustar subtítulos...
+06=Ajustar a subtítulos sincronizados
+07=Extensor/Reductor de tiempo
+08=Extender longitud
+09=Duraciónes automáticas
+10=Leer tiempos de archivo
+11=Desplazar %s milisegundos
+
+[Main menu/Edit/Texts]
+01=Textos
+02=Ajuste de líneas inteligente
+03=Convertir MAYÚSCULAS y minúsculas...
+04=Quitar enters
+05=Dividir líneas...
+06=Dividir líneas rápido
+07=Aplicar longitud máxima de líneas
+08=Leer textos de archivo
+
+[Main menu/Edit/Subtitles]
+01=Subtítulos
+02=Combinar subtítulos
+03=Efectos
+04=Efecto "máquina de escribir"
+05=Destello
+06=Destello rápido
+07=Destello medio
+08=Destello lento
+09=Derecha-a-izquierda
+10=Revertir texto
+11=Corregir puntuación
+12=Ordenar
+13=Eliminar enlaces innecesarios
+14=Marcar subtítulos seleccionados
+15=Desmarcar subtítulos seleccionados
+
+[Main menu/Edit/Translation]
+01=Traducción
+02=Modo traductor
+03=Alternar
+
+[Main menu/Search]
+01=Buscar...
+02=Buscar siguiente
+03=Buscar && Reemplazar...
+04=Ir a línea...
+
+[Main menu/Tools]
+01=Revisar ortografía
+02=Conversión masiva...
+03=Dividir subtítulo...
+04=Unir subtítulos...
+05=Información y errores
+06=Información y errores...
+07=Información variada...
+08=Scripts OCR
+09=Mostrar en el formulario principal
+10=Configuración...
+11=Examinar nuevamente por errores
+12=Corregir todos los errores
+13=Corregir errores (subtítulos seleccionados)
+14=Saltar al siguiente error
+15=Añadir FPS de un AVI
+16=Vista previa externa
+17=Extractor de lenguaje SAMI
+18=Scripts Pascal
+
+[Main menu/Movie]
+01=Abrir...
+02=Cerrar
+03=Información...
+04=Modo vista previa con video
+05=Mostrar subtítulos
+06=Archivo de inicio de reproducción
+
+[Main menu/Movie/Playback]
+01=Reproducción
+02=Reproducir/Pausar
+03=Detener
+04=Rebobinar
+05=Avanzar
+06=Atrás 5 segundos
+07=Adelante 5 segundos
+08=Velocidad de reproducción
+
+[Main menu/Movie/Subtitles]
+01=Subtítulos
+02=Mover subtítulo
+03=Fijar tiempo inicial
+04=Fijar tiempo final
+05=Empezar subtítulo
+06=Terminar subtítulo
+
+[Main menu/Movie/Synchronization]
+01=Sincronización
+02=Primer punto de sincronización
+03=Último punto de sincronización
+04=Añadir punto de sincronización
+
+[Main menu/Movie/Display]
+01=Mostrar
+02=Original
+03=Traducción
+
+[Main menu/Settings]
+01=Configuración de salida...
+02=Lenguaje
+03=Mostrar panel de la izquierda
+04=Mostrar controles de tiempo
+05=Usar edición "en el lugar"
+
+[Main menu/Help]
+01=Acerca de %s...
+02=Chequear nueva versión
+
+[Popup Menu]
+01=Cursiva
+02=Negrita
+03=Subrayado
+04=Fijar color
+05=Remover tags de color
+
+[Video preview hints]
+01=Reproducir/Pausar (%s)
+02=Detener (%s)
+03=Alternar desplazar lista
+04=Saltar al subtítulo previo
+05=Saltar al siguiente subtítulo
+06=Rebobinar (%s)
+07=Avanzar (%s)
+08=Alterar velocidad de reproducción
+09=Mover subtítulo (%s)
+10=Fijar tiempo inicial (%s)
+11=Fijar tiempo final (%s)
+12=Empezar subtítulo (%s)
+13=Terminar subtítulo (%s)
+14=Marcar como primer punto de sincronización (%s)
+15=Marcar como último punto de sincronización (%s)
+16=Añadir punto de sincronización subtítulo/video (%s)
+
+[Save as]
+01=Guardar como
+02=Haz doble click en el formato de salida:
+03=Formato personalizado
+04=Todos los formatos
+
+[Custom formats]
+01=Formatos personalizados
+02=Información
+03=Nombre:
+04=Extensión:
+05=Caracter de nueva línea:
+06=Tiempo
+07=Cuadros
+08=Estructura:
+09=FPS:
+10=Cargar proyecto
+11=Guardar proyecto
+12=Recordar el último formato personalizado
+13=Guardar!
+14=Proyecto de formato personalizado
+
+[Settings Form]
+01=Configuración
+02=Modifica la configuración del programa
+; Sections
+03=General
+04=Avanzado
+05=Charsets
+06=Formatos
+07=Tipos de archivo
+08=Guardar
+09=Vista previa con video
+10=Subtítulos
+11=Vista previa externa
+12=Aspecto
+13=Programa
+14=Lista
+15=Menú
+;-----------------;
+; General section ;
+;-----------------;
+16=Siempre encima
+17=Permitir más de una instancia del programa ejecutándose
+18=Confirmar al borrar subtítulos
+19=Interpretar archivos inválidos como texto plano
+20=Buscar automáticamente la película
+21=Forzar trabajar en modo tiempo
+22=Mantener el órden de las líneas al revertir el texto
+23=Seleccionar el texto al saltar a la siguiente línea
+24=Seleccionar el texto al saltar a la línea previa
+25=No interactuar con los tags
+26=Trabajar con tags de estilo
+27=Límite de archivos recientes:
+;----------;
+; Advanced ;
+;----------;
+28=Ajuste de líneas inteligente
+29=Dos líneas si es más largo qué:
+30=caracteres
+31=Alternar punto de ruptura
+32=Dividir líneas
+33=Partir líneas después de:
+34=Ajustar líneas automáticamente
+35=Longitud máxima de línea:
+36=Tiempo de desplazamiento:
+37=milisegundos
+;----------;
+; Charsets ;
+;----------;
+38=Mostrar en el formulario principal
+39=Charset original:
+40=Charset traducido:
+;-----------------;
+; Formats section ;
+;-----------------;
+41=Formato predeterminado:
+42=Formatos a mostrar al "Guardar como":
+43=Mostrar formatos personalizados
+44=Seleccionar &todo
+45=Seleccionar &ninguno
+;--------------------;
+; File types section ;
+;--------------------;
+46=Registrar extensiones al iniciar
+47=Asociar con la mayoría de las extensiones soportadas
+;--------------;
+; Save section ;
+;--------------;
+48=Pedir para guardar al salir del programa/cerrar el subtítulo
+49=Guardar el trabajo automáticamente cada
+50=minutos.
+51=Guardar como copia de respaldo
+52=Configuración de salida...
+;---------------;
+; Video preview ;
+;---------------;
+53=Doble click en un subtítulo:
+54=Segundos para saltar:
+55=Shift-doble click en un subtítulo:
+56=Darle el foco al cuadro de texto
+57=Ir al tiempo de ese subtítulo en el video
+58=Ir N segundo(s) antes del subtítulo en el video
+59=Tiempo de rebobinar y adelantar:
+60=segundos.
+61=Velocidad de reproducción alterada por defecto:
+;-------------------------;
+; Video preview Subtitles ;
+;-------------------------;
+62=Dibujar borde
+63=Dibujar sombra
+64=Intentar fondo transparente
+65=Forzar usando regiones (puede ser lento)
+66=Fuente...
+67=Color...
+68=Fondo...
+69=Ancho del borde:
+70=Ancho de la sombra:
+71=EJEMPLO
+;--------------------------;
+; External Preview General ;
+;--------------------------;
+72=Exe del reproductor de video:
+73=Detectar programa asociado
+74=Preguntar un video diferente cada vez
+75=Siempre probar con este video:
+;---------------------------;
+; External Preview Advanced ;
+;---------------------------;
+76=Guardar el subtítulo temporal en el formato:
+77=Formato original
+78=Formato personalizado
+79=Parametro para enviarle al reproductor de video:
+80=VIDEO_FILE representa el archivo de video en el que va a probar los subtítulos. SUBT_FILE es el parámetro en el cual el archivo de subtítulos temporal será enviado al reproductor de video. Puedes añadir otros parámetros, por ejemplo pantalla completa, etc.
+;----------------;
+; Look / Program ;
+;----------------;
+81=Fuente para usar en el programa:
+82=Tamaño de fuente::
+83=Alineamiento de los campos "Texto" y "Traducción":
+84=Izquierda|Derecha|Centrada
+;-------------;
+; Look / List ;
+;-------------;
+85=Mostrar líneas divisorias
+86=Aplicar estilo a los subtítulos
+87=Marcar subtítulos sin traducir con el color:
+88=Mostrar scrollbar horizontal
+;-------------;
+; Look / Menu ;
+;-------------;
+89=Usar menú al estilo Office XP
+90=Usar menú con degradado
+
+[Output settings]
+01=Configuración de salida
+02=ID del disco:
+03=Título del DVD:
+04=Idioma:
+05=Autor:
+06=Web:
+07=Info:
+08=Licencia:
+09=Subtítulo:
+10=Fondo:
+11=EJEMPLO
+12=&Aplicar fuente
+13=Alineamiento:
+14=Izquierda
+15=Centro
+16=Derecha
+17=FPS:
+18=Saltar cuadro
+19=Color 0 (fondo):
+20=Color 1 (fuente):
+21=Color 2 (contorno):
+22=Color 3 (antialiasing, suavizado):
+23=Color de paleta n°:
+24=Contraste
+25=Título:
+26=Guión:
+27=Cosmeticos
+28=Otros
+29=Estilo del borde:
+30=Contorno + sombra debajo
+31=Cuadro opaco
+32=Color
+33=Primario:
+34=Secundario:
+35=Terciario:
+36=Sombra:
+37=Margen izquierdo:
+38=Margen derecho:
+39=Margen vertical:
+40=Contorno:
+41=Alineamiento:
+42=Codificación:
+43=Fuente:
+44=Programa:
+45=Directorio:
+46=Demora:
+47=Pista del CD:
+48=Comentario:
+49=Formato TMPlayer:
+50=Formato TMPlayer+
+51=Formato TMPlayer multi línea
+
+[Duration limits]
+01=Límites de duración
+02=Aplicar duración máxima
+03=Milisegundos
+04=Aplicar duración mínima
+05=* Incrementar el tiempo no causará superposición
+
+[Set delay]
+01=Aplicar demora
+02=Para todos los subtítulos
+03=Para los subtítulos seleccionados
+
+[Adjust subtitles]
+01=Ajustar subtítulos
+02=Simple
+03=Avanzado
+04=Primera línea hablada:
+05=Última línea hablada:
+06=Cargar de archivo
+07=Guardar a archivo
+08=# de Línea
+09=Tiempo viejo
+10=Tiempo nuevo
+11=&Añadir
+12=Añadir de &media
+13=&Remover
+14=Si el tiempo está fuera del rango de puntos:
+15=Extrapolar
+16=Devolver tiempo original (sin cambios)
+17=Devolver desplazamiento del punto vecino
+18=&Ajustar!
+19=Ingresar nuevo punto
+20=Tiempo viejo:
+21=Tiempo nuevo:
+
+[Time expander/reducer]
+01=Extensor/reductor de tiempo
+02=Expandir duración
+03=Reducir duración
+04=Expandir/reducir duración:
+05=Segundos
+06=Cuadros
+07=Solo si el subtítulo es más largo que:
+09=caracteres
+10=Solo si la duración es mayor que:
+11=Solo si la duración es menor que:
+12=Prevenir superposición
+13=Para todos los subtítulos
+14=Para los subtítulos seleccionados
+
+[Automatic durations]
+01=Duraciones automáticas
+02=Milisegundos
+03=por caracter
+04=por palabra
+05=por línea
+06=Aplicar nueva duración en todos los casos
+07=Solo si la nueva duración es mayor que la original
+08=Solo si la nueva duración es menor a la original
+09=Todos los subtítulos
+10=Solo los subtítulos seleccionados
+
+[Convert case]
+01=Convertir MAYÚSCULAS y minúsculas
+02=Tipo oración.
+03=Sólo primera letra de primera palabra
+04=Detección de "..."
+05=minúsculas
+06=MAYÚSCULAS
+07=Tipo Título
+08=tIPO iNVERSO
+09=Todos los subtítulos
+10=Solo los subtítulos seleccionados
+
+[Divide lines]
+01=Dividir líneas
+02=Dividir después de la línea número:
+03=Usar duraciones automáticas
+04=Mostrar:
+05=Ocultar:
+06=Duración:
+07=Continuar directamente
+08=%s caracteres
+09=&Dividir!
+
+[Search & Replace]
+01=Buscar y Reemplazar
+02=Buscar
+03=Texto a buscar:
+04=&Buscar!
+05=Reemplazar por:
+06=Buscar &siguiente
+07=&Reemplazar
+08=R. &todas
+09=&Más >
+10=&Menos <
+11=Sensible a mayúsculas y minúsculas
+12=Sólo palabra completa
+13=Preservar MAYÚSCULAS y minúsculas al reemplazar
+14=Buscar el texto en:
+15=Todo el subtítulo
+16=Desde el ítem seleccionado
+17=Charset:
+
+[Go to line]
+01=Ir a línea número
+02=Ingresa el número de línea:
+
+[Batch convert]
+01=Conversión masiva
+02=Convierte múltiples archivos a un único formato de subtítulos en unos pocos pasos.
+; Buttons
+03=< &Atrás
+04=&Siguiente >
+05=C&onvertir
+06=&Salir
+07=&Cerrar
+08=&Todos
+09=&Ninguno
+; Page 1
+10=Extensiones:
+11=Directorio de búsqueda:
+12=Incluir subcarpetas
+13=Chequeo de formato exhaustivo
+14=Directorio de salida:
+15=Formato de salida:
+16=FPS por defecto:
+; List columns
+17=Nombre
+18=Formato
+19=FPS
+20=Tamaño
+; Page 2
+21=&Añadir
+22=&Remover
+23=&Borrar
+; Page 3
+24=Hecho!. Mira el log por más detalles:
+25=Guardar...
+; Searching
+26=Chequeando archivo %s
+
+[Batch convert log]
+01=%s %s - Log de Conversión Masiva
+02=Generado el %s
+03=Formato de salida: %s
+04=Total de archivos a convertir: %d
+05=Intentando cargar "%s"...
+06=Archivo cargado con éxito!
+07=El archivo "%s" ya existe, reemplazando...
+08=Archivo guardado con éxito a "%s"'
+09=El archivo "%s" ya existía y no dejaste que el programa lo reemplazara
+10=Error al cargar el archivo, no se puede guardar!
+11=Total de conversiones realizadas: %u
+12=Tiempo total: %s
+13=Todos los archivos fueron convertidos con éxito:
+14=Hubo errores al convertir algunos archivos, mira debajo para más detalles:
+
+[Split]
+01=Dividir subtítulo
+02=Simple
+03=Avanzado
+04=Ítem seleccionado
+05=Ítem número:
+06=Tiempo dado:
+07=Cuadro dado:
+08=Al final de un video:
+09=Nombres
+10=Parte %d:
+11=Nombre de archivo
+12=Longitud
+13=Líneas
+14=Partes iguales en tiempo
+15=Partes iguales en líneas
+16=Al final de videos
+17=Número de partes:
+18=Auto-nombrar las partes:
+19=Directorio de salida:
+20=Formato de salida:
+21=Recalcular valores de tiempo
+22=Doble click para seleccionar el video
+23=&Dividir!
+
+[Join]
+01=Unir subtítulos...
+02=Agrega los subtítulos que desees unir (en órden):
+03=Nombre del archivo
+04=Formato
+05=FPS
+06=Tamaño
+07=Fragmento de película (Opcional)
+08=&Añadir
+09=&Remover
+10=&Borrar
+11=&Setear fragmento de película
+12=B&orrar fragmento de película
+13=Formato de salida:
+14=FPS de salida:
+15=Cargar archivo después de unir y guardar
+16=Recalcular valores de tiempo
+17=&Unir!
+
+[Information and errors]
+01=Información y errores
+02=Chequear!
+03=Corregir errores!
+04=&Configuración
+05=Confirmar cada cosa que se borra
+06=Subtítulo
+07=Tipo
+08=Descripción
+;-------;
+; Types ;
+;-------;
+09=Error
+10=Advertencia
+11=Info
+13=Corregido
+;----------------------;
+; Information messages ;
+;----------------------;
+14=Número total de errores: %d
+15=Errores corregidos: %d
+;---------------;
+; Error reports ;
+;---------------;
+16=Contiene líneas sin letras
+17=Subtítulo vacío
+18=Superposición con el subtítulo anterior
+19=Malos valores
+20=Duración demasiado larga
+21=Duración demasiado corta
+22=Linea(s) demasiado larga(s)
+23=Más de dos líneas
+24=Subtítulo para sordos
+25=Contiene texto antes de los dos puntos (":")
+26=Puntos innecesarios
+27=Contiene un caracter prohibido
+28=Caracter repetido
+29=Subtítulo repetido
+30=Error OCR
+31=Subtítulo de una línea comienza con "-"
+32=No hay un espacio después de caracter personalizado
+33=No hay un espacio antes de caracter personalizado
+34=Espacios innecesarios
+35=Subtítulo marcado
+;-------------;
+; Fix reports ;
+;-------------;
+36=Borrado subtítulo sin letras
+37=Subtítulo vacío fue borrado
+38=Corregida superposición
+39=Corregidos malos valores
+40=Subtítulo de más de dos líneas fue ajustado
+41=Removido subtítulo para sordos
+42=La parte para sordos ha sido removida
+43=Removido el texto antes de los dos puntos (":")
+44=Removidos puntos innecesarios
+45=Tenía un caracter prohibido y fue borrado
+46=Corregidos caracteres repetidos
+47=Corregido subtítulo repetido
+48=Corregidos errores OCR
+49=Borrado "-" en subtítulo con una sola línea
+50=Añadido espacio después de caracter personalizado
+51=Añadido espacio antes de caracter personalizado
+52=Removidos espacios innecesarios
+;-----
+53=Haz doble click para saltar a esta línea en la ventana principal
+
+[Information and errors Settings]
+01=Configuración
+02=General
+03=Avanzado
+04=Chequear
+05=Corregir
+06=Espacios innecesarios
+07=Mostrar confirmaciones en el formulario principal al corregir errores
+08=Marcar errores en la lista principal
+09=Aplicar color...
+10=Negrita
+11=Cursiva
+12=Subrayado
+13=Marcar errores al cargar subtítulo
+14=Corregir errores al cargar subtítulo
+15=Corregir superposición de una unidad al cargar subtítulo
+16=Script OCR:
+17=&Editar
+18=Caracteres que se pueden repetir:
+19=Caracteres prohibidos:
+20=Tolerancia para subtítulos repetidos:
+21=milisegundos.
+22=Espacio después de los caracteres:
+23=Espacio antes de los caracteres:
+24=Duración demasiado larga:
+25=Duración demasiado corta:
+26=Línea demasiado larga:
+27=caracteres.
+;------
+28=Líneas sin letras
+29=Subtítulos vacíos
+30=Superposición de subtítulos
+31=Malos valores
+32=Duraciones muy largas
+33=Duraciones muy cortas
+34=Líneas muy largas
+35=Subtítulo de más de dos líneas
+36=Subtítulos para sordos
+37=Texto antes de los dos puntos (":")
+38=Solo si el texto está en mayúsculas
+39=Puntos innecesarios
+40=Caracteres prohibidos
+41=Caracteres repetidos
+42=Subtítulos repetidos
+43=Errores OCR
+44="- " en subtítulos con una sola línea
+45=Espacios después de caracteres personalizados
+46=Espacios antes de caracteres personalizados
+47=Espacios innecesarios
+;------
+48=Chequear:
+49=Corregir:
+50=Enters y espacios al principio y al final
+51=Espacios entre enters (derecha e izquierda)
+52=Doble espacios y enters
+53=Espacios frente a signos de puntuación
+54=Espacios después de "¿" y "¡"
+55=Espacios antes de "?" y "!"
+56=Espacios entre números
+
+[Various information]
+01=Información variada
+02=Información
+03=Extras
+04=Archivo original
+05=Archivo traducido
+06=Formato actual:
+07=Archivo:
+08=Tamaño:
+09=Número total de subtítulos:
+10=Número total de líneas:
+11=Número total de palabras:
+12=Número total de letras:
+13=Subtitulos con una sola línea:
+14=Subtitulos con dos líneas:
+15=Subtitulos con más de dos líneas:
+16=Línea más larga:
+17=En el subtítulo %d con %d caracteres
+18=Mejor tamaño de fuente para la reproducción
+19=Ancho de la resolución:
+20=De un AVI
+21=Nombre de fuente:
+22=Negrita
+23=Cursiva
+24=Calcular
+
+[SAMI Language Extractor]
+01=Extractor de lenguaje SAMI
+02=Archivo SAMI:
+03=Directorio de salida:
+04=Los lenguajes seleccionados serán extraídos:
+05=Clase
+06=Lenguaje
+07=Auto detectar todos
+08=Añadir manualmente
+09=Extraer!
+10=Añadir lenguaje
+11=Introduce el nombre de clase del lenguaje deseado:
+12=Espere por favor...
+
+[About form]
+01=Acerca de %s
+02=Información
+03=Créditos
+04=Versión: %s
+05=%s versión: %s
+06=%d formatos diferentes soportados
+07=Si te gusta este programa, realmente apreciaríamos que hicieras una donación. Haz click aquí para hacerlo.
+08=Programado por
+09=Programación adicional
+10=%s por
+; Following line is "DirectShow programming"
+11=Programación %s
+12=Traductores
+13=Testeadores beta
+14=Ícono predeterminado por
+15=Por actualizaciones visita:
+
+[Error messages]
+01=No se pudo inicializar el API de subtítulos. Descarga la DLL "%s" de %s y copiala a la carpeta "%s".
+02=El siguiente error (%s) ha derivado del objeto %s (%s):||"%s"||Se apreciaría que escribas a %s informando qué estabas haciendo cuando ocurrió este error.||Presiona Aceptar para continuar, o Cancelar para salir del programa.
+03=El archivo "%s" es un subtítulo defectuoso o un formato no soportado.
+04=El archivo "%s" no está en el formato %s o no es un archivo de subtítulos válido.
+05="%s" no es un archivo de video válido.
+06=No es un número de línea válido.
+07=Selecciona al menos una extensión para buscar.
+08=El directorio de búsqueda no existe.
+09=El número del item no es un ítem valido.
+10=Debes agregar dos subtítulos o más.
+11=Fallo al conectar con el servidor!.
+12=No se ha podido remover el atributo sólo-lectura de "%s".||Posiblemente el archivo esé en un dispositivo protegido contra escritura.
+13=Error intentándose conectar a Microsoft Word!.
+14=Debes seleccionar primero los videos para las partes previas!.
+15=Selecciona un directorio de salida válido.
+16=Selecciona al menos un lenguaje para extraer.
+17="%s" no es un archivo SAMI válido.
+18=Selecciona una parte del subtíutlo en la lista.
+19=Si seleccionas un fragmento de película para una parte del subtítulo debes seleccionar un fragmento de película para todas las partes del subtítulo (excepto la última por supuesto).
+20=Necesitas dos o más puntos.
+
+[Question messages]
+01=El archivo "%s" ha cambiado.||¿Deseas guardar los cambios?.
+02=El archivo "%s" ya existe.||¿Deseas reemplazarlo?.
+03=El archivo original ("%s") ha cambiado.||¿Deseas guardar los cambios?.
+04=El archivo traducido ("%s") ha cambiado.||¿Deseas guardar los cambios?.
+05=Los subtítulos seleccionados están a punto de ser borrados.||¿Deseas proceder?.
+06=Punto 1 Subtítulo: %s|Punto 1 Película: %s||Punto 2 Subtítulo: %s|Punto 2 Película: %s||Sincronizar subtítulo?
+07=El ejecutable del reproductor de video no ha sido especificado o no existe.||¿Deseas configurar un reproductor externo?.
+08=Se ha encontrado una nueva versión!.||¿Deseas ver la lista de cambios?.
+09=El archivo que estás intentando guardar es sólo-lectura.||¿Intentar guardar de todas formas?.
+
+[Information messages]
+01=No se encuentran más coincidencias con "%s".
+02=No se ha encontrado una nueva versión.
+03=La revisión ortográfica ha terminado.||%d cambio(s) realizado(s).
+04=Demasiadas partes. Reseteando...
+05=Solo se ha encontrado un lenguaje.||Si el archivo contiene más, agrega los que quieras manualmente abriendo el archivo en un editor de texto y buscando el nombre de clase correcto.
+06=No se ha podido localizar el comienzo o final del tag "STYLE"!.||Probablemente por esta razón el archivo no contiene más de un lenguaje.|Si hay más de uno, intenta añadir los lenguajes deseados manualmente buscando el nombre de clase correcto de ellos.
+07=El mejor tamaño de fuente para la reproducción es: %d
+08=Reemplazos totales: %d
+09=Nombre del archivo: %s|Tamaño: %s|FPS: %s|Duración: %s|Cuadros totales: %d|Resolución: %dx%d|FourCC: %s
+10=Algunas de las pistas de la película no pudieron ser renderizadas correctamente. Posiblemente el códec de audio o video no esté instalado.
+11=No es necesario setear el fragmento de película correspondiente al último subtítulo.
+
+[Information and errors messages]
+01=El subtítulo número %d es un subtítulo vacío y está a punto de ser borrado.||¿Deseas proceder?.
+02=El subtítulo número %d:||"%s" contiene un caracter prohibido y está a punto de ser borrado.||¿Deseas proceder?.
+03=El subtítulo número %d:||"%s" está a punto de ser borrado.||¿Deseas proceder?.
+04=Parte del subtítulo número %d:||"%s" está a punto de ser borrada, así el subtítulo quedará como:||"%s"||¿Deseas proceder?.
+05=El subtítulo número %d:||"%s" es un subtítulo de una sola línea y comienza con "-".||¿Deseas borrar el "-" al comienzo?.

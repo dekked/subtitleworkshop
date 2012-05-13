@@ -1,0 +1,870 @@
+;   Subtitle Workshop 2.51
+;   Latvian language file
+;
+;   Author: Armands Radzuðka
+;   E-mail: rajah@inbox.lv
+;   Web:
+
+[General]
+Translator=Armands Radzuðka
+Font Charset=186
+AllFiles=Visi atbalstîtie faili
+Help=ManualLVI.html
+FPS=FPS
+PlainText=Parasts teksts
+STP=Subtitru tulkojuma projekts
+SRF=Subtitru protokola fails
+
+[Standard buttons]
+01=&Labi
+02=&Atcelt
+03=Pârlûkot
+04=&Uzstâdît
+05=&Beigt
+06=&Jâ
+07=&Nç
+
+[Main Form]
+01=Reþîms:
+02=Laiks
+03=Kadri
+04=Sâkuma FPS:
+05=FPS:
+06=Strâdât ar:
+07=ilgumu|beigu laiku|abiem
+08=N.p.k.
+09=Parâdît
+10=Paslçpt
+11=Teksts
+12=Tulkojums
+13=%d neiztulkotâs rindas
+14=Ilgums:
+15=%s (%s simboli):
+16=- Neiztulkots subtitrs -
+
+[Main menu header]
+01=Fails
+02=Laboðana
+03=Meklçðana
+04=Rîki
+05=Filma
+06=Uzstâdîjumi
+07=Palîdzîba
+
+[Main menu/File]
+01=Jauns subtitrs...
+02=Ielâdçt subtitru...
+03=Izmantotie faili
+04=Attîrît sarakstu
+05=Ielâdçt
+06=projektu...
+07=oriìinâlu
+08=tulkojumu
+09=Saglabât
+10=oriìinâlu kâ...
+11=tulkojumu kâ...
+12=Saglabât kâ...
+13=Aizvçrt
+14=Beigt
+
+[Main menu/Edit]
+01=Atcelt
+02=Atjaunot
+03=Ievietot subtitru
+04=Ievietot pirms
+05=Izmest iezîmçto
+06=Izgriezt
+07=Kopçt
+08=Ievietot
+09=Iezîmçt visu
+
+[Main menu/Edit/Timings]
+01=Hronometrâþa
+02=Uzstâdît aiztures robeþas...
+03=Uzstâdît aizturi...
+04=Izlîdzinâðana
+05=Subtitru izlîdzinâðana...
+06=Izlîdzinât pçc sinhronizçtiem subtitriem
+07=Laika palinâðana/samazinâðana
+08=Paildzinât
+09=Automâtiski ilgumi
+10=Nolasît hronometrâþu no faila
+11=Nobîdît %s milliseconds
+
+[Main menu/Edit/Texts]
+01=Teksti
+02=Saprâtîgâ rindu pielâgoðana
+03=Burtu lieluma maiòa...
+04=Apvienot subtitrus
+05=Sadalît rindas...
+06=Âtrâ rindu sadalîðana
+07=Uzstâdît maksimâlo rindas garumu...
+08=Nolasît tekstus no faila
+
+[Main menu/Edit/Subtitles]
+01=Subtitri
+02=Kombinçt subtitrus
+03=Efekti
+04=Rakstâmmaðînas efekts
+05=Zibenis
+06=Âtrais zibenis
+07=Vidçji âtrais zibenis
+08=Lçnais zibenis
+09=No labâs puses uz kreiso
+10=Apgriezt tekstu
+11=Izlabot pieturzîmes
+12=Ðíirot
+13=Dzçst nevajadzîgâs saites
+14=Iezîmçt izvçlçtos subtitrus
+15=Noòemt atzîmi izvçlçtiem subtitriem
+
+[Main menu/Edit/Translation]
+01=Tulkojums
+02=Tulkoðanas reþîms
+03=Mainît vietâm
+
+[Main menu/Search]
+01=Meklçt...
+02=Meklçt nâkoðo
+03=Meklçt un aizvietot...
+04=Pâriet uz rindu ar numuru...
+
+[Main menu/Tools]
+01=Pareizrakstîbas pârbaude
+02=Grupveida konvertçðana...
+03=Subtitra sadalîðana...
+04=Subtitru apvienoðana...
+05=Informâcija un kïûdas
+06=Informâcija un kïûdas ...
+07=Daþâda informâcija...
+08=OCR skripti
+09=Parâdît galvenajâ logâ
+10=Uzstâdîjumi...
+11=Vçlreiz pârbaudît kïûdas
+12=Izlabot visas kïûdas
+13=Izlabot kïûdas (iezîmçtiem subtitriem)
+14=Pâriet uz nâkoðo kïûdu
+15=Pievienot FPS no AVI
+16=Ârçjâ apskate
+17=SAMI valodas ieguvçjs
+18=Pascal skripti
+
+[Main menu/Movie]
+01=Atvçrt...
+02=Aizvçrt
+03=Informâcija...
+04=Video pirmsapskates reþîms
+05=Parâdît subtitrus
+06=Saglabât filmas uzsâkðanas failu
+
+[Main menu/Movie/Playback]
+01=Atskaòoðana
+02=Atskaòot/Pauzçt
+03=Stop
+04=Attît atpakaï
+05=Tît uz priekðu
+06=5 sekundes atpakaï
+07=5 sekundes uz priekðu
+08=Atskaòoðanas âtrums
+
+[Main menu/Movie/Subtitles]
+01=Subtitri
+02=Pârvietot subtitru
+03=Uzstâdît sâkuma laiku
+04=Uzstâdît beigu laiku
+05=Sâkuma subtitrs
+06=Beigu subtitrs
+
+[Main menu/Movie/Synchronization]
+01=Sinhronizâcija
+02=Pirmais sinhro punkts
+03=Pçdçjais sinhro punkts
+04=Pievienot sinhronizçðanas punktu
+
+[Main menu/Movie/Display]
+01=Parâdît
+02=oriìinâlu
+03=tulkojumu
+
+[Main menu/Settings]
+01=Izvades uzstâdîjumi...
+02=Valoda
+03=Parâdît kreiso paneli
+04=Parâdît laika kontroles
+05=Izmantot laboðanu turpat uz vietas
+
+[Main menu/Help]
+01=Par %s...
+02=Pârbaudît jaunas versijas esamîbu
+
+[Popup Menu]
+01=Kursîvs
+02=Trekninâts
+03=Pasvîtrojums
+04=Uzstâdît krâsu
+05=Izmest krâsu tagus
+
+[Video preview hints]
+01=Atskaòot/Pauzçt (%s)
+02=Stop (%s)
+03=Pârslçgt saraksta ritinâðanu
+04=Pâriet uz iepriekðçjo subtitru
+05=Pâriet uz nâkoðo subtitru
+06=Attît atpakaï (%s)
+07=Tît uz priekðu (%s)
+08=Mainît atskaòoðanas âtrumu
+09=Pârvietot subtitru (%s)
+10=Uzstâdît sâkuma laiku (%s)
+11=Uzstâdît beigu laiku (%s)
+12=Palaist subtitru (%s)
+13=Pabeigt subtitru (%s)
+14=Atzîmçt kâ pirmo sinhro punktu (%s)
+15=Atzîmçt kâ pçdçjo sinhro punktu (%s)
+16=Pievienot subtitra/video sinhronizçðanas punktu (%s)
+
+[Save as]
+01=Saglabât kâ
+02=Dubultklikðíiniet uz saglabâðanas formâtu:
+03=&Paðizvçlçts formâts
+04=Visi formâti
+
+[Custom formats]
+01=Paðizvçlçti formâti
+02=Informâcija
+03=Nosaukums:
+04=Paplaðinâjums:
+05=Jaunas rindas simbols:
+06=Laiks
+07=Kadri
+08=Struktûra:
+09=FPS:
+10=&Ielâdçt projektu
+11=Saglabât &projektu
+12=Iegaumçt pçdçjo paðizvçlçto &formâtu
+13=&Saglabât!
+14=Paðizvçlçta formâta projekts
+
+[Settings Form]
+01=Uzstâdîjumi
+02=Iespçja pârveidot programmas uzstâdîjumus
+; Sections
+03=Vispârçjie
+04=Papildus
+05=Simbolu saimes
+06=Formâti
+07=Failu tipi
+08=Saglabâðana
+09=Video pirmsapskate
+10=Subtitri
+11=Ârçjâ apskate
+12=Izskats
+13=Programma
+14=Saraksts
+15=Izvçle
+;-----------------;
+; General section ;
+;-----------------;
+16=Vienmçr virspusç
+17=Atïaut darboties vairâk kâ vienai programmas kopijai
+18=Apstiprinât subtitru dzçðanu
+19=Uzskatît bojâtus failus kâ parastu tekstu
+20=Automâtiski meklçt filmu
+21=Piespiest darboties laika reþîmâ
+22=Saglabât rindu kârtîbu, kad reversi apgrieþ tekstu
+23=Iezîmçt tekstu pârlecot uz nâkoðo rindu
+24=Iezîmçt tekstu pârlecot uz iepriekðçjo rindu
+25=Nekâdas mijiedarbîbas ar tagiem
+26=Strâdât ar stilu tagiem
+27=Izmantoto failu robeþa:
+;----------;
+; Advanced ;
+;----------;
+28=Saprâtîgâ rindu pielâgoðana
+29=Divas rindas, ja garâka par:
+30=simboliem
+31=Pârslçgt lûzumpunktu
+32=Rindu sadalîðana
+33=Lauzt rindu pçc:
+34=Automâtiski saprâtîgi pielâgot rindu
+35=Maksimâlais rindas garums ar:
+36=Nobîdes laiks:
+37=milisekundes
+;----------;
+; Charsets ;
+;----------;
+38=Parâdît galvenajâ logâ
+39=Oriìinâla simbolu saime:
+40=Tulkojuma simbolu saime:
+;-----------------;
+; Formats section ;
+;-----------------;
+41=Standarta formâts:
+42=Formâti, ko parâdît, kad "Saglabâ kâ":
+43=Parâdît paðizvçlçtos formâtus
+44=Iezîmçt &visu
+45=Neiezîmçt &neko
+;--------------------;
+; File types section ;
+;--------------------;
+46=Palaiþoties reìistrçt paplaðinâjumus
+47=Piesaistît pie visatbalstîtâko subtitru paplaðinâjumiem
+;--------------;
+; Save section ;
+;--------------;
+48=Izejot no programmas/aizverot titrus, jautât par glabâðanu
+49=Darbu automâtiski saglabât ik pçc
+50=minûtçm.
+51=Saglabât kâ rezerves kopiju
+52=&Izvades uzstâdîjumi...
+;---------------;
+; Video preview ;
+;---------------;
+53=Dubultklikðíinot subtitru:
+54=Tik sekundes pâriet:
+55=Shift + dubultklikðíis subtitros:
+56=Fokusçt teksta lauku
+57=Pâriet uz subtitra laiku video
+58=Pâriet video N sekundes agrâk pirms subtitra
+59=Attîðanas un aiztîðanas laiks:
+60=sekundes.
+61=Standarta atskaòoðanas âtruma izmaiòas:
+;-------------------------;
+; Video preview Subtitles ;
+;-------------------------;
+62=Zîmçt râmi
+63=Zîmçt çnu
+64=Mçìinât uzstâdît caurspîdîgu fonu
+65=Piespiest izmantot reìionus (var bût lçni)
+66=&Fonts...
+67=&Krâsa...
+68=F&ons...
+69=Râmja platums:
+70=Çnas platums:
+71=PARAUGS
+;--------------------------;
+; External Preview General ;
+;--------------------------;
+72=Video atskaòoðanas programmas EXE fails:
+73=A&trast piesaistîto programmu
+74=&Katru reizi jautât par citu video
+75=&Vienmçr pârbaudît ar video:
+;---------------------------;
+; External Preview Advanced ;
+;---------------------------;
+76=Subtitru pagaidfailu saglabâðanas formâts:
+77=&Oriìinâlais formâts
+78=&Paðizvçlçts formâts:
+79=Parametri sûtîðanai video atskaòotâjam:
+80=VIDEO_FILE norâda video failu, ar kuru Jûs mçìinâsiet pârbaudît subtitrus. SUBT_FILE ir paramets, kurâ pagaidu subtitru fails tiks sûtîts video atskaòotâjam. Jûs varat pievienot citus parametrus, piemçram, pilnu ekrânu, u.t.t.
+;----------------;
+; Look / Program ;
+;----------------;
+81=Programmâ lietotais fonts:
+82=Fonta lielums:
+83=Lauku "Teksts" un "Tulkojums" izlîdzinâjums:
+84=Pa kreisi|Pa labi|Centrçti
+;-------------;
+; Look / List ;
+;-------------;
+85=Parâdît atdaloðâs lînijas
+86=Uzstâdît stilu subtitriem
+87=Atzîmçt nepârtulkotos subtitrus ar krâsu:
+88=Parâdît horizontâlo ritjoslu
+;-------------;
+; Look / Menu ;
+;-------------;
+89=Izmantot Office XP stila izvçli
+90=Izmantot gradiento izvçli
+
+[Output settings]
+01=Izvades uzstâdîjumi
+02=Diska ID:
+03=DVD nosaukums:
+04=Valoda:
+05=Autors:
+06=Web:
+07=Info:
+08=Licenze:
+09=Subtitrs:
+10=Fons:
+11=PIEMÇRS
+12=&Uzstâdît fontu
+13=Izlîdzinâjums:
+14=No kreisâs
+15=Centrçti
+16=No labâs
+17=Kadru frekvence:
+18=Izlaist kadru
+19=0.krâsa (fons):
+20=1.krâsa (fonts):
+21=2.krâsa (râmis):
+22=3.krâsa (izplûdinâjums):
+23=Krâsas numurs paletç:
+24=Kontrasts
+25=Nosaukums:
+26=Skripts:
+27=Kosmçtika
+28=Pârçjais
+29=Râmja stils:
+30=Kontûra + çna
+31=Neskaidrs èetrstûris
+32=Krâsa
+33=Primârâ:
+34=Sekundârâ:
+35=Terciârâ:
+36=Çna:
+37=Kreisâ mala:
+38=Labâ mala:
+39=Vertikâlâ mala:
+40=Kontûra:
+41=Izlîdzinâjums:
+42=Kodçjums:
+43=Avots:
+44=Programma:
+45=Ceïð:
+46=Aizture:
+47=CD celiòð:
+48=Piezîmes:
+49=TMPlayer formâts
+50=TMPlayer+ formâts
+51=TMPlayer daudzrindu formâts
+
+[Duration limits]
+01=Ilguma robeþas
+02=Uzstâdît maksimâlo ilgumu
+03=milisekundes
+04=Uzstâdît minimâlo ilgumu
+05=* Laika palielinâðana neizsauc pârkrustoðanos
+
+[Set delay]
+01=Uzstâdît aizturi
+02=Visiem subtitriem
+03=Iezîmçtiem subtitriem
+
+[Adjust subtitles]
+01=Subtitru izlîdzinâðana
+02=Vienkârðâ
+03=Pastiprinâtâ
+04=Pirmâ izrunâtâ rinda:
+05=Pçdçjâ izrunâtâ rinda:
+06=Ielâdçt no faila
+07=Saglabât failâ
+08=Rinda #
+09=Vecais laiks
+10=Jaunais laiks
+11=&Pievienot
+12=Pievienot no &nesçja
+13=&Izmest
+14=Ja laiks ir ârpus punktu redzesloka:
+15=Ekstrapolçt
+16=Atgriezt oriìinâlo laiku (bez izmaiòâm)
+17=Atgriezt kaimiòpunkta pârvietoðanu
+18=&Izlîdzinât!
+19=Ievadiet jauno sinhro punktu
+20=Vecais laiks:
+21=Jaunais laiks:
+
+[Time expander/reducer]
+01=Laika palielinâðana/samazinâðana
+02=Palielinât ilgumu
+03=Samazinât ilgumu
+04=Palielinât/samazinât ilgumu:
+05=sekundes
+06=kadriem
+07=Tikai, ja subtitrs ir garâks par:
+09=simboliem
+10=TIkai, ja ilgums ilgâks par:
+11=Tikai, ja ilgums ir mazâks par:
+12=Novçrst krustoðanos
+13=Visiem subtitriem
+14=Izvçlçtiem subtitriem
+
+[Automatic durations]
+01=Automâtiskie ilgumi
+02=Milisekundes
+03=uz simbolu
+04=uz vârdu
+05=uz rindu
+06=Jauno ilgumu uzstâdît visos gadîjumos
+07=Tikai ja jaunais ilgums ir lielâks par oriìinâlu
+08=Tikai ja jaunais ilgums ir mazâks par oriìinâlu
+09=Visiem subtitriem
+10=Tikai izvçlçtiem subtitriem
+
+[Convert case]
+01=Burtu lieluma maiòa
+02=Teikuma veids.
+03=Tikai pirmâ vârda pirmais burts
+04="..." uzieðana
+05=mazie burti
+06=LIELIE BURTI
+07=Virsraksta Veids
+08=iNVERSS vEIDS
+09=Visos subtitros
+10=Tikai izvçlçtos subtitros
+
+[Divide lines]
+01=Rindu sadalîðana
+02=Dalît pçc rindas numura:
+03=Izmantot automâtisko ilgumu
+04=Parâdît:
+05=Paslçpt:
+06=Ilgums:
+07=Turpinât tieði
+08=%s simboli
+09=&Dalît!
+
+[Search & Replace]
+01=Meklçt un aizvietot
+02=Meklçt
+03=Meklçjamais teksts:
+04=&Meklçt!
+05=Aizvietot ar:
+06=&Meklçt nâkoðo
+07=Aizvie&tot
+08=Aizvietot &visu
+09=Vairâ&k >
+10=Ma&zâk <
+11=Burtu lielumu atðíirîba
+12=Meklçt tikai veselus vârdus
+13=Aizvietojot saglabât lielumu
+14=Kur meklçt tekstu:
+15=Visos subtitros
+16=No iezîmçtâ elementa
+17=Simbolu saime:
+
+[Go to line]
+01=Pâriet uz rindu ar noteiktu numuru
+02=Ievadiet rindas numuru:
+
+[Batch convert]
+01=Grupveida konvertçðana
+02=Iespçja daþos soïos konvertçt vairâkus failus vienâ formâtâ.
+; Buttons
+03=< &Atpakaï
+04=&Tâlâk >
+05=K&onvertçt
+06=&Beigt
+07=Aiz&vçrt
+08=&Visi
+09=&Neviens
+; Page 1
+10=Paplaðinâjumi:
+11=Meklçðanas ceïð:
+12=Iekïaut apakðmapes
+13=Vispusîga formâta pârbaude
+14=Saglabâðanas mape:
+15=Saglabâðanas formâts:
+16=Standarta FPS:
+; List columns
+17=Faila nosaukums
+18=Formâts
+19=FPS
+20=Lielums
+; Page 2
+21=&Pievienot
+22=&Izmest
+23=&Dzçst
+; Page 3
+24=Pabeigts! Lai uzzinâtu sîkâk, skatît protokolu:
+25=&Saglabât...
+; Searching
+26=Faila %s pârbaude
+
+[Batch convert log]
+01=%s %s - grupveida konvertçðanas protokols
+02=Ìenerçts %s
+03=Saglabâðanas formâts: %s
+04=Kopumâ konvertçjamie faili: %d
+05=Mçìinâjums ielâdçt "%s"...
+06=Fails veiksmîgi ielâdçts!
+07="%s" fails jau ir, aizvietojas...
+08=Fails veiksmîgi  saglabâts kâ "%s"'
+09=Fails "%s" jau ir un Jûs neesat ieslçdzis programmâ tâ aizvietoðanu
+10=Kïûda ielâdçjot failu, nav iespçjams saglabât!
+11=Kopumâ veiktâs konvertçðanas: %u
+12=Kopçjais laiks: %s
+13=Visi faili ir veiksmîgi konvertçti
+14=Daþus failu konvertçjot, bija kïûdas, apskatiet zemâk aprakstu
+
+[Split]
+01=Subtitra sadalîðana...
+02=&Vienkârði
+03=&Papildus
+04=Iezîmçtajâ elementâ
+05=Elementâ ar numuru:
+06=Norâdîtâ laikâ:
+07=Norâdîtâ kadrâ:
+08=Video beigâs:
+09=Ar nosaukumu
+10=%d.daïa:
+11=Faila nosaukums
+12=Garums
+13=Rindas
+14=Pçc laika vienâdâs daïas
+15=Pçc rindâm vienâdâs daïas
+16=Video beigâs
+17=Daïu skaits:
+18=Daïu autopârdçvçðana:
+19=Saglabâðanas mape:
+20=Izvades formâts:
+21=Pârrçíinât laika vçrtîbas
+22=Dubultklikðíiniet, lai izvçlçtos filmu
+23=&Sadalît!
+
+[Join]
+01=Subtitru apvienoðana...
+02=Pievienojiet Jums vçlamos apvienojamos subtitru failus (pçc kârtas):
+03=Faila nosakums
+04=Formâts
+05=FPS
+06=Lielums
+07=Filmas fragments (pçc izvçles)
+08=&Pievienot
+09=&Izmest
+10=At&tîrît
+11=&Uzstâdît filmas fragmentu
+12=&Dzçst filmas fragmentu
+13=Saglabâðanas formâts:
+14=Saglabâðanas FPS:
+15=Failu pçc apvienoðanas un saglabâðanas ielâdçt
+16=Pârrçíinât laika vçrtîbas
+17=Ap&vienot!
+
+[Information and errors]
+01=Informâcija un kïûdas
+02=&Pârbaudît!
+03=Labot &kïûdas!
+04=&Uzstâdîjumi
+05=Apstiprinât katru dzçðanu
+06=Subtitrs
+07=Veids
+08=Apraksts
+;-------;
+; Types ;
+;-------;
+09=Kïûda
+10=Brîdinâjums
+11=Informâcija
+13=Izlabots
+;----------------------;
+; Information messages ;
+;----------------------;
+14=Kopâ kïûdas: %d
+15=Izlabotas kïûdas: %d
+;---------------;
+; Error reports ;
+;---------------;
+16=Satur rindas bez burtiem
+17=Tukðs subtitrs
+18=Krustoðanâs ar iepriekðçjo subtitru
+19=Nepareizas vçrtîbas
+20=Pârâk ilgs ilgums
+21=Pârâk îss ilgums
+22=Pârâk gara rinda(s)
+23=Pârsniedz divas rindas
+24=Vâjdzirdîgiem
+25=Pirms kola (":") ir teksts
+26=Lieki punkti
+27=Satur nepieïaujamu simbolu
+28=Atkârtots simbols
+29=Atkârtots subtitrs
+30=OCR kïûda
+31=Vienrindas subtitrs sâkas ar "-"
+32=Pçc paðizvçlçta simbola nav atstarpes
+33=Pirms paðizvçlçta simbola nav atstarpes
+34=Nevajadzîgas atstarpes
+35=Atzîmçts subtitrs
+;-------------;
+; Fix reports ;
+;-------------;
+36=Dzçstas rindas bez burtiem
+37=Tukðais subtitrs ir izdzçsts
+38=Krustoðanâs izlabota
+39=Nepareizâs vçrtîbas izlabotas
+40=Lielâks par divâm rindâm subtitrs ir pielâgots
+41=Izmests vâjdzirdîgo subtitrs
+42=Vâjdzirdîgo daïa ir dzçsta
+43=Izmests teksts pirms kola (":")
+44=Liekie punkti izmesti
+45=Bija ar nepieïaujamu simbolu un ir izdzçsts
+46=Izlabots atkârtots simbols
+47=Izlabots atkârtots subtitrs
+48=Izlabotas OCR kïûdas
+49=Izdzçsts "-" vienrindas subtitrâ
+50=Pçc paðizvçlçta simbola pievienota atstarpe
+51=Pirms paðizvçlçta simbola pievienota atstarpe
+52=Nevajadzîgâs atstarpes izmestas
+;-----
+53=Dubulklikðíiniet, lai pârvietotus uz rindu galvenajâ logâ
+
+[Information and errors Settings]
+01=Uzstâdîjumi
+02=Vispârçjie
+03=Papildus
+04=Meklçt
+05=Labot
+06=Nevajadzîgas atstarpes
+07=Labojot galvenajâ logâ, parâdît apstiprinâjumus
+08=Iezîmçt kïûdas galvenâs formas sarakstâ
+09=&Uzstâdît krâsu...
+10=Trekninâti
+11=Kursîvâ
+12=Pasvîtroti
+13=Ielâdçjot subtitru, iezîmçt kïûdas
+14=Ielâdçjot subtitru, izlabot kïûdas
+15=Ielâdçjot izlabot krustoðanos par vienu vienîbu
+16=OCR skripts:
+17=La&bot
+18=Atkârtojoðies simboli:
+19=Nepieïaujamie simboli:
+20=Pielaide atkârtotiem subtitriem:
+21=milisekundes.
+22=Atstarpe pçc simboliem:
+23=Atstarpe pirms simboliem:
+24=Pârâk ilgs ilgums:
+25=Pârâk îss ilgums:
+26=Pârâk gara rinda:
+27=simboli.
+;------
+28=Rindas bez burtiem
+29=Tukðus subtitrus
+30=Krustojoðos subtitrus
+31=Nepareizas vçrtîbas
+32=Pârâk ilgus ilgumus
+33=Pârâk îsus ilgumus
+34=Pârâk garas rindas
+35=Subtitrus ar vairâk par divâm rindâm
+36=Vâjdzirdîgo subtitrus
+37=Tekstu pirms kola (":")
+38=Tikai, ja teksts ir ar lielajiem burtiem
+39=Nevajadzîgus punktus
+40=Nepieïaujamos simbolus
+41=Atkârtotus simbolus
+42=Atkârtotus subtitrus
+43=OCR kïûdas
+44="- " vienrindas subtitros
+45=Atstarpes pçc paðizvçlçtiem simboliem
+46=Atstarpes pirms paðizvçlçtiem simboliem
+47=Nevajadzîgas atstarpes
+;------
+48=Pârbaudît:
+49=Izlabot:
+50=Enterus un atstarpes sâkumâ un beigâs
+51=Atstarpes starp enteriem (kreisâ un labâ)
+52=Dubultatstarpes un enterus
+53=Atstarpes pirms pieturzîmçm
+54=Atstarpes pçc "¿" un "¡"
+55=Atstarpes pçc "?" un "!"
+56=Atstarpes starp skaitïiem
+
+[Various information]
+01=Daþâda informâcija
+02=Informâcija
+03=Ekstras
+04=Oriìinâlais fails
+05=Tulkojuma fails
+06=Patreizçjais formâts:
+07=Fails:
+08=Lielums:
+09=Kopçjais subtitru skaits:
+10=Kopçjais rindu skaits:
+11=Kopçjais vârdu skaits:
+12=Kopçjais burtu skaits:
+13=Subtitri ar vienu rindu:
+14=Subtitri ar divâm rindâm:
+15=Subtitri ar vairâk kâ divâm rindâm:
+16=Garâkâ rinda:
+17=%d. subtitrâ ar %d simboliem
+18=Labâkais fonta lielums atskaòoðanai
+19=Izðíirðanas spçjas platums:
+20=&No AVI
+21=Fonta nosaukums:
+22=Trekninâts
+23=Kursîvs
+24=&Aprçíinât
+
+[SAMI Language Extractor]
+01=SAMI valodas ieguvçjs
+02=SAMI fails:
+03=Saglabâðanas mape:
+04=Tiks iegûtas izvçlçtâs valodas:
+05=Klase
+06=Valoda
+07=Automâtiski atrast &visas
+08=&Pievienot paðrocîgi
+09=&Iegût!
+10=Pievienot valodu
+11=Ievadiet vçlamâs valodas klases nosaukumu:
+12=Lûdzu uzgaidiet...
+
+[About form]
+01=Par %s
+02=Informâcija
+03=Autori
+04=Versija: %s
+05=%s versija: %s
+06=%d daþâdi atbalstîti formâti
+07=Ja Jums ðî programma patîk, mçs augstu novçrtçtu Jûsu ziedojumu. Klikðíiniet ðeit, tâ veikðanai.
+08=Programmçja
+09=Papildus programmçja
+10=%s
+; Following line is "DirectShow programming"
+11=%s programmçja
+12=Tulkotâji
+13=Beta testçtâji
+14=Standarta ikonas izveidotâjs
+15=Uzlabojumus meklçjiet:
+
+[Error messages]
+01=Nav iespçjams inicializçt subtitru API. Lûdzu ielâdçjiet "%s" DLL no %s un iekopçjiet to "%s" mapç.
+02=Sekojoða kïûda (%s) ir iegûta no objekta %s (%s):||"%s"||Lûdzu ierakstiet %s informâciju, ko Jûs darîjât, kad ðî kïûda parâdîjâs.||Nospiediet Labi turpinâðanai, un Atcelt, lai izietu no programmas.
+03="%s" fails ir vai nu ar bojâtiem subtitriem, vai arî neatbalstîts formâts.
+04="%s" fails vai nu nav %s formâtâ, vai arî tas nav derîgs subtitru fails.
+05="%s" nav derîgs video fails.
+06=Nederîgs rindas numurs.
+07=Izvçlieties vismaz vienu meklçjamo paplaðinâjumu.
+08=Meklçðanas ceïð nepastâv.
+09=Elementa numurs nav derîgs.
+10=Lûdzu pievienojiet divus, vai vairâk subtitrus.
+11=Kïûda savienojoties ar serveri!
+12=No "%s" nav iespçjams noòemt atribûtu Tikai Lasîðanai.||Iespçjams, tas ir pret ierakstîðanu aizsargâts disks.
+13=Kïûda mçìinot saistîties ar Microsoft Word!
+14=Vispirms izvçlieties iepriekðçjai(jâm) daïai(âm) video!
+15=Izvçlieties derîgu saglabâðanas mapi.
+16=Izvilkðanai izvçlieties vismaz vienu valodu.
+17="%s" nav derîgs SAMI fails.
+18=Izvçlieties subtitru daïu sarakstâ.
+19=Ja Jûs izvçlaties filmas fragmentu vienai subtitra daïai, Jums jâizvçlas filmas fragments visâm ðî subtitra daïâm (saprotams, izòemot pçdçjo daïu).
+20=Jums jâizvçles divus, vai vairâk punktus.
+
+[Question messages]
+01="%s" fails ir pârveidots.||Vai nevçlaties izmaiòas saglabât?
+02="%s" fails jau ir.||Vai vçlaties to aizvietot?
+03=Oriìinâlais fails ("%s") ir pârveidots.||Vai nevçlaties izmaiòas saglabât?
+04=Tulkotais fails ("%s") ir pârveidots.||Vai nevçlaties izmaiòas saglabât?
+05=Iezîmçtie subtitri tiks dzçsti.||Vai vçlaties turpinât?
+06=1.punkta subtitrs: %s|1.punkta filma: %s|2.punkta subtitrs: %s|1.punkta filma: %s||Sinhronizçt subtitru?
+07=Video atskaòotâja exe nav norâdîts vai nepastâv.||Vai vçlaties norâdît ârçjo atskaòotâju?
+08=Atrasta jauna versija!.||Vai vçlaties apskatît izmaiòu sarakstu?
+09=Fails, ko mçìinât saglabât ir Tikai Lasîðanai.||Vienalga mçìinât saglabât?
+
+[Information messages]
+01=Nav iespçjams atrast vairâk "%s".
+02=Jauna versija nav pieejama.
+03=Pareizrakstîbas pârbaude pabeigta.||Veikta(s) %d izmaiòa(s).
+04=Pârâk daudz daïu. Atjaunoðanâs...
+05=Ir atrasta tikai viena valoda.||Ja failâ ir vairâkas valodas, pievienojiet vçlamâs paðrocîgi, atverot failu ar teksta redaktoru un atrodot pareizo klases nosaukumu.
+06=Nav iespçjams atrast "STYLE" sâkuma un/vai beigu tagu!||Iespçjamais iemesls varçtu bût, ka ðai failâ nav vairâk par vienu valodu.|Ja tâ ir, mçìiniet pievienot paðrocîgi, atrodot vçlamâs(o) valodas(u) klases nosaukumu.
+07=Piemçrotâkais fonta lielums atskaòoðanai ir: %d
+08=Kopçjie aizvietojumi: %d
+09=Faila nosaukums: %s|Lielums: %s|FPS: %s|Ilgums: %s|Kopâ kadri: %d|Izðíirtspçja: %dx%d|FourCC: %s
+10=Daþas no filmas plûsmâm nav iespçjams renderçt pareizi. Iespçjams, ka tûkst audio vai video kodeks.
+11=Nav nepiecieðams uzstâdît filmas fragmentu atbilstoðu pçdçjam subtitram.
+
+[Information and errors messages]
+01=Subtitrs ar numuru %d ir tukðs un tiks izdzçsts.||Vai vçlaties turpinât?
+02=Subtitrâ ar numuru %d:||"%s" bija nepieïaujams simbols un tiks izdzçsts.||Vai vçlaties turpinât?
+03=Subtitrs ar numuru %d:||"%s" tiks izdzçsts.||Vai vçlaties turpinât?
+04=Daïa no subtitra ar numuru %d:||"%s" tiks izdzçsta, tâdçjâdi ðis subtitrs bûs:||"%s"||Vai vçlaties turpinât?
+05=Subtitrs ar numuru %d:||"%s" ir vienrindas subtitrs un sâkas ar "-".||Vai vçlaties dzçst "-" no sâkuma?

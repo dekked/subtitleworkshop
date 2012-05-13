@@ -1,0 +1,91 @@
+<!----------------------------------------------->
+<!--     Subtitle Workshop OCR Script file     -->
+<!--       Copyright © 2001-2004 URUSoft       -->
+<!--           http://www.urusoft.net          -->
+<!--                                           -->
+<!-- Default values:                           -->
+<!--                                           -->
+<!-- UseRE = True (use Regular Expressions)    -->
+<!-- UseREOnlyToFind = True (put the part that -->
+<!-- is not a RE between parenthesis!)         -->
+<!--                                           -->
+<!-- If UseRE is set to false then you can use -->
+<!-- the following parameters, otherwise they  -->
+<!-- will be ignored:                          -->
+<!--                                           -->
+<!--    CaseSensitive  (Default = False)       -->
+<!--    WholeWord      (Default = False)       -->
+<!--    PreserveCase   (Default = False)       -->
+<!-- ----------------------------------------- -->
+<!-- Regular Expressions make the OCR Scripts  -->
+<!-- extremely powerful. For details on their  -->
+<!-- use, refer to "Subtitle Workshop Manual"  -->
+<!-- or download a help file in the available  -->
+<!-- languages from:                           -->
+<!--        http://www.regexpstudio.com/       -->
+<!----------------------------------------------->
+
+<SWOCR WordChars="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_ñÑáéíóúÁÉÍÓÚäëïöü">
+
+	<!-- Eg. "swaIIow" by "swallow" -->
+	<ERROR Find="[a-zá-ú](II)" ReplaceBy="ll">
+	<ERROR Find="(II)[a-zá-ú]" ReplaceBy="ll">
+	<!-- Replace all "l" by "I" in the middle of any uppercase word -->
+	<ERROR Find="[A-ZÁ-Ú](l)[A-ZÁ-Ú]" ReplaceBy="I">
+	<!-- Replace all "I" by "l" in the middle of any lowercase word -->
+	<ERROR Find="[a-zá-ú](I)[a-zá-ú]" ReplaceBy="l">
+	<!-- Replace all alone "l" to "I" -->
+	<ERROR Find="\b(l)\b" ReplaceBy="I">
+	<!-- I'II to I'll -->
+	<ERROR Find="['A-ZÁ-Ú](II)\s[a-zá-ú]" ReplaceBy="ll">
+	<ERROR Find="['A-ZÁ-Ú](II)\s\W[a-zá-ú]" ReplaceBy="ll">
+
+	<!-- "1 :", "2 :"... "n :" to "n:" -->
+	<ERROR Find="\d( :)" ReplaceBy=":">
+	<!-- ",,," or similar to "..." -->
+	<ERROR UseREOnlyToFind="False" Find=",{2,}" ReplaceBy="...">
+	<!-- "--" or more to "..." -->
+	<ERROR UseREOnlyToFind="False" Find="-{2,}" ReplaceBy="...">
+
+	<!-- Apostrophes ("\x22" is '"' character) -->
+	<ERROR Find="[´`“”]" ReplaceBy="'">
+	<ERROR UseREOnlyToFind="False" Find="''" ReplaceBy=""">
+	<!-- '"' more than two times together is replaced by only one '"' -->
+	<ERROR UseREOnlyToFind="False" Find="\x22{2,}" ReplaceBy=""">
+
+	<!-- Spaces after aphostrophes, eg. "I' d" to "I'd", "I' LL" to "I'LL", etc. -->
+	<ERROR Find="(?i)[A-ZÁ-Úa-zá-ú]('\s|\s')(ll|ve|s|m|d)\b" ReplaceBy="'">
+	<!-- F "Hasn 't" and "Hasn' t" -->
+	<ERROR Find="(?i)[A-ZÁ-Úa-zá-ú]('\s|\s')t\b" ReplaceBy="'">
+
+	<!-- Rare 'Spaces after aphostrophes' cases -->
+	<!-- "I 'II" -> "I'll" or "I' II" -> "I'll" -->
+	<ERROR Find="[A-ZÁ-Úa-zá-ú]('\sII|\s'II)\b" ReplaceBy="'ll">
+
+	<!-- Particular cases -->
+	<ERROR Find="\b(I)[aeiouá-ú]" ReplaceBy="l">
+	<ERROR Find="\b[A-ZÁ-Ú](I)[a-zá-ú]" ReplaceBy="l">
+	<ERROR Find="[AEOUÁÉÓÚ](I)\b" ReplaceBy="l">
+	<ERROR Find="\b(l)[^aeiouyàá-úl]" ReplaceBy="I">
+	<ERROR Find="\b[TV](l)\b" ReplaceBy="I">
+
+	<!-- Rare cases -->
+	<!-- The name "Ian" -->
+	<ERROR Find="\b(lan)\b" ReplaceBy="Ian">
+	<!-- Location in USA "Iowa" -->
+	<ERROR Find="\b(lowa)\b" ReplaceBy="Iowa">
+
+	<!-- Fix zero and capital 'o' ripping mistakes -->
+	<ERROR Find="[0-9](O)" ReplaceBy="0">
+	<ERROR Find="[0-9](\.O)" ReplaceBy=".0">
+	<ERROR Find="[0-9](,O)" ReplaceBy=",0">
+	<ERROR Find="[A-Z](0)" ReplaceBy="O">
+	<ERROR Find="\b(0)[A-Za-z]" ReplaceBy="O">
+
+	<!-- Smart space after dot -->
+	<ERROR Find="[a-zá-úñä-ü](\.)[^(\s\n\.\?\!)]" ReplaceBy=". ">
+	<!-- Space after last of some consecutive dots (eg. "...") -->
+	<ERROR Find="(\.\.)[^(\s\n\.\?\!)]" ReplaceBy=".. ">
+	<!-- Delete space after "..." that is at the beginning of the line. You may delete this line if you don't like it -->
+	<ERROR UseREOnlyToFind="False" Find="^(\.\.\.) " ReplaceBy="...">
+</SWOCR>
